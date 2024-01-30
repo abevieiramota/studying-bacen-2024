@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ea4473c4e995fa6e",
+        "id": "a657337ff84df776",
         "type": "tabs",
         "children": [
           {
-            "id": "fa9f0575438920fc",
+            "id": "c881fa706a435798",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/_Banco de Dados.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "37076721e7ef0e57",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6fbc63be70d4bf85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Banco de Dados/_SGBD SQL.md",
+                "file": "Ciência de Dados/Big Data/_Big Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/_Banco de Dados.md",
+                "file": "Ciência de Dados/Big Data/_Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/_Banco de Dados.md",
+                "file": "Ciência de Dados/Big Data/_Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/_Banco de Dados.md"
+                "file": "Ciência de Dados/Big Data/_Big Data.md"
               }
             }
           }
@@ -164,36 +146,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa9f0575438920fc",
+  "active": "c881fa706a435798",
   "lastOpenFiles": [
+    "Ciência de Dados/Aprendizado de Máquina.md",
+    "Ciência de Dados/Big Data/_Big Data.md",
+    "Ciência de Dados/MLOps/_MLOps.md",
+    "Ciência de Dados/_Ciência de Dados.md",
+    "Ciência de Dados/Big Data",
+    "Pasted image 20240130182351.png",
+    "Ciência de Dados/MLOps/Princípios.md",
+    "Princípios.md",
+    "Ciência de Dados/Tipos de Aprendizado.md",
+    "Ciência de Dados/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/MLOps",
+    "Ciência de Dados/Untitled.md",
+    "Banco de Dados/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
+    "Ciência de Dados/Redes Neurais.md",
     "Banco de Dados/_SGBD SQL.md",
+    "Banco de Dados/_Banco de Dados.md",
     "Banco de Dados/_SQL.md",
     "Português/Estrutura morfossintática.md",
     "Português/_Classes de palavras.md",
-    "Ciência de Dados/_Redes Neurais.md",
-    "Ciência de Dados/Aprendizado de Máquina.md",
-    "Ciência de Dados/_Tipos de Aprendizado.md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
-    "Banco de Dados/_Banco de Dados.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
     "Banco de Dados/Data Mesh.md",
     "Banco de Dados/Data Lake.md",
-    "Banco de Dados/DW.md",
     "Banco de Dados/Data Mart.md",
     "Português/_Português.md",
     "Banco de Dados/Procedural SQL.md",
     "Banco de Dados/Modelagem de dados.md",
     "Banco de Dados/Modelagem NoSQL.md",
-    "Banco de Dados/Modelagem multidimensional.md",
-    "Banco de Dados/Modelagem relacional.md",
-    "Banco de Dados/SGBD NoSQL.md",
-    "Atualidades/_Atualidades.md",
     "Banco de Dados",
     "Atualidades",
-    "Português/Reescrita de frases e parágrafos.md",
-    "Português/Regência verbal e nominal.md",
-    "Português/Reorganização da estrutura de orações e de períodos.md",
-    "Português/Reescrita de textos.md",
     "Português",
     "Ciência de Dados",
     "Engenharia de Software/Design Patterns",
