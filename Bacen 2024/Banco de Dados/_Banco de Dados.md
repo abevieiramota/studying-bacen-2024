@@ -1,0 +1,6 @@
+* [[_SGBD SQL]]
+* [[SGBD NoSQL]]
+* [[Modelagem de dados]]
+* [[_SQL]]
+* [[Procedural SQL]]
+* [[Arquitetura de Inteligência de Negócio]]

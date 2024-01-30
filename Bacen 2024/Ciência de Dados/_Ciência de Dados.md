@@ -1,0 +1,7 @@
+* [[Aprendizado de Máquina]]
+* [[Deep Learning]]
+* [[Processamento de Linguagem Natural]]
+* [[Big Data]]
+* [[Qualidade de Dados]]
+* [[MLOps]]
+* [[Governança e Ética na IA]]
