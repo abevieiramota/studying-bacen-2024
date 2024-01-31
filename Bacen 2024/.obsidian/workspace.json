@@ -11,12 +11,8 @@
             "id": "c881fa706a435798",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ciência de Dados/Big Data/_Big Data.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Big Data/_Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Big Data/_Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ciência de Dados/Big Data/_Big Data.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +140,11 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
-    "Ciência de Dados/Aprendizado de Máquina.md",
+    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Engenharia de Software/Design Patterns/Design Patterns.md",
+    "Português/Crase.md",
     "Ciência de Dados/Big Data/_Big Data.md",
+    "Ciência de Dados/Aprendizado de Máquina.md",
     "Ciência de Dados/MLOps/_MLOps.md",
     "Ciência de Dados/_Ciência de Dados.md",
     "Ciência de Dados/Big Data",
@@ -169,14 +164,11 @@
     "Banco de Dados/_SQL.md",
     "Português/Estrutura morfossintática.md",
     "Português/_Classes de palavras.md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
     "Banco de Dados/Data Mesh.md",
     "Banco de Dados/Data Lake.md",
     "Banco de Dados/Data Mart.md",
     "Português/_Português.md",
     "Banco de Dados/Procedural SQL.md",
-    "Banco de Dados/Modelagem de dados.md",
-    "Banco de Dados/Modelagem NoSQL.md",
     "Banco de Dados",
     "Atualidades",
     "Português",

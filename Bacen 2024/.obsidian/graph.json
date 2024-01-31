@@ -6,10 +6,32 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#lvl1  ",
+      "color": {
+        "a": 1,
+        "rgb": 16740464
+      }
+    },
+    {
+      "query": "tag:#lvl2  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "tag:#n_entendi  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
@@ -17,6 +39,6 @@
   "repelStrength": 15.3125,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2588386562181656,
-  "close": true
+  "scale": 0.5087618855792658,
+  "close": false
 }
