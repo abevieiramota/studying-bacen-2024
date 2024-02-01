@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md"
+                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md"
               }
             }
           }
@@ -148,37 +148,37 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Engenharia de Software/Arquitetura/Arquitetura.md",
-    "Engenharia de Software/Tolerância a falhas.md",
+    "Ciência de Dados/Big Data/_Big Data.md",
+    "Engenharia de Software/Engenharia de Software.md",
+    "Engenharia de Software/Balanceamento de carga.md",
+    "Engenharia de Software/Design Patterns/Creational.md",
+    "Engenharia de Software/Design Patterns/Behavioral.md",
+    "Engenharia de Software/Design Patterns/Structural.md",
+    "Engenharia de Software/Design Patterns/GRASP.md",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
-    "Engenharia de Software/Engenharia de Software.md",
+    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
+    "Banco de Dados/Modelagem relacional.md",
+    "Banco de Dados/Modelagem NoSQL.md",
+    "Banco de Dados/Modelagem multidimensional.md",
+    "Banco de Dados/Modelagem de dados.md",
+    "Banco de Dados/DW.md",
+    "Banco de Dados/Data Mesh.md",
+    "Banco de Dados/Data Mart.md",
+    "Banco de Dados/Data Lake.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/_SQL.md",
+    "Banco de Dados/_SGBD SQL.md",
     "Engenharia de Software/Arquitetura",
-    "Português/Uso de pronomes átonos.md",
     "Pasted image 20240201044913.png",
-    "Português/Crase.md",
-    "Ciência de Dados/Big Data/_Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina.md",
-    "Ciência de Dados/MLOps/_MLOps.md",
-    "Ciência de Dados/_Ciência de Dados.md",
     "Ciência de Dados/Big Data",
     "Pasted image 20240130182351.png",
-    "Ciência de Dados/MLOps/Princípios.md",
-    "Princípios.md",
-    "Ciência de Dados/Tipos de Aprendizado.md",
-    "Ciência de Dados/Grandes Modelos de Linguagem (LLM).md",
-    "Ciência de Dados/Processamento de Linguagem Natural.md",
     "Ciência de Dados/MLOps",
-    "Ciência de Dados/Untitled.md",
-    "Banco de Dados/DW.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
-    "Ciência de Dados/Redes Neurais.md",
-    "Banco de Dados/_SGBD SQL.md",
-    "Banco de Dados/_Banco de Dados.md",
-    "Banco de Dados/_SQL.md",
     "Banco de Dados",
     "Atualidades",
     "Português",

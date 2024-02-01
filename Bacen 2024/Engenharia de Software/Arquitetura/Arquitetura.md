@@ -33,4 +33,12 @@ que inclui
 	* Desenvolvimento - componentes de código
 	* Física - hardware
 * aplicação de processamento de transação - leitura e alteração de dados por diversos usuários
-* 
+* sistema distribuído
+	* procedural - A chama B, necessária disponibilidade dos dois no momento da comunicação
+	* por mensagem - A envia mensagem M com destinatário B, há um meio de campo, maior tolerância a indisponibilidade, A não precisa saber onde está B
+	* middleware - fornece serviços de conversão de tipos de dados, interface para diversas linguagens, interoperabilidade
+* arquiteturas de sistemas distribuídos
+	* mestre-escravo (orquestrador e operadores) - comum em sistemas de tempo real
+	* [[Arquiteturas cliente-servidor e serverless]]
+	* distribuída de componentes
+	* ponto-a-ponto
