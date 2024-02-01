@@ -2,7 +2,7 @@
 2. Princípios e práticas de [[DevOps]] e [[DevSecOps]], integração e entrega contínuas ([[CI-CD]]). 
 3. [[Técnicas de desenvolvimento seguro]]. 
 4. Testes de software: [[Testes unitários]], [[Testes de Integração]], [[TDD]], [[BDD]].
-5. [[Arquitetura em camadas]], [[Arquitetura baseada em serviços]], [[Microsserviços]] (orquestração de serviços e API gateway), [[Orientação a eventos]], [[Arquiteturas cliente-servidor e serverless]]. 
+5. [[Arquitetura]]
 6. [[Práticas de UX e UI design]]. 
 7. [[Programação assíncrona]]. 
 8. [[RESTful]] e [[GraphQL]]. 

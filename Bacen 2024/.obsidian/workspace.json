@@ -11,8 +11,12 @@
             "id": "c881fa706a435798",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Engenharia de Software/Arquitetura/Arquitetura.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Engenharia de Software/Arquitetura/Arquitetura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Engenharia de Software/Arquitetura/Arquitetura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Engenharia de Software/Arquitetura/Arquitetura.md"
+              }
             }
           }
         ]
@@ -140,10 +148,14 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
-    "Português/Uso de pronomes átonos.md",
-    "Pasted image 20240201044913.png",
+    "Engenharia de Software/Tolerância a falhas.md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
+    "Engenharia de Software/Engenharia de Software.md",
+    "Engenharia de Software/Arquitetura",
+    "Português/Uso de pronomes átonos.md",
+    "Pasted image 20240201044913.png",
     "Português/Crase.md",
     "Ciência de Dados/Big Data/_Big Data.md",
     "Ciência de Dados/Aprendizado de Máquina.md",
@@ -167,9 +179,6 @@
     "Português/Estrutura morfossintática.md",
     "Português/_Classes de palavras.md",
     "Banco de Dados/Data Mesh.md",
-    "Banco de Dados/Data Lake.md",
-    "Banco de Dados/Data Mart.md",
-    "Português/_Português.md",
     "Banco de Dados",
     "Atualidades",
     "Português",
