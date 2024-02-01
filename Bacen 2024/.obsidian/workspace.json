@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura.md",
+                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura.md",
+                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura.md",
+                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura.md"
+                "file": "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
-    "Engenharia de Software/Tolerância a falhas.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Tolerância a falhas.md",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
     "Engenharia de Software/Engenharia de Software.md",
@@ -176,9 +179,6 @@
     "Banco de Dados/_SGBD SQL.md",
     "Banco de Dados/_Banco de Dados.md",
     "Banco de Dados/_SQL.md",
-    "Português/Estrutura morfossintática.md",
-    "Português/_Classes de palavras.md",
-    "Banco de Dados/Data Mesh.md",
     "Banco de Dados",
     "Atualidades",
     "Português",

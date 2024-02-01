@@ -17,7 +17,7 @@ que inclui
   ==propriedades dos dois==
 
 
-Fonte: Sommervile
+**Fonte**: Sommervile
 
 * "O desenvolvimento incremental de arquiteturas geralmente não é bem-sucedido" (p. 103), comparando com dev incremental de componentes, em metodologias ágeis;
 * A arquitetura tem maior impacto em requisitos não-funcionais (ex: desempenho, segurança, disponibilidade, manutenção etc)
@@ -27,3 +27,10 @@ Fonte: Sommervile
 	* **reuso**, permite identificar sistemas semelhantes e reusar solução
 		* a exemplo de fábrica de software, que reusa arquiteturas
 	* **diminuição de complexidade** - ao focar em abstrações-chave, ignorando detalhes não importantes em tempo de design
+* Recomendação de Krutchen (1995) de visões fundamentais
+	* Lógica - objetos/classes/entidades, que possam ser relacionadas com os requisitos
+	* Processo - como o sistema funciona em runtime, com processos
+	* Desenvolvimento - componentes de código
+	* Física - hardware
+* aplicação de processamento de transação - leitura e alteração de dados por diversos usuários
+* 
