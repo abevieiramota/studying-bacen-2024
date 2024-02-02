@@ -1,1 +1,1 @@
-Tópicos relevantes e atuais de diversas áreas, tais como segurança, transportes, política, [[Economia]], sociedade, educação, saúde, cultura, tecnologia, energia, relações internacionais, [[Desenvolvimento sustentável e ecologia]].
+Tópicos relevantes e atuais de diversas áreas, tais como segurança, transportes, [[Política]], [[Economia]], [[Sociedade]], [[Educação]], saúde, cultura, tecnologia, energia, relações internacionais, [[Desenvolvimento sustentável e ecologia]].

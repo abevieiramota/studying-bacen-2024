@@ -1,0 +1,2 @@
+* [Milei e nepotismo](https://guiadoestudante.abril.com.br/atualidades/o-que-e-nepotismo/): Milei revogou lei que impedia nomeação de parentes na administração pública; nomeou então sua irmã ao posto de secretária-geral; nepotismo = atribuir a membros da própria família, cargos políticos ou de funções públicas; no Brasil, nepotismo é vedado pela CF, por contrariar os princípios da impessoalidade, moralidade e igualdade; 
+* 
