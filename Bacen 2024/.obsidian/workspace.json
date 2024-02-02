@@ -11,12 +11,8 @@
             "id": "c881fa706a435798",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura em camadas.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,7 +140,11 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
+    "Atualidades/Atualidades.md",
+    "Atualidades/Economia.md",
+    "Atualidades/Desenvolvimento sustentável e ecologia.md",
     "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Ciência de Dados/Big Data/_Big Data.md",
     "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Balanceamento de carga.md",
@@ -161,7 +157,6 @@
     "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Engenharia de Software/Arquitetura/Microsserviços.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
     "Banco de Dados/Modelagem relacional.md",
     "Banco de Dados/Modelagem NoSQL.md",
@@ -171,9 +166,6 @@
     "Banco de Dados/Data Mesh.md",
     "Banco de Dados/Data Mart.md",
     "Banco de Dados/Data Lake.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
-    "Banco de Dados/_SQL.md",
-    "Banco de Dados/_SGBD SQL.md",
     "Engenharia de Software/Arquitetura",
     "Pasted image 20240201044913.png",
     "Ciência de Dados/Big Data",

@@ -1,5 +1,3 @@
-#TODO continuar Sommervile p. 107 item 6.2
-
  Padrões de arquitetura
 	* [[Arquitetura em camadas]]
 	* [[Arquitetura baseada em serviços]]
