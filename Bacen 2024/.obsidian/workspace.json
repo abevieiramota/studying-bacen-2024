@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atualidades/Sociedade.md",
+                "file": "Banco de Dados/SGBD NOSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atualidades/Sociedade.md",
+                "file": "Banco de Dados/SGBD NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atualidades/Sociedade.md",
+                "file": "Banco de Dados/SGBD NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atualidades/Sociedade.md"
+                "file": "Banco de Dados/SGBD NOSQL.md"
               }
             }
           }
@@ -148,15 +148,20 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
-    "Atualidades/Atualidades.md",
+    "Banco de Dados/_Banco de Dados.md",
+    "Banco de Dados/_SQL.md",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Banco de Dados/DW.md",
+    "Banco de Dados/SGBD NOSQL.md",
+    "Banco de Dados/_SGBD SQL.md",
     "Atualidades/Sociedade.md",
+    "Atualidades/Atualidades.md",
     "Atualidades/Educação.md",
     "Atualidades/Economia.md",
     "Atualidades/Política.md",
     "Atualidades/Desenvolvimento sustentável e ecologia.md",
     "Engenharia de Software/Arquitetura/Arquitetura.md",
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Ciência de Dados/Big Data/_Big Data.md",
     "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Balanceamento de carga.md",
     "Engenharia de Software/Design Patterns/Creational.md",
@@ -169,11 +174,6 @@
     "Engenharia de Software/Arquitetura/Microsserviços.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
     "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
-    "Banco de Dados/Modelagem relacional.md",
-    "Banco de Dados/Modelagem NoSQL.md",
-    "Banco de Dados/Modelagem multidimensional.md",
-    "Banco de Dados/Modelagem de dados.md",
-    "Banco de Dados/DW.md",
     "Engenharia de Software/Arquitetura",
     "Pasted image 20240201044913.png",
     "Ciência de Dados/Big Data",

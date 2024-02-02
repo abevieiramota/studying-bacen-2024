@@ -1,5 +1,5 @@
 * [[_SGBD SQL]]
-* [[SGBD NoSQL]]
+* [[SGBD NOSQL]]
 * [[Modelagem de dados]]
 * [[_SQL]]
 * [[Procedural SQL]]
