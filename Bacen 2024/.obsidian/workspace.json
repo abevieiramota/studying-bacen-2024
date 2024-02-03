@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Engenharia de Software/Transações distribuídas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Engenharia de Software/Transações distribuídas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Engenharia de Software/Transações distribuídas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md"
+                "file": "Engenharia de Software/Transações distribuídas.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "c881fa706a435798",
   "lastOpenFiles": [
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
     "Banco de Dados/Modelagem de dados.md",
     "Banco de Dados/Modelagem relacional.md",
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/_Banco de Dados.md",
     "Banco de Dados/SGBD NOSQL",
-    "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
     "Banco de Dados/_SQL.md",
     "Ciência de Dados/Big Data/Big Data.md",

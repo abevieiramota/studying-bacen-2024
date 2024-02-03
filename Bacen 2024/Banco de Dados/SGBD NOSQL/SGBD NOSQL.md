@@ -75,7 +75,6 @@
 				* -->, <--, -- : relacionamento (são dois dashes!) "--" (undirected relationship)
 				* [l:LIKES] -> relacionamento, LIKES = relationship type, l = relationship variable
 				* [rel:IS_FRIENDS_WITH {since: 2018}] -> relationship property
-			* 
 
 
 * links
