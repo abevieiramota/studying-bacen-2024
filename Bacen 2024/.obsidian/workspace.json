@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Transações distribuídas.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Transações distribuídas.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Transações distribuídas.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Transações distribuídas.md"
+                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md"
               }
             }
           }
@@ -146,8 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c881fa706a435798",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
+    "Engenharia de Software/gRPC.md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Testes de software/BDD.md",
+    "Engenharia de Software/Testes de software/Testes de software.md",
+    "Engenharia de Software/Engenharia de Software.md",
+    "Engenharia de Software/Transações distribuídas.md",
+    "Engenharia de Software/Testes de software",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
     "Banco de Dados/Modelagem de dados.md",
@@ -165,16 +172,10 @@
     "Atualidades/Economia.md",
     "Atualidades/Política.md",
     "Atualidades/Desenvolvimento sustentável e ecologia.md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Balanceamento de carga.md",
     "Engenharia de Software/Design Patterns/Creational.md",
     "Engenharia de Software/Design Patterns/Behavioral.md",
-    "Engenharia de Software/Design Patterns/Structural.md",
-    "Engenharia de Software/Design Patterns/GRASP.md",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
     "Engenharia de Software/Arquitetura",
     "Pasted image 20240201044913.png",
     "Ciência de Dados/Big Data",
@@ -184,7 +185,6 @@
     "Atualidades",
     "Português",
     "Ciência de Dados",
-    "Engenharia de Software/Design Patterns",
-    "Engenharia de Software"
+    "Engenharia de Software/Design Patterns"
   ]
 }
