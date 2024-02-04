@@ -1,13 +1,11 @@
+#lvl1
 Alta escala de
 * Volume
 * Variedade { estruturado, semi-estruturado (ex: XML, JSON), não estruturado }
 * Velocidade
 * Valor
 * Variabilidade - a semântica dos dados muda frequentemente
-
-#TODO
-* Processamento distribuído - principais conceitos
-* 
+* Veracidade - vi questão considerando aqui também a qualidade dos dados...
 
 
 Tópicos

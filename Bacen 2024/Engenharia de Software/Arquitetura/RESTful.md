@@ -1,0 +1,2 @@
+* "*Os atuais padrões de web services têm sido criticados como padrões ‘pesados’, muito gerais e ineficientes. Implementar esses padrões requer uma quantidade considerável de  processamento para criar, transmitir e interpretar as mensagens XML associadas. Por essa razão, algumas organizações, como a Amazon, usam uma abordagem mais simples e mais eficiente para comunicação de serviços, usando os chamados serviços RESTful*" (Sommervile p. 357)
+* HATEOAS #TODO 

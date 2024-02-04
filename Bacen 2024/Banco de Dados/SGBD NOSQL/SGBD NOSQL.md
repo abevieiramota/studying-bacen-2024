@@ -1,3 +1,4 @@
+#lvl1
 **N**ot **O**nly **SQL**
 [[Modelagem NoSQL]]
 
@@ -58,8 +59,8 @@
 			* CQL - Cassandra Query Language - similar a SQL, mas joinless
 			* conjunto de tabelas são organizados em keyspaces
 		* [**HBase**](https://hbase.apache.org/)
-			* "*Use Apache HBase™ when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities on top of Hadoop and HDFS.*"
-			* Bloom filter
+			* "*Use Apache HBase™ when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities on top of **H**adoop and HDFS.*"
+			* Bloom filter #TODO
 			*  é AP (Available Partition-tolerant)
 			* cada valor em coluna é tripla <column name, valor, timestamp>
 	* **grafos**
@@ -75,6 +76,8 @@
 				* -->, <--, -- : relacionamento (são dois dashes!) "--" (undirected relationship)
 				* [l:LIKES] -> relacionamento, LIKES = relationship type, l = relationship variable
 				* [rel:IS_FRIENDS_WITH {since: 2018}] -> relationship property
+		* ArangoDB
+	* ElasticSearch #TODO
 
 
 * links

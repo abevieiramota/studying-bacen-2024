@@ -1,18 +1,20 @@
- Padrões de arquitetura
-	* [[Arquitetura em camadas]]
-	* [[Arquitetura baseada em serviços]]
-	* [[Microsserviços]] (orquestração de serviços e API gateway)
-	* [[Orientação a eventos]]
-	* [[Arquiteturas cliente-servidor e serverless]]
-
-#TODO saber onde cada padrão pode ser usado, vantagens e desvantagens
-
-Conjunto de 
+ Conjunto de 
   ==estruturas necessárias para raciocinar sobre o sistema==, 
 que inclui 
   ==elementos de software,== 
   ==relacionamentos entre eles e== 
   ==propriedades dos dois==
+  
+ **Padrões de arquitetura**
+* [[Arquitetura em camadas]]
+* [[Arquitetura baseada em Serviços]]
+* [[Microsserviços]] (orquestração de serviços e API gateway)
+* [[Orientação a eventos]]
+* [[Arquiteturas cliente-servidor e serverless]]
+
+#TODO saber onde cada padrão pode ser usado, vantagens e desvantagens
+
+
 
 
 **Fonte**: Sommervile
@@ -30,7 +32,6 @@ que inclui
 	* Processo - como o sistema funciona em runtime, com processos
 	* Desenvolvimento - componentes de código
 	* Física - hardware
-* aplicação de processamento de transação - leitura e alteração de dados por diversos usuários
 * sistema distribuído
 	* procedural - A chama B, necessária disponibilidade dos dois no momento da comunicação
 	* por mensagem - A envia mensagem M com destinatário B, há um meio de campo, maior tolerância a indisponibilidade, A não precisa saber onde está B

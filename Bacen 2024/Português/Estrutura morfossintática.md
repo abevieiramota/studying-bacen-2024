@@ -1,4 +1,4 @@
-* [[_Classes de palavras]]
+* [[Classes de palavras]]
 * [[Coordenação entre orações e termos]]
 * [[Subordinação entre orações e termos]]
 * [[Pontuação]]

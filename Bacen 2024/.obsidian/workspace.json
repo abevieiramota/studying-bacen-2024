@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a657337ff84df776",
+        "id": "f4c5f97cc2d8e2fe",
         "type": "tabs",
         "children": [
           {
-            "id": "c881fa706a435798",
+            "id": "2de16cafc8fce556",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
-                "mode": "source",
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 348.5
   },
   "right": {
     "id": "f51f086d3440f7f9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md",
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura baseada em serviços.md"
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md"
               }
             }
           }
@@ -146,45 +146,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "2de16cafc8fce556",
   "lastOpenFiles": [
-    "Engenharia de Software/gRPC.md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
-    "Engenharia de Software/Testes de software/BDD.md",
-    "Engenharia de Software/Testes de software/Testes de software.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Transações distribuídas.md",
-    "Engenharia de Software/Testes de software",
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
-    "Banco de Dados/Modelagem de dados.md",
-    "Banco de Dados/Modelagem relacional.md",
-    "Banco de Dados/_Banco de Dados.md",
-    "Banco de Dados/SGBD NOSQL",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Banco de Dados/_SQL.md",
+    "Ciência de Dados/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina.md",
+    "Ciência de Dados/MLOps/Princípios.md",
     "Ciência de Dados/Big Data/Big Data.md",
-    "Banco de Dados/DW.md",
-    "Banco de Dados/_SGBD SQL.md",
-    "Atualidades/Sociedade.md",
-    "Atualidades/Atualidades.md",
-    "Atualidades/Educação.md",
-    "Atualidades/Economia.md",
-    "Atualidades/Política.md",
-    "Atualidades/Desenvolvimento sustentável e ecologia.md",
+    "Engenharia de Software/Design Patterns/Design Patterns.md",
+    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Engenharia de Software/Balanceamento de carga.md",
-    "Engenharia de Software/Design Patterns/Creational.md",
-    "Engenharia de Software/Design Patterns/Behavioral.md",
-    "Engenharia de Software/Arquitetura",
+    "Untitled.canvas",
     "Pasted image 20240201044913.png",
+    "Ciência de Dados/Redes Neurais.md",
+    "Ciência de Dados/Qualidade de Dados.md",
+    "Ciência de Dados/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/IA Generativa.md",
+    "Ciência de Dados/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Governança e Ética na IA.md",
+    "Ciência de Dados/Deep Learning.md",
+    "Ciência de Dados/Ciência de Dados.md",
+    "Engenharia de Software/Escalabilidade em sistemas web.md",
+    "Engenharia de Software/Arquitetura/RESTful.md",
+    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
+    "Português/Reorganização da estrutura de orações e de períodos.md",
+    "Português/Reescrita de frases e parágrafos.md",
+    "Português/Português.md",
+    "Engenharia de Software/Rede",
+    "Engenharia de Software/Testes de software",
+    "Banco de Dados/SGBD NOSQL",
+    "Engenharia de Software/Arquitetura",
     "Ciência de Dados/Big Data",
     "Pasted image 20240130182351.png",
     "Ciência de Dados/MLOps",
     "Banco de Dados",
     "Atualidades",
     "Português",
-    "Ciência de Dados",
-    "Engenharia de Software/Design Patterns"
+    "Ciência de Dados"
   ]
 }
