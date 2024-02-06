@@ -1,7 +1,9 @@
 * [[Tipos de Aprendizado]]
 * [[Redes Neurais]]
+* [[Tools]]
 
-Tópicos
+#TODO caps 4, 5, 6, 7, 8, 9 do Aurelion
+
 * **Definições**
 	* 1959, Arthur Samuel - '*Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed.*'
 	* 1997, Tom Mitchell - '*A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.*'

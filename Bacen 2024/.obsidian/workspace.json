@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md"
               }
             }
           }
@@ -149,10 +149,11 @@
   "active": "2de16cafc8fce556",
   "lastOpenFiles": [
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",

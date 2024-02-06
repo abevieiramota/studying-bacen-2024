@@ -4,11 +4,16 @@
 
 * **De acordo com ter dados com soluções**
 	* Supervisionado { dados de treino contêm a solução }
-		* Classificação {  k-NN, SVM, Random Forest, Stochastic Gradient Descent (SGD) Classifier }
-			* Métricas de performance { acurácia, confusion matrix { precision = TP/(TP + FP), recall = TP/(TP + FN), F-Score = harmonic_mean(precision, recall) },  }
+		* Classificação {  k-NN, SVM, Random Forest, Stochastic Gradient Descent (SGD) Classifier, Naive Bayes }
+			* Métricas de performance { acurácia, confusion matrix { precision = TP/(TP + FP), recall = TP/(TP + FN), F-Score = harmonic_mean(precision, recall) },  ROC Curve Area Under the Curve (ROC AUC) { ROC = TPR/FPR } }
 				* harmonic_mean gives much more weight to low values (arithmetic mean treats all values equally)
 				* The F1 score favors classifiers that have similar precision and recall.
 				* precision/recall tradeoff (Aurelion p. 95)
+				* precision-recall curve (Aurelion p. 97, pegar imagem)
+				* ROC tradeoff "*Once again there is a tradeoff: the higher the recall (TPR), the more false positives (FPR) the classifier produces*"
+				* ROC AUC -> perfect classifier = 1, random classifier ~ 0.5
+			* multiclass - ex: classificação de imagens de números
+			* multilabel - ex: identificação de pessoas em foto
 		* Regressão { Lasso, Linear Regression, Ridge }
 			* Métricas de performance { Root Mean Square Error (RMSE) }
 	* Não Supervisionado { dados de treino não contêm a solução, unlabeled }
