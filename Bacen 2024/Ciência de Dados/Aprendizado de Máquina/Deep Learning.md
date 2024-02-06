@@ -1,2 +1,4 @@
+Aurelion ch 11
+
 * [[IA Generativa]]
-* Transformers #TODO
+* Transformers, redes convolucionais #TODO

@@ -26,6 +26,7 @@
 	* Por Reforço { baseado em agentes, que observam ambiente, executam ações e avaliam reward/penality }
 	* Por Transferência
 		* Muito usado em [[Grandes Modelos de Linguagem (LLM)]]
+		* Uma forma é inicializar uma rede usando pesos de outra rede treinada para outro problema
 * De acordo com se aprende on the fly 
 	* Batch { high resource consumption, necessidade de retrain }
 	* Online { bom para sistema de stream, que precisa adaptar rapidamente, que tem pouco recurso } ! desafio - garantir que não serão utilizados dados de baixa qualidade, corrompendo o modelo

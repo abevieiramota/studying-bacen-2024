@@ -10,3 +10,5 @@
 	* model.fit(X, y, epochs, validation_data)
 * **TensorFlow**: 
 * **Scikit-learn**: 
+* **HDF5**: "*Utilize the HDF5 high performance data software library and file format to manage, process, and store your heterogeneous data. HDF5 is built for fast I/O processing and storage.*"
+* 

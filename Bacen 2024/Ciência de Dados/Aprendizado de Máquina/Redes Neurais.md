@@ -13,10 +13,13 @@ Aurelion cap 10
 	* pesos inicializados randomicamente
 	* a função de ativação não precisa ser igual na rede toda
 	* softmax activation function -> garante que todos os inputs são mapeados para o range [0, 1] e que a soma deles é igual a 1
-* treinamento
+* Hiperparâmetros { nº de hidden layers, epochs, learning rate, batch size, loss function, activation function, optimizer }
+* Treinamento
 	* reforço de conexões que reduzem erro - "*For every output neuron that produced a wrong prediction, it reinforces the connection weights from the inputs that would have contributed to the correct prediction.*"
 	* backpropagation - "*it can find out how each connection weight and each bias term should be tweaked in order to reduce the error.*"
 		* mini-batch
 		* cada passagem pela base toda = epoch, roda várias epochs
 		* "*for each training instance the backpropagation algorithm first makes a prediction (forward pass), measures the error, then goes through each layer in reverse to measure the error contribution from each connection (reverse pass), and finally slightly tweaks the connection weights to reduce the error (Gradient Descent step)*"
-		* 
+* Else #TODO
+	* Funções de ativação #TODO saber identificar pelo nome
+	* Máquina de Boltzmann 
