@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
-                "mode": "preview",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "2de16cafc8fce556",
   "lastOpenFiles": [
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
-    "Ciência de Dados/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina.md",
     "Ciência de Dados/MLOps/Princípios.md",
     "Ciência de Dados/Big Data/Big Data.md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
@@ -162,20 +167,15 @@
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Untitled.canvas",
     "Pasted image 20240201044913.png",
-    "Ciência de Dados/Redes Neurais.md",
     "Ciência de Dados/Qualidade de Dados.md",
     "Ciência de Dados/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/IA Generativa.md",
     "Ciência de Dados/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Deep Learning.md",
     "Ciência de Dados/Ciência de Dados.md",
     "Engenharia de Software/Escalabilidade em sistemas web.md",
     "Engenharia de Software/Arquitetura/RESTful.md",
     "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Português/Reorganização da estrutura de orações e de períodos.md",
-    "Português/Reescrita de frases e parágrafos.md",
-    "Português/Português.md",
     "Engenharia de Software/Rede",
     "Engenharia de Software/Testes de software",
     "Banco de Dados/SGBD NOSQL",
@@ -185,7 +185,6 @@
     "Ciência de Dados/MLOps",
     "Banco de Dados",
     "Atualidades",
-    "Português",
-    "Ciência de Dados"
+    "Português"
   ]
 }
