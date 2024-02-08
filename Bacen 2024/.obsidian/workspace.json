@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+                "file": "Português/Classes de palavras.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+                "file": "Português/Classes de palavras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+                "file": "Português/Classes de palavras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md"
+                "file": "Português/Classes de palavras.md"
               }
             }
           }
@@ -148,35 +148,35 @@
   },
   "active": "2de16cafc8fce556",
   "lastOpenFiles": [
+    "Português/Reorganização da estrutura de orações e de períodos.md",
+    "Português/Reescrita de frases e parágrafos.md",
+    "Português/Classes de palavras.md",
+    "Português/Uso de pronomes átonos.md",
+    "Português/Tempos e modos verbais.md",
+    "Português/Substituição de palavras e trechos.md",
+    "Português/Subordinação entre orações e termos.md",
+    "Português/Sequenciação textual.md",
+    "Português/Regência verbal e nominal.md",
+    "Português/Reconhecimento de tipos e gêneros textuais.md",
+    "Português/Português.md",
+    "Português/Pontuação.md",
+    "Português/Ortografia oficial.md",
+    "Português/Estrutura morfossintática.md",
+    "Português/Crase.md",
+    "Português/Coordenação entre orações e termos.md",
+    "Português/Concordância verbal e nominal.md",
+    "Português/Coesão textual.md",
+    "Português/Compreensão e interpretação de texto.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
     "Banco de Dados/Modelagem multidimensional.md",
     "Banco de Dados/DW.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Else.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Ciência de Dados/Aprendizado de Máquina",
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
-    "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
-    "Ciência de Dados/MLOps/Princípios.md",
-    "Ciência de Dados/Big Data/Big Data.md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Untitled.canvas",
     "Pasted image 20240201044913.png",
-    "Ciência de Dados/Qualidade de Dados.md",
-    "Ciência de Dados/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/Grandes Modelos de Linguagem (LLM).md",
-    "Ciência de Dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Ciência de Dados.md",
     "Engenharia de Software/Rede",
     "Engenharia de Software/Testes de software",
     "Banco de Dados/SGBD NOSQL",
