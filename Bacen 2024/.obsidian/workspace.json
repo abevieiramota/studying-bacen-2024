@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d2bbdde378e42850",
+        "id": "ee36c60ce9c8f5cb",
         "type": "tabs",
         "children": [
           {
-            "id": "36667c896f817406",
+            "id": "f8675145f884da49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
+                "file": "Engenharia de Software/Arquitetura/Transações distribuídas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
+                "file": "Engenharia de Software/Arquitetura/Transações distribuídas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
+                "file": "Engenharia de Software/Arquitetura/Transações distribuídas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md"
+                "file": "Engenharia de Software/Arquitetura/Transações distribuídas.md"
               }
             }
           }
@@ -146,11 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36667c896f817406",
+  "active": "f8675145f884da49",
   "lastOpenFiles": [
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Stacks da Amazon, Google e Microsoft.md",
+    "Engenharia de Software/Arquitetura/RESTful.md",
+    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
+    "Engenharia de Software/Arquitetura/Cache.md",
+    "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Artigos técnicos.md",
+    "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "2024-02-12.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
@@ -161,24 +172,13 @@
     "Pasted image 20240201044913.png",
     "Pasted image 20240130182351.png",
     "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
     "Engenharia de Software/Tolerância a falhas.md",
-    "Engenharia de Software/Arquitetura/Stacks da Amazon, Google e Microsoft.md",
-    "Engenharia de Software/Arquitetura/Cache.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
     "Engenharia de Software/Desenvolvimento",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Princípios.md",
     "Ciência de Dados/Governança e Ética na IA e dados",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL",
-    "Banco de Dados/Banco de Dados.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio",
     "Ciência de Dados/Aprendizado de Máquina",
     "Untitled.canvas",
