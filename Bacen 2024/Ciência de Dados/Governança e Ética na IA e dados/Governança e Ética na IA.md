@@ -4,3 +4,5 @@
 * Privacidade
 * Segurança
 * Viés
+
+* metadados
