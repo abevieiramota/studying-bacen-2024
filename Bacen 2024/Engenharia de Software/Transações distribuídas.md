@@ -1,1 +1,0 @@
-* ver livro de DB (2PC em 22.6, 3PC em 23.4.2 p. 858)

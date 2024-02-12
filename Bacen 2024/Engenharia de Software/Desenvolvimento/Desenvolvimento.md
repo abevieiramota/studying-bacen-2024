@@ -1,0 +1,8 @@
+* [[Git]]
+* [[DevOps]]
+* [[CI-CD]]
+* [[Java]]
+* [[Python]]
+* [[Testes de software]]
+* [[Técnicas de desenvolvimento seguro]]
+* [[DevSecOps]]

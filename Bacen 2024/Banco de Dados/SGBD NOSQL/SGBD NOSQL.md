@@ -8,6 +8,10 @@
 		* **C**onsistency - every read receives the most recent write or an error
 		* **A**vailability - every request receives a non-error response, without the guarantee that it contains the most recent write
 		* **P**artition Tolerancy - the system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes
+* BASE (Basically Available, Soft State, Eventual Consistency) - modelo em contraposição ao ACID
+	* ok parte dos nós ficar disponível e outras não
+	* ok confirmar operações mesmo que não esteja replicada em todos nós
+	* concorrência otimista, diferente da concorrência pessimista do ACID
 * modelos de dados
 	* **chave-valor**
 		* cada chave associada a um único valor
@@ -17,6 +21,7 @@
 		* **Dynamo** (Amazon)
 			* serverless
 			* PartiQL - parece com HQL para consultar nested collections
+		* Riak, GenieDB, Oracle BerkeleyBD
 	* **documento**
 		* documento = objeto com ID e conjunto de campos
 		* sem esquema
@@ -63,6 +68,7 @@
 			* Bloom filter #TODO
 			*  é AP (Available Partition-tolerant)
 			* cada valor em coluna é tripla <column name, valor, timestamp>
+		* HyperTable, BigTable
 	* **grafos**
 		* registros interconectados
 		* estrutura em grafo { nós, relacionamentos, propriedades deles }
@@ -76,9 +82,12 @@
 				* -->, <--, -- : relacionamento (são dois dashes!) "--" (undirected relationship)
 				* [l:LIKES] -> relacionamento, LIKES = relationship type, l = relationship variable
 				* [rel:IS_FRIENDS_WITH {since: 2018}] -> relationship property
-		* ArangoDB
+		* ArangoDB, InfoGrid, Infinite Graph, Titan
 	* ElasticSearch #TODO
+* Um dos objetivos de otimização em bancos distribuídos é diminuir a transferência de dados
+* Semijoin -> Filtra as tuplas de um relacionamento de acordo com se ele aparece noutro relacionamento
 
+#TODO artigos do BigTable e do Dynamo
 
 * links
 	* [types of databases](https://timweninger.com/teaching/database-systems-concepts/cap-and-hbase/)

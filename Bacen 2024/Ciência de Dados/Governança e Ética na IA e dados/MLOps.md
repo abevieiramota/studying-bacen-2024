@@ -22,7 +22,7 @@ Deploy em produção de modelos de ML:
 * **Nível 1** - { experimentação com automatizações, treinamento contínuo em produção, pipeline replicado em ambientes de dev/hom/prod, reuso/modularização, gerenciamento de metadados } > implanta-se um pipeline
 * **Nível 2** - { retreino frequente, deploy em escala, registro de modelos, orquestrador, armazenamento de recursos/features, rastreamento de experimentos }
 
-[[Ciência de Dados/MLOps/Princípios]]
+![[Pasted image 20240130182351.png]]
 
 
 Tópicos

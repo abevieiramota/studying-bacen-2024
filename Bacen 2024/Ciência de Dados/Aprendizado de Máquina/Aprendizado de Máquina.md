@@ -1,5 +1,6 @@
 * [[Tipos de Aprendizado]]
 * [[Redes Neurais]]
+* [[Processamento de Linguagem Natural]]
 * [[Tools]]
 
 #TODO caps 4, 5, 6, 7, 8, 9 do Aurelion

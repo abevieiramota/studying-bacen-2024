@@ -11,6 +11,9 @@ que inclui
 * [[Microsserviços]] (orquestração de serviços e API gateway)
 * [[Orientação a eventos]]
 * [[Arquiteturas cliente-servidor e serverless]]
+* [[Escalabilidade em sistemas web]]
+* [[Cache]]
+* [[Stacks da Amazon, Google e Microsoft]]
 
 #TODO saber onde cada padrão pode ser usado, vantagens e desvantagens
 

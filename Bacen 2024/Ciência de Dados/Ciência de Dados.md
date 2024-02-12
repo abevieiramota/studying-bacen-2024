@@ -3,5 +3,5 @@
 * [[Processamento de Linguagem Natural]]
 * [[Big Data]]
 * [[Qualidade de Dados]]
-* [[_MLOps]]
+* [[MLOps]]
 * [[Governança e Ética na IA]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/Classes de palavras.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hadoop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Português/Classes de palavras.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Português/Classes de palavras.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Português/Classes de palavras.md"
+                "file": "Ciência de Dados/Big Data/Big Data.md"
               }
             }
           }
@@ -133,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,44 +148,44 @@
   },
   "active": "2de16cafc8fce556",
   "lastOpenFiles": [
-    "Português/Reorganização da estrutura de orações e de períodos.md",
-    "Português/Reescrita de frases e parágrafos.md",
-    "Português/Classes de palavras.md",
-    "Português/Uso de pronomes átonos.md",
-    "Português/Tempos e modos verbais.md",
-    "Português/Substituição de palavras e trechos.md",
-    "Português/Subordinação entre orações e termos.md",
-    "Português/Sequenciação textual.md",
-    "Português/Regência verbal e nominal.md",
-    "Português/Reconhecimento de tipos e gêneros textuais.md",
-    "Português/Português.md",
-    "Português/Pontuação.md",
-    "Português/Ortografia oficial.md",
-    "Português/Estrutura morfossintática.md",
-    "Português/Crase.md",
-    "Português/Coordenação entre orações e termos.md",
-    "Português/Concordância verbal e nominal.md",
-    "Português/Coesão textual.md",
-    "Português/Compreensão e interpretação de texto.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Banco de Dados/Modelagem multidimensional.md",
-    "Banco de Dados/DW.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Engenharia de Software/Arquitetura/Transações distribuídas.md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Pasted image 20240201044913.png",
+    "Pasted image 20240130182351.png",
+    "Engenharia de Software/Engenharia de Software.md",
+    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
+    "Engenharia de Software/Tolerância a falhas.md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Stacks da Amazon, Google e Microsoft.md",
+    "Engenharia de Software/Arquitetura/Cache.md",
+    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+    "Engenharia de Software/Desenvolvimento",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Else.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Princípios.md",
+    "Ciência de Dados/Governança e Ética na IA e dados",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
+    "Banco de Dados/SGBD SQL",
+    "Banco de Dados/Banco de Dados.md",
+    "Banco de Dados/Modelagem de dados.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio",
+    "Banco de Dados/SGBD SQL/SQL.md",
     "Ciência de Dados/Aprendizado de Máquina",
     "Untitled.canvas",
-    "Pasted image 20240201044913.png",
     "Engenharia de Software/Rede",
-    "Engenharia de Software/Testes de software",
+    "Engenharia de Software/Desenvolvimento/Testes de software",
     "Banco de Dados/SGBD NOSQL",
     "Engenharia de Software/Arquitetura",
-    "Ciência de Dados/Big Data",
-    "Pasted image 20240130182351.png",
-    "Ciência de Dados/MLOps",
-    "Banco de Dados",
-    "Atualidades",
-    "Português"
+    "Ciência de Dados/Big Data"
   ]
 }
