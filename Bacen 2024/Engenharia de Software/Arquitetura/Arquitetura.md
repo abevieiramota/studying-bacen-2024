@@ -13,7 +13,6 @@ que inclui
 * [[Arquiteturas cliente-servidor e serverless]]
 * [[Escalabilidade em sistemas web]]
 * [[Cache]]
-* [[Stacks da Amazon, Google e Microsoft]]
 
 #TODO saber onde cada padrão pode ser usado, vantagens e desvantagens
 
@@ -44,3 +43,8 @@ que inclui
 	* [[Arquiteturas cliente-servidor e serverless]]
 	* distribuída de componentes
 	* ponto-a-ponto
+
+* arquitetura hexagonal: divisão do sistema em classes de domínio e classes de infraestrutura
+	* comunicação entre classes dos dois grupos mediada por adaptadores
+	* portas { de entrada - classe de fora chamando classe de domínio, de saída - classe de domínio precisa chamar método de classe externa }
+* 

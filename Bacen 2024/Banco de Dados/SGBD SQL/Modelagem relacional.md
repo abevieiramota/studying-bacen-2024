@@ -5,3 +5,4 @@
 
 
 * Normalização
+* Diagrama E-R

@@ -20,6 +20,10 @@ Aurelion cap 10
 		* mini-batch
 		* cada passagem pela base toda = epoch, roda várias epochs
 		* "*for each training instance the backpropagation algorithm first makes a prediction (forward pass), measures the error, then goes through each layer in reverse to measure the error contribution from each connection (reverse pass), and finally slightly tweaks the connection weights to reduce the error (Gradient Descent step)*"
-* Else #TODO
-	* Funções de ativação #TODO saber identificar pelo nome
-	* Máquina de Boltzmann 
+Else
+* Funções de ativação #anki
+	* Sigmoide/logistic = 1 / (1 + e^-x); range (0, 1)
+	* Hyperbolic tangent = (e^x - e^-x) / (e^x + e^-x); range (-1, 1)
+	* ReLU (Rectified Linear Unit) = max(0, x); range [0, oo)
+	* parcialmente diferenciáveis { degrau, sinal, rampa simétrica }
+* questões que peçam para calcular resultado de rede neural -> cuidado para aplicar a função de ativação em todas as saídas!

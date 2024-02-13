@@ -12,3 +12,6 @@
 * **Quando usar**: quando há diversas maneiras de apresentar/interagir com os dados e quando requisitos futuros de apresentação/interação são desconhecidos
 * **V**: independência na evolução das camadas de modelo e de apresentação
 * **DV**: overhead de código/complexidade quando dados/interação são simples
+
+**Arquitetura PAC** (**P**resenter, **A**bstraction, **C**ontroller)
+* ~parece MVC, comunicação entre agentes (?)

@@ -19,7 +19,7 @@
 	* irrelevant features
 * Overfitting/Underfitting
 	* Overfitting - modelo performa bem no treino, mas não generaliza bem
-		* soluções { usar modelo + simples, reduzir atributos, regularização, coletar + dados, diminuir ruídos }
+		* soluções { usar modelo + simples, reduzir atributos, regularização, coletar + dados, diminuir ruídos, validação cruzada, dropout }
 	* Underfitting - modelo muito simples para aprender o padrão dos dados
 		* solução { usar modelo + complexo, obter melhores features, reduzir restrições do modelo }
 * Teste e validação

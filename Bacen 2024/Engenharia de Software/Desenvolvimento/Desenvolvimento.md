@@ -6,3 +6,4 @@
 * [[Testes de software]]
 * [[Técnicas de desenvolvimento seguro]]
 * [[DevSecOps]]
+* [[DDD]]
