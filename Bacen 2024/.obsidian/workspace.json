@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+                "file": "Português/Classes de palavras.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+                "file": "Português/Classes de palavras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+                "file": "Português/Classes de palavras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md"
+                "file": "Português/Classes de palavras.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "f8675145f884da49",
   "lastOpenFiles": [
+    "Português/Português.md",
+    "Português/Classes de palavras.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Engenharia de Software/Arquitetura/RESTful.md",
     "Engenharia de Software/Arquitetura/Transações distribuídas.md",
@@ -172,8 +174,6 @@
     "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "2024-02-12.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Pasted image 20240201044913.png",
     "Pasted image 20240130182351.png",
     "Engenharia de Software/Desenvolvimento",
