@@ -14,6 +14,6 @@
 	* abstração, tensor board, eager execution (para debugar, com tf 2.0 ativa com `tf.executing_eagerly()`)
 * **PyTorch**: biblioteca de aprendizado de máquina de código aberto para Python
 	* API/interface fácil, grafos computacionais, fácil de depurar/entender, grande parte da execução é feita em C++ e CUDA (API para computação paralela com GPU)
-* **Scikit-learn**: 
+* **Scikit-learn**:  #TODO ver documentação, principais libs, classes, interfaces
 * **HDF5**: "*Utilize the HDF5 high performance data software library and file format to manage, process, and store your heterogeneous data. HDF5 is built for fast I/O processing and storage.*"
 * 

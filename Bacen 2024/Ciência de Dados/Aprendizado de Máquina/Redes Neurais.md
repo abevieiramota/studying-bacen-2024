@@ -22,8 +22,12 @@ Aurelion cap 10
 		* "*for each training instance the backpropagation algorithm first makes a prediction (forward pass), measures the error, then goes through each layer in reverse to measure the error contribution from each connection (reverse pass), and finally slightly tweaks the connection weights to reduce the error (Gradient Descent step)*"
 Else
 * Funções de ativação #anki
-	* Sigmoide/logistic = 1 / (1 + e^-x); range (0, 1)
+	* limiar = 0, se x < 0, 1, se x >= 0 (não traz não-linearidade, útil para aprender relações não lineares)
+	* !Sigmoide/logistic = 1 / (1 + e^-x); range (0, 1)
+	* Softmax = generalização da sigmoid para casos não binários, usada na camada de saída, gerando probabilidades por classes
 	* Hyperbolic tangent = (e^x - e^-x) / (e^x + e^-x); range (-1, 1)
 	* ReLU (Rectified Linear Unit) = max(0, x); range [0, oo)
+	* Maxout = maior valor que entrou
+	* Função Gaussiana = usada com rede RBF
 	* parcialmente diferenciáveis { degrau, sinal, rampa simétrica }
 * questões que peçam para calcular resultado de rede neural -> cuidado para aplicar a função de ativação em todas as saídas!

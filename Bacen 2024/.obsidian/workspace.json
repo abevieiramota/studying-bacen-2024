@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "f8675145f884da49",
   "lastOpenFiles": [
-    "Engenharia de Software/Desenvolvimento/DevOps.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Ciência de Dados.md",
     "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+    "Engenharia de Software/Desenvolvimento/DevOps.md",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Engenharia de Software/Rede/Rede.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
@@ -166,14 +174,6 @@
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
-    "Banco de Dados/SGBD SQL/SQL.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
-    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
     "Pasted image 20240215200422.png",
     "Pasted image 20240215200329.png",
     "Pasted image 20240215200055.png",
