@@ -1,9 +1,6 @@
 * V: easy to add rows and data
 * DV: might read unnecessary data
 
-
-* Normalização
-
 **Modelagem**
 * **Conceitual**: semântica dos dados, independente de estruturas de dados
 	* **Notações**: { diagrama E-R, diagrama de classes UML } 
@@ -31,6 +28,15 @@
 				* [ funcionário ] - (1, n) - < trabalhar > - (1, 1) - [ departamento ] (um funcionário para no um e apenas um departamento, um departamento para um ou mais funcionários)
 				* 1:1, 1:n, n:m
 * **Lógica**: estruturas de dados que representarão os dados, relacional (tabelas), independente de SGBD
+	* **Formas normais** #anki
+		* **1NF** - só contém atributos atômicos
+			* não tem atributos multivalorados, atributos compostos, tabelas aninhadas
+		* ! cuidado, abaixo fala-se em 'chave', que inclui chave primária e chaves candidatas, e não apenas de PK
+		* **2NF** - 1NF e não tem dependências parciais (atributo não chave depende de parte de atributo chave composto - considerar qualquer chave, não apenas a PK)
+		* **3NF** - 2NF e não tem dependência transitiva (X -> Y, Y -> Z, sendo X chave e Y, Z não chave)
+		* **BCNF** - 3NF e para toda dependência funcional X -> A, X é uma superchave (o lado esquerdo de toda dependência funcional é superchave)
+		* **4NF** - BCNF e não contém dependências multivaloradas #n_entendi 
+		* **5NF** - 4NF e não pode ter dependência de junção (há perda ao transformar a relação original em duas, é preciso três) #n_entendi 
 * **Física**: como os dados serão armazenados no banco de dados, dependente do SGBD
 
 

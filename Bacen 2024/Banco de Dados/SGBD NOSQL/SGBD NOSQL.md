@@ -86,9 +86,3 @@
 	* ElasticSearch #TODO
 * Um dos objetivos de otimização em bancos distribuídos é diminuir a transferência de dados
 * Semijoin -> Filtra as tuplas de um relacionamento de acordo com se ele aparece noutro relacionamento
-
-#TODO artigos do BigTable e do Dynamo
-
-* links
-	* [types of databases](https://timweninger.com/teaching/database-systems-concepts/cap-and-hbase/)
-	* 

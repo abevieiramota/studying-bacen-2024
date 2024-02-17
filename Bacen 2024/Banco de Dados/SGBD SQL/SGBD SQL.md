@@ -4,9 +4,10 @@
 
 **Linguagens do SGBD**
 * VDL - View Definition Language - esquema externo
-* DDL - Data Definition Language - esquema conceitual
+* DDL - Data Definition Language - esquema conceitual ! truncate é DDL #anki 
 * SDL - Storage Definition Language - esquema interno
 * DML - Data Manipulation Language - insert, delete, update, select
+* DCL - Data Control Language
 
 **Componentes**
 * gerenciador de dados armazenados

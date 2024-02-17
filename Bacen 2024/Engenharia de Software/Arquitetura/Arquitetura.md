@@ -13,10 +13,10 @@ que inclui
 * [[Arquiteturas cliente-servidor e serverless]]
 * [[Escalabilidade em sistemas web]]
 * [[Cache]]
+* [[Tolerância a falhas]]
+* [[Distributed Ledger Technology (DLT)]]
 
 #TODO saber onde cada padrão pode ser usado, vantagens e desvantagens
-
-
 
 
 **Fonte**: Sommervile
@@ -44,7 +44,10 @@ que inclui
 	* distribuída de componentes
 	* ponto-a-ponto
 
-* arquitetura hexagonal: divisão do sistema em classes de domínio e classes de infraestrutura
+* **arquitetura hexagonal**: divisão do sistema em classes de domínio e classes de infraestrutura
 	* comunicação entre classes dos dois grupos mediada por adaptadores
 	* portas { de entrada - classe de fora chamando classe de domínio, de saída - classe de domínio precisa chamar método de classe externa }
-* 
+* **arquitetura multi-tenancy**: uma aplicação centralizada que atende a vários clientes
+	* **single-tenancy**: total isolamento dos dados e aplicação { cada usuário tem sua aplicação, total isolamento, mitiga riscos de vazamentos }
+	* **multi-tenancy**: todos usuários acessam a mesma aplicação, que define que dados cada usuário pode acessar { otimização de recursos computacionais, maior complexidade de segurança, concorrência por recursos }; segregação lógica
+	* **híbrido**: todos usuários acessam a mesma aplicação, mas cada um usa um banco de dados separado

@@ -1,1 +1,4 @@
-* Ver Database Internals ch 13 p. 257 #TODO
+#TODO
+* Ver Database Internals ch 13 p. 257
+* Teoria
+* Tools

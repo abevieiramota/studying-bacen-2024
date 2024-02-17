@@ -1,5 +1,15 @@
 #lvl1 
+#TODO SpringBoot para microsserviços
 
+V
+* menor acoplamento entre os serviços
+* deploy e replicação de forma independente por serviço
+* cada aplicação só usa os serviços que precisa
+* as alterações são feitas apenas nos serviços que devem ser alterados, não precisa restartar o server todo, por exemplo
+DV
+* maior complexidade de projeto, para dividir bem os serviços, evitando redundância e muita complexidade
+* maior complexidade no gerenciamento da aplicação
+* replicação de código de infraestrutura
 
 * [Pattern: Microservice architecture](https://microservices.io/patterns/microservices.html)
 	* contexto: aplicação com diversos subdomínios e diversos times de desenvolvimento

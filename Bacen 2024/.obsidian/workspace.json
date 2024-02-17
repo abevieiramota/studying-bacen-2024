@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md"
+                "file": "Engenharia de Software/Desenvolvimento/DevSecOps.md"
               }
             }
           }
@@ -148,6 +148,32 @@
   },
   "active": "f8675145f884da49",
   "lastOpenFiles": [
+    "Engenharia de Software/Desenvolvimento/DevOps.md",
+    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+    "Engenharia de Software/Desenvolvimento/CI-CD.md",
+    "Engenharia de Software/Rede/Rede.md",
+    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
+    "Engenharia de Software/Rede/WebSockets.md",
+    "Engenharia de Software/Desenvolvimento/GraphQL.md",
+    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+    "Engenharia de Software/Arquitetura/Web services.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/SGBD SQL/SQL.md",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
+    "Banco de Dados/SGBD SQL/Procedural SQL.md",
+    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
     "Pasted image 20240215200422.png",
     "Pasted image 20240215200329.png",
     "Pasted image 20240215200055.png",
@@ -158,32 +184,6 @@
     "Pasted image 20240215190853.png",
     "Pasted image 20240215190804.png",
     "Pasted image 20240215190703.png",
-    "Pasted image 20240215190611.png",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Engenharia de Software/Arquitetura/Transações distribuídas.md",
-    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
-    "Engenharia de Software/Arquitetura/RESTful.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
-    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
-    "Engenharia de Software/Arquitetura/Cache.md",
-    "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
-    "Português/Classes de palavras.md",
-    "Português/Português.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
-    "Engenharia de Software/Arquitetura/Stacks da Amazon, Google e Microsoft.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
-    "Engenharia de Software/Desenvolvimento/DDD.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Engenharia de Software/Artigos técnicos.md",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

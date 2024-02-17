@@ -7,3 +7,6 @@
 * [[Técnicas de desenvolvimento seguro]]
 * [[DevSecOps]]
 * [[DDD]]
+* [[Práticas de UX e UI design]]
+* [[GraphQL]]
+* [[Programação assíncrona]]
