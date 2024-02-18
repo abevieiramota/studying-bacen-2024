@@ -4,8 +4,22 @@
 
 * **De acordo com ter dados com soluções**
 	* Supervisionado { dados de treino contêm a solução }
-		* Classificação {  k-NN, SVM, Random Forest, Stochastic Gradient Descent (SGD) Classifier, Naive Bayes }
-			* Métricas de performance { acurácia, confusion matrix { precision = TP/(TP + FP), recall = TP/(TP + FN), F-Score = harmonic_mean(precision, recall) },  ROC Curve Area Under the Curve (ROC AUC) { ROC = TPR/FPR } }
+		* Classificação
+			* Modelos
+				* Árvore de decisão
+				* k-NN - seleciona k vizinhos mais próximos (função de distância) e decide, de acordo com a classificação deles, a classificação do ponto avaliado; não-paramétrico!
+					* distância euclidiana - distância em linha reta
+					* #TODO demais distâncias
+				* SVM - classificação binária ou regressão; utiliza hiperplanos, com margens equidistantes de exemplos da classe positiva e da classe negativa
+					* kernel trick - função para projetar os dados num outro espaço
+					* soft margin - permitir que haja exemplos na margem contrária (suaviza a restrição)
+				* Random Forest - classificação e regressão #TODO ver melhor
+				* Stochastic Gradient Descent (SGD) Classifier
+				* Logistic Regression - usa a função logística 1/(1 + e^-x), range (0, 1)
+					* multiclasse - calcula a probabilidade de cada classe separadamente
+					* regressão logística ordinal - classes com ordem
+				* Naive Bayes - P(A | B) = P(B | A) * P(A)/P(B), assume que há independência dos dados
+			* Métricas de performance { acurácia, confusion matrix { precision = TP/(TP + FP), recall (sensibilidade, revocação) = TP/(TP + FN), F-Score = harmonic_mean(precision, recall) },  ROC Curve Area Under the Curve (ROC AUC) { ROC = TPR/FPR } #anki }
 				* harmonic_mean gives much more weight to low values (arithmetic mean treats all values equally)
 				* The F1 score favors classifiers that have similar precision and recall.
 				* precision/recall tradeoff (Aurelion p. 95)
@@ -14,13 +28,41 @@
 				* ROC AUC -> perfect classifier = 1, random classifier ~ 0.5
 			* multiclass - ex: classificação de imagens de números
 			* multilabel - ex: identificação de pessoas em foto
-		* Regressão { Lasso, Linear Regression, Ridge }
+		* Regressão - previsão de valor numérico contínuo
+			* Modelos
+				* Regressão Linear - reta que denota correlação entre variáveis; resíduo = correto - predito; reg linear múltipla (>1 variável independente)
+					* coeficiente de pearson - medida de correlação [-1, 1]
+				* Redes neurais
+				* Árvore de decisão - C4.5 #TODO ver
+				* SVM
 			* Métricas de performance { Root Mean Square Error (RMSE) }
 	* Não Supervisionado { dados de treino não contêm a solução, unlabeled }
-		* Clustering { K-means, DBSCAN, Hierarchical Cluster Analysis (HCA) }
+		* Clustering - tarefa descritiva!
+			* distância intra-cluster minimizada; distância inter-cluster maximizada (! cuidado, se falar em 'similaridade', é o inverso)
+			* depende de medida de proximidade, critério de agrupamento
+			* importante dados na mesma escala
+			* Modelos
+				* particionais - divide em k grupos
+					* K-means - fixa k centróides de maneira aleatória, um para cada cluster; associa os pontos ao centróide mais próximo e calcula o novo centróide
+						* funciona bem quando os clusters são esféricos e bem separados, com volumes aproximadamente iguais, com quantidades semelhantes de pontos
+				* hierárquicos - forma árvore/dendograma; bottom-up/aglomerativo ou top-down/divisivo
+					* DBSCAN #TODO ver
+					* Hierarchical Cluster Analysis (HCA)
 		* Anomaly Detection { One-class SVM, Isolation Forest }
 		* Visualization { Principal Component Analysis (PCA), Locally-Linear Embedding (LLE), t-distributed Stochastic Neighbor Embedding (t-SNE) }
-		* Association Rule Learning { Apriori, Eclat }
+		* Redução de dimensionalidade - reduzir o número de variáveis do dataset mantendo o máximo possível de informações
+			* Seleção de atributos - seleciona atributos
+				* LDA - Análise Discriminante Linear
+			* Extração de atributos - transforma em novos
+				* PCA - Análise de Componentes Principais - novos atributos gerados ordenados de acordo com a variância #todo ler mais
+		* Association Rule Learning - regra que associa dois ou mais elementos
+			* Modelos
+				* Apriori #TODO ver melhor
+					* suporte = *proporção* de vezes que a regra aparece na base
+					* confiança = proporção de vezes em que os dois aparecem juntos, em relação às vezes em que o antecedente aparece
+				* Eclat
+				* Partition
+				* FP-Growth
 	* Semi Supervisionado { parte dos dados com e sem solução }
 		* Deep Belief Networks (DBNs)
 	* Por Reforço { baseado em agentes, que observam ambiente, executam ações e avaliam reward/penality }

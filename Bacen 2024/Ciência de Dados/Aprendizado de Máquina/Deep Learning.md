@@ -28,5 +28,5 @@ Uso { reconhecimento de fala, identificação de imagens, NLP, chatbots }
 * Vanishing/Exploding gradients - os gradientes vão se tornando menores a medida que vão chegando nas menores camadas, eventualmente deixando de alterá-las; ou o contrário, com gradientes ficando cada vez maiores;
 	* ténicas para evitar esses problemas envolvem o controle da inicialização randômica dos pesos da rede; limitar os valores de gradientes; 
 * overfitting
-	* regularization - limita os valores dos pesos { L1 - estimula pesos esparsos (alguns 0), usada para seleção de features; L2 - estimula pesos pequenos } #anki
+	* regularization - limita os valores dos pesos { L1 - estimula pesos esparsos (alguns 0), usada para !*seleção de features*; L2 - estimula pesos pequenos } #anki
 	* dropout - a cada iteração de treino, cada neurônio (exceto output layer) tem uma probabilidade de ser desconsiderado na iteração

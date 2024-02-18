@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md"
+                "file": "Ciência de Dados/Big Data/Big Data.md"
               }
             }
           }
@@ -149,19 +149,20 @@
   "active": "f8675145f884da49",
   "lastOpenFiles": [
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Ciência de Dados/Ciência de Dados.md",
     "Engenharia de Software/Desenvolvimento/DevSecOps.md",
     "Engenharia de Software/Desenvolvimento/DevOps.md",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Engenharia de Software/Rede/Rede.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Engenharia de Software/Rede/WebSockets.md",
     "Engenharia de Software/Desenvolvimento/GraphQL.md",
@@ -173,7 +174,6 @@
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Pasted image 20240215200422.png",
     "Pasted image 20240215200329.png",
     "Pasted image 20240215200055.png",
