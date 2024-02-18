@@ -11,7 +11,7 @@ Alta escala de
 Tópicos
 * MapReduce - modelo de programação para processamento em paralelo
 * Desafio à privacidade; policiamento/vigilância
-* Ferramentas
+* Tools
 	* Hadoop - computação distribuída escalável e segura (detecção e recuperação a falhas etc); não é SGBD
 		* HDFS (Hadoop Distributed File System) - sistema de arquivos distribuídos
 		* Hadoop Yarn (Yeat Another Resource Negotiator) - gerenciamento de cluster e job scheduling

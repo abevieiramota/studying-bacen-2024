@@ -38,5 +38,7 @@
 * Conceitos #TODO
 	* Correlação
 	* Cross-validation
-* Tasks
-	* Associação: suporte, confiança, fórmulas #TODO
+* Coleta de dados
+	* Crawling - rastrear conteúdos indexando
+	* Scrapping - extrair dados de páginas web (raspagem)
+	* { questionário, entrevista, anotação manual, monitoramento de redes sociais, observações }
