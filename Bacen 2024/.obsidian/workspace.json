@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+                "file": "Português/Reescrita de frases e parágrafos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+                "file": "Português/Reescrita de frases e parágrafos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+                "file": "Português/Reescrita de frases e parágrafos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md"
+                "file": "Português/Reescrita de frases e parágrafos.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "f8675145f884da49",
   "lastOpenFiles": [
+    "Português/Classes de palavras.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Ciência de Dados/Big Data/Big Data.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
@@ -173,7 +174,6 @@
     "Engenharia de Software/Desenvolvimento/GraphQL.md",
     "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
     "Engenharia de Software/Arquitetura/Web services.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
     "Pasted image 20240215200422.png",
     "Pasted image 20240215200329.png",
     "Pasted image 20240215200055.png",
