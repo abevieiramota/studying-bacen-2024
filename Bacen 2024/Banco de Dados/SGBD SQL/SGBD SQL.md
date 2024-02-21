@@ -16,3 +16,12 @@
 * processador do DB em runtime
 * compilador de consultas - transforma em álgebra relacional
 * pré-compilador
+
+**Transação**
+* #TODO 2PL etc
+
+Indexação
+* #TODO index de cluster? btree, hash, gin etc
+
+**Backup**
+* #TODO tipos de backup etc

@@ -69,9 +69,11 @@
 	* Por Transferência
 		* Muito usado em [[Grandes Modelos de Linguagem (LLM)]]
 		* Uma forma é inicializar uma rede usando pesos de outra rede treinada para outro problema
-* De acordo com se aprende on the fly 
+* **De acordo com se aprende on the fly** 
 	* Batch { high resource consumption, necessidade de retrain }
 	* Online { bom para sistema de stream, que precisa adaptar rapidamente, que tem pouco recurso } ! desafio - garantir que não serão utilizados dados de baixa qualidade, corrompendo o modelo
-* De acordo com se só compara novo dado com dados da base, ou se extrai padrões
+* **De acordo com se só compara novo dado com dados da base, ou se extrai padrões**
 	* instance-based
 	* model-based
+
+Ensemble/boosting #TODO (já caiu AdaBoost)

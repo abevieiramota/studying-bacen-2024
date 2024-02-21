@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/Reescrita de frases e parágrafos.md",
+                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Português/Reescrita de frases e parágrafos.md",
+                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Português/Reescrita de frases e parágrafos.md",
+                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Português/Reescrita de frases e parágrafos.md"
+                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md"
               }
             }
           }
@@ -148,42 +148,42 @@
   },
   "active": "f8675145f884da49",
   "lastOpenFiles": [
+    "Banco de Dados/SGBD SQL/Tools.md",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Português/Reescrita de frases e parágrafos.md",
+    "Português/Reorganização da estrutura de orações e de períodos.md",
     "Português/Classes de palavras.md",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Pasted image 20240220191933.png",
+    "Pasted image 20240220191803.png",
+    "Pasted image 20240220191637.png",
+    "Pasted image 20240220191611.png",
+    "Pasted image 20240220191454.png",
+    "Pasted image 20240220191243.png",
+    "Pasted image 20240220180744.png",
+    "Pasted image 20240220180632.png",
+    "Pasted image 20240220174736.png",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Ciência de Dados/Big Data/Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Engenharia de Software/Arquitetura/Arquitetura.md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Ciência de Dados.md",
     "Engenharia de Software/Desenvolvimento/DevSecOps.md",
     "Engenharia de Software/Desenvolvimento/DevOps.md",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Engenharia de Software/Rede/Rede.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Engenharia de Software/Rede/WebSockets.md",
-    "Engenharia de Software/Desenvolvimento/GraphQL.md",
-    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-    "Engenharia de Software/Arquitetura/Web services.md",
     "Pasted image 20240215200422.png",
-    "Pasted image 20240215200329.png",
-    "Pasted image 20240215200055.png",
-    "Pasted image 20240215194823.png",
-    "Pasted image 20240215194229.png",
-    "Pasted image 20240215191102.png",
-    "Pasted image 20240215191019.png",
-    "Pasted image 20240215190853.png",
-    "Pasted image 20240215190804.png",
-    "Pasted image 20240215190703.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

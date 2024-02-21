@@ -1,7 +1,7 @@
 * [[Tipos de Aprendizado]]
 * [[Redes Neurais]]
 * [[Processamento de Linguagem Natural]]
-* [[Tools]]
+* [[Ciência de Dados/Aprendizado de Máquina/Tools]]
 
 * **Definições**
 	* 1959, Arthur Samuel - '*Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed.*'

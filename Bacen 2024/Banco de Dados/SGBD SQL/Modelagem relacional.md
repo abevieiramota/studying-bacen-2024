@@ -17,7 +17,7 @@
 				* (0, 1) - opcional
 				* (0, n) - opcional e multivalorado
 				* (1, n) - obrigatório e multivalorado
-		* **Relacionamento**: associação entre duas ou mais entidades
+		* **Relacionamento**: associação entre duas ou mais entidades; também pode ter atributos
 			* **Grau do relacionamento**: número de unidades participantes
 				* **Unário**: autorrelacionamento (em relacionamento unário, o papel é obrigatório!)
 				* **Binário**, **Ternário** (papel opcional)
@@ -27,6 +27,25 @@
 				* [ funcionário ] - n - < trabalhar > - 1 - [ departamento ] (um funcionário para no máximo um departamento, um departamento para no máximo n funcionários)
 				* [ funcionário ] - (1, n) - < trabalhar > - (1, 1) - [ departamento ] (um funcionário para no um e apenas um departamento, um departamento para um ou mais funcionários)
 				* 1:1, 1:n, n:m
+			* ! cuidado
+				* em relacionamento n x m, se não houver identificador, um registro em A só pode ser associado a um registro em B
+		* **Especialização/Generalização**
+			* ![[Pasted image 20240220174736.png]]
+			* subclasse herda atributos e relacionamentos e pode adicionar novos
+			* relacionamento do tipo *é um tipo de*
+			* **Restrições**:
+				* total -> toda entidade é instância de alguma das especializações; é representado com um T ao lado do triângulo
+				* parcial -> não total; é representado com um P ao lado do triângulo
+				* disjunção -> cada entidade só pode pertencer a uma subclasse; representado com um D ao lado do triângulo
+				* sobreposição -> não disjunção; representado com um S ao lado do triângulo
+			* herança múltipla
+		* **Entidade associativa/agregação**
+			* lembrar do modelo (Médico, consulta, Paciente) e os medicamentos prescritos -> relacionamento com a consulta
+			* ![[Pasted image 20240220180632.png]]
+			* outra forma de fazer é (Médico - Consulta - Paciente), (Consulta - Prescrição - Medicamento)
+		* **Agregação**
+			* ![[Pasted image 20240220180744.png]]
+			* 
 * **Lógica**: estruturas de dados que representarão os dados, relacional (tabelas), independente de SGBD
 	* **Formas normais** #anki
 		* **1NF** - só contém atributos atômicos
@@ -53,7 +72,7 @@
 **Atributo derivado**:
 ![[Pasted image 20240215190853.png]]
 
-**Identificador simples**:
+**Identificador simples** (!cuidado estritamente falando, não é 'chave primária', conceito que só vem depois na modelagem):
 ![[Pasted image 20240215191019.png]]
 
 **Identificador composto**:
@@ -65,7 +84,7 @@
 !! como analisar a cardinalidade em relacionamento ternário (olhar sempre um par de entidades relacionadas com a outra)
 ![[Pasted image 20240215194823.png]]
 
-**Entidade** "Dependente" é a **fraca** (traço espesso)
+**Entidade** "Dependente" é a **fraca** (traço espesso) - a entidade relacionada é a forte e o identificador da dependente é composto pelo dele e o da entidade forte
 ![[Pasted image 20240215200055.png]]
 **Outras representações** (a identificação como retângulo/losanglo duplo é a mais frequente):
 ![[Pasted image 20240215200422.png]]
@@ -73,3 +92,12 @@
 
 **Restrição de participação total** (espera-se que toda instância participe do relacionamento):
 ![[Pasted image 20240215200329.png]]
+
+![[Pasted image 20240220191243.png]]
+![[Pasted image 20240220191454.png]]
+Não usa losango para representar relacionamento!
+![[Pasted image 20240220191637.png]]
+
+![[Pasted image 20240220191803.png]]
+#anki 
+![[Pasted image 20240220191933.png]]
