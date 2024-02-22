@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md",
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md",
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md",
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/CI-CD.md"
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "f8675145f884da49",
   "lastOpenFiles": [
+    "Engenharia de Software/Desenvolvimento/Git.md",
+    "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Banco de Dados/SGBD SQL/Tools.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
@@ -181,8 +183,6 @@
     "Ciência de Dados/Ciência de Dados.md",
     "Engenharia de Software/Desenvolvimento/DevSecOps.md",
     "Engenharia de Software/Desenvolvimento/DevOps.md",
-    "Engenharia de Software/Desenvolvimento/CI-CD.md",
-    "Engenharia de Software/Rede/Rede.md",
     "Pasted image 20240215200422.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
