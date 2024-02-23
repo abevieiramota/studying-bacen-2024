@@ -2,4 +2,15 @@
 
 * UX - User Experience - segundo Norman, UX não envolve apenas a aspectos de design, mas também aspectos afetivos/experienciais; área multidisciplinar (TI, psico, antropo, design etc)
 * processo, percepção, ação, motivação, cognição do usuário > se integram para formar a experiência do usuário > tema subjetivo, mas existem orientações objetivas
-* 
+* boa experiência { utilidade > usabilidade > desejabilidade }
+* elementos de UX
+	* útil
+	* usável
+	* desejável
+	* acessível
+	* confiável
+	* localizável
+	* valioso
+* design thinking - processo
+	* colaboração: empatia = entender + observar > definir > idealizar > prototipar > testar
+	* envolve necessidades { humanas, negócio, técnicas }
