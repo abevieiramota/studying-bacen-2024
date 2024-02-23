@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ee36c60ce9c8f5cb",
+        "id": "157caccb9b6b5f7e",
         "type": "tabs",
         "children": [
           {
-            "id": "f8675145f884da49",
+            "id": "50db12e52d4cff67",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8675145f884da49",
+  "active": "50db12e52d4cff67",
   "lastOpenFiles": [
+    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
+    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
     "Engenharia de Software/Desenvolvimento/Git.md",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Banco de Dados/SGBD SQL/Tools.md",
@@ -181,8 +183,6 @@
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Ciência de Dados/Ciência de Dados.md",
-    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
-    "Engenharia de Software/Desenvolvimento/DevOps.md",
     "Pasted image 20240215200422.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
