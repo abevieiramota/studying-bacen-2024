@@ -1,5 +1,4 @@
 #lvl1 
-#TODO SpringBoot para microsserviços
 
 V
 * menor acoplamento entre os serviços

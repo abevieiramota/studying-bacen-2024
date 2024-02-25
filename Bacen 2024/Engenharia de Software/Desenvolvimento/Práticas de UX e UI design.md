@@ -1,3 +1,5 @@
+#lvl1
+
 [Provas de TI](https://app.nutror.com/curso/b182f76cda3009e20670d1742c55256445c932a1/aula/4561283)
 
 * UX - User Experience - segundo Norman, UX não envolve apenas a aspectos de design, mas também aspectos afetivos/experienciais; área multidisciplinar (TI, psico, antropo, design etc)
@@ -27,8 +29,6 @@
 * prototipação - coleta de feedback no início, amadurecimento do conceitual
 	* prototipação horizontal (visão geral do sistema) x vertical (visão mais localizada)
 * MVP (Minimun Viable Product)
-* Métricas de UX #TODO 
-* LeanUX e princípios #TODO 
 * Estratégia > Escopo > Estrutura > Esqueleto > Superfície
 * Lean Startup - construir, medir e aprender
 * definição de problemas e restrições > geração da ideia individual > apresentação e crítica > iterar e refinar > geração das ideias da equipe

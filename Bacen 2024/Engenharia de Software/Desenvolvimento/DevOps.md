@@ -1,3 +1,5 @@
+#lvl1
+
 [Provas de TI](https://provasdeti.nutror.com/curso/fdf12e5903ae53d6b83a53632bf346d2a6add378/aula/4178727)
 
 * Cultura de engenharia de software que aproxima devs e ops melhorando comunicação/colaboração entre as partes e automatizando/monitorando as fases de construção de um software
@@ -22,18 +24,6 @@
 	* **Develop**: otimização de pipelines e suporte de infra, sem sacrificar qualidade; automatização de testes, integração etc
 	* **Deliver**: gerenciamento de implantação, configuração, infra, aumentando confiabilidade
 	* **Operate**: monitoramento, manter disponibilidade, rápida correção, telemetria/alertas
-
-#TODO
-**Tools**
-* Jenkins
-	* jenkinsfile
-* Chef
-* no conteúdo de infraestrutura
-	* Ansible
-	* Puppet
-	* Docker
-	* Kubernetes
-* ? que outras ferramentas ?
 
 
 * **Else**

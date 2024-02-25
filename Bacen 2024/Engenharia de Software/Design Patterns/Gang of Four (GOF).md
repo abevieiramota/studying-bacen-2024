@@ -7,5 +7,3 @@ Categorias:
 * [[Behavioral]] - interação entre objetos (11)
 
 23 patterns
-
-#TODO: ver em cada caso os benefícios e diagrama UML (tenho livro, n?)

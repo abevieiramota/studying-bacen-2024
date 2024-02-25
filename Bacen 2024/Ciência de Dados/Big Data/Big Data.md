@@ -1,4 +1,5 @@
 #lvl1
+
 Alta escala de
 * Volume
 * Variedade { estruturado, semi-estruturado (ex: XML, JSON), não estruturado }

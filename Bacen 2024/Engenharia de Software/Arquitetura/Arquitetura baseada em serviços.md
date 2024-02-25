@@ -1,4 +1,5 @@
 #lvl1
+
 **SOA** (**S**ervice-**O**riented **A**rchitecture): "*As arquiteturas orientadas a serviços (SOA, do inglês service-oriented architectures) são uma forma de desenvolvimento de sistemas distribuídos em que os componentes de sistema são serviços autônomos*" (p. 356)
 
 Sommervile cap. 19 (parei em 19.2)
@@ -28,4 +29,3 @@ Sommervile cap. 19 (parei em 19.2)
 	* [[RESTful]]
 	* [[Microsserviços]]
 * Elementos: solicitante de serviço + registro de serviço + provedor de serviço
-* 

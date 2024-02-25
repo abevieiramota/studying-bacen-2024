@@ -1,3 +1,5 @@
+#lvl1 
+
 [Provas de TI](https://provasdeti.nutror.com/curso/dd94be62f09d32cc8654aa458d27b8b2a1183cd8/aula/6481108)
 * sistema de controle de versão distribuído
 * cada diretório de trabalho do git contém o histórico completo, não sendo necessário acesso a um servidor central
@@ -18,3 +20,4 @@
 	* git init > inicializa repo
 	* git log/status/clone/add/rm/checkout/fetch/pull
 	* git reset - descarta tudo até o último push
+	* git stash

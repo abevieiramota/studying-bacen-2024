@@ -1,4 +1,5 @@
 #lvl1
+
 (Sommervile p. 109)
 * Independência entre camadas, havendo dependência apenas de uma camada com sua camada inferior; independência -> evolução segura
 * **Quando usar**: desenvolvimento de recursos usando sistemas existentes; desenvolvimento com equipes por camada; requisito de proteção multinível;

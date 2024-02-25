@@ -1,4 +1,5 @@
 #lvl1
+
 **Arquitetura cliente-servidor** (Sommervile p113)
 * Organização em ==serviços==+servidores e clientes que consomem serviços por meio de uma rede usando um protocolo de solicitação-resposta
 * Exemplos de serviços: serviço de impressão, de gerenciamento de arquivo, de compilação;
@@ -29,7 +30,6 @@
 	* async processing
 * V: custo { só paga pelo que usar de processamento }, escalabilidade, produtividade (foco no dev) 
 * DV: loss of control (se ocorrer algum problema na infra/server, só o provider consegue tratar), security (um servidor pode executar aplicações de múltiplos clientes, havendo risco de acesso indevido), performance (cold start), testing (dificuldade com testes de integração - #n_entendi), vendor lock-in
-* #TODO arquiteturas lambda e kapka
 
 
 **Sistemas distribuídos** (Sommervile p. 333)

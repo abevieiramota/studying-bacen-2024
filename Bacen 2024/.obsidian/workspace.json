@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,21 +147,32 @@
   },
   "active": "50db12e52d4cff67",
   "lastOpenFiles": [
-    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
-    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
-    "Engenharia de Software/Desenvolvimento/Git.md",
-    "Engenharia de Software/Desenvolvimento/CI-CD.md",
-    "Banco de Dados/SGBD SQL/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+    "Banco de Dados/SGBD SQL/Procedural SQL.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Português/Reescrita de frases e parágrafos.md",
-    "Português/Reorganização da estrutura de orações e de períodos.md",
-    "Português/Classes de palavras.md",
+    "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Engenharia de Software/Design Patterns/GRASP.md",
+    "Engenharia de Software/Design Patterns/Design Patterns.md",
+    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Pasted image 20240220191933.png",
     "Pasted image 20240220191803.png",
     "Pasted image 20240220191637.png",
@@ -172,17 +182,6 @@
     "Pasted image 20240220180744.png",
     "Pasted image 20240220180632.png",
     "Pasted image 20240220174736.png",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
-    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/Big Data/Big Data.md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
-    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
-    "Ciência de Dados/Ciência de Dados.md",
     "Pasted image 20240215200422.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",

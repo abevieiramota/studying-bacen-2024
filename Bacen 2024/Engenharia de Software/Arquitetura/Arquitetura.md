@@ -8,15 +8,12 @@ que inclui
  **Padrões de arquitetura**
 * [[Arquitetura em camadas]]
 * [[Arquitetura baseada em Serviços]]
-* [[Microsserviços]] (orquestração de serviços e API gateway)
 * [[Orientação a eventos]]
 * [[Arquiteturas cliente-servidor e serverless]]
 * [[Escalabilidade em sistemas web]]
 * [[Cache]]
 * [[Tolerância a falhas]]
 * [[Distributed Ledger Technology (DLT)]]
-
-#TODO saber onde cada padrão pode ser usado, vantagens e desvantagens
 
 
 **Fonte**: Sommervile
