@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+                "file": "Português/Pontuação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+                "file": "Português/Pontuação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+                "file": "Português/Pontuação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tools.md"
+                "file": "Português/Pontuação.md"
               }
             }
           }
@@ -147,6 +147,7 @@
   },
   "active": "50db12e52d4cff67",
   "lastOpenFiles": [
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
@@ -163,7 +164,6 @@
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
     "Ciência de Dados/Big Data/Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
