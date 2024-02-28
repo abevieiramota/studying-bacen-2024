@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/Pontuação.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Português/Pontuação.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Português/Pontuação.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Português/Pontuação.md"
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md"
               }
             }
           }
@@ -147,6 +147,9 @@
   },
   "active": "50db12e52d4cff67",
   "lastOpenFiles": [
+    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+    "Português/Pontuação.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
@@ -170,9 +173,6 @@
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Pasted image 20240220191933.png",
     "Pasted image 20240220191803.png",
     "Pasted image 20240220191637.png",
