@@ -45,4 +45,24 @@
 	* unit testing (código) > integrating test (design) > validation test (requirements) > system testing (system engineering)
 	* unit testing - teste de componentes individuais (métodos, classes, componentes com estrutura bem conhecida) são testados de forma isolada, com ferramentas automatizadas
 	* teste de integração - integra componentes de sistema para buscar problemas nas suas integrações; top-down, cria o esqueleto do sistema e preenche com componentes; bottom-up, cria componentes e vai integrando; para facilitar a localização de erros, ideal integrar e testar gradualmente (testar já integrando tudo=integração big-bang, não é recomendado);
-	* 
+	* teste de aceitação (validação) - busca demonstrar conformidade com os requisitos; ambiente o mais próximo do real, para simular bem o ambiente usado pelo usuário;
+		* alfa - testes conduzidos pelo cliente nas instalações do desenvolvedor, que anota os erros/problemas; ocorre em ambiente controlado! normalmente executado antes do beta
+		* beta - conduzido no local do cliente, pelo usuário final, sem presença do desenvolvedor; ocorre em ambiente real; o cliente que anota os problemas;
+	* teste de sistema - software é só um dos elementos de um sistema maior - esse teste envolve software, hardware, processos, outros sistemas etc (não confundir com teste de integração, que testa a integração entre módulos do mesmo sistema)
+* Tipos
+	* teste de regressão - visa executar um subconjunto de testes para verificar se as mudanças não causaram efeitos indesejados; manual ou automatizado
+	* teste de fumaça - executado logo após o build para checar funcionalidade básica, para saber se o básico está funcionando e daí dá para seguir com testes mais detalhados; busca encontrar erros que tem grande probabilidade de atrasar o projeto (erro no build, não consegue fazer mais nada)
+	* teste de recuperação - força o sistema a falhar de diversas formas e checa se ele se recupera de forma adequada; a recuperação pode ser automática ou manual
+	* teste de segurança - verifica mecanismos de proteção contra ataques
+	* teste de carga (estresse) - testa em situações anormais, em relação a, ex, memória, I/O, disco etc
+	* teste de desempenho - visa a garantir que o sistema atende aos níveis de desempenho e tempo de resposta definido nos requisitos não-funcionais
+	* teste de usabilidade - avalia o sistema do ponto de vista do usuário
+* debugging/depuração
+	* resulta em remoção de erro, envolve formular hipótese sobre a causa do erro
+	* abordagens
+		* força bruta: joga dados no console e sai testando ad-hoc; método menos eficiente
+		* backtracking: começa onde o erro ocorreu e vai rastreando a fonte de erro
+		* eliminação de causa: uma hipótese da causa é elaborada e são coletados dados para avaliá-la; mais recomendada pelo Pressman
+* Plano de teste { casos de teste, ferramentas, etc }
+	* caso de teste { entradas, pré/pós condições de execução, resultados esperados }
+	* caso de teste a partir de caso de uso - um cenário para cada caminho possível, identificando as condições para percorrer os caminhos
