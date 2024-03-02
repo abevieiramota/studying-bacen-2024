@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md"
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md"
               }
             }
           }
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +148,13 @@
   },
   "active": "50db12e52d4cff67",
   "lastOpenFiles": [
-    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+    "Pasted image 20240302153650.png",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+    "Banco de Dados/SGBD SQL/Tools.md",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
     "Português/Pontuação.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
@@ -156,12 +162,9 @@
     "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
@@ -171,8 +174,6 @@
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Engenharia de Software/Design Patterns/GRASP.md",
     "Pasted image 20240220191933.png",
     "Pasted image 20240220191803.png",
     "Pasted image 20240220191637.png",

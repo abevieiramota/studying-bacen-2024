@@ -2,7 +2,7 @@
 * DV: might read unnecessary data
 
 **Modelagem**
-* **Conceitual**: semântica dos dados, independente de estruturas de dados
+* **Conceitual**: semântica dos dados, independente de estruturas de dados; modelo Entidade Relacionamento
 	* **Notações**: { diagrama E-R, diagrama de classes UML } 
 		* **Entidade**: conjunto de objetos da realidade modelada, sobre os quais deseja-se manter informações na base de dados
 			* **Fraca**: identificador é composto não apenas por seus atributos (discriminador ou chave parcial), mas também pelo relacionamento com outra entidade; tem que necessariamente estar associada a outra entidade que compõe sua chave (! ver prints de representações)
@@ -46,7 +46,7 @@
 		* **Agregação**
 			* ![[Pasted image 20240220180744.png]]
 			* 
-* **Lógica**: estruturas de dados que representarão os dados, relacional (tabelas), independente de SGBD
+* **Lógica**: ou de implementação; estruturas de dados que representarão os dados, relacional (tabelas), independente de SGBD; modelo Relacional
 	* **Formas normais** #anki
 		* **1NF** - só contém atributos atômicos
 			* não tem atributos multivalorados, atributos compostos, tabelas aninhadas
@@ -56,10 +56,52 @@
 		* **BCNF** - 3NF e para toda dependência funcional X -> A, X é uma superchave (o lado esquerdo de toda dependência funcional é superchave)
 		* **4NF** - BCNF e não contém dependências multivaloradas #n_entendi 
 		* **5NF** - 4NF e não pode ter dependência de junção (há perda ao transformar a relação original em duas, é preciso três) #n_entendi 
+	* **Notação**
+		* Tabela/relação (lembrar que relação vem de relação entre atributos), linha/tupla, coluna/atributo/campo
+		* características de uma relação { cada atributo em uma tupla é atômico e monovalorado (isso é sempre em relação! diferente do MER), atributos não são ordenados da esquerda para direita (a relação é um conjunto de atributos), as tuplas não são ordenadas (a relação é um conjunto de tuplas), não existem tuplas duplicadas }
+		* cardinalidade = número de tuplas na relação !
+		* grau = número de atributos !
+	* Restrições de integridade (apenas é declarado no SGBD, não precisa programar)
+		* de domínio - valores possíveis em um campo
+		* de vazio - nullable; todas as colunas que compõem a chave primária devem ser not null!
+		* de chave - ! importante, quando perguntar 'quantas chaves primárias há', considerar que chave composta é apenas uma chave! não contar cada atributo separado
+			* superchave - conjunto de atributos de uma relação que permite identificar uma tupla de forma unívoca -> não existem duas tuplas com mesmo valor de superchave (a própria tupla toda é uma superchave!)
+			* chave - superchave que deixa de ser superchave caso algum atributo seja removido (é mínima)
+			* chave primária - chave selecionada como principal, as demais são chamadas chaves alternativas
+		* referencial - atributo ou combinação de atributos que referencia uma chave (primária ou candidata! não precisa ser primária!) de uma relação (pode ser ela mesma - autorrelacionamento); opcional ou obrigatória 
+			* quando inclui/altera linha em tabela referenciando outra, checa se a referenciada existe
+			* quando exclui uma linha referenciada, garantir que não existe tupla referenciando
+		* de unicidade - campo ou combinação de campos não se repetem na tabela
+		* de entidade - define que nenhum valor da chave primária pode ser nulo
+	* Restrições semânticas - baseadas na semântica da aplicação, desenvolvida por programadores- ex: salário do empregado não pode ser superior ao de seu superior
+	* Transformação de modelo conceitual em modelo lógico
+		* um modelo MER pode corresponder a diversos modelos relacionais
+		* a transformação tem como objetivo { bom desempenho, simplificar desenvolvimento da aplicação e DB }
+		* princípios { evitar junções, diminuir o número de chaves, evitar campos opcionais }
+		* cada entidade -> tabela, cada atributo -> coluna, cada atributo identificadores -> chave primária
+		* relacionamentos - transformações (a escolha depende da cardinalidade do relacionamento) [exercícios](https://provasdeti.nutror.com/curso/f89b9ced26559/aula/456795) #TODO praticar, anki etc
+			* { tabela própria, adição de colunas a uma tabela, fusão de tabelas }
+			* relacionamento 0.1 : 0.1 - { adição de colunas, tabela própria (não ideal) }, fusão de tabelas não serve; na tabela própria, uma das chaves estrangeiras vai ser chave primária! (válido apenas no 1:1)
+			* relacionamento 0.1 : 1.1 - { fusão de tabelas (a chave primária é a do lado obrigatório, não pode ser as duas juntas!), adição de colunas (não ideal; adiciona na tabela do lado opcional, deve ser obrigatório e único) }, tabela própria não serve;
+				* ! cuidado, cada lado pode ser associado a no máximo 1 entidade do outro lado
+			* relacionamento 1.1 : 1.1 - { fusão de tabelas (chave primária é uma das chaves primárias! não pode ser as duas juntas, senão permite 1.n) }
+			* relacionamento 0.1 : 0.n/1.n - { adição de colunas (fk da entidade N para a 1, não obrigatória ), tabela própria (não ideal; chave primária é a do lado N) }
+			* relacionamento 1.1 : 0.n/1.n - { adição de colunas (fk da entidade N para a 1, obrigatória; atributos do relacionamento vão também) } apenas adição de colunas!
+			* relacionamento n:m (independe da cardinalidade mínima) - { tabela própria (apenas!; chave da tabela é a composição das chaves primárias) }
+				* se deve permitir que uma entidade participe n vezes do relacionamento, é preciso ter um atributo a mais compondo a chave!
+			* entidade fraca -> a tabela dela tem como chave primária uma composição de uma chave da entidade forte e um identificador da entidade fraca
+			* relacionamento ternário -> o relacionamento é transformado em uma entidade e cada relacionamento vira um relacionamento binário!
+		* [hierarquia](https://provasdeti.nutror.com/curso/f89b9ced26559/aula/456796) #TODO praticar, anki etc
+			* tabelão - chave primária da pai; união dos atributos da genérica e especializadas; adição de coluna Tipo, identificando qual o tipo/especialização (considerando que só pode assumir um tipo; ou coluna booleana para cada tipo)
+			* uma tabela por especialização - replica os atributos da geral em cada especializada
+			* tabela para a geral e tabela para cada especialização - especializada tem chave para a estrangeira (usa a mesma PK e ela é FK para a geral!)
 * **Física**: como os dados serão armazenados no banco de dados, dependente do SGBD
 
+[Álgebra relacional](https://app.nutror.com/curso/c7c1e61426939)
 
 
+
+**MER** ! não confundir com modelo relacional
 **Atributos simples**:
 ![[Pasted image 20240215190611.png]] 
 
@@ -101,3 +143,6 @@ Não usa losango para representar relacionamento!
 ![[Pasted image 20240220191803.png]]
 #anki 
 ![[Pasted image 20240220191933.png]]
+
+**Transformação de modelos**
+![[Pasted image 20240302153650.png]]
