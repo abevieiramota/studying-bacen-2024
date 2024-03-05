@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "157caccb9b6b5f7e",
+        "id": "fca53b073d5346d4",
         "type": "tabs",
         "children": [
           {
-            "id": "50db12e52d4cff67",
+            "id": "8893dc3df0ca42aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md"
               }
             }
           }
@@ -146,44 +146,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50db12e52d4cff67",
+  "active": "8893dc3df0ca42aa",
   "lastOpenFiles": [
-    "Pasted image 20240302153650.png",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Banco de Dados/SGBD SQL/Tools.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
-    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-    "Português/Pontuação.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
+    "Ciência de Dados/Ciência de Dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
-    "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Banco de Dados/SGBD SQL/SQL.md",
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
     "Ciência de Dados/Big Data/Big Data.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Engenharia de Software/Rede/gRPC.md",
+    "Engenharia de Software/Rede/WebSockets.md",
+    "Pasted image 20240303175802.png",
+    "Pasted image 20240303175750.png",
+    "Engenharia de Software/Desenvolvimento/Java.md",
+    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+    "Engenharia de Software/Desenvolvimento/GraphQL.md",
+    "Pasted image 20240303172319.png",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/BDD.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/TDD.md",
+    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
+    "Engenharia de Software/Desenvolvimento/DDD.md",
+    "Engenharia de Software/Desenvolvimento/CI-CD.md",
+    "Pasted image 20240303074759.png",
+    "Pasted image 20240303074651.png",
+    "Pasted image 20240302153650.png",
     "Pasted image 20240220191933.png",
     "Pasted image 20240220191803.png",
     "Pasted image 20240220191637.png",
     "Pasted image 20240220191611.png",
-    "Pasted image 20240220191454.png",
-    "Pasted image 20240220191243.png",
-    "Pasted image 20240220180744.png",
-    "Pasted image 20240220180632.png",
-    "Pasted image 20240220174736.png",
-    "Pasted image 20240215200422.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

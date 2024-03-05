@@ -1,8 +1,8 @@
-Apostia do Estratégia
-* Benefícios { melhor serviço, maior produtividade, risco reduzido, aproveitar oportunidades etc }
-* Importância { tomada de decisão confiável, eficiência operacional, conformidade e regulamentação, satisfação de clientes, competitividade, redução de custos, inovação, reputação }
+Apostila do Estratégia
+* **Benefícios** { melhor serviço, maior produtividade, risco reduzido, aproveitar oportunidades etc }
+* **Importância** { tomada de decisão confiável, eficiência operacional, conformidade e regulamentação, satisfação de clientes, competitividade, redução de custos, inovação, reputação }
 * ISO 8000 - "*A capacidade de criar, coletar, armazenar, manter, transferir, processar e apresentar dados para dar suporte aos processos de negócios de maneira oportuna e econômica exige uma compreensão das características dos dados que determina sua qualidade e a capacidade de medir, gerenciar e relatar a qualidade dos dados*"
-* atributos de qualidade
+* **Atributos de qualidade**
 	* adequação - adequado para os fins a que se destinam
 	* precisão - acurácia, difícil de medir
 	* integridade - ~(estranho) completude dos dados
@@ -12,7 +12,7 @@ Apostia do Estratégia
 	* segurança - proteção contra acesso não autorizado
 	* rastreabilidade - origem e histórico
 	* documentação
-* ferramentoas
+* **Tipos de ferramentas**
 	* data profiling - criação de perfil de dados, avaliando sua qualidade, por meio de técnicas estatísticas
 		* nulos, min/max, range min/max, distribuição de valores, tipo e formato de dados
 	* matching - identificar associação entre registros (ex: match entre registros de pessoas por nome - há o problema de nomes que mudam com o tempo)
@@ -23,8 +23,8 @@ Apostia do Estratégia
 		* dados de auditoria
 		* vocabulário de referência
 		* informações contextuais { geográficas, psicográficas, de avaliação }
-* métricas - taxa de { completude, precisão, conformidade, duplicação }
-* causas de baixa qualidade
+* **Métricas** - taxa de { completude, precisão, conformidade, duplicação }
+* **Causas de baixa qualidade**
 	* erros de entrada { erros humanos, de digitação, informação incompleta, duplicação etc }
 	* erros de integração, no ETL
 	* falta de padronização (ex: data sem formato padrão)

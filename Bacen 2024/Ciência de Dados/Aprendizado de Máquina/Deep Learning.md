@@ -4,6 +4,8 @@
 
 Uso { reconhecimento de fala, identificação de imagens, NLP, chatbots }
 
+#TODO aprofundar
+
 **Arquiteturas**
 * Perceptron - uma camada
 * Feed-Forward Network - multilayer

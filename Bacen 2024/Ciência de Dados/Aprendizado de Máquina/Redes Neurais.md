@@ -1,4 +1,6 @@
-* [[Deep Learning]]
+[[Deep Learning]]
+
+#TODO revisar e organizar, consultando outro material
 
 Aurelion cap 10
 * ANN são a base de Deep Learning, versátil, poderoso, escalável
@@ -20,7 +22,8 @@ Aurelion cap 10
 		* mini-batch
 		* cada passagem pela base toda = epoch, roda várias epochs
 		* "*for each training instance the backpropagation algorithm first makes a prediction (forward pass), measures the error, then goes through each layer in reverse to measure the error contribution from each connection (reverse pass), and finally slightly tweaks the connection weights to reduce the error (Gradient Descent step)*"
-Else
+
+
 * Funções de ativação #anki
 	* limiar = 0, se x < 0, 1, se x >= 0 (não traz não-linearidade, útil para aprender relações não lineares)
 	* !Sigmoide/logistic = 1 / (1 + e^-x); range (0, 1)

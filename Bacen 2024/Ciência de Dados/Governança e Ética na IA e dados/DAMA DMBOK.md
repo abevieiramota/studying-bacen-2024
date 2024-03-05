@@ -1,6 +1,5 @@
-Material do estratégia
+**D**ata **M**anagement **B**ody **O**f **K**nowledge
 
-* Data Management Body Of Knowledge
 * Capítulos
 	* **Gerenciamento de dados**
 		* gestão de dados como o 

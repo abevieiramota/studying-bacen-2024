@@ -2,6 +2,4 @@
 
 "*Geralmente, as comunicações RPC são mais rápidas do que a interação baseada em mensagens usada em sistemas orientados a serviços*" (Sommervile p. 347)
 
-#TODO 
-* Teoria
-* Tools
+[Estratégia](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640897/videos/135114)

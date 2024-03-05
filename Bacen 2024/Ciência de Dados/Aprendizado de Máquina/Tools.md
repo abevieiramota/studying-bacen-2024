@@ -35,4 +35,3 @@
 	* sklearn.svm { SVC, SVR, LinearSVC, ... }
 	* sklearn.tree { DecisionTreeClassifier/Regressor, ... }
 * **HDF5**: "*Utilize the HDF5 high performance data software library and file format to manage, process, and store your heterogeneous data. HDF5 is built for fast I/O processing and storage.*"
-* 

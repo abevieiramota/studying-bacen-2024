@@ -14,6 +14,7 @@
 **Tools** #TODO overview + arquivos de configuração (ver hello world das ferramentas)
 * Jenkins - "*The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.*"
 	* Jenkinsfile - arquivo de configuração de pipeline, sintaxe similar a groovy - com duas versões, declarativa e scripted; arquivo fica no repositório do projeto - Pipeline-as-code, é configurado como parte do código da aplicação;
+		* ![[Pasted image 20240303074651.png]]
 	* CD - gerar software a partir do source code
 	* Conceitos
 		* Pipeline - define o processo de build, test e delivery
@@ -31,4 +32,5 @@
 	* phase - sequência de steps
 * GitLab
 	* .gitlab-ci.yml
+		* ![[Pasted image 20240303074759.png]]
 	* necessário ter runners
