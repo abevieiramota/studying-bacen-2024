@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md"
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md"
               }
             }
           }
@@ -148,6 +148,17 @@
   },
   "active": "8893dc3df0ca42aa",
   "lastOpenFiles": [
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Transações e técnicas de recuperação.md",
+    "Pasted image 20240306112454.png",
+    "Pasted image 20240306111919.png",
+    "Pasted image 20240306111756.png",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Ciência de Dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
@@ -158,7 +169,6 @@
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
@@ -169,21 +179,11 @@
     "Pasted image 20240303175750.png",
     "Engenharia de Software/Desenvolvimento/Java.md",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
-    "Engenharia de Software/Desenvolvimento/GraphQL.md",
     "Pasted image 20240303172319.png",
-    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/BDD.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/TDD.md",
-    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
-    "Engenharia de Software/Desenvolvimento/DDD.md",
-    "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Pasted image 20240303074759.png",
     "Pasted image 20240303074651.png",
     "Pasted image 20240302153650.png",
     "Pasted image 20240220191933.png",
-    "Pasted image 20240220191803.png",
-    "Pasted image 20240220191637.png",
-    "Pasted image 20240220191611.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",
