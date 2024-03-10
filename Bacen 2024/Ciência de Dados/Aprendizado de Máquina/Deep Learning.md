@@ -20,11 +20,10 @@ Uso { reconhecimento de fala, identificação de imagens, NLP, chatbots }
 	* Autoencoders - usado para aprender codificação compacta de dados não rotulados
 	* Deep Belief Networks (DBNs) - camadas de Restricted Boltzmann Machines (RBMs) para pretreino
 	* Generative Adversarial Network (GAN) - geração de dados a partir de padrões identificados no input; unsupervised; { generator x discriminator - competitive }
-	* * Máquina de Botzmann - { redução de dimensionalidade, pré-treinamento, detecção de fraude etc }
+	* Máquina de Botzmann - { redução de dimensionalidade, pré-treinamento, detecção de fraude etc }
 * ResNet - dados de camadas são passados pulando camadas
 * Deep Neural Network Capsules - redes neurais encapsuladas e conectadas
 * Redes de Hopfield - permite reconstrução de padrões; uma camada com todos os neurônios conectados
-* Auto-Encoder - diminuição de dimensionalidade, remoção de ruído
 
 **Problemas comuns**
 * Vanishing/Exploding gradients - os gradientes vão se tornando menores a medida que vão chegando nas menores camadas, eventualmente deixando de alterá-las; ou o contrário, com gradientes ficando cada vez maiores;

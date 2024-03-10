@@ -8,7 +8,7 @@
 	* sumarização de texto
 	* classificação de texto
 	* extração de informações
-* **Problemas** { ambiguidade/polissemia, diferenças de linguas, fonologia, análise morfológica/sintática, análise semântica/pragmática }
+* **Desafios** { ambiguidade/polissemia, diferenças de linguas, fonologia, análise morfológica/sintática, análise semântica/pragmática }
 * **Conceitos**
 	* corpus - conjunto de documentos em linguagem natural
 	* gramática - especificação formal da linguagem

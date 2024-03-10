@@ -30,7 +30,7 @@
 				* ROC Curve Area Under the Curve (ROC AUC) { ROC = TPR/FPR } 
 					* ROC tradeoff "*Once again there is a tradeoff: the higher the recall (TPR), the more false positives (FPR) the classifier produces*"
 					* ROC AUC -> perfect classifier = 1, random classifier ~ 0.5
-			* Multiclass - ex: classificação de imagens de números
+		* Multiclass - ex: classificação de imagens de números
 			* Multilabel - ex: identificação de pessoas em foto
 		* Regressão - previsão de valor numérico contínuo
 			* Modelos

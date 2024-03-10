@@ -1,4 +1,3 @@
-#TODO ler sobre RMI
 
 [JavaSE](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640890/videos/203286)
 * fortemente tipada -> a variável só tem um tipo apenas
@@ -39,6 +38,7 @@
 	* for (int num: numeros) {} "foreach"
 	* while (condição) {}; usa break para sair
 	* do {} while(condição)
+	* classe anônima -> implementa na unha a interface
 	* bit shift operators (converte para binário e aplica) #TODO operador >>>
 		* 123 >> 2: move 2 bits para a direita
 		* 123 << 2: move 2 bits para a esquerda
@@ -59,7 +59,7 @@
 		* int \[] idade = new int\[10]
 		* idades.length
 		* #TODO ver os principais métodos
-	* Collections -> java.util.Collection #TODO ver artigo do baeldung sobre como escolher as melhores estruturas de dados em java
+	* !Collections -> java.util.Collection #TODO ver artigo do baeldung sobre como escolher as melhores estruturas de dados em java
 		* List - aceita elementos repetidos, é mutável; implementações ArrayList, LinkedList
 			* List idades = new ArrayList(); -> desse jeito, é lista de Object!
 			* List\<Integer> = new ArrayList\<Integer>(); -> aceita apenas Integer
@@ -72,6 +72,96 @@
 			* m.put(x, y); (se a chave já existir, sobrescreve) m.get(x); m.keySet(), m.forEach((k, v) -> System.out.println(k, v));
 		* Queue
 		* Stack
+		* Stream #TODO cheat sheet
+			* adicionados à List: removeIf, sort(Comparator.naturalOrder() ) -> inplace
+			* list.stream/parallelStream(). { max(Comparator), map(Conta::getSaldo).toList(), mapToDouble(Conta::getSaldo).average(), }
+				* findFirst, findAny (pega qualquer um, independente da ordem!), sorted, distinct
+	* !Exceptions
+		* duas grandes exceções { RuntimeException, Exception } #TODO ver javadoc dessas classes
+			* RuntimeException extends Exception
+		* todo método tem implícito *throws RuntimeException*
+		* try/catch/finally -> finally sempre é executado (! é possível fazer só try/finally)
+			* pode ter vários catches -> entra apenas no primeiro que der match
+			* ! não pode ter um catch de uma exceção e logo depois o catch de uma filha dela! unreachable
+			* try {} catch(Exception1 | Exception2 | Exception3 e) {} -> multicatch exception, sem pai e filho
+			* ! é preciso que a exceção seja possivelmente lançada
+		* toda exceção que estende de Exception é checked e precisa ser tratada
+		* try with resources - ex: try(FileReader fr = new FileReader(path)) { return fr.method();}
+		* ![[Pasted image 20240310130656.png]]
+	* Threads - fluxo de execução
+		* deve implementar Runnable ou extender Thread
+			* se implementar Runnable, é preciso passar o objeto para um new Thread(new Classe())
+			* enquanto extendendo Thread, basta instanciar
+			* é possível passar o run como lambda function para o construtor do Thread (ex: new Thread(() -> System.out.println("oi");))
+		* ! thread.run() executa o código na mesma thread corrente! cuidado, pegadinha com ordem de resultados, com o run ficam serial as execuções
+			* o thread.start() que cria fluxos novos, com execução concorrente
+		* Thread.currentThread() -> identificador da thread corrente
+	* Pegadinhas
+		* código com statement que nunca pode ser alcançado não compila (ex: try { throw new Exception();} catch(Exception e) { throw e} System.out.println("nunca vou ser executado");)
+* Features por versão
+	* Features novas do Java 8
+		* data
+		* virtual extensions methods - default methods
+		* removeif, sort
+		* herdando de múltiplas interfaces
+		* lambdas
+		* streams
+		* filter, peek map, reduce, max, min, collect
+	* Features novas do Java 9
+		* jshell
+		* módulo - jigsaw
+		* jpms
+		* private methods interface
+		* reactive streams
+		* HTTP Client
+	* Features novas do Java 10
+		* var
+		* otimizações para Docker
+	* Features novas do Java 11
+		* javac is dead (não precisa fazer mais javac, depois java > só java e já faz tudo)
+		* Strings
+		* strip x trim
+		* repeat
+	* Features novas do Java 12
+		* switch expressions: arrow, break -> case 'A', 'B' -> 'A|B'; (já retorna)
+		* Strings
+	* Features novas do Java 13
+		* keyword yield, para retornar valor num switch (sem precisar ficar dando break depois)
+		* text blocks com """ asdsad """
+	* Features novas do Java 14
+		* if (obj instanceof String str) -> já verifica e casta para String guardando no objeto str
+		* Records -> public record Person(String name, String address) {}; -> já adiciona construtor, getters, equals, hashCode, toString
+	* Features novas do Java 15
+		* hidden classes
+		* zgc e shenandoah passam a não serem mais experimentais, G1 continua default
+	* Features novas do Java 16
+		* melhorias nos métodos default em interfaces
+		* Stream.toList(), no lugar de .collect(Collectors.toList())
+	* Features novas do Java 17
+		* melhoria no gerador de números pseudo random
+		* pattern matching for switch -> consegue fazer switch com obj e match por classe/interface, daí entra se for instância
+		* sealed class/interface -> apenas pode ser extendida/implementada por classes/interfaces autorizadas
+	* Features novas do Java 18
+		* melhorias no javac compiler
+		* simple web server
+	* Features novas do Java 19
+		* virtual threads (preview) -> limite de threads, modelo de thread não blocante -> quando vai fazer IO, a thread volta para o pool
+	* Features novas do Java 21
+		* string templates
+* OO
+	* modificadores de acesso
+		* private > default (classes do mesmo pacote) > protected (subclasses) > public
+	* sobrecarga x sobrescrita
+	* java não permite herança múltipla, mas permite interface extender múltiplas interfaces -> nesse caso, super.m(), com m pertencendo às duas interfaces pais -> para evitar o diamond problem, é preciso fazer Pai.super.m(), prefixando com a interface pai
+	* polimorfismo dinâmico (overriding) x polimorfismo estático (overloading)
+	* método concreto em interface
+		* public default String olaMundo() { return "Olá mundo";}
+	* SOLID
+		* Single responsibility principle
+		* Open/closed principle (aberto para extensões, fechado para mudanças)
+		* Liskov substitution principle -> deve ser possível substituir, no código, objetos de classe T por objetos de subclasses de T
+		* Interface segregation principle
+		* Dependency injection
 
 
 Conversão de bases #TODO

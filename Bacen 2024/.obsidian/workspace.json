@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Java.md",
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Java.md",
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Java.md",
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Java.md"
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md"
               }
             }
           }
@@ -148,6 +148,26 @@
   },
   "active": "8893dc3df0ca42aa",
   "lastOpenFiles": [
+    "Engenharia de Software/Desenvolvimento/JavaEE.md",
+    "Engenharia de Software/Desenvolvimento/Spring.md",
+    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/JavaSE.md",
+    "Pasted image 20240310130656.png",
+    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
+    "Ciência de Dados/Ciência de Dados.md",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Engenharia de Software/Rede/gRPC.md",
     "Pasted image 20240309103724.png",
     "Pasted image 20240309103555.png",
@@ -158,31 +178,12 @@
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Pasted image 20240306112454.png",
     "Pasted image 20240306111919.png",
     "Pasted image 20240306111756.png",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Ciência de Dados/Ciência de Dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
-    "Ciência de Dados/Big Data/Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
-    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Pasted image 20240303175802.png",
     "Pasted image 20240303175750.png",
     "Pasted image 20240303172319.png",
-    "Pasted image 20240303074759.png",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

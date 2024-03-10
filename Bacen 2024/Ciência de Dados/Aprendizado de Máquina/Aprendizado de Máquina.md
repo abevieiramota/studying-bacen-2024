@@ -1,6 +1,5 @@
 * [[Tipos de Aprendizado]]
 * [[Redes Neurais]]
-* [[Processamento de Linguagem Natural]]
 * [[Ciência de Dados/Aprendizado de Máquina/Tools]]
 
 * **Definições**
