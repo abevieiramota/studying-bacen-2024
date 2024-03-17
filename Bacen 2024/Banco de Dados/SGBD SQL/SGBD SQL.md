@@ -1,6 +1,7 @@
 * [[SQL]]
 * [[Modelagem relacional]]
 * [[Procedural SQL]]
+* [[Álgebra relacional]]
 
 **Linguagens do SGBD**
 * VDL - View Definition Language - esquema externo

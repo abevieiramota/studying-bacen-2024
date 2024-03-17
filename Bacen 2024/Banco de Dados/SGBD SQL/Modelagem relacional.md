@@ -59,7 +59,7 @@
 	* **Notação**
 		* Tabela/relação (lembrar que relação vem de relação entre atributos), linha/tupla, coluna/atributo/campo
 		* características de uma relação { cada atributo em uma tupla é atômico e monovalorado (isso é sempre em relação! diferente do MER), atributos não são ordenados da esquerda para direita (a relação é um conjunto de atributos), as tuplas não são ordenadas (a relação é um conjunto de tuplas), não existem tuplas duplicadas }
-		* cardinalidade = número de tuplas na relação !
+		* cardinalidade = número de tuplas na relação ! (para decorar, perceber que cardinalidade é maior que grau, da mesma forma que o volume de tuplas é maior que o volume de atributos)
 		* grau = número de atributos !
 	* Restrições de integridade (apenas é declarado no SGBD, não precisa programar)
 		* de domínio - valores possíveis em um campo
