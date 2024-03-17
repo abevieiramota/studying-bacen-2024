@@ -6,7 +6,7 @@ Uso { reconhecimento de fala, identificação de imagens, NLP, chatbots }
 
 #TODO aprofundar
 
-**Arquiteturas**
+**Arquiteturas** [Zoológico de arquiteturas](https://www.asimovinstitute.org/neural-network-zoo/)
 * Perceptron - uma camada
 * Feed-Forward Network - multilayer
 * Recurrent Neural Networks (RNNs) - para uso com dados sequenciais, de tamanho não fixo, como NLP
