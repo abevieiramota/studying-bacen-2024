@@ -1,5 +1,3 @@
-#lvl1
-
 **Arquitetura cliente-servidor** (Sommervile p113)
 * Organização em ==serviços==+servidores e clientes que consomem serviços por meio de uma rede usando um protocolo de solicitação-resposta
 * Exemplos de serviços: serviço de impressão, de gerenciamento de arquivo, de compilação;

@@ -63,4 +63,4 @@
 		* Ex: "Orai, **que** não entreis em tentação."
 	* **Temporal**
 		* ~ "depois que", "logo que"
-		* Ex: "Chegados que fomos, dirigimo-nos à portaria."
+		* Ex: "Chegados **que** fomos, dirigimo-nos à portaria."

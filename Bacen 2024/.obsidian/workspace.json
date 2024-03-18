@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md"
+                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
+    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Português/Como.md",
+    "Português/Se.md",
+    "Português/Que.md",
+    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Pasted image 20240317145432.png",
     "Pasted image 20240317145413.png",
     "Pasted image 20240317113506.png",
@@ -159,15 +167,10 @@
     "Pasted image 20240317091801.png",
     "Pasted image 20240317091310.png",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Português/Decorar.md",
-    "Português/Como.md",
     "Engenharia de Software/Desenvolvimento/Python.md",
-    "Português/Se.md",
-    "Pasted image 20240316132901.png",
-    "Português/que.md",
     "Português/Crase.md",
     "Português/Coordenação entre orações e termos.md",
     "Português/Concordância verbal e nominal.md",
@@ -181,9 +184,6 @@
     "Engenharia de Software/Desenvolvimento/JavaEE.md",
     "Engenharia de Software/Desenvolvimento/Spring.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

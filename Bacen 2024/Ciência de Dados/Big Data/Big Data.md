@@ -34,3 +34,19 @@ Tópicos
 		* Apache Flume - ingestão de dados de eventos no HDFS e outros destinos; orientado a agentes, que rodam em JVM { source, channel, sink }, configurando com um arquivo properties
 		* NiFi - automatização de fluxos de dados entre sistemas (Programação Baseada em Fluxo); API HTTP; monitora data provenance/lineage
 * Escalabilidade { vertical (+ recursos na máquina), horizontal (+ máquinas) }
+
+
+
+**Arquiteturas lambda e kappa**
+* **Lambda**
+	* bom quando há necessidade de processamento em stream (~ Apache Flink/Storm, high-volume data stream) e em batch (~ hadoop/spark, historical data)
+	* "*Lambda architecture is a data processing architecture that aims to provide a scalable, fault-tolerant, and flexible system for processing ==large amounts of data==.*"
+	* serving layer -> abstrai para o usuário se ele está acessando dados processados em batch ou em stream
+	* V: { escalabilidade, tolerância a falhas, flexibilidade }
+	* DV:  { complexidade, erros/data discrepancias (há dois fluxos calculando a mesma coisa e precisam estar equivalentes), architecture lock-in }
+* **Kappa**
+	* bom quando há necessidade de processamento em stream continuamente (ex: IoT)
+	* "*Kappa architecture is a data processing architecture that is designed to provide a scalable, fault-tolerant, and flexible system for processing large amounts of data in ==real time.*=="
+	* usa apenas um sistema/layer de processamento para tratar batch e stream (~ Apache Flink/Storm/Kinesis/Kafka) -> simplifica a arquitetura
+	* V: { simplicidade/streamlined pipeline, high-throughput big data processing, ease of migration, tiered storage (armazena dados em storages diferentes, de acordo com a necessidade/custo) }
+	* DV: { complexidade de processamento de stream, custo (armazenar big data em soluções de stream), }
