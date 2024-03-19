@@ -38,4 +38,20 @@
 					* mensagens são enviados para tópicos, que são assinados por consumidores, que irão receber essas mensagens
 					* os publicadores não precisam saber sobre os assinantes
 					* proporciona baixo acoplamento entre os agentes
-			* 
+		* **mensagem** - empacotamento de conteúdo pelo sender, desempacotado no receiver
+			* estrutura básica { header, body }
+				* para o sistema de mensageria, o que importa é o header
+		* **endpoint** - message endpoint, componente que encapsula a comunicação da aplicação com o sistema de mensageria
+			* componente que abstrai a comunicação com o sistema de mensageria
+		* **message broker** - servidor de mensagens -> responsável por garantir que a mensagem seja enfileirada, armazenada (se for o caso), garantindo que ela seja armazenada enquanto necessário
+			* ~ caixa de correio
+			* usa um protocolo para envio de mensagens/eventos
+			* event ~ message
+			* queue -> fila armazenando as mensagens até seu consumo
+	* **protocolos**
+		* **Java Message Services** (JMS): muito utilizado na plataforma Java
+		* **Advanced Message Queuing Protocol** (AMQP): agnóstico de linguagens de porgramação 
+		* **Message Queue Telemetry Transport** (MQTT): muito usado com IoT
+		* **Simple/Streaming Text Oriented Messaging Protocol** (STOMP): voltado para streaming de dados
+		* **Microsoft Message Queuing** (MSMQ): muito utilizado na plataforma Microsoft
+	* 
