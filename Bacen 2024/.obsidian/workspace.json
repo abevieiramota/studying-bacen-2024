@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md"
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
-    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Macro-microeconomia/Fundamentos.md",
+    "Macro-microeconomia/Microeconomia.md",
+    "Macro-microeconomia/Macroeconomia.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Macro-microeconomia",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
     "Ciência de Dados/Big Data/Big Data.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
     "Português/Como.md",
@@ -177,13 +185,6 @@
     "Português/Compreensão e interpretação de texto.md",
     "Português/Coesão textual.md",
     "Português/Classes de palavras.md",
-    "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Banco de Dados/SGBD SQL/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Engenharia de Software/Desenvolvimento/JavaSE.md",
-    "Engenharia de Software/Desenvolvimento/JavaEE.md",
-    "Engenharia de Software/Desenvolvimento/Spring.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",
@@ -193,7 +194,6 @@
     "Engenharia de Software/Rede",
     "Engenharia de Software/Desenvolvimento/Testes de software",
     "Banco de Dados/SGBD NOSQL",
-    "Engenharia de Software/Arquitetura",
-    "Ciência de Dados/Big Data"
+    "Engenharia de Software/Arquitetura"
   ]
 }
