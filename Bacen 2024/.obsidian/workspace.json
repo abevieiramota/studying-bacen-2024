@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md",
+                "file": "Português/Ortografia oficial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md",
+                "file": "Português/Ortografia oficial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md",
+                "file": "Português/Ortografia oficial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md"
+                "file": "Português/Ortografia oficial.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Português/Decorar.md",
+    "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
+    "Português/Se.md",
+    "Português/Classes de palavras.md",
+    "Português/Como.md",
+    "Macro-microeconomia/Fundamentos.md",
     "Pasted image 20240321214549.png",
     "Pasted image 20240321213557.png",
     "Pasted image 20240321202619.png",
@@ -156,7 +162,6 @@
     "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
-    "Macro-microeconomia/Fundamentos.md",
     "Macro-microeconomia/Microeconomia.md",
     "Macro-microeconomia/Macroeconomia.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
@@ -165,8 +170,6 @@
     "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
     "Ciência de Dados/Big Data/Big Data.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Português/Como.md",
-    "Português/Se.md",
     "Português/Que.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Pasted image 20240317145432.png",
@@ -175,16 +178,13 @@
     "Pasted image 20240317113419.png",
     "Pasted image 20240317113304.png",
     "Pasted image 20240317113022.png",
-    "Pasted image 20240317112845.png",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Português/Decorar.md",
     "Engenharia de Software/Desenvolvimento/Python.md",
     "Português/Crase.md",
     "Português/Coordenação entre orações e termos.md",
     "Português/Concordância verbal e nominal.md",
-    "Português/Compreensão e interpretação de texto.md",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

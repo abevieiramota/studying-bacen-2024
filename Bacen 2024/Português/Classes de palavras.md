@@ -30,5 +30,6 @@
 		* em locução verbal, cuidado com atrativas
 			* Eu não *estou-lhe* emprestando dinheiro x Eu não estou lhe emprestando dinheiro
 	* * #TODO pronomes: se e seus usos (ex: reflexivo)
+	* [[Funções sintáticas de pronomes pessoais oblíquos átonos]]
 * **Substantivo**
 	* pós artigo = substantivo
