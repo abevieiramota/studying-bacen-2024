@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/Ortografia oficial.md",
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Português/Ortografia oficial.md",
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Português/Ortografia oficial.md",
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Português/Ortografia oficial.md"
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
+    "Pasted image 20240323180455.png",
+    "Português/Ortografia oficial.md",
     "Português/Decorar.md",
     "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
     "Português/Se.md",
@@ -159,9 +167,7 @@
     "Pasted image 20240321202619.png",
     "Pasted image 20240321183014.png",
     "Engenharia de Software/Arquitetura/Cache.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mart.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Macro-microeconomia/Microeconomia.md",
     "Macro-microeconomia/Macroeconomia.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
@@ -177,14 +183,8 @@
     "Pasted image 20240317113506.png",
     "Pasted image 20240317113419.png",
     "Pasted image 20240317113304.png",
-    "Pasted image 20240317113022.png",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD SQL/SQL.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Engenharia de Software/Desenvolvimento/Python.md",
-    "Português/Crase.md",
-    "Português/Coordenação entre orações e termos.md",
-    "Português/Concordância verbal e nominal.md",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

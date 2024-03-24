@@ -26,5 +26,8 @@
 	* HOLAP - MOLAP + ROLAP
 		* particionamento vertical -> agregações em MOLAP, detalhado em ROLAP
 		* particionamento horizontal -> dados novos em MOLAP, detalhado em ROLAP
-* ETL
-	* 
+* ETL x ELT
+	* ELT é mais recente, menos profissionais habilitados
+	* foco em grandes bases de dados
+	* mais adaptado a datalake
+* 
