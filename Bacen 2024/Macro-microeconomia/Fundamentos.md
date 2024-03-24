@@ -32,7 +32,7 @@
 		* formato côncavo em relação à origem -> a explicação tem relação com a especialização -> quanto mais se especializa na produção de um bem, menor a produtividade de outro bem
 		* variáveis endógenas: produção de cada bem
 		* variáveis exógenas deslocam a curva (ex: imigração de trabalhadores/avanços tecnológicos aumenta a produção)
-* **Demanda**: ==quantidade== de determinado bem que os consumidores desejam adquirir ==a determinado preço== e determinado período
+* **Demanda**: ==quantidade== de determinado bem que os consumidores desejam adquirir ==a determinado preço== e em determinado período
 	* a relação entre quantidade e preço é bastante estudada
 	* a demanda tem relação com preço! (o exemplo de desejo por um supercarro, mas que não existe de fato, dado que não se está disposto a comprar, não tem capacidade de comprar)
 	* demanda não se confunde com o total adquirido!! não é concretização, mas potencial
@@ -46,7 +46,7 @@
 		* **renda** ↑ -> desloca a curva para a direita  (maior demanda para cada preço)
 			* exceções à lei da demanda
 				* **bens inferiores** -> bens que são consumidos apenas pela baixa renda (ex: carne de 2ª). Contrário dos 'bens normais', que tem relação direta entre renda e consumo
-				* **bens de Giffen** -> bens que são consumidos mais quando o preço aumenta (ex: quando há relação inversa entre consumo de dois bens -> quem come ovo com o que sobra depois de comprar carne -> se diminuir o preço do ovo, sobre mais para carne, que é mais desejada)
+				* **bens de Giffen** -> bens que são consumidos mais quando o preço aumenta (ex: quando há relação inversa entre consumo de dois bens -> quem come ovo com o que sobra depois de comprar carne -> se diminuir o preço do ovo, sobra mais para carne, que é mais desejada)
 		* **bens relacionados** -> os bens podem ter 
 			* **complementares** -> consumidos juntos -> aumento do preço do complementar diminui a demanda do bem (ex: arroz e feijão, que são consumidos juntos)
 			* **substitutos** -> consumidos de forma alternativa -> queda do preço do substituto diminui a demanda do bem (ex: gasolina e etanol, no contexto de carros flex)
@@ -63,7 +63,7 @@
 			* ! se não especificar, quando falar de bem complementar, está falando de complementar no consumo!
 		* **outros fatores**: tamanho do mercado, clima, expectativas -> ex: sei que o preço do bem vai dobrar -> diminui a oferta agora, para aproveitar o preço mais alto
 	* **função de oferta** -> função matemática que relaciona preço e oferta
-* **Equilíbrio**: situação na qual a quantidade ofertada e quantidade demandada são iguais
+* **Equilíbrio**: situação na qual a quantidade ofertada e quantidade demandada são iguais (todo consumidor disposto a pagar X encontra um produtor disposto a vender por X)
 	* **Preço de equilíbrio**: preço no qual a quantidade ofertada e quantidade demandada são iguais -> no gráfico com as curvas de oferta e de demanda, é o ponto em que elas se interceptam
 	* Há um princípio em economia que diz que os mercados se movem em direção ao equilíbrio
 	* **Situações**:
@@ -78,6 +78,25 @@
 				* lembrar que deslocamento da oferta para direita, preço diminui, quantidade de equilíbrio aumenta; para esquerda, o inverso
 		* Deslocamento da curva de oferta -> um aumenta e outro diminui { preço, quantidade }
 		* Deslocamento da curva de demanda -> os dois aumentam ou diminuem { preço, quantidade }
+* **Álgebra do equilíbrio**: encontrar os valores das variáveis endógenas que fazem com que a demanda seja igual à oferta
+* **Excedentes** ~ medida de 'bem-estar', quanto o consumidor/produtor estão 'felizes' ao transacionar
+	* **Excedente do consumidor**: benefício que um consumidor percebe ao adquirir um bem por um valor inferior ao qual estava disposto a pagar (preço de reserva)
+	* **Excedente do produtor**: benefício que um produtor percebe ao vender um bem por um valor superior ao que estava disposto a vender
+	* por um valor X, venderão todos os consumidors com valor mínimo >= X, comprarão todos consumidores com preço de reserva <= X
+	* ![[Pasted image 20240324125630.png]]
+	* No preço de equilíbrio, EC = EP = área de cada um dos triângulos
+	* questão que dá função de demanda e pede o excedente de consumidor, dado um preço X -> é para calcular o triângulo entre o preço máximo, o ponto na curva de demanda no preço X e o ponto de preço X
+	* ![[Pasted image 20240324132001.png]]
+* Situação de equilíbrio traz excedentes para os consumidores e para os produtores
+* **Controle de preços**
+	* **Teto de preços** -> produtores diminuem produção, demanda aumenta -> excesso de demanda, escassez de bens
+	* **Diminuição de impostos/subsídio** -> deslocamento da curva de oferta para a direita
+	* **Alocação ineficiente entre compradores** -> com teto de preços, por exemplo, haverá maior demanda que oferta -> pode ser o caso de os consumidores que conseguem comprar sejam os que menos precisam do bem
+	* **Desperdício de recursos** -> necessidade de maior esforço para adquirir bem, por ser necessário correr, se planejar, pegar fila etc para conseguir comprar o bem, dada a maior demanda em relação à oferta
+	* **Sucateamento** -> diminuição de qualidade do produto para ficar de acordo com o preço máximo estabelecido
+	* **Mercado ilegal** -> venda ilegal em busca de maior lucro
+	* **Perda por peso morto** -> triângulo amarelo -> excedente que é perdido por preço abaixo do equilíbrio; ver que o excedente do consumidor é esse trapézio
+	* ![[Pasted image 20240324133017.png]]
 
 
 

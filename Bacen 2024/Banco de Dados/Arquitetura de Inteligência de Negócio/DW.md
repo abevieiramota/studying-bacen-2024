@@ -4,6 +4,7 @@
 	* coletar > organizar > analisar > visualizar
 * Data mart - segmentação do DW por áreas de negócio
 	* abordagens top-down (deriva do DW) x bottom-up (o DW deriva de data marts integrados)
+* granularidade -> quanto maior, maior o nível de detalhe
 * Componentes do BI
 	* Fontes de dados
 	* ETL
@@ -30,4 +31,11 @@
 	* ELT é mais recente, menos profissionais habilitados
 	* foco em grandes bases de dados
 	* mais adaptado a datalake
-* 
+* Operações OLAP
+	* roll-up -> subir na hierarquia
+	* roll-down -> descer na hierarquia (detalhar)
+	* slice -> fatia do cubo -> seleciona um ou mais valores de uma dimensão
+	* dice -> subcubo -> filtra em todas dimensões
+	* pivot/rotation -> altera a organização das dimensões
+	* drill across -> pula hierarquia
+	* drill through -> mudança de dimensão (ex: estava analisando por local e vai analisar por tempo)
