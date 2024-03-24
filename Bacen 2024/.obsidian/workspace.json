@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+                "file": "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+                "file": "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+                "file": "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md"
+                "file": "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",

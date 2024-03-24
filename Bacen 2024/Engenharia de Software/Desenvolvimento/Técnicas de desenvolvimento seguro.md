@@ -30,6 +30,6 @@
 		* **Requisitos** -> é feito levantamento dos requisitos de privacidade/segurança e análise de custo de impleementar esses requisitos; criar { portas de qualidade (quality gates -> como que um pipeline, só passa para frente se passar nas checagens anteriores), barras de defeitos (bug bars) } -> níveis mínimos aceitáveis de segurança; avaliação de riscos de privacidade/segurança
 		* **Design** -> a partir de requisitos, análise de superfície de ataque da aplicação e se produz um modelo de ameaças da aplicação; 
 		* **Implementação** -> programação defensiva/segura (evitando diversos ataques, como sql injection etc);  aderência a padrões de codificação; uso de ferramentas de análise estática de código; utilizar ferramentas aprovadas; depreciar funções inseguras
-		* **Verificação** -> 
-		* **Liberação** ->
-		* **Resposta** -> 
+		* **Verificação** -> ~testes, inspeção/auditoria de configurações/código; teste de fuzz -> introduzir falhas no programa passando como input dados malformados/aleatórios; análise dinâmica -> comportamento em tempo de execução; revisão de superfície de ataque; 
+		* **Liberação** -> disponibilização do produto para o usuário; produção de plano de ação para responder a incidentes!; revisão final de segurança; 
+		* **Resposta** -> tratamento de incidentes; busca de problemas de segurança; 
