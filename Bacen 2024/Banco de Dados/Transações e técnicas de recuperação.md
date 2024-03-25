@@ -16,7 +16,7 @@
 		* **non repeatable read**, leitura não repetível, análise inconsistente: duas leituras de dados na mesma transação dão resultados **do dado** diferentes (na segunda leitura, dados não existem ou foram modificados)
 			* ! a diferença para dirty read é que dirty lê uncommited, enquanto non repeatable read envolve commited
 		* **phantom read**, leitura fantasma: duas leituras de dados na mesma transação e dão **quantidade** de resultados diferente
-	* **Níveis** (em ordem de restritividade) -> *start transaction serializable; set transaction level serializable*
+	* **Níveis** (em ordem de restritividade) -> *start transaction serializable; set transaction level serializable* #anki
 		* **Read uncommited**
 		* **Read commited** (padrão na maioria dos bancos)
 		* **Repeatable read**

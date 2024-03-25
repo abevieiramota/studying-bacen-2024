@@ -57,7 +57,7 @@
 			* Seleção de atributos - seleciona atributos
 				* LDA (Linear Discriminant Analysis) - Análise Discriminante Linear
 			* Extração de atributos - transforma em novos
-				* PCA - Análise de Componentes Principais - novos atributos gerados ordenados de acordo com a variância #TODO
+				* PCA - Análise de Componentes Principais - novos atributos gerados ordenados de acordo com a variância #TODO como avaliar o resultado dos autovalores gerados
 		* **Association Rule Learning** - regra que associa dois ou mais elementos
 			* Apriori #TODO
 				* suporte = *proporção* de vezes que a regra aparece na base
