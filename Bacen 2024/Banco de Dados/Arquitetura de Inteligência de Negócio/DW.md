@@ -17,7 +17,7 @@
 	* Segurança e acesso
 	* Governança de dados
 * DW
-	* repositório centralizado, integrado, não volátil (o normal é só inserir, sem fazer delete/update), variável no tempo, orientado por assuntos, projetado para análise
+	* repositório centralizado, integrado, ==não volátil== (o normal é só inserir, sem fazer delete/update), variável no tempo, ==orientado por assunto==s, projetado para análise
 * OLAP (Online Analytical Processing)
 	* abordagem e tecnologia usados para análise interativa (sob múltiplas perspectivas) de dados multidimensionais, para suporte a decisões
 	* ![[Pasted image 20240325081404.png]]
@@ -28,7 +28,7 @@
 	* ROLAP (Relational OLAP) - armazena dados em tabelas
 	* HOLAP - MOLAP + ROLAP
 		* particionamento vertical -> agregações em MOLAP, detalhado em ROLAP
-		* particionamento horizontal -> dados novos em MOLAP, detalhado em ROLAP
+		* particionamento horizontal -> dados novos em MOLAP, antigos em ROLAP
 	* Operações OLAP
 		* roll-up / drill-up -> subir na hierarquia
 		* roll-down / drill-down -> descer na hierarquia (detalhar)
@@ -41,13 +41,7 @@
 * ETL x ELT
 	* ELT é mais recente, menos profissionais habilitados
 	* foco em grandes bases de dados
-	* mais adaptado a datalake
-* SCD
-	* 0 -> não mantém histórico
-	* 1 -> mantém apenas a última versão
-	* 2 -> mantém todo o histórico
-	* 3 -> mantém até N histórico (CEP_2, CEP_1, CEP_atual)
-	* 4 -> mantém todo histórico acumulado em outra tabela
+	* mais adaptado a data lake
 * Ciclo de vida de Kimball
 	* planejamento do projeto
 	* definição dos requisitos de negócio

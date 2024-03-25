@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md"
+                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md"
               }
             }
           }
@@ -148,10 +148,14 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/Transações e técnicas de recuperação.md",
@@ -161,10 +165,6 @@
     "Banco de Dados/Modelagem de dados.md",
     "Pasted image 20240325081527.png",
     "Pasted image 20240325081404.png",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
     "Macro-microeconomia/Fundamentos.md",
     "Macro-microeconomia/Microeconomia.md",
     "Macro-microeconomia/Macroeconomia.md",
