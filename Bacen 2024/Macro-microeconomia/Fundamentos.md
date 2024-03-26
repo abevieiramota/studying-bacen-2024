@@ -97,6 +97,34 @@
 	* **Mercado ilegal** -> venda ilegal em busca de maior lucro
 	* **Perda por peso morto** -> triângulo amarelo -> excedente que é perdido por preço abaixo do equilíbrio; ver que o excedente do consumidor é esse trapézio
 	* ![[Pasted image 20240324133017.png]]
+* **Elasticidades:** medidas de ==sensibilidade== dos { produtores, consumidores } às mudanças do mercado
+	* ![[Pasted image 20240326191838.png]]
+	* **Tipos**
+		* !**Elasticidade-preço da demanda/procura**: preço do bem -> demanda (mede a reação da quantidade demandada diante de mudanças no preço do bem)
+			* EPD = variação % da demanda / variação % no preço
+				* ex: variação de qtd de demanda -10%, variação no preço + 1% -> EPD = -10
+				* ! cuidado, é comum ignorar o sinal do EPD -> mas é sempre negativo
+				* em regra, é negativa -> porque a demanda varia de forma inversamente proporcional ao preço
+				* fatores determinantes
+					* qtd bens substitutos -> maior sensibilidade (se aumentar o valor, é fácil de o consumidor trocar de produto); ex: coca-cola
+					* % participação nas despesas do consumidor -> quanto maior o % da renda do consumidor, maior a sensibilidade; ex: cafezinho
+					* essencialidade do bem -> menor a sensibilidade; ex: remédio com poucos concorrentes
+					* tempo para adaptação à alteração no preço -> maior a sensibilidade; ex: muda preço da internet e preciso dela 24h -> pouco tempo para mudar, menor sensibilidade
+				* tipos de demanda de acordo com o EPD = 
+					* 0 -> perfeitamente/totalmente inelástica/insensível -> gráfico |
+					* 0 < EPD < 1 -> inelástica
+					* 1 -> unitária
+					* > 1 -> elástica
+					* ~ ∞ -> infinitamente elástica -> gráfico ------
+				* ! trabalhar a identificação do grau de elasticidade de acordo com a curva preço demanda (quanto mais inclinada, menos elástico!)
+				* partindo do ponto 0 de demanda, qualquer EPD será infinita (porque o percentual de variação da demanda tende a infinito)
+				* partindo do ponto 0 de preço, qualquer EPD será 0 (percentual de variação)
+				* ![[Pasted image 20240326201504.png]]
+				* ! decorar essa estrutura da elasticidade na curva de demanda
+		* **Elasticidade-renda da demanda**: renda -> demanda
+		* **Elasticidade-preço cruzada da demanda**: preço de bens relacionados -> demanda
+		* **Elasticidade-preço da oferta**: preço -> oferta
+	* 
 
 
 

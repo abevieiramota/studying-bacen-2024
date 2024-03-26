@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Macro-microeconomia/Fundamentos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Macro-microeconomia/Fundamentos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+                "file": "Macro-microeconomia/Fundamentos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md"
+                "file": "Macro-microeconomia/Fundamentos.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Pasted image 20240326201504.png",
+    "Pasted image 20240326191838.png",
+    "Pasted image 20240326191837.png",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
@@ -179,11 +183,7 @@
     "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
     "Português/Se.md",
     "Português/Classes de palavras.md",
-    "Português/Como.md",
     "Pasted image 20240321214549.png",
-    "Pasted image 20240321213557.png",
-    "Pasted image 20240321202619.png",
-    "Engenharia de Software/Arquitetura/Cache.md",
     "Macro-microeconomia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
