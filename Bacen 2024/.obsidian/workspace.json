@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md",
+                "file": "Economia/Fundamentos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md",
+                "file": "Economia/Fundamentos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md",
+                "file": "Economia/Fundamentos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Macro-microeconomia/Fundamentos.md"
+                "file": "Economia/Fundamentos.md"
               }
             }
           }
@@ -146,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09d2fbcd41155850",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
@@ -169,9 +169,9 @@
     "Banco de Dados/Modelagem de dados.md",
     "Pasted image 20240325081527.png",
     "Pasted image 20240325081404.png",
-    "Macro-microeconomia/Fundamentos.md",
-    "Macro-microeconomia/Microeconomia.md",
-    "Macro-microeconomia/Macroeconomia.md",
+    "Economia/Fundamentos.md",
+    "Economia/Microeconomia.md",
+    "Economia/Macroeconomia.md",
     "Pasted image 20240324133017.png",
     "Pasted image 20240324133004.png",
     "Pasted image 20240324132001.png",
@@ -184,7 +184,7 @@
     "Português/Se.md",
     "Português/Classes de palavras.md",
     "Pasted image 20240321214549.png",
-    "Macro-microeconomia",
+    "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",

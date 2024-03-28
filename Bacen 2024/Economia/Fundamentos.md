@@ -121,9 +121,34 @@
 				* partindo do ponto 0 de preço, qualquer EPD será 0 (percentual de variação)
 				* ![[Pasted image 20240326201504.png]]
 				* ! decorar essa estrutura da elasticidade na curva de demanda
-		* **Elasticidade-renda da demanda**: renda -> demanda
-		* **Elasticidade-preço cruzada da demanda**: preço de bens relacionados -> demanda
-		* **Elasticidade-preço da oferta**: preço -> oferta
+		* **Elasticidade-renda da demanda**: renda -> demanda (mede a reação da quantidade demandada diante de mudanças na renda)
+			* ERD = variação % da demanda / variação % na renda
+			* ela pode ser positiva (bem normal = bens que gostaria de consumir mais, mas não tenho recurso) ou negativa (bem inferior = bens que só consumo por ter renda menor, mas que troco quando minha renda aumenta)
+				* por conta disso, o sinal da ERD importa! ex:
+					* jantar fora -> +
+					* carne de terceira -> - (aumento da renda -> queda na demanda)
+				* classificação
+					* ERD < 0 -> bem inferior, elasticidade negativa
+					* ERD = 0 -> bem de consumo saciado, elasticidade nula (a renda pode melhorar e não muda a demanda -> ex: remédio, já consumo o necessário e suficiente, não importa se a renda aumenta)
+					* ERD > 0 -> ==bem normal== (basta ser positiva), elasticidade positivia
+					* 0 < ERD < 1 -> bem normal, demanda-renda inelástica (aumenta pouco a demanda, com a renda)
+					* ERD = 1 -> bem normal, elasticidade-renda unitária (renda e demanda andam de um em um)
+					* ERD > 1 -> bem de luxo/supérfluos/superiores (normal), demanda-renda elástica (renda aumentou -> consome muito; renda caiu -> os primeiros que diminuem)
+		* **Elasticidade-preço cruzada da demanda**: preço de bens relacionados -> demanda (medida da reação da quantidade demandada de um bem diante da mudança nos preços de bens relacionados) ! cuidado, é essa elasticidade que relaciona dois bens -> as demais tratam apenas de um bem apenas
+			* EPCD(x, y) = variação % da demanda de X / variação % do preço de Y
+			* classificação
+				* < 0 -> negativa -> bens complementares (ex: automóvel e gasolina, arroz e feijão)
+				* = 0 -> zero -> bens não relacionados
+				* > 0 -> positiva -> bens substitutos (ex: coca-cola e pepsi)
+		* **Elasticidade-preço da oferta**: preço -> oferta (medida da reação da quantidade ofertada de um bem diante da mudança de preço do bem)
+			* EPO = variação % da oferta / variação % do preço
+			* sempre positiva
+			* classificação
+				* EPO = 0 -> perfeitamente inelástica
+				* EPO < 1 -> inelástica
+				* EPO = 1 -> unitária
+				* EPO > 1 -> elástica
+				* ~ ∞ -> infinitamente elástica
 	* 
 
 
