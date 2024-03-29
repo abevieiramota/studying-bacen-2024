@@ -28,7 +28,7 @@
 				* [ funcionário ] - (1, n) - < trabalhar > - (1, 1) - [ departamento ] (um funcionário para no um e apenas um departamento, um departamento para um ou mais funcionários)
 				* 1:1, 1:n, n:m
 			* ! cuidado
-				* em relacionamento n x m, se não houver identificador, um registro em A só pode ser associado a um registro em B
+				* em relacionamento n x m, se não houver identificador, um registro em A só pode ser associado a um registro em B uma vez (o exemplo da consulta, é preciso haver algo como o momento da consulta, além da chave do paciente e do médico)
 		* **Especialização/Generalização**
 			* ![[Pasted image 20240220174736.png]]
 			* subclasse herda atributos e relacionamentos e pode adicionar novos
@@ -47,15 +47,15 @@
 			* ![[Pasted image 20240220180744.png]]
 			* 
 * **Lógica**: ou de implementação; estruturas de dados que representarão os dados, relacional (tabelas), independente de SGBD; modelo Relacional
-	* **Formas normais** #anki
+	* **Formas normais**
 		* **1NF** - só contém atributos atômicos
 			* não tem atributos multivalorados, atributos compostos, tabelas aninhadas
 		* ! cuidado, abaixo fala-se em 'chave', que inclui chave primária e chaves candidatas, e não apenas de PK
-		* **2NF** - 1NF e não tem dependências parciais (atributo não chave depende de parte de atributo chave composto - considerar qualquer chave, não apenas a PK)
+		* **2NF** - 1NF e não tem dependências parciais (atributo não chave depende de parte de chave composta - considerar qualquer chave, não apenas a PK)
 		* **3NF** - 2NF e não tem dependência transitiva (X -> Y, Y -> Z, sendo X chave e Y, Z não chave)
 		* **BCNF** - 3NF e para toda dependência funcional X -> A, X é uma superchave (o lado esquerdo de toda dependência funcional é superchave)
-		* **4NF** - BCNF e não contém dependências multivaloradas #n_entendi 
-		* **5NF** - 4NF e não pode ter dependência de junção (há perda ao transformar a relação original em duas, é preciso três) #n_entendi 
+		* **4NF** - BCNF e não contém dependências multivaloradas #TODO ver melhor no Elsmari
+		* **5NF** - 4NF e não pode ter dependência de junção (há perda ao transformar a relação original em duas, é preciso três) #TODO ver melhor no Elsmari
 	* **Notação**
 		* Tabela/relação (lembrar que relação vem de relação entre atributos), linha/tupla, coluna/atributo/campo
 		* características de uma relação { cada atributo em uma tupla é atômico e monovalorado (isso é sempre em relação! diferente do MER), atributos não são ordenados da esquerda para direita (a relação é um conjunto de atributos), as tuplas não são ordenadas (a relação é um conjunto de tuplas), não existem tuplas duplicadas }
@@ -74,7 +74,7 @@
 		* de unicidade - campo ou combinação de campos não se repetem na tabela
 		* de entidade - define que nenhum valor da chave primária pode ser nulo
 	* Restrições semânticas - baseadas na semântica da aplicação, desenvolvida por programadores- ex: salário do empregado não pode ser superior ao de seu superior
-	* Transformação de modelo conceitual em modelo lógico
+	* Transformação de modelo conceitual em modelo lógico #TODO estudar melhor
 		* um modelo MER pode corresponder a diversos modelos relacionais
 		* a transformação tem como objetivo { bom desempenho, simplificar desenvolvimento da aplicação e DB }
 		* princípios { evitar junções, diminuir o número de chaves, evitar campos opcionais }

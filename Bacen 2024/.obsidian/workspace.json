@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Economia/Fundamentos.md",
+                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economia/Fundamentos.md",
+                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Economia/Fundamentos.md",
+                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Economia/Fundamentos.md"
+                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
+    "Banco de Dados/SGBD SQL/SQL.md",
+    "Economia/Fundamentos.md",
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
     "Pasted image 20240326191837.png",
@@ -157,11 +161,8 @@
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/Transações e técnicas de recuperação.md",
     "Banco de Dados/SGBD SQL/Procedural SQL.md",
     "Banco de Dados/SGBD SQL/Tools.md",
@@ -169,7 +170,6 @@
     "Banco de Dados/Modelagem de dados.md",
     "Pasted image 20240325081527.png",
     "Pasted image 20240325081404.png",
-    "Economia/Fundamentos.md",
     "Economia/Microeconomia.md",
     "Economia/Macroeconomia.md",
     "Pasted image 20240324133017.png",
@@ -183,7 +183,6 @@
     "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
     "Português/Se.md",
     "Português/Classes de palavras.md",
-    "Pasted image 20240321214549.png",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
