@@ -20,6 +20,12 @@ Tópicos
 		* Apache Ambari - "*Ambari é um framework open source do ecossistema Hadoop, que pode ser usado para a instalação, provisionamento, implantação, gerenciamento e monitoramento de um cluster Hadoop.*"; API RESTful
 	* BigQuery - serverless DW do Google
 	* Spark - compute engine for Hadoop data
+		* Spark Core: O módulo central do Spark, que fornece a infraestrutura para os outros módulos.
+		* Spark SQL: Permite realizar análises de dados SQL em grandes conjuntos de dados.
+		* DataFrames: API para manipular dados estruturados de forma eficiente.
+		* MLlib: Biblioteca de algoritmos para Machine Learning.
+		* GraphX: Biblioteca para processamento de grafos.
+		* Spark Streaming: Processamento de dados em tempo real.
 	* HBase - distributed database that supports large tables
 	* Hive - DW infrastructure that provides data summarization and ad hoc querying; HiveQL, executa consultas com MapReduce
 	* Mahout - ML 
@@ -30,6 +36,11 @@ Tópicos
 	* Ingestão
 		* Apache Storm - distributed realtime computation system
 		* Kafka - open-source distributed event streaming platform; { tópicos, broker - responsável por gerir e replicar mensagens (líder/réplica), producer, consumer }
+			* Kafka admin - interface de administração/gerenciamento de tópicos, partições, configuração de cluster
+			* Kafka connect - integração do Kafka com outros sistemas, permitindo captura de dados de fontes externas
+			* Kafka streams - biblioteca para processamento de fluxos de dados em tempo real
+			* Kafka producer - componente que publica dados em tópicos Kafka
+			* Kafka consumer - componente que consome dados de um ou mais tópicos Kafka
 		* Apache Sqoop - ingestão entre sistemas NoSQL/SQL, usando drivers JDBC
 		* Apache Flume - ingestão de dados de eventos no HDFS e outros destinos; orientado a agentes, que rodam em JVM { source, channel, sink }, configurando com um arquivo properties
 		* NiFi - automatização de fluxos de dados entre sistemas (Programação Baseada em Fluxo); API HTTP; monitora data provenance/lineage

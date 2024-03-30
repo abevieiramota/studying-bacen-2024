@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+                "file": "Ciência de Dados/Big Data/Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Álgebra relacional.md"
+                "file": "Ciência de Dados/Big Data/Big Data.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL/SQL.md",
