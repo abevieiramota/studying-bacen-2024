@@ -35,7 +35,7 @@
 			* os predicados não podem comparar valores de duas tuplas diferentes
 			* a ordem de aplicação de selections é irrelevante (comutativa)
 			* faz uma partição horizontal
-		* **projeção** -> unário -> decorar que PI começa com P, de Projeção #anki associar projeção > tira repetição
+		* **projeção** -> unário -> decorar que PI começa com P, de Projeção
 			* ![[Pasted image 20240317091801.png]]
 			* extrai colunas
 			* !! ==elimina duplicações== -> pode ser que ao remover colunas, surjam duplicações -> remover!
