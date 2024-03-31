@@ -1,5 +1,3 @@
-#lvl1 
-
 V
 * menor acoplamento entre os serviços
 * deploy e replicação de forma independente por serviço
@@ -32,6 +30,5 @@ DV
 		* Saga - sequência de transações locais, vão publicando resultado como mensagem/evento e há monitoramento para compensar transações anteriores, caso uma falhe
 			* "*O padrão de design saga é uma maneira de gerenciar a consistência de dados entre microsserviços em cenários de transação distribuída.  Uma saga é uma sequência de transações que atualiza cada serviço e publica uma mensagem ou evento para disparar a próxima etapa de transação. Se uma etapa falhar, a saga executará transações compensatórias que contrariam as transações anteriores.*"
 		* API Composition - um serviço consulta os outros e joina os dados
-		* CQRS (Command Query Responsibility Segregation) - query que precisa de dados de múltiplos serviços; manter view read-only que é mantida usando eventos submetidos pelos serviços que mantêm os dados (! cuidado, CQRS é um padrão com outra definição, o autor desse link confundiu algo)
 * necessário { autorização a nível de serviço, helth check/metrics endpoints }
 

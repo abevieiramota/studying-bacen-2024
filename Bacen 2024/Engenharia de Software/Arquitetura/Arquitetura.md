@@ -1,4 +1,4 @@
- Conjunto de 
+Conjunto de 
   ==estruturas necessárias para raciocinar sobre o sistema==, 
 que inclui 
   ==elementos de software,== 
@@ -41,7 +41,7 @@ que inclui
 	* distribuída de componentes
 	* ponto-a-ponto
 
-* **arquitetura hexagonal**: divisão do sistema em classes de domínio e classes de infraestrutura
+* **arquitetura hexagonal**: divisão do sistema em classes de domínio e classes de infraestrutura #TODO não está claro
 	* comunicação entre classes dos dois grupos mediada por adaptadores
 	* portas { de entrada - classe de fora chamando classe de domínio, de saída - classe de domínio precisa chamar método de classe externa }
 * **arquitetura multi-tenancy**: uma aplicação centralizada que atende a vários clientes

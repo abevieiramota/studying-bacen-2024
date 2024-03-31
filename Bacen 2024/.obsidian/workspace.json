@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Economia/Fundamentos.md",
+                "file": "Engenharia de Software/Arquitetura/Cache.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economia/Fundamentos.md",
+                "file": "Engenharia de Software/Arquitetura/Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Economia/Fundamentos.md",
+                "file": "Engenharia de Software/Arquitetura/Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Economia/Fundamentos.md"
+                "file": "Engenharia de Software/Arquitetura/Cache.md"
               }
             }
           }
@@ -148,9 +148,23 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
+    "Engenharia de Software/Arquitetura/Transações distribuídas.md",
+    "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/Web services.md",
+    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Engenharia de Software/Arquitetura/RESTful.md",
+    "Engenharia de Software/Engenharia de Software.md",
+    "Banco de Dados/Transações e técnicas de recuperação.md",
+    "Banco de Dados/Modelagem de dados.md",
+    "Banco de Dados/Banco de Dados.md",
+    "Economia/Fundamentos.md",
     "Pasted image 20240330213822.png",
     "Pasted image 20240330213553.png",
-    "Economia/Fundamentos.md",
     "Ciência de Dados/Big Data/Big Data.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
@@ -165,25 +179,11 @@
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
     "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Banco de Dados/Transações e técnicas de recuperação.md",
-    "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Banco de Dados/SGBD SQL/Tools.md",
-    "Banco de Dados/Banco de Dados.md",
-    "Banco de Dados/Modelagem de dados.md",
     "Pasted image 20240325081527.png",
     "Pasted image 20240325081404.png",
-    "Economia/Microeconomia.md",
-    "Economia/Macroeconomia.md",
     "Pasted image 20240324133017.png",
     "Pasted image 20240324133004.png",
     "Pasted image 20240324132001.png",
-    "Pasted image 20240324125630.png",
-    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
-    "Português/Ortografia oficial.md",
-    "Português/Decorar.md",
-    "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
