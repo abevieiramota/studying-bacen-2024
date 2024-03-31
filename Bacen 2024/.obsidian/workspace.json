@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
+                "file": "Engenharia de Software/Desenvolvimento/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
+                "file": "Engenharia de Software/Desenvolvimento/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
+                "file": "Engenharia de Software/Desenvolvimento/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md"
+                "file": "Engenharia de Software/Desenvolvimento/Python.md"
               }
             }
           }
