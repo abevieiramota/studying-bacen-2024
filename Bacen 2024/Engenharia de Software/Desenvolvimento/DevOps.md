@@ -1,10 +1,8 @@
-#lvl1
-
 [Provas de TI](https://provasdeti.nutror.com/curso/fdf12e5903ae53d6b83a53632bf346d2a6add378/aula/4178727)
 
 * Cultura de engenharia de software que aproxima devs e ops melhorando comunicação/colaboração entre as partes e automatizando/monitorando as fases de construção de um software
 	* Padronização de ciclo de desenvolvimento menores, maior freq de implantação, liberações mais seguras, colaboração, maior visibilidade, alinhamento, aprendizado contínuo
-* DevOps = interseção{ dev, ops, garantia de qualidade }
+* DevOps = interseção { dev, ops, garantia de qualidade }
 * **Práticas**
 	* **CI - Integração contínua**: continuamente integrar o desenvolvimento de todo mundo da equipe -> importante ter um sistema de versionamento e repositório central; testes automatizados, avaliação de qualidade de código etc na integração
 	* **CD - Entrega contínua**: o pipeline de criação de artefato de deploy automático e feito frequentemente, deploy fácil em produção
@@ -17,7 +15,7 @@
 	* maior aderência entre os ambientes { dev, hml, prod } (menos o 'na minha máquina funciona')
 	* pipeline de deploy mais rápido e automatizado > ciclo de dev mais rápido
 	* Faster Mean Time to Recovery (MTTR): diminuição para reparos no projeto
-	* Lower Mean Time Between Failures (MTBF)
+	* Higher Mean Time Between Failures (MTBF)
 	* melhor segurança > maior automação da garantia de qualidade do código
 * **Ciclo de vida do aplicativo** e como DevOps influencia
 	* **Plan**: planejamento da infra, pipelines, gerenciamento de bugs, de práticas etc

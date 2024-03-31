@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Cache.md",
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Cache.md",
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Cache.md",
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Cache.md"
+                "file": "Engenharia de Software/Desenvolvimento/JavaSE.md"
               }
             }
           }
@@ -148,15 +148,23 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/JavaSE.md",
+    "Engenharia de Software/Desenvolvimento/CI-CD.md",
+    "Engenharia de Software/Desenvolvimento/DevOps.md",
+    "Engenharia de Software/Desenvolvimento/Git.md",
+    "Engenharia de Software/Arquitetura/Web services.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
+    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
+    "Engenharia de Software/Arquitetura/Arquitetura.md",
+    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+    "Engenharia de Software/Arquitetura/Cache.md",
     "Engenharia de Software/Arquitetura/Transações distribuídas.md",
     "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Web services.md",
-    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
     "Engenharia de Software/Arquitetura/RESTful.md",
     "Engenharia de Software/Engenharia de Software.md",
     "Banco de Dados/Transações e técnicas de recuperação.md",
@@ -168,17 +176,9 @@
     "Ciência de Dados/Big Data/Big Data.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Banco de Dados/SGBD SQL/SQL.md",
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
     "Pasted image 20240326191837.png",
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Mesh.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Data Lake.md",
     "Pasted image 20240325081527.png",
     "Pasted image 20240325081404.png",
     "Pasted image 20240324133017.png",

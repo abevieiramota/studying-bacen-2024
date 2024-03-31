@@ -1,4 +1,3 @@
-
 [JavaSE](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640890/videos/203286)
 * fortemente tipada -> a variável só tem um tipo apenas
 * estaticamente tipada -> definição de tipo em tempo de compilação (var é apenas um shortcut para a definição ser inferida em tempo de compilação)
@@ -18,7 +17,7 @@
 		* JavaEE: JavaSE + APIs (atualmente chamada JakartaEE) -> especificação de diversas API para desenvolvimento de aplicações enterprise
 		* JavaME: micro edition; (! não é a mesma coisa que Android!)
 * HelloWorld
-	* public class X { public static void main (String args []) { System.out.println("Olá"); } }
+	* public class X { public static void main (String args \[\]) { System.out.println("Olá"); } }
 * Sintaxe
 	* variável: *tipo nome* - ex: int a = 10;
 	* tipos
@@ -39,7 +38,7 @@
 	* while (condição) {}; usa break para sair
 	* do {} while(condição)
 	* classe anônima -> implementa na unha a interface
-	* bit shift operators (converte para binário e aplica) #TODO operador >>>
+	* bit shift operators (converte para binário e aplica) #TODO operador >>> (unsigned bit right shift)
 		* 123 >> 2: move 2 bits para a direita
 		* 123 << 2: move 2 bits para a esquerda
 	* Não há operador de exponencial -> usa Math.pow
