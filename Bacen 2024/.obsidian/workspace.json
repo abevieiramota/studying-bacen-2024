@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Big Data/Big Data.md",
+                "file": "Economia/Fundamentos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Big Data/Big Data.md",
+                "file": "Economia/Fundamentos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Big Data/Big Data.md",
+                "file": "Economia/Fundamentos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Big Data/Big Data.md"
+                "file": "Economia/Fundamentos.md"
               }
             }
           }
@@ -148,11 +148,14 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Pasted image 20240330213822.png",
+    "Pasted image 20240330213553.png",
+    "Economia/Fundamentos.md",
+    "Ciência de Dados/Big Data/Big Data.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL/SQL.md",
-    "Economia/Fundamentos.md",
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
     "Pasted image 20240326191837.png",
@@ -178,12 +181,9 @@
     "Pasted image 20240324132001.png",
     "Pasted image 20240324125630.png",
     "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
-    "Pasted image 20240323180455.png",
     "Português/Ortografia oficial.md",
     "Português/Decorar.md",
     "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
-    "Português/Se.md",
-    "Português/Classes de palavras.md",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",

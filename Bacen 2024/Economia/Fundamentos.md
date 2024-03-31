@@ -119,7 +119,7 @@
 				* ! trabalhar a identificação do grau de elasticidade de acordo com a curva preço demanda (quanto mais inclinada, menos elástico!)
 				* partindo do ponto 0 de demanda, qualquer EPD será infinita (porque o percentual de variação da demanda tende a infinito)
 				* partindo do ponto 0 de preço, qualquer EPD será 0 (percentual de variação)
-				* ![[Pasted image 20240326201504.png]]
+				* ![[Pasted image 20240330213553.png]]
 				* ! decorar essa estrutura da elasticidade na curva de demanda
 		* **Elasticidade-renda da demanda**: renda -> demanda (mede a reação da quantidade demandada diante de mudanças na renda)
 			* ERD = variação % da demanda / variação % na renda
@@ -130,11 +130,11 @@
 				* classificação
 					* ERD < 0 -> bem inferior, elasticidade negativa
 					* ERD = 0 -> bem de consumo saciado, elasticidade nula (a renda pode melhorar e não muda a demanda -> ex: remédio, já consumo o necessário e suficiente, não importa se a renda aumenta)
-					* ERD > 0 -> ==bem normal== (basta ser positiva), elasticidade positivia
+					* ERD > 0 -> ==bem normal== (basta ser positiva), elasticidade positiva
 					* 0 < ERD < 1 -> bem normal, demanda-renda inelástica (aumenta pouco a demanda, com a renda)
 					* ERD = 1 -> bem normal, elasticidade-renda unitária (renda e demanda andam de um em um)
 					* ERD > 1 -> bem de luxo/supérfluos/superiores (normal), demanda-renda elástica (renda aumentou -> consome muito; renda caiu -> os primeiros que diminuem)
-		* **Elasticidade-preço cruzada da demanda**: preço de bens relacionados -> demanda (medida da reação da quantidade demandada de um bem diante da mudança nos preços de bens relacionados) ! cuidado, é essa elasticidade que relaciona dois bens -> as demais tratam apenas de um bem apenas
+		* **Elasticidade-preço cruzada da demanda**: preço de bens relacionados -> demanda (medida da reação da quantidade demandada de um bem diante da mudança nos preços de bens relacionados) ! cuidado, é essa elasticidade que relaciona dois bens -> as demais tratam de um bem apenas
 			* EPCD(x, y) = variação % da demanda de X / variação % do preço de Y
 			* classificação
 				* < 0 -> negativa -> bens complementares (ex: automóvel e gasolina, arroz e feijão)
@@ -149,7 +149,24 @@
 				* EPO = 1 -> unitária
 				* EPO > 1 -> elástica
 				* ~ ∞ -> infinitamente elástica
-	* 
+	* **Formas de calcular elasticidade** (ver questão nos [25:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639681/videos/73141)) #anki adicionar a questão em 33:00 -> cuidado com as fórmulas, para não trocar denominador/numerador, o que é %, o que é delta etc
+		* Elasticidade entre dois pontos: (variação da quantidade / quantidade inicial) / (variação do preço / preço inicial) = Δq/Δp * p/q
+		* Elasticidade no arco (do ponto médio): (variação da quantidade / quantidade média) / (variação do preço / preço médio) = Δq/Δp * pm/qm
+			* diferente da elasticidade entre dois pontos, independe do sentido da variação
+			* valor sempre fica entre os dois valores da elasticidade entre dois pontos
+		* Elasticidade com derivadas: (derivada da função de demanda) * p/q
+			* lembrar que a derivada de f(x) = C - n.x é df(x) = -n (o que multiplica a variável)
+	* EPD, receita e despesa
+		* Receita total = preço * quantidade
+		* ver que, quando o preço sobe, a quantidade desce -> o resultado pode ser positivo ou não -> depende da elasticidade
+		* EPD < 1 -> inelástica -> pode aumentar o preço que a quantidade não cai muito!
+		* EPD > 1 -> elástica -> aumenta o preço, mas perde muita quantidade
+		* (em relação à receita) quando a demanda é inelástica, "pode aumentar o preço"; quando é elástica, "cuidado"
+		* (em relação à despesa) quando a demanda é inelástica, "não aumenta, por favor!"; quando é elástica, "pode aumentar"
+			* pensar que é o contrário porque quando o produtor está com grande receita total (bom), o consumidor está com grande despesa total (ruim)
+		* ![[Pasted image 20240330213822.png]]
+	* em questões com vários EPDs, pedindo para calcular a demanda após aumentos de preços -> calcular a variação para cada elasticidade e somar (estranho...)
+* ver a partir de [15:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639681/videos/73142)
 
 
 
