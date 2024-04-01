@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/Transações e técnicas de recuperação.md"
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md"
               }
             }
           }
@@ -148,16 +148,24 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
-    "Economia/Fundamentos.md",
-    "Engenharia de Software/Desenvolvimento/Python.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/Python.md",
+    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
+    "Engenharia de Software/Arquitetura/Microsserviços.md",
+    "Economia/Microeconomia.md",
+    "Pasted image 20240401170346.png",
+    "Economia/Fundamentos.md",
     "Engenharia de Software/Desenvolvimento/JavaSE.md",
+    "Engenharia de Software/Desenvolvimento/JavaEE.md",
+    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+    "Banco de Dados/Transações e técnicas de recuperação.md",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Engenharia de Software/Desenvolvimento/DevOps.md",
     "Engenharia de Software/Desenvolvimento/Git.md",
     "Engenharia de Software/Arquitetura/Web services.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
-    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
     "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
     "Engenharia de Software/Arquitetura/Arquitetura.md",
@@ -166,16 +174,8 @@
     "Engenharia de Software/Arquitetura/Transações distribuídas.md",
     "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
     "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Arquitetura/RESTful.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Banco de Dados/Transações e técnicas de recuperação.md",
-    "Banco de Dados/Modelagem de dados.md",
-    "Banco de Dados/Banco de Dados.md",
     "Pasted image 20240330213822.png",
     "Pasted image 20240330213553.png",
-    "Ciência de Dados/Big Data/Big Data.md",
-    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
     "Pasted image 20240326191837.png",
@@ -183,7 +183,6 @@
     "Pasted image 20240325081404.png",
     "Pasted image 20240324133017.png",
     "Pasted image 20240324133004.png",
-    "Pasted image 20240324132001.png",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",

@@ -167,6 +167,7 @@
 		* ![[Pasted image 20240330213822.png]]
 	* em questões com vários EPDs, pedindo para calcular a demanda após aumentos de preços -> calcular a variação para cada elasticidade e somar (estranho...)
 * ver a partir de [15:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639681/videos/73142)
+* 
 
 
 

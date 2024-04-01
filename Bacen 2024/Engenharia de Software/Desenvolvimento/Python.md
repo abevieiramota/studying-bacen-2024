@@ -24,7 +24,6 @@
 * range(n) -> gerador de 0 a n - 1; range(0, n, s) -> de 0 a n-1, com step s
 * estruturas de dados
 	* list
-		* 
 		* list(), \[\]
 		* indexável
 		* heterogênea (armazena dados de quaisquer tipos), mutável

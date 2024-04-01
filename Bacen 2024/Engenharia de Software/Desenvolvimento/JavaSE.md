@@ -21,7 +21,7 @@
 * Sintaxe
 	* variável: *tipo nome* - ex: int a = 10;
 	* tipos
-		* double, float: ponto flutuante; ! cuidado, 0.0 é double, para usar como float, ou faz cast ou coloca um f na direita #TODO o que ocorre fazendo cast de um tipo maior para um menor long > int > short
+		* double, float: ponto flutuante; ! cuidado, 0.0 é double, para usar como float, ou faz cast ou coloca um f na direita ! cast de tipo maior para menor - (int)l -, apenas ignora bits, não dá erro
 		* var a -> tipo inferido em tempo de compilação
 		* as variáveis definidas a nível de classe são inicializadas; a nível de método não!
 		* bases
