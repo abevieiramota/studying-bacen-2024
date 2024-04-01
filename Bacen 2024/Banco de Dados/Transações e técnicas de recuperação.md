@@ -3,7 +3,7 @@
 * **Escalonamento/scheduling de transações**: a ordem em que as operações das transações são executadas 
 	* serial: cada transação executa todas suas operações antes de começar a próxima
 	* concorrente/intercalado: alterna operações das transações
-		* concorrente serializável -> se o estado final dele é igual a ao de uma execução serial -> se é serializável, é correto
+		* concorrente serializável -> se o estado final dele é igual ao de uma execução serial -> se é serializável, é correto
 * **Níveis de isolamento**
 	* define o grau em que uma transação deve ser isolada contra modificações de recursos ou de dados feitas por outras transações
 	* uma das formas de definir os níveis é indicando quais efeitos colaterais de simultaneidade são permitidos
@@ -23,16 +23,16 @@
 		* **Serializable**
 	* ![[Pasted image 20240306112454.png]]
 		* ! o único nível que permite *leitura suja* é o **Read uncommited**
-* **Formas de verificar que um escalonamento é serializável**
-	* Equivalência por resultado -> produz o mesmo estado final no BD
-	* Equivalênica por visão -> cada read lê o resultado de um mesmo write nos dois escalonamentos
+* **Formas de verificar que dois escalonamentos são equivalentes (daí, para verificar se um escalonamento é serializável, é só checar se ele é equivalente a algum escalonamento serial)
+	* **Equivalência por resultado** -> produz o mesmo estado final no BD
+	* **Equivalência por visão** -> cada read lê o resultado de um mesmo write nos dois escalonamentos
 		* checar, para cada read, qual foi o último write que escreveu o valor -> deve ser o mesmo nos dois escalonamentos
-		* primeir reads e últimos devem ser iguais (?)
-		* menos restritiva que equivalência por conflito (se é serializável em conflito -> é serializável em visão, o contrário não é válido)
-	* Equivalência por conflito -> a ordem de qualquer duas operações conflitantes é a mesma nos dois escalonamentos
+		* primeiros reads e últimos devem ser iguais (?)
+		* menos restritiva que equivalência por conflito (se é equivalente em conflito -> é equivalente em visão, o contrário não é válido)
+	* **Equivalência por conflito** -> a ordem de quaisquer duas operações conflitantes é a mesma nos dois escalonamentos
 		* conflito -> duas operações, cada uma numa transação diferente, acessam o mesmo dado, pelo menos uma é de escrita
-			* ex: [ (r1(x), w2(x)), (w3(x), w4(x)) ...] em conflito ! é preciso identificar a ordem das operações -> (r1(x), w2(x)) significa que há conflito entre essas duas operações e r1(x) veio primeiro
-			* ex: [ (r1(x), w2(y)), (r1(y), r3(y)), (r4(w), w4(w)) ] não em conflito -> operações sobre dados diferentes, duas leituras, leitura e escrita da mesma transação
+			* ex: \[ (r1(x), w2(x)), (w3(x), w4(x)) ...\] em conflito ! é preciso identificar a ordem das operações -> (r1(x), w2(x)) significa que há conflito entre essas duas operações e r1(x) veio primeiro
+			* ex: \[ (r1(x), w2(y)), (r1(y), r3(y)), (r4(w), w4(w)) \] não em conflito -> operações sobre dados diferentes, duas leituras, leitura e escrita da mesma transação
 		* dois escalonamentos são equivalentes por conflito se eles tiverem os mesmos conflitos e na mesma ordem
 		* Ver aula https://app.nutror.com/curso/6f2348a226567/aula/457076
 		* você vê num escalonamento serial quais conflitos há e daí verifica se o escalonamento concorrente/intercalado tem os mesmos conflitos, na mesma ordem
@@ -47,19 +47,19 @@
 	* deve estar em armazenamento estável, com backup
 	* pode ficar muito grande
 	* entradas no log (Ti, Xj, V1, V2) (transação, identificador do dado, valor antigo, valor novo); (Ti, start); (Ti, commit); (Ti, abort); (Ti, read, X)
-* Técnicas
-	* Atualização adiada/postergada - algoritmo **no-undo/redo** (não desfaz e refaz)
+* **Técnicas**
+	* **Atualização adiada/postergada** - algoritmo **no-undo/redo** (não desfaz e refaz)
 		* a base só é atualizada após o commit
 		* no caso de falha, percorre o log e (em questão, é ir olhando o que foi commitado)
 			* se não foi escrito no DB -> ignora
 			* se foi escrito (encontrou o start e commit da transação) -> executa a operação (redo)
 		* como não há undo, o log não registra o valor antigo dos dados que sofreram alterações (Ti, Xj, Vnovo)
-	* Atualização imediata - algoritmo **undo/redo** (desfaz e refaz)
+	* **Atualização imediata** - algoritmo **undo/redo** (desfaz e refaz)
 		* as modificações já vão sendo feitas no banco -> daí é preciso guardar o valor antigo e novo no log, porque talvez deva ter que desfazer operações
 		* no caso de falha, percorre o log e
 			* se não foi commitado -> desfaz a transação
 			* se foi commitado -> redo
-	* * Paginação sombra (shadow pagging) - **no-undo/no-redo** - alternativa ao log
+	* * **Paginação sombra** (shadow pagging) - **no-undo/no-redo** - alternativa ao log
 		* mantém duas tabelas de páginas durante o tempo de vida de uma transação { Tabela de Páginas Correntes (TPC), Tabela de Páginas Shadow (TPS)}
 		* a TPS é armazenada em meio não volátil
 		* a cada nova transação, a TPC é copiada para uma TPS específica da transação

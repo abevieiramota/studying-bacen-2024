@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Python.md",
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Python.md",
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Python.md",
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Python.md"
+                "file": "Banco de Dados/Transações e técnicas de recuperação.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
+    "Economia/Fundamentos.md",
+    "Engenharia de Software/Desenvolvimento/Python.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/JavaSE.md",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
@@ -170,12 +172,10 @@
     "Banco de Dados/Transações e técnicas de recuperação.md",
     "Banco de Dados/Modelagem de dados.md",
     "Banco de Dados/Banco de Dados.md",
-    "Economia/Fundamentos.md",
     "Pasted image 20240330213822.png",
     "Pasted image 20240330213553.png",
     "Ciência de Dados/Big Data/Big Data.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
     "Pasted image 20240326191837.png",
