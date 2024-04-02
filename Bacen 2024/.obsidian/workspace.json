@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md"
+                "file": "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md"
               }
             }
           }
@@ -149,40 +149,40 @@
   "active": "09d2fbcd41155850",
   "lastOpenFiles": [
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/DDD.md",
+    "Economia/Microeconomia.md",
+    "Pasted image 20240402173320.png",
+    "Pasted image 20240402172912.png",
+    "Economia/Fundamentos.md",
+    "Pasted image 20240402145439.png",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+    "Engenharia de Software/Desenvolvimento/CI-CD.md",
+    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
+    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+    "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/BDD.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/TDD.md",
+    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+    "Engenharia de Software/Desenvolvimento/GraphQL.md",
+    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de Integração.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
     "Engenharia de Software/Desenvolvimento/Python.md",
     "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Engenharia de Software/Arquitetura/Microsserviços.md",
-    "Economia/Microeconomia.md",
     "Pasted image 20240401170346.png",
-    "Economia/Fundamentos.md",
     "Engenharia de Software/Desenvolvimento/JavaSE.md",
     "Engenharia de Software/Desenvolvimento/JavaEE.md",
-    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/Transações e técnicas de recuperação.md",
-    "Engenharia de Software/Desenvolvimento/CI-CD.md",
-    "Engenharia de Software/Desenvolvimento/DevOps.md",
-    "Engenharia de Software/Desenvolvimento/Git.md",
-    "Engenharia de Software/Arquitetura/Web services.md",
-    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
-    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
-    "Engenharia de Software/Arquitetura/Arquitetura.md",
-    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-    "Engenharia de Software/Arquitetura/Cache.md",
-    "Engenharia de Software/Arquitetura/Transações distribuídas.md",
-    "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
     "Pasted image 20240330213822.png",
     "Pasted image 20240330213553.png",
     "Pasted image 20240326201504.png",
     "Pasted image 20240326191838.png",
     "Pasted image 20240326191837.png",
     "Pasted image 20240325081527.png",
-    "Pasted image 20240325081404.png",
-    "Pasted image 20240324133017.png",
-    "Pasted image 20240324133004.png",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",

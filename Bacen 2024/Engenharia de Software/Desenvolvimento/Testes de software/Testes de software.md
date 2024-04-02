@@ -23,7 +23,7 @@
 	* processo de executar um programa com o objetivo de encontrar erros > bom teste = alta probabilidade de encontrar erro não conhecido; testes não garantem ausência de problema!
 	* princípios { rastreável a requisitos do cliente, planejado, princípio de Pareto (80% dos erros está em 20% dos componentes), começar com testes pequenos, preferencialmente executado por terceiro/parte independente }
 	* Abordagens
-		* **Funcional** (caixa **preta**, comportamental, orientado a dados, entrada/saída): focado ans entradas e saídas especificadas nos requisitos funcionais
+		* **Funcional** (caixa **preta**, comportamental, orientado a dados, entrada/saída): focado nas entradas e saídas especificadas nos requisitos funcionais
 			* baseado em prés/pós condições
 			* busca erros, dentre outros { funções incorretas/inexistentes, comportamento/desempenho, inicialização e término, erros de interface }
 			* principais testes
@@ -39,7 +39,7 @@
 			* principais testes
 				* testes de caminhos
 				* testes de estruturas de controle
-			* complexidade ciclomática > complexidade de caminhos que podem ser percorridos no módulo -> informa um limite superior de testes que deveriam ser feitos
+			* complexidade ciclomática > complexidade de caminhos que podem ser percorridos no módulo -> informa um limite superior de testes que deveriam ser feitos (para calcular a quantiade de testes, dado um grafo de complexidade, fazer A - V + 2)
 		* **Mista** (caixa **cinza**): usa conhecimento sobre a estrutura para orientar os testes
 * Estágios/estratégias de testes
 	* unit testing (código) > integrating test (design) > validation test (requirements) > system testing (system engineering)
@@ -67,6 +67,9 @@
 * Plano de teste { casos de teste, ferramentas, etc }
 	* caso de teste { entradas, pré/pós condições de execução, resultados esperados }
 	* caso de teste a partir de caso de uso - um cenário para cada caminho possível, identificando as condições para percorrer os caminhos
+* objetos que auxiliam testes
+	* mock -> simula comportamento real, permitindo monitorar detalhes como parâmetros recebidos, quantidade de calls etc
+	* stub -> mesmo objetivo de mock, mas mais simples, com comportamento previsível/constante
 
 Ferramentas
 * [JMeter](https://jmeter.apache.org/) : ver página inicial

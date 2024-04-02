@@ -27,4 +27,7 @@ Sommervile cap. 19 (parei em 19.2)
 			* WS-BPEL (**W**eb **S**ervices **B**usiness **P**rocess **E**xecution **L**anguage)
 	* [[RESTful]]
 	* [[Microsserviços]]
+* canal de comunicação
+	* stub -> parte do cliente que abstrai a comunicação na chamada
+	* skeleton -> parte do servidor que abstrai a comunicação na chamada
 * Elementos: solicitante de serviço + registro de serviço + provedor de serviço
