@@ -1,4 +1,4 @@
-* **Template Method**- método que é implementado em subclasses
+* **Template Method** - método que é implementado em subclasses
 * **Mediator** - centraliza comunicação entre objetos
 * **Chain of Responsability** - desacopla passos de uma cadeia de passos
 * **Observer** - monitora estado de objeto e notifica alterações; os objetos registram observers e chamam eles quando alteram

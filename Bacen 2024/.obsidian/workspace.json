@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Engenharia de Software.md",
+                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Engenharia de Software.md",
+                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Engenharia de Software.md",
+                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Engenharia de Software.md"
+                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "8e1d7e6f66fec266",
   "lastOpenFiles": [
+    "Engenharia de Software/Design Patterns/Behavioral.md",
+    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Engenharia de Software/Design Patterns/Structural.md",
+    "Engenharia de Software/Design Patterns/Creational.md",
+    "Engenharia de Software/Design Patterns/Design Patterns.md",
+    "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Engenharia de Software/Desenvolvimento/GraphQL.md",
@@ -175,12 +181,6 @@
     "Engenharia de Software/Arquitetura/Orientação a eventos.md",
     "Engenharia de Software/Arquitetura/Microsserviços.md",
     "Pasted image 20240401170346.png",
-    "Engenharia de Software/Desenvolvimento/JavaSE.md",
-    "Engenharia de Software/Desenvolvimento/JavaEE.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Banco de Dados/Transações e técnicas de recuperação.md",
     "Pasted image 20240330213822.png",
     "Pasted image 20240330213553.png",
     "Pasted image 20240326201504.png",
