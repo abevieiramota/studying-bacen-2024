@@ -52,5 +52,24 @@
 			* ![[Pasted image 20240402173320.png]]
 		* bem x mal [não entendi bem 27:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82657)
 			* curva positivamente inclinada
-	* 
+	* **Utilidade**
+		* valor numérico atribuído a uma cesta de bens para mensurar quanto o consumidor gosta/satisfação dessa cesta -> importa apenas a ordem entre cestas, a diferença entre quantidade não é considerada
+		* a função de utilidade relaciona quantidade de bens na cesta à utilidade para o consumidor
+			* ex: u(q1, q2) = q1 + q2
+			* determina o formato das curvas de indiferença
+			* fórmulas comuns
+				* substituto perfeito -> u(q1, q2) = a\*q1 + b\*q2
+				* complementares perfeitos -> u(q1, q2) = min(q1, q2)
+				* cobb-douglas -> u(q1, q2) = q1^a \* q2^b (curva côncava)
+		* utilidade marginal -> utilidade adicionada quando se incrementa uma unidade de um bem
+			* UMgx = delta U / delta qx
+			* UMgx \* delta qx = - UMgy \* delta qy (considerando que a utilidade final não muda, daí adicionar de um bem, retirando o necessário do outro bem)
+			* ![[Pasted image 20240403092120.png]]
+				* a utilidade marginal de x dividida pela utilidade marginal de y é igual à taxa marginal de substituição
+		* lei da utilidade marginal decrescente
+			* o incremento de utilidade em função da quantidade de incremento na quantidade decai (ex: ganhar uma coca-cola no almoço é bom, duas coca-colas não traz o dobro do ganho, 1000 coca-colas não traz 1000 * a utilidade de uma coca-cola)
+			* ![[Pasted image 20240403092456.png]]
+			* a curva de utilidade total (a roxa) vai crescendo cada vez menos
+			* mantido fixo o consumo de um bem, o incremento do outro vai decaindo com a quantidade do incremento
+		* 
 

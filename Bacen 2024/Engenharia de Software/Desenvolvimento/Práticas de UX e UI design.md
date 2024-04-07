@@ -11,7 +11,7 @@
 	* confiável
 	* localizável
 	* valioso
-* design thinking - processo não linear!
+* **Design Thinking** - processo não linear!
 	* envolve necessidades { humanas, negócio, técnicas }
 	* 1. imersão - entender + observar + definir (imersão no contexto **apenas** do usuário) > imersão no contexto do problema - interessante abordagem top down
 	* 2. ideação > geração de ideias, ousadas são bem-vindas, 
@@ -21,11 +21,11 @@
 	* forma de simplificar a linguagem, mais lúdica, para melhorar a comunicação com os clientes
 	* V { foco no usuário, permite colaboração, impulsionam soluções criativas, criam ritmo }
 * storytelling
-	* mensagem a trasmitir + forma (história) + ambiente + personagens + conflito
-* persona - perfis semi-fictícios usados para ajudar entender melhor o usuário
+	* mensagem a transmitir + forma (história) + ambiente + personagens + conflito
+* persona - perfis semi-fictícios usados para ajudar a entender melhor o usuário
 	* estrutura básica { dados demográficos, nome, interesses, necessidades, hobbies, objetivos de vida, desafios }
 * prototipação - coleta de feedback no início, amadurecimento do conceitual
-	* prototipação horizontal (visão geral do sistema) x vertical (visão mais localizada)
+	* ! prototipação horizontal (visão geral do sistema) x vertical (visão mais localizada)
 * MVP (Minimun Viable Product)
 * Estratégia > Escopo > Estrutura > Esqueleto > Superfície
 * Lean Startup - construir, medir e aprender

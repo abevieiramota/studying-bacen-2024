@@ -54,4 +54,3 @@
 		* **Message Queue Telemetry Transport** (MQTT): muito usado com IoT
 		* **Simple/Streaming Text Oriented Messaging Protocol** (STOMP): voltado para streaming de dados
 		* **Microsoft Message Queuing** (MSMQ): muito utilizado na plataforma Microsoft
-	* 
