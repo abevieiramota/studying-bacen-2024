@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+                "file": "Infraestrutura/Redes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+                "file": "Infraestrutura/Redes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+                "file": "Infraestrutura/Redes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Design Patterns/Gang of Four (GOF).md"
+                "file": "Infraestrutura/Redes.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "8e1d7e6f66fec266",
   "lastOpenFiles": [
-    "Engenharia de Software/Design Patterns/Behavioral.md",
+    "Pasted image 20240407202011.png",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Engenharia de Software/Design Patterns/Behavioral.md",
     "Engenharia de Software/Design Patterns/Structural.md",
     "Engenharia de Software/Design Patterns/Creational.md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
@@ -179,7 +180,6 @@
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
     "Engenharia de Software/Desenvolvimento/Python.md",
     "Engenharia de Software/Arquitetura/Orientação a eventos.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
     "Pasted image 20240401170346.png",
     "Pasted image 20240330213822.png",
     "Pasted image 20240330213553.png",

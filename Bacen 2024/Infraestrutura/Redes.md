@@ -76,3 +76,22 @@
 		* mais comum = WI-FI
 		* ! não confundir WI-FI com Wireless -> WI-FI é espécie de Wireless (outros exemplos são Bluetooth)
 	* redes LAN e MAN -> não comutadas (não dependem de roteadores); redes WAN -> comutadas (dependem de comutadores) ou não comutadas (ex: satélite)
+* formas de degração de sinal
+	* atenuação -> redução gradativa da amplitude do sinal; pode ser restaurada;
+	* ruído -> interferências internas/externas
+	* reflexão/eco -> "*Interferência ocorrida pela reflexão do sinal no destino. A sua ocorrência é devida pela falta de casamento de impedância dos meios e das fontes.*"
+* digitalização
+	* amostragem
+	* quantização
+	* codificação
+		* Non Return to Zero (NRZ) -> { bit 0: sinal baixo, bit 1: sinal alto }
+		* Non Return to Zero Inverted (NRZI) -> { bit 0: mantém o mesmo sinal, bit 1: inverte o sinal}
+		* Manchester -> { bit 0: sinal baixo que sobe, bit 1: sinal alto que desce }
+			* + usada em rede Ethernet
+			* facilidade para recuperação de erros
+		* Manchester diferencial -> { bit 0: 1ª metade do sinal é inverso da última metade do sinal anterior, bit 1: duas metades com mesma altura } #n_entendi 
+* multiplexação -> envio de diversos sinais por um único meio, criando canais internos
+	* FDM -> divisão por frequência
+	* TDM -> divisão por tempo
+	* CDMA -> divisão por códigos
+	* ! é possível usar FDM e TDM juntos
