@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "attachmentFolderPath": "Anexos"
 }

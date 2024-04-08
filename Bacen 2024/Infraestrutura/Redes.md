@@ -76,9 +76,11 @@
 		* mais comum = WI-FI
 		* ! não confundir WI-FI com Wireless -> WI-FI é espécie de Wireless (outros exemplos são Bluetooth)
 	* redes LAN e MAN -> não comutadas (não dependem de roteadores); redes WAN -> comutadas (dependem de comutadores) ou não comutadas (ex: satélite)
-* formas de degração de sinal
-	* atenuação -> redução gradativa da amplitude do sinal; pode ser restaurada;
+* formas de degração de sinal (! a largura de banda é função de características do meio físico)
+	* atenuação -> redução gradativa da amplitude do sinal; pode ser restaurada; é medida em dB (decibéis)
 	* ruído -> interferências internas/externas
+		* o cálculo da taxa máxima de transmissão em canal com ruído é feito com a teoria de Shannon
+		* taxa de transmissão sem ruído, pelo Teorema de Nyquist = 2 \* banda do canal
 	* reflexão/eco -> "*Interferência ocorrida pela reflexão do sinal no destino. A sua ocorrência é devida pela falta de casamento de impedância dos meios e das fontes.*"
 * digitalização
 	* amostragem
@@ -93,5 +95,7 @@
 * multiplexação -> envio de diversos sinais por um único meio, criando canais internos
 	* FDM -> divisão por frequência
 	* TDM -> divisão por tempo
+	* WDM -> divisão por comprimento de onda
 	* CDMA -> divisão por códigos
 	* ! é possível usar FDM e TDM juntos
+* meios { guiados, não guiados } - em relação a se tem uma rota bem definida, com condutor físico (como em fios) ou não (como via ondas de rádio)

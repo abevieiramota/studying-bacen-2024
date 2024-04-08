@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d30b791f4bd52f3c",
+        "id": "c576f53c2b8d1e4f",
         "type": "tabs",
         "children": [
           {
-            "id": "8e1d7e6f66fec266",
+            "id": "2c2640bd7a5eb2b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Infraestrutura/Redes.md",
-                "mode": "source",
-                "source": false
+                "file": "Anexos/Pasted image 20240201044913.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Redes.md",
+                "file": "Anexos/Pasted image 20240201044913.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Redes.md",
+                "file": "Anexos/Pasted image 20240201044913.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Redes.md"
+                "file": "Anexos/Pasted image 20240201044913.png"
               }
             }
           }
@@ -133,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,9 +143,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e1d7e6f66fec266",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Pasted image 20240407202011.png",
+    "Anexos/Pasted image 20240130182351.png",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Infraestrutura/Redes.md",
+    "Anexos",
+    "Anexos/Pasted image 20240407202011.png",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Design Patterns/Behavioral.md",
     "Engenharia de Software/Design Patterns/Structural.md",
@@ -161,16 +162,15 @@
     "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/BDD.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
-    "Infraestrutura/Redes.md",
     "Economia/Microeconomia.md",
     "Infraestrutura",
-    "Pasted image 20240403092456.png",
-    "Pasted image 20240403092120.png",
+    "Anexos/Pasted image 20240403092456.png",
+    "Anexos/Pasted image 20240403092120.png",
     "Engenharia de Software/Desenvolvimento/DDD.md",
-    "Pasted image 20240402173320.png",
-    "Pasted image 20240402172912.png",
+    "Anexos/Pasted image 20240402173320.png",
+    "Anexos/Pasted image 20240402172912.png",
     "Economia/Fundamentos.md",
-    "Pasted image 20240402145439.png",
+    "Anexos/Pasted image 20240402145439.png",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
     "Engenharia de Software/Desenvolvimento/DevSecOps.md",
@@ -179,12 +179,9 @@
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de Integração.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
     "Engenharia de Software/Desenvolvimento/Python.md",
-    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
-    "Pasted image 20240401170346.png",
-    "Pasted image 20240330213822.png",
-    "Pasted image 20240330213553.png",
-    "Pasted image 20240326201504.png",
-    "Pasted image 20240326191838.png",
+    "Anexos/Pasted image 20240401170346.png",
+    "Anexos/Pasted image 20240330213822.png",
+    "Anexos/Pasted image 20240330213553.png",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
@@ -193,7 +190,6 @@
     "Ciência de Dados/Aprendizado de Máquina",
     "Untitled.canvas",
     "Engenharia de Software/Rede",
-    "Engenharia de Software/Desenvolvimento/Testes de software",
-    "Banco de Dados/SGBD NOSQL"
+    "Engenharia de Software/Desenvolvimento/Testes de software"
   ]
 }
