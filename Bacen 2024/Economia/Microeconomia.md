@@ -71,5 +71,26 @@
 			* ![[Pasted image 20240403092456.png]]
 			* a curva de utilidade total (a roxa) vai crescendo cada vez menos
 			* mantido fixo o consumo de um bem, o incremento do outro vai decaindo com a quantidade do incremento
-		* 
+	* **Escolha do consumidor** -> escolhe a cesta de bens cuja curva de indiferença tangencia sua reta orçamentária
+		* ![[Pasted image 20240409150502.png]]
+			* curva vermelha -> curva de restrição orçamentária
+			* curvas azuis -> curvas de utilidade/indiferença
+			* a cesta no ponto C é a melhor escolha possível!
+			* a cesta no ponto A é boa, mas não esgota sua renda
+			* a cesta no ponto B é boa, mas tem menor nível de utilidade que C
+		* mais formal, a escolha se dá quando a TMS é igual à inclinação da curva orçamentária
+			* ![[Pasted image 20240409151024.png]]
+		* exceções
+			* ![[Pasted image 20240409151055.png]]
+			* no caso dos substitutos perfeitos -> solução de canto (vai escolher o ponto na esquerda, que é onde são iguais)
+			* nas curvas côncavas, escolhe o ponto na direita (no exemplo do gráfico) -> não é onde tangencia
+		* no caso de funções de Cobb-Douglas ([questão em 15:30](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82659))
+			* ![[Pasted image 20240409151520.png]]
+			* !não interessa se o x ou o y estão sendo multiplicados por algum escalar
+			* quando a soma dos expoentes é igual a 1, o gasto ótimo com o bem X consiste em gastar um percentual da sua renda com X igual ao percentual do expoente
+				* ![[Pasted image 20240409151722.png]]
+				* gasto ótimo de X = 0.7 \* R / px
+				* gasto ótimo de Y = 0.3 \* R / py
+				* cuidado! a quantidade é o total gasto dividido pelo preço individual!
+			* 
 
