@@ -92,5 +92,33 @@
 				* gasto ótimo de X = 0.7 \* R / px
 				* gasto ótimo de Y = 0.3 \* R / py
 				* cuidado! a quantidade é o total gasto dividido pelo preço individual!
-			* 
+	* **Efeitos renda e substituição**
+		* Ex: preço da internet diminuiu de 100 para 80 reais
+			* efeito renda: variação na demanda em função do poder aquisitivo disponível = preço diminui (há mais poder aquisitivo) -> percepção de que há mais dinheiro disponível
+				* bens normais -> preço aumenta, efeito renda negativo
+				* bens inferiores -> preço diminui, efeito renda negativo (ex: preço da carne de 2ª diminui, posso comprar agora parte de 2ª e parte de 1ª)
+			* efeito substituição: variação na demanda em função da percepção de preço relativo = preço diminui -> percepção de que o bem está mais barato em relação aos demais
+				* sempre tem sinal inverso ao da variação no preço (ex: se o preço aumenta, o efeito substituição é negativo) -> se o preço subir, necessariamente o bem irá consumir, proporcionalmente, mais da renda (o que é negativo)
+		* para calcular o efeito de substituição (de Hicks) -> com a mesma inclinação resultante do ajuste no preço, tangenciar a curva de indiferença anterior
+		* ![[Pasted image 20240409194804.png]]
+		* daí a diferença entre a quantidade anterior e a quantidade calculada com a lógica acima é o efeito substituição - o que sobrar, da variação total, é efeito renda
+		* efeito total = efeito renda + efeito substituição
+		* bens normais -> efeito renda e efeito substituição possuem mesmo sinal ('andam na mesma direção')
+		* ![[Pasted image 20240409200028.png]]
+		* bens inferiores /\\ efeito substituição de 4, efeito renda -1 -> efeito total = 3 (para bens inferiores, o efeito renda atenua o efeito substituição)
+		* ![[Pasted image 20240409200201.png]]
+		* bens de Giffen /\\ -> o efeito de renda negativo supera o efeito substituição positivo
+			* 'o ovo até que está mais barato, vou consumir mais! (efeito substituição), mas vai sobrar mais dinheiro, vou consumir é filé (efeito renda)'
+			* Questão V/F: Os bens de Giffen são bens inferiores cujo efeito substituição é superior ao efeito renda -> F (em módulo, o efeito renda supera o efeito substituição)
+		* ![[Pasted image 20240409204701.png]]
+	* **Curva de Engel** -> mostra como varia a demanda do bem em função da renda (com preço fixo!)
+		* ![[Pasted image 20240409203920.png]]
+			* gráfico /\\ de um bem normal -> para bens inferiores, a curva é espelhada, a demanda cai com a diminuição do preço
+			* Questão V/F: Se um bem é inferior, a curva de Engels é positivamente inclinada -> F
+	* **Curva Renda-Consumo** -> mostra como varia o consumo dos dois bens em função da renda do consumidor
+		* ![[Pasted image 20240409203842.png]]
+			* x e y são dois bens
+
+
+[resumo](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82662)
 

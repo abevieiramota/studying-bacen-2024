@@ -1,7 +1,6 @@
 #TODO ler brevemente sobre os principais algoritmos e tomar nota em cards separados
 #TODO ler sobre as métricas de performance
 
-#TODO mapa mental
 * **De acordo com ter dados com soluções**
 	* **Supervisionado** { dados de treino contêm a solução }
 		* Classificação - modelos:
