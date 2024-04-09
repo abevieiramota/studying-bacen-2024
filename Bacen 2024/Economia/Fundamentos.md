@@ -1,4 +1,3 @@
-
 * Estudo de como a sociedade administra seus ==recursos escassos== (considerar o contexto de necessidades ilimitadas)
 * ==Ciência social== que estuda { produção, distribuição, consumo } de { bens, serviços }
 * Problema econômico básico { o que, para quem, quanto, como, quando } produzir
@@ -19,8 +18,8 @@
 	* **Não-Keynesianismo**: defendem pouca intervenção do governo na economia
 * **Micro x Macro economia**
 	* **Micro**: análise a nível de { indivíduos, famílias, empresas, indústrias, mercados }; 
-		* se preocupa com fatores associados a agentes econômicos { demanda, oferta, ==preço== }
-		* também chamada de economia dos preços
+		* se preocupa com fatores associados a ==agentes econômicos== { demanda, oferta, !preço }
+		* também chamada de ==economia dos preços==
 	* **Macro**: análise da economia como um todo { país, regiões de países }; se preocupa com níveis agregados; 
 		* se preocupa com fatores generalizados { inflação, desemprego, PIB, taxa de câmbio etc }
 * **Custo de oportunidade**: o benefício que está sendo deixado de lado com a escolha feita
@@ -37,7 +36,7 @@
 	* a demanda tem relação com preço! (o exemplo de desejo por um supercarro, mas que não existe de fato, dado que não se está disposto a comprar, não tem capacidade de comprar)
 	* demanda não se confunde com o total adquirido!! não é concretização, mas potencial
 * **Curva de demanda**: gráfico relacionando a demanda e preço de um bem (se variar o preço, varia quanto seria demandado)
-	* preço de reserva -> preço máximo que um consumidor está disposto a pagar por um bem
+	* **preço de reserva** -> preço máximo que um consumidor está disposto a pagar por um bem
 	* **lei da demanda** = a curva de demanda é decrescente (quanto menor o preço, maior a demanda); preço e demanda são inversamente/negativamente/indiretamente proporcionais
 	* ![[Pasted image 20240321183014.png]]
 	* **fatores que afetam a demanda**
@@ -45,8 +44,8 @@
 		* alterações nas variáveis exógenas -> movimento ==da curva==
 		* **renda** ↑ -> desloca a curva para a direita  (maior demanda para cada preço)
 			* exceções à lei da demanda
-				* **bens inferiores** -> bens que são consumidos apenas pela baixa renda (ex: carne de 2ª). Contrário dos 'bens normais', que tem relação direta entre renda e consumo
-				* **bens de Giffen** -> bens que são consumidos mais quando o preço aumenta (ex: quando há relação inversa entre consumo de dois bens -> quem come ovo com o que sobra depois de comprar carne -> se diminuir o preço do ovo, sobra mais para carne, que é mais desejada)
+				* **bens inferiores** -> bens que são consumidos menos quando a renda aumenta (ex: carne de 2ª). Contrário dos 'bens normais', que tem relação direta entre renda e consumo, o aumento na renda desloca a curva para a esquerda
+				* **bens de Giffen** -> bens que são consumidos mais quando o preço aumenta
 		* **bens relacionados** -> os bens podem ter 
 			* **complementares** -> consumidos juntos -> aumento do preço do complementar diminui a demanda do bem (ex: arroz e feijão, que são consumidos juntos)
 			* **substitutos** -> consumidos de forma alternativa -> queda do preço do substituto diminui a demanda do bem (ex: gasolina e etanol, no contexto de carros flex)
@@ -84,13 +83,12 @@
 	* **Excedente do produtor**: benefício que um produtor percebe ao vender um bem por um valor superior ao que estava disposto a vender
 	* por um valor X, venderão todos os consumidors com valor mínimo >= X, comprarão todos consumidores com preço de reserva <= X
 	* ![[Pasted image 20240324125630.png]]
-	* No preço de equilíbrio, EC = EP = área de cada um dos triângulos
-	* questão que dá função de demanda e pede o excedente de consumidor, dado um preço X -> é para calcular o triângulo entre o preço máximo, o ponto na curva de demanda no preço X e o ponto de preço X
+	* questão que dá função de demanda e pede o excedente de consumidor, dado um preço X -> é para calcular a área do triângulo entre o preço máximo, o ponto na curva de demanda no preço X e o ponto de preço X
 	* ![[Pasted image 20240324132001.png]]
 * Situação de equilíbrio traz excedentes para os consumidores e para os produtores
 * **Controle de preços**
 	* **Teto de preços** -> produtores diminuem produção, demanda aumenta -> excesso de demanda, escassez de bens
-	* **Diminuição de impostos/subsídio** -> deslocamento da curva de oferta para a direita
+	* **Diminuição de impostos/subsídio** -> ==deslocamento da curva de oferta para a direita==
 	* **Alocação ineficiente entre compradores** -> com teto de preços, por exemplo, haverá maior demanda que oferta -> pode ser o caso de os consumidores que conseguem comprar sejam os que menos precisam do bem
 	* **Desperdício de recursos** -> necessidade de maior esforço para adquirir bem, por ser necessário correr, se planejar, pegar fila etc para conseguir comprar o bem, dada a maior demanda em relação à oferta
 	* **Sucateamento** -> diminuição de qualidade do produto para ficar de acordo com o preço máximo estabelecido
@@ -116,7 +114,6 @@
 					* 1 -> unitária
 					* > 1 -> elástica
 					* ~ ∞ -> infinitamente elástica -> gráfico ------
-				* ! trabalhar a identificação do grau de elasticidade de acordo com a curva preço demanda (quanto mais inclinada, menos elástico!)
 				* partindo do ponto 0 de demanda, qualquer EPD será infinita (porque o percentual de variação da demanda tende a infinito)
 				* partindo do ponto 0 de preço, qualquer EPD será 0 (percentual de variação)
 				* ![[Pasted image 20240330213553.png]]
@@ -133,7 +130,7 @@
 					* ERD > 0 -> ==bem normal== (basta ser positiva), elasticidade positiva
 					* 0 < ERD < 1 -> bem normal, demanda-renda inelástica (aumenta pouco a demanda, com a renda)
 					* ERD = 1 -> bem normal, elasticidade-renda unitária (renda e demanda andam de um em um)
-					* ERD > 1 -> bem de luxo/supérfluos/superiores (normal), demanda-renda elástica (renda aumentou -> consome muito; renda caiu -> os primeiros que diminuem)
+					* ERD > 1 -> bem de luxo/supérfluos/superiores, demanda-renda elástica (renda aumentou -> consome muito; renda caiu -> os primeiros que diminuem)
 		* **Elasticidade-preço cruzada da demanda**: preço de bens relacionados -> demanda (medida da reação da quantidade demandada de um bem diante da mudança nos preços de bens relacionados) ! cuidado, é essa elasticidade que relaciona dois bens -> as demais tratam de um bem apenas
 			* EPCD(x, y) = variação % da demanda de X / variação % do preço de Y
 			* classificação
@@ -162,12 +159,11 @@
 		* EPD < 1 -> inelástica -> pode aumentar o preço que a quantidade não cai muito!
 		* EPD > 1 -> elástica -> aumenta o preço, mas perde muita quantidade
 		* (em relação à receita) quando a demanda é inelástica, "pode aumentar o preço"; quando é elástica, "cuidado"
-		* (em relação à despesa) quando a demanda é inelástica, "não aumenta, por favor!"; quando é elástica, "pode aumentar"
+		* (em relação à despesa - do consumidor) quando a demanda é inelástica, "não aumenta, por favor!"; quando é elástica, "pode aumentar"
 			* pensar que é o contrário porque quando o produtor está com grande receita total (bom), o consumidor está com grande despesa total (ruim)
 		* ![[Pasted image 20240330213822.png]]
 	* em questões com vários EPDs, pedindo para calcular a demanda após aumentos de preços -> calcular a variação para cada elasticidade e somar (estranho...)
 * ver a partir de [15:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639681/videos/73142)
-* 
 
 
 

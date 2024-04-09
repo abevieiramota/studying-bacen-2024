@@ -11,9 +11,11 @@
             "id": "2c2640bd7a5eb2b9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Anexos/Pasted image 20240201044913.png"
+                "file": "Economia/Microeconomia.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regulariza",
+                "query": "tag:#n_entendi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anexos/Pasted image 20240201044913.png",
-                "collapseAll": false,
+                "file": "Economia/Microeconomia.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anexos/Pasted image 20240201044913.png",
+                "file": "Economia/Microeconomia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,15 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anexos/Pasted image 20240201044913.png"
+                "file": "Economia/Microeconomia.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,18 +147,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "2c2640bd7a5eb2b9",
   "lastOpenFiles": [
+    "Economia/Fundamentos.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
+    "Engenharia de Software/Design Patterns/GRASP.md",
+    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Engenharia de Software/Design Patterns/Design Patterns.md",
+    "Anexos/Pasted image 20240201044913.png",
     "Anexos/Pasted image 20240130182351.png",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Infraestrutura/Redes.md",
     "Anexos",
     "Anexos/Pasted image 20240407202011.png",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Design Patterns/Behavioral.md",
     "Engenharia de Software/Design Patterns/Structural.md",
     "Engenharia de Software/Design Patterns/Creational.md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
     "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
@@ -169,7 +177,6 @@
     "Engenharia de Software/Desenvolvimento/DDD.md",
     "Anexos/Pasted image 20240402173320.png",
     "Anexos/Pasted image 20240402172912.png",
-    "Economia/Fundamentos.md",
     "Anexos/Pasted image 20240402145439.png",
     "Engenharia de Software/Desenvolvimento/CI-CD.md",
     "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
@@ -177,11 +184,9 @@
     "Engenharia de Software/Desenvolvimento/Técnicas de desenvolvimento seguro.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/TDD.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de Integração.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
     "Engenharia de Software/Desenvolvimento/Python.md",
     "Anexos/Pasted image 20240401170346.png",
     "Anexos/Pasted image 20240330213822.png",
-    "Anexos/Pasted image 20240330213553.png",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
