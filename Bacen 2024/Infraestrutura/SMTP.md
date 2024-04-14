@@ -47,6 +47,7 @@
 * **Pegadinhas**
 	* o e-mail é composto por um envelop e, no conteúdo, um header; ambos contêm 'metadados', mas são destinados a agentes diferentes -> { envelop: MTA, header: MUA }
 	* o comando para verificar se o servidor suporta ESMTP é um HELO, mas colocando na letra inicial a mesma inicial de ESMTP -> EHLO
+	* um campo opcional no envio de mensagem SMTP é o SUBJECT (lembrar que o assunto, no envio de e-mail, é opcional!)
 * **Extra**
 	* **Configuração do POSTFIX** (servidor usado em distribuição UNIX)
 		* arquivo fica em /etc/postfix/main.cf
