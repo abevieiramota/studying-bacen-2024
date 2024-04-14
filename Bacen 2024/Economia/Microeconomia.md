@@ -1,11 +1,11 @@
-* **Teoria do consumidor**: o consumidor escolhe a melhor cesta de bens que ele pode adquirir
-	* **cesta de bens**: determinada variedade e quantidade de coisas/bens que podem satisfazer necessidades do consumidor
+* **Teoria do consumidor**: o consumidor escolhe a melhor cesta de bens que ele pode adquirir ([resumo](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82662))
+	* **Cesta de bens**: determinada variedade e quantidade de coisas/bens que podem satisfazer necessidades do consumidor
 		* o comum em concurso é trabalhar apenas com dois bens (pode-se pensar que um bem representa o objeto de estudo e o outro representa todos os demais bens da cesta)
 		* x = (q1, q2) 
 			* x = cesta de bens
 			* q1 = quantidade do bem 1
 			* q2 = quantidade do bem 2
-	* **restrição orçamentária**: o poder adquirir (orçamento/renda limitada)
+	* **Restrição orçamentária**: o poder adquirir (orçamento/renda limitada)
 		* para traçar a reta de restrição orçamentária, basta ver os pontos com quantidade 0 em cada bem e depois traçar a reta
 		* os pontos na reta esgotam a renda; abaixo -> sobra renda; acima -> extrapolam
 		* a tangente do ângulo é usado para mensurar a inclinação da reta
@@ -19,7 +19,7 @@
 	* **Preferências do consumidor** (! não confundir, apesar de a curva aqui também ser função das quantidades na cesta, trata-se de preferência, e não de restrição orçamentária)
 		* Símbolos indicando preferência entre cestas de bens
 			* A > B -> prefere A a B -> preferência forte
-			* A >= B -> A é pelo menos tão preferível que B -> preferência fraca
+			* A >= B -> A é pelo menos tão preferível que B -> ==preferência fraca==
 			* A ~ B -> tanto faz A ou B
 		* Premissas das preferências do consumidor (são assumidas)
 			* **Integralidade**: completude -> o consumidor sempre é capaz de comparar cestas e indicar preferência
@@ -28,36 +28,34 @@
 			* **Monotonicidade**: cestas que pertencem a curva de indiferença totalmente à direita de outra curva são preferíveis a cestas da outra
 				* ![[Pasted image 20240402145439.png]]
 				* não é válido nesse caso! /\ esse gráfico só é válido para curvas de indiferença não bem comportadas (não monotônicas/reflexivas)
-		* Curvas de indiferença
-			* curvas no gráfico de restrição orçamentária que indicam cestas para as quais o consumidor tem preferência indiferente
-		* Taxa marginal de substituição
+		* **Curvas de indiferença**: curvas no gráfico de restrição orçamentária que indicam cestas para as quais o consumidor tem preferência indiferente
+		* **Taxa marginal de substituição (TMS)**
 			* variação de um bem e de outro que mantém a cesta na mesma curva de indiferença (quanto o consumidor está disposto a ceder do bem_1 para ganhar uma unidade do bem_2)
 			* em regra -> decrescente
 			* inclinação da curva de indiferença em um ponto -> ! ela muda de acordo com o ponto!
-			* tende a ser convexa -> lembra a curva de fronteira/possibilidade de produção!
-			* (o certo é considerar a derivada!)
-		* Substitutos perfeitos
+			* tende a ser convexa -> lembra a curva de fronteira/possibilidade de produção! (! cálculo com derivada)
+		* **Substitutos perfeitos**
 			* a curva de indiferença é uma reta inclinada -> tanto faz a proporção entre os bens (ex: tanto faz 10 coca-colas ou 5 coca-colas + 5 pepsis)
-			* taxa marginal de substituição é constante
+			* TMS é constante
 		* Complementares perfeitos
+			* complementar perfeito -> só consumo os dois bens na medida de certa proporção
 			* a curva de indiferença forma um L -> ex: pé esquerdo e pé direito do sapato -> só consome um se e somente se consumir o outro
 				* é formada pelos pontos em {(n_sapatos, y) |  y \\in domínio } U { (x, n_sapatos) | x \\in domínio }
 				* ![[Pasted image 20240402172912.png]]
-			* complementar perfeito -> só consumo os dois bens na medida de certa proporção
-			* Taxa Marginal de Substituição tende a 0 no eixo que está com excesso de bem #n_entendi 
-			* Taxa Marginal de Substituição tende a infinito no eixo que está com falta de bem
+			* TMS tende a 0 no eixo que está com excesso de bem #n_entendi 
+			* TMS tende a infinito no eixo que está com falta de bem
 		* Curvas côncovas
 			* bens que não são consumidos juntos (ex: bacon e nutella) -> consumidor prefere especializar, consumir só um
 			* TMS crescente - !é preciso receber muita nutella para abrir mão de pouco bacon, mas, a partir de certo ponto, isso inverte, eu troco pouco bacon por qualquer coisa de nutella
 			* ![[Pasted image 20240402173320.png]]
-		* bem x mal [não entendi bem 27:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82657)
+		* bem x mal [não entendi bem 27:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82657) #TODO 
 			* curva positivamente inclinada
 	* **Utilidade**
 		* valor numérico atribuído a uma cesta de bens para mensurar quanto o consumidor gosta/satisfação dessa cesta -> importa apenas a ordem entre cestas, a diferença entre quantidade não é considerada
 		* a função de utilidade relaciona quantidade de bens na cesta à utilidade para o consumidor
 			* ex: u(q1, q2) = q1 + q2
 			* determina o formato das curvas de indiferença
-			* !fórmulas comuns
+			* !fórmulas comuns #anki 
 				* substituto perfeito -> u(q1, q2) = a\*q1 + b\*q2
 				* complementares perfeitos -> u(q1, q2) = min(q1, q2)
 				* cobb-douglas -> u(q1, q2) = q1^a \* q2^b (curva côncava)
@@ -65,7 +63,7 @@
 			* UMgx = delta U / delta qx
 			* UMgx \* delta qx = - UMgy \* delta qy (considerando que a utilidade final não muda, daí adicionar de um bem, retirando o necessário do outro bem)
 			* ![[Pasted image 20240403092120.png]]
-				* a utilidade marginal de x dividida pela utilidade marginal de y é igual à taxa marginal de substituição
+				* a utilidade marginal de x dividida pela utilidade marginal de y é igual à TMS
 		* **lei da utilidade marginal decrescente**
 			* o incremento de utilidade em função da quantidade de incremento na quantidade decai (ex: ganhar uma coca-cola no almoço é bom, duas coca-colas não traz o dobro do ganho, 1000 coca-colas não traz 1000 * a utilidade de uma coca-cola)
 			* ![[Pasted image 20240403092456.png]]
@@ -115,10 +113,7 @@
 		* ![[Pasted image 20240409203920.png]]
 			* gráfico /\\ de um bem normal -> para bens inferiores, a curva é espelhada, a demanda cai com a diminuição do preço
 			* Questão V/F: Se um bem é inferior, a curva de Engels é positivamente inclinada -> F
-	* **Curva Renda-Consumo** -> mostra como varia o consumo dos dois bens em função da renda do consumidor
+	* **Curva Renda-Consumo** -> mostra como varia o consumo dos dois bens (x e y, no gráfico) em função da renda do consumidor
 		* ![[Pasted image 20240409203842.png]]
-			* x e y são dois bens
 
-
-[resumo](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82662)
 

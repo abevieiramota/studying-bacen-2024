@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Economia/Microeconomia.md",
+                "file": "Infraestrutura/SMB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economia/Microeconomia.md",
+                "file": "Infraestrutura/SMB.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Economia/Microeconomia.md",
+                "file": "Infraestrutura/SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Economia/Microeconomia.md"
+                "file": "Infraestrutura/SMB.md"
               }
             }
           }
@@ -149,13 +149,22 @@
   },
   "active": "2c2640bd7a5eb2b9",
   "lastOpenFiles": [
+    "Infraestrutura/SMTP.md",
+    "Infraestrutura/LDAP.md",
+    "Infraestrutura/SMB.md",
+    "Infraestrutura/NFS.md",
+    "Infraestrutura/TODO.md",
+    "Infraestrutura/HTTP e HTTPS.md",
+    "Infraestrutura/Protocolos que não estão em edital.md",
+    "Infraestrutura/Redes.md",
+    "Untitled.md",
+    "Economia/Microeconomia.md",
     "Anexos/Pasted image 20240409204701.png",
     "Anexos/Pasted image 20240409203920.png",
     "Anexos/Pasted image 20240409203842.png",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Ciência de Dados.md",
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Economia/Microeconomia.md",
     "Anexos/Pasted image 20240409200201.png",
     "Anexos/Pasted image 20240409200028.png",
     "Anexos/Pasted image 20240409194804.png",
@@ -163,14 +172,12 @@
     "Anexos/Pasted image 20240409151722.png",
     "Anexos/Pasted image 20240409151055.png",
     "Anexos/Pasted image 20240409151024.png",
-    "Anexos/Pasted image 20240409150502.png",
     "Economia/Fundamentos.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
-    "Infraestrutura/Redes.md",
     "Anexos",
     "Engenharia de Software/Design Patterns/Behavioral.md",
     "Engenharia de Software/Design Patterns/Structural.md",
@@ -179,14 +186,7 @@
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Engenharia de Software/Desenvolvimento/GraphQL.md",
-    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/BDD.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
     "Infraestrutura",
-    "Engenharia de Software/Desenvolvimento/DDD.md",
-    "Engenharia de Software/Desenvolvimento/CI-CD.md",
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
     "Ciência de Dados/Governança e Ética na IA e dados",
