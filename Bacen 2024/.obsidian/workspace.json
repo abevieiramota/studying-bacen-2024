@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c576f53c2b8d1e4f",
+        "id": "2a47c2a4fa79075a",
         "type": "tabs",
         "children": [
           {
-            "id": "2c2640bd7a5eb2b9",
+            "id": "7f1e14b3c4e91db3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Infraestrutura/LDAP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "mindmap",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/LDAP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/LDAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/LDAP.md"
+                "file": "Teste.md"
               }
             }
           }
@@ -147,24 +141,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c2640bd7a5eb2b9",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
+    "Teste2.md",
+    "Teste.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Banco de Dados.canvas",
+    "Banco de Dados/Banco de Dados.md",
+    "LDAP.canvas",
+    "Infraestrutura/LDAP.md",
     "Infraestrutura/SMTP.md",
     "Infraestrutura/SMB.md",
-    "Infraestrutura/LDAP.md",
     "Infraestrutura/NFS.md",
     "Infraestrutura/TODO.md",
     "Infraestrutura/HTTP e HTTPS.md",
     "Infraestrutura/Protocolos que não estão em edital.md",
     "Infraestrutura/Redes.md",
-    "Untitled.md",
     "Economia/Microeconomia.md",
     "Anexos/Pasted image 20240409204701.png",
     "Anexos/Pasted image 20240409203920.png",
     "Anexos/Pasted image 20240409203842.png",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Ciência de Dados.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Anexos/Pasted image 20240409200201.png",
     "Anexos/Pasted image 20240409200028.png",
     "Anexos/Pasted image 20240409194804.png",
@@ -184,8 +182,6 @@
     "Engenharia de Software/Design Patterns/Creational.md",
     "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
-    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
-    "Engenharia de Software/Desenvolvimento/GraphQL.md",
     "Infraestrutura",
     "Economia",
     "Engenharia de Software/Desenvolvimento",
