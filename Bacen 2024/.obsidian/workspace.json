@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2a47c2a4fa79075a",
+        "id": "e3807912694e0c9f",
         "type": "tabs",
         "children": [
           {
-            "id": "7f1e14b3c4e91db3",
+            "id": "e41f09feae4f7bc3",
             "type": "leaf",
             "state": {
-              "type": "mindmap",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Não entendi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bbcf47524760122",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infraestrutura/Protocolos que não estão em edital.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Infraestrutura/Protocolos que não estão em edital.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Infraestrutura/Protocolos que não estão em edital.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teste.md"
+                "file": "Infraestrutura/Protocolos que não estão em edital.md"
               }
             }
           }
@@ -141,28 +160,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "9bbcf47524760122",
   "lastOpenFiles": [
-    "Teste2.md",
-    "Teste.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Banco de Dados.canvas",
-    "Banco de Dados/Banco de Dados.md",
-    "LDAP.canvas",
-    "Infraestrutura/LDAP.md",
+    "Infraestrutura/Portas.md",
     "Infraestrutura/SMTP.md",
-    "Infraestrutura/SMB.md",
-    "Infraestrutura/NFS.md",
-    "Infraestrutura/TODO.md",
-    "Infraestrutura/HTTP e HTTPS.md",
-    "Infraestrutura/Protocolos que não estão em edital.md",
-    "Infraestrutura/Redes.md",
-    "Economia/Microeconomia.md",
+    "Engenharia de Software/Design Patterns/GRASP.md",
+    "Não entendi.md",
+    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
+    "Banco de Dados/Transações e técnicas de recuperação.md",
+    "Banco de Dados/Modelagem de dados.md",
+    "Banco de Dados/Banco de Dados.md",
+    "Banco de Dados/SGBD SQL/Tools.md",
+    "Banco de Dados/SGBD SQL/SQL.md",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
+    "Banco de Dados/SGBD SQL/Procedural SQL.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Banco de Dados.canvas",
+    "LDAP.canvas",
     "Anexos/Pasted image 20240409204701.png",
     "Anexos/Pasted image 20240409203920.png",
     "Anexos/Pasted image 20240409203842.png",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Ciência de Dados.md",
     "Anexos/Pasted image 20240409200201.png",
     "Anexos/Pasted image 20240409200028.png",
     "Anexos/Pasted image 20240409194804.png",
@@ -170,18 +200,7 @@
     "Anexos/Pasted image 20240409151722.png",
     "Anexos/Pasted image 20240409151055.png",
     "Anexos/Pasted image 20240409151024.png",
-    "Economia/Fundamentos.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/Testes unitários.md",
-    "Engenharia de Software/Design Patterns/GRASP.md",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Anexos",
-    "Engenharia de Software/Design Patterns/Behavioral.md",
-    "Engenharia de Software/Design Patterns/Structural.md",
-    "Engenharia de Software/Design Patterns/Creational.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Infraestrutura",
     "Economia",
     "Engenharia de Software/Desenvolvimento",

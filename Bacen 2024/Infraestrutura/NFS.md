@@ -3,7 +3,9 @@
 * Network File System - cria sistema de arquivos remotos/distribuídos sobre arquitetura TCP/IP
 * Características
 	* permite acesso transparente a um servidor de arquivo remoto
-	* porta ==2049== TCP
+	* portas
+		* port::TCP/2049
+		* port_tip::**N**úmero **F**udido (grande, 4 dígitos)
 	* serviços { rpc.mountd, nfsd } - isso na versão 4
 	* versões
 		* v2 - suporte apenas para sistemas 32 bits (max file size = 2GB); UDP para transporte

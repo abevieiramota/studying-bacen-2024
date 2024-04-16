@@ -4,9 +4,10 @@
 	* camada de aplicação
 	* arquitetura cliente-servidor -> requisição-resposta
 	* stateless
-	* portas TCP
-		* 80 - HTTP
-		* 443 - HTTPS
+	* portas
+		* port::TCP/80
+		* port_secure::TCP/443
+		* port_tip::80 e 4+4 = 8
 	* [RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html) [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 * **Def**: protocolo para a troca ou transferência de hipertexto utilizado em sistemas de hipermídia, distribuídos ou colaborativos
 * **Versões**

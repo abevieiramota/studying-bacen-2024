@@ -15,3 +15,22 @@
 		* download parcial
 	* porta 143
 	* porta 993 com SSL
+
+
+
+
+CAMADAS / PROTOCOLOS / FUNÇÃO
+
+7 - Aplicação / HTTP, SMTP, FTP, SSH, TELNET, POP3, IMAP, DNS / Prover serviços de rede às aplicações. Usada para enviar e receber dados de outros programas pela internet
+
+6 - Apresentação / XDR, TLS / Criptografia, codificação, compressão e formatos de dados.
+
+5 - Sessão / NetBIOS / Iniciar, manter e finalizar sessões de comunicação.
+
+4 - Transporte / TCP, UDP, SCTP, DCCP / Transmissão de dados, segmentação.
+
+3 - Rede / IP, (IPv4, IPv6), ICMP, ARP, RARP, NAT / Endereçamento lógico e roteamento; controle de tráfego.
+
+2 - Enlace / Ethernet, IEE 802.1Q, Token Ring, Switch / Endereçamento físico; transmissão confiável de quadros.
+
+1 - Física / Modem, 802.11 Wi-Fi, Bluetooth, USB, DSL / Interface com meios de transmissão e sinalização.

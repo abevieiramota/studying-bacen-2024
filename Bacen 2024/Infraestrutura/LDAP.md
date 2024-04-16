@@ -4,8 +4,9 @@
 	* ! as bancas tendem a considerar LDAP como "serviço de diretórios", que é mais amplo do que a definição precisa
 * características
 	* portas TCP { soma dos dígitos extremos é 12 }
-		* LDAP ==389==
-		* LDAP**S** 636
+		* port::TCP/389
+		* port_secure::TCP/636
+		* port_tip::as pontas somam 12
 	* utiliza estrutura em ==árvore== de domínios relacionais DIT - Directory Information Tree
 		* nós superiores são domínios/subdomínios > organograma, nós inferiroes são os objetos da rede
 	* é versão simplificada e otimizada do X.500 para arquitetura TCP/IP

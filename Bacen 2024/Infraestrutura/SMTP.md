@@ -21,8 +21,10 @@
 	* permite modo Open Relay, habilitando o uso do servidor por qualquer um que se conecte - recomendado ser desabilitado
 	* codificação padrão ASCII, mas podendo ser estendida para outros formatos, por meio de codificação MIME (Multipurpose Internet Mail Extensions)
 	* endereçamento de usuários é baseado em DNS para resolução de domínio em IP dos MTAs
-	* porta TCP ==25==
-	* porta TCP 465 com SSL
+	* portas 
+		* port::TCP/25 ! atualmente usa-se a 587
+		* port_secure::TCP/465
+		* port_tip::**S**inquenta pela **M**e**T**ade, **S** \* **M**oventa e **T**rês
 	* arquitetura request-response
 	* não implementa recursos de segurança nativos
 	* trabalha com modelo store-and-forward (agentes responsáveis por encaminhamento armazenam as mensagens até conseguirem enviar)
