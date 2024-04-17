@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infraestrutura/Protocolos que não estão em edital.md",
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Protocolos que não estão em edital.md",
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Protocolos que não estão em edital.md",
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Protocolos que não estão em edital.md"
+                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "9bbcf47524760122",
   "lastOpenFiles": [
+    "Infraestrutura/Protocolos que não estão em edital.md",
     "Infraestrutura/Portas.md",
     "Infraestrutura/SMTP.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
@@ -187,7 +188,6 @@
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Anexos/Pasted image 20240409204701.png",
