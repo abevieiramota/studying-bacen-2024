@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e3807912694e0c9f",
+        "id": "5c7ce7086a07ede4",
         "type": "tabs",
         "children": [
           {
-            "id": "e41f09feae4f7bc3",
+            "id": "df05f2d383ab52bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Não entendi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bbcf47524760122",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Economia/Contas nacionais.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Economia/Contas nacionais.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md",
+                "file": "Economia/Contas nacionais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Modelagem relacional.md"
+                "file": "Economia/Contas nacionais.md"
               }
             }
           }
@@ -160,13 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bbcf47524760122",
+  "active": "df05f2d383ab52bc",
   "lastOpenFiles": [
+    "Anexos/Pasted image 20240417210423.png",
+    "Anexos/Pasted image 20240417210016.png",
+    "Economia/Macroeconomia.md",
+    "Economia/Contas nacionais.md",
+    "Economia/Microeconomia.md",
+    "Não entendi.md",
+    "Engenharia de Software/Design Patterns/GRASP.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
+    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Infraestrutura/Protocolos que não estão em edital.md",
     "Infraestrutura/Portas.md",
     "Infraestrutura/SMTP.md",
-    "Engenharia de Software/Design Patterns/GRASP.md",
-    "Não entendi.md",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Banco de Dados/Transações e técnicas de recuperação.md",
     "Banco de Dados/Modelagem de dados.md",
@@ -175,19 +172,10 @@
     "Banco de Dados/SGBD SQL/SQL.md",
     "Banco de Dados/SGBD SQL/SGBD SQL.md",
     "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
-    "Ciência de Dados/Big Data/Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
-    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Anexos/Pasted image 20240409204701.png",
@@ -199,7 +187,6 @@
     "Anexos/Pasted image 20240409151520.png",
     "Anexos/Pasted image 20240409151722.png",
     "Anexos/Pasted image 20240409151055.png",
-    "Anexos/Pasted image 20240409151024.png",
     "Anexos",
     "Infraestrutura",
     "Economia",

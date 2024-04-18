@@ -32,3 +32,4 @@
 	* Static Application Security Testing (SAST) - teste caixa branca, análise estática de código
 	* Dynamic Application Security Testing (DAST) - teste caixa preta, simulação de invasor
 	* Interactive Application Security Testing (IAST) - combinação dos dois
+	* Runtime Application Self-Protection (RASP) - tecnologia que protege uma aplicação de dentro para fora, analisando o comportamento do aplicativo e respondendo em tempo real a atividades potencialmente maliciosas

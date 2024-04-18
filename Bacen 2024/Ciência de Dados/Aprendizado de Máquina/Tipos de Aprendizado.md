@@ -48,8 +48,10 @@
 				* K-means - fixa k centróides de maneira aleatória, um para cada cluster; associa os pontos ao centróide mais próximo e calcula o novo centróide
 					* funciona bem quando os clusters são esféricos e bem separados, com volumes aproximadamente iguais, com quantidades semelhantes de pontos
 			* Modelos - hierárquicos - forma árvore/dendograma; bottom-up/aglomerativo ou top-down/divisivo
-				* DBSCAN #TODO 
+				* Agglomerative Hierarchical Clustering
 				* Hierarchical Cluster Analysis (HCA)
+			* Modelos - density-based
+				*  DBSCAN #TODO 
 		* **Anomaly Detection** { One-class SVM, Isolation Forest } #TODO ver em contexto de fraud detection
 		* **Visualization** { Principal Component Analysis (PCA), Locally-Linear Embedding (LLE), t-distributed Stochastic Neighbor Embedding (t-SNE) }
 		* **Redução de dimensionalidade** - reduzir o número de variáveis do dataset mantendo o máximo possível de informações
