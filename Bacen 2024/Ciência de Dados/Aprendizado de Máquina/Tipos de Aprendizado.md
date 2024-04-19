@@ -63,9 +63,9 @@
 			* Apriori #TODO
 				* suporte = *proporção* de vezes que a regra aparece na base
 				* confiança = proporção de vezes em que os dois aparecem juntos, em relação às vezes em que o antecedente aparece
-			* Eclat
+			* Eclat #TODO
 			* Partition
-			* FP-Growth
+			* FP-Growth #TODO
 	* **Semi Supervisionado** { parte dos dados com e sem solução }
 		* Deep Belief Networks (DBNs)
 	* **Por Reforço** { baseado em agentes, que observam ambiente, executam ações e avaliam reward/penality }

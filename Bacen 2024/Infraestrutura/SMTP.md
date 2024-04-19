@@ -53,7 +53,9 @@
 * **Extra**
 	* **Configuração do POSTFIX** (servidor usado em distribuição UNIX)
 		* arquivo fica em /etc/postfix/main.cf
+		* logs, por padrão, ficam em /var/log/maillog ou /var/log/mail.log
 		* **Parâmetros**
 			* daemon_directory - diretório de localização de daemons
 			* mynetwork - configurações que indicam clientes que podem usar o servidor como relay
 			* ? há outros na apostila do estratégia, mas não entendi... ?
+	* outro servidor SMTP Linux é o sendmail

@@ -30,7 +30,9 @@
 			* SASL - Simple Authentication and Security Layer - framework de segurança baseado em desafio-resposta #n_entendi;suporta diversos mecanismos de autenticação e permite que o cliente e servidor negociem qual usar { Kerberos, LDAP, DIGEST-MD5, GSSAPI etc }
 		* arquivo de configuração
 			* server: /usr/local/etc/OpenLDAP/**s**lapd.conf
-			* user: /usr/local/etc/OpenLDAP/ldap.conf
+			* client: /usr/local/etc/OpenLDAP/ldap.conf
+		* instalação 
+			* sudo apt install slapd ldap-utils
 	* o formato LDIF (LDAP Data Interchange Format) é usado para representar entradas LDAP e modificações nos registros na forma de texto. As funções do arquivo LDIF são importar dados para o diretório, alterar objetos existentes, criar o backup do diretório e fazer a replicação do diretório
 * gerenciamento de recursos em rede pode se dar de forma { centralizada, descentralizada }
 	* descentralizada -> cada máquina é administrada localmente; leva a crescimento 'exponencial' de complexidade, em relação à quantidade de dispositivos

@@ -1,12 +1,15 @@
-# NFS
-
 * Network File System - cria sistema de arquivos remotos/distribuídos sobre arquitetura TCP/IP
+* o compartilhamento de arquivos de um servidor NFS é conhecido como 'exportar diretórios'
 * Características
 	* permite acesso transparente a um servidor de arquivo remoto
+	* arquitetura client-server, stateless, permite caching, usa RPC
+	* permite file locking - um processo pode lockar um arquivo, fazendo os demais aguardar
 	* portas
-		* port::TCP/2049
+		* port::TCP/2049 ou UDP/2049
 		* port_tip::**N**úmero **F**udido (grande, 4 dígitos)
-	* serviços { rpc.mountd, nfsd } - isso na versão 4
+	* serviços 
+		* nfsd -> daemon que atende requisições dos clientes
+		* mountd -> daemon de montagem NFS
 	* versões
 		* v2 - suporte apenas para sistemas 32 bits (max file size = 2GB); UDP para transporte
 		* v3 - suporte para sistemas 64 bits; TCP suportado

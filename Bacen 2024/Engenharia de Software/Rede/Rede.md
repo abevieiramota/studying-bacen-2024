@@ -1,4 +1,4 @@
-* [[DNS]]
+* [[Engenharia de Software/Rede/DNS]]
 * [[HTTP e HTTP2]]
 * [[Servidores proxy]]
 * [[TLS]]

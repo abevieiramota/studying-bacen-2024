@@ -1,5 +1,3 @@
-# SMB
-
 * Server Message Block protocol
 * SAMBA implementa o protocolo SMB/CIFS para sistemas Unix-like
 	* permite compartilhar arquivos em rede com dispositivos Microsoft e Linux - em ambos, usa-se o protocolo SMB/CIFS
@@ -23,6 +21,9 @@
 		* /etc/samba/printers -> configuração de impressoras compartilhadas
 	* principais comandos
 		* smbd -> inicia servidor SAMBA
+			* pode funcionar em dois modos
+				* sharemode -> gera uma senha para cada recurso compartilhado
+				* user -> permite usar usuários e compartilhar vários recursos por usuário
 		* nmbd -> inicia servidor de resolução de nomes NetBIOS
 		* testparm -> verificar o arquivo de configuração smb.conf quanto a erros de sintaxe
 		* smbpasswd -> definição/alteração de senha de usuários

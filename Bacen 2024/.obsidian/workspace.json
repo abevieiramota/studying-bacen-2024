@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5c7ce7086a07ede4",
+        "id": "d7e771308ce9cff6",
         "type": "tabs",
         "children": [
           {
-            "id": "df05f2d383ab52bc",
+            "id": "433192f7a97a9551",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Economia/Contas nacionais.md",
+                "file": "Infraestrutura/Linux/Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#n_entendi",
+                "query": "parti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economia/Contas nacionais.md",
+                "file": "Infraestrutura/Linux/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Economia/Contas nacionais.md",
+                "file": "Infraestrutura/Linux/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Economia/Contas nacionais.md"
+                "file": "Infraestrutura/Linux/Linux.md"
               }
             }
           }
@@ -147,46 +147,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df05f2d383ab52bc",
+  "active": "433192f7a97a9551",
   "lastOpenFiles": [
-    "Anexos/Pasted image 20240417210423.png",
-    "Anexos/Pasted image 20240417210016.png",
-    "Economia/Macroeconomia.md",
+    "Anexos/Pasted image 20240419201545.png",
+    "Anexos/Pasted image 20240419201311.png",
+    "Anexos/Pasted image 20240419201305.png",
+    "Infraestrutura/Linux/Montagem de volumes.md",
+    "Infraestrutura/Linux/Linux.md",
+    "Infraestrutura/Linux/Gerenciamento de processos.md",
+    "Anexos/Pasted image 20240419171313.png",
+    "Infraestrutura/SMTP.md",
+    "Infraestrutura/DNS.md",
+    "Infraestrutura/DHCP.md",
+    "Anexos/Pasted image 20240419160751.png",
+    "Anexos/Pasted image 20240419145911.png",
+    "Anexos/Pasted image 20240419145531.png",
+    "Anexos/Pasted image 20240419124125.png",
+    "Infraestrutura/Portas.md",
+    "Infraestrutura/LDAP.md",
+    "Infraestrutura/SO.md",
+    "Infraestrutura/Linux/Shell Script.md",
+    "Anexos/Pasted image 20240419081711.png",
+    "Infraestrutura/Linux/Cron.md",
+    "Infraestrutura/Linux",
+    "Infraestrutura/SMB.md",
+    "Infraestrutura/NFS.md",
+    "Anexos/Pasted image 20240418200719.png",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Banco de Dados/Banco de Dados.md",
     "Economia/Contas nacionais.md",
+    "Anexos/Pasted image 20240417210423.png",
+    "Economia/Macroeconomia.md",
     "Economia/Microeconomia.md",
     "Não entendi.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina/Processamento de Linguagem Natural.md",
     "Engenharia de Software/Desenvolvimento/DevSecOps.md",
     "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Infraestrutura/Protocolos que não estão em edital.md",
-    "Infraestrutura/Portas.md",
-    "Infraestrutura/SMTP.md",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
-    "Banco de Dados/Transações e técnicas de recuperação.md",
-    "Banco de Dados/Modelagem de dados.md",
-    "Banco de Dados/Banco de Dados.md",
-    "Banco de Dados/SGBD SQL/Tools.md",
-    "Banco de Dados/SGBD SQL/SQL.md",
-    "Banco de Dados/SGBD SQL/SGBD SQL.md",
-    "Banco de Dados/SGBD SQL/Procedural SQL.md",
-    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Banco de Dados.canvas",
     "LDAP.canvas",
-    "Anexos/Pasted image 20240409204701.png",
-    "Anexos/Pasted image 20240409203920.png",
-    "Anexos/Pasted image 20240409203842.png",
-    "Anexos/Pasted image 20240409200201.png",
-    "Anexos/Pasted image 20240409200028.png",
-    "Anexos/Pasted image 20240409194804.png",
-    "Anexos/Pasted image 20240409151520.png",
-    "Anexos/Pasted image 20240409151722.png",
-    "Anexos/Pasted image 20240409151055.png",
     "Anexos",
     "Infraestrutura",
     "Economia",
@@ -196,7 +197,6 @@
     "Banco de Dados/Arquitetura de Inteligência de Negócio",
     "Ciência de Dados/Aprendizado de Máquina",
     "Untitled.canvas",
-    "Engenharia de Software/Rede",
-    "Engenharia de Software/Desenvolvimento/Testes de software"
+    "Engenharia de Software/Rede"
   ]
 }
