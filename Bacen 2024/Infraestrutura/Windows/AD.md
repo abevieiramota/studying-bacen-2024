@@ -6,12 +6,12 @@
 * catálogo global -> controlador de domínio que armazena uma cópia de todos os objetos do AD em uma floresta
 * serviços
 	* AD CS (Certificate Service) -> cria e gerencia certificados de chaves públicas
-	* AD DS (Domain Service) -> armazena informações sobre usuários, computadores, dispositivos etc
+	* AD DS (Domain Service) -> armazena informações sobre usuários, computadores, dispositivos etc (! é o que normalmente se chama por AD apenas)
 	* AD FS (Federation Services) -> operação com múltiplas plataformas #n_entendi 
 	* AD LDS (Lightweight Directory Service) -> mais leve que o AD DS, por não requerer o desenvolvimento de domínios/DCs #n_entendi 
 	* AD RMS (Rights Management Service) -> serviço para gerenciar proteção de informações
 * arquivos
-	* Ntds.dit -> armazena no servidor todos os dados (associar o .dit a Directory Information Tree)
+	* Ntds.dit -> armazena no servidor todos os dados (associar o .dit a Directory Information Tree) ! decorar
 	* Edb.chk -> checkpoint utilizado para recuperação de estado
 	* Edb.log -> logs de transações
 	* Res1.log e Res2.log -> log reverso, usado quando não há espaço em disco #n_entendi 

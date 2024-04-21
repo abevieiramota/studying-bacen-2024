@@ -42,7 +42,7 @@
 		* Windows PowerShell
 			* fornece ferramentas de linha de comando, chamadas cmdlets
 		* para virtualização, oferece
-			* Hyper-V -> permite virtualizar máquinas em um mesmo servidor físico (não é necessário aplicativo terceiro, como VMWare); permite gerenciamento remoto; pode virtualizar outros SOs, como Linux
+			* Hyper-V -> permite virtualizar máquinas em um mesmo servidor físico (não é necessário aplicativo terceiro, como VMWare); permite gerenciamento remoto; pode virtualizar outros SOs, como Linux; necessário habilitar a role hyper-V
 			* Remoteapp e TS Web Access -> permite acesso remoto
 		* disponibilizado nas versões { Itaniun, R2 } + as mesmas do WS2003
 			* versão Windows Server 2008 Itaniun é otimizada para aplicações de banco de dados de alto desempenho, permitindo hot swamp de processadores e memórias
@@ -59,7 +59,7 @@
 			* virtualização e agrupamento de armazenamento
 		* tem como requisitos mínimos
 			* processador 64 bits, 1.4GHz
-			* 32GB de disco
+			* 3**2**GB de disco
 			* 512MB de memória RAM
 	* Windows Server 2016
 		* gerenciamento de pacotes com PackageManagement

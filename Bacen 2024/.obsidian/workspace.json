@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infraestrutura/Windows/Windows.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "516043db2ecb9591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Infraestrutura/LDAP.md",
+                "file": "Infraestrutura/Proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Windows/Windows.md",
+                "file": "Infraestrutura/Proxy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Windows/Windows.md",
+                "file": "Infraestrutura/Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Windows/Windows.md"
+                "file": "Infraestrutura/Proxy.md"
               }
             }
           }
@@ -161,13 +149,15 @@
   },
   "active": "433192f7a97a9551",
   "lastOpenFiles": [
-    "Anexos/Pasted image 20240420211934.png",
-    "Infraestrutura/Windows/AD.md",
+    "Infraestrutura/Virtualização.md",
+    "Infraestrutura/Proxy.md",
     "Infraestrutura/Windows/Windows.md",
+    "Anexos/Pasted image 20240421133911.png",
+    "Infraestrutura/Windows/AD.md",
     "Infraestrutura/LDAP.md",
+    "Anexos/Pasted image 20240420211934.png",
     "Infraestrutura/Linux/Linux.md",
     "Infraestrutura/Windows",
-    "Infraestrutura/Untitled.md",
     "Infraestrutura/Linux/Gerenciamento de processos.md",
     "Infraestrutura/DNS.md",
     "Infraestrutura/Linux/Cron.md",
@@ -185,11 +175,9 @@
     "Infraestrutura/Portas.md",
     "Infraestrutura/SO.md",
     "Infraestrutura/Linux/Shell Script.md",
-    "Anexos/Pasted image 20240419081711.png",
     "Infraestrutura/Linux",
     "Infraestrutura/SMB.md",
     "Infraestrutura/NFS.md",
-    "Anexos/Pasted image 20240418200719.png",
     "Ciência de Dados/Big Data/Big Data.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Banco de Dados/Banco de Dados.md",
