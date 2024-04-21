@@ -4,7 +4,7 @@
 		* executável
 		* dormente (aguardando algum recurso, como I/O)
 		* zumbi (tentando se destruir)
-		* parado (suspenso, sem permissão para ser executado)
+		* parado (suspenso, sem permissão para ser executado) [Questão](https://www.qconcursos.com/questoes-de-concursos/questoes?q=Q2365596)
 	* prioridade de execução
 	* recursos associados
 	* arquivos e portas de rede associados
@@ -16,12 +16,14 @@
 	* o processo pai é clonado e o programa substituído
 	* ele retorna o PID do processo clonado para o processo pai, que o chamou
 * UID é o id do usuário que criou o processo, GID seu grupo
-* niceness -> prioridade de tempo de CPU para o processo
+* niceness -> "prioridade" de tempo de CPU para o processo
 	* \[-20, 19\] 
 		* ! quanto menor, maior a prioridade! (associar a um ranking)
 	* comando **nice** permite definir a prioridade (por padrão, define com valor 10)
 	* comando **renice** permite alterar (! cuidado, apenas o renice permite alterar)
 	* pode ser definido tanto por processo, quanto por usuário
+* prioridade -> calculado como PR = 20 + NI 
+	* ! cuidado, não confundir com niceness -> ver [Questão](https://www.qconcursos.com/questoes-de-concursos/questoes?q=Q2394654)
 * a árvore de processos tem na sua raiz o processo init, de PID = 1, que é criado na inicialização e tem como responsabilidades
 	* executar scripts de inicialização
 	* ser pai de processos

@@ -30,10 +30,11 @@
 	* mkdir, cd, pwd (print working directory), rmdir, touch, rm, echo
 	* > -> redireciona criando arquivo ou substituindo
 	* >> -> redireciona appendando
-	* ls -a (all); ls -l (lista longa); ls -s (imprime o **s**ize dos arquivos)
+	* ls -a (all, incluindo ocultos); ls -l (lista longa, detalhada); ls -s (imprime o **s**ize dos arquivos) [Questão](https://www.qconcursos.com/questoes-de-concursos/questoes?q=Q2365594)
 	* cat -> concatena arquivos (ex: cat arq1 arq2)
 		* cat arq1 > arq2 -> cria/sobrescreve arq2 com conteúdo de arq1
 		* cat arq1 >> arq2 -> appenda em arq2 o conteúdo de arq1
+	* zcat -> permite visualizar conteúdo do arquivo compactado sem descompactá-lo
 	* tail -> mostra as últimas linhas do arquivo
 		* tail -f -> vai atualizando com as últimas alterações no fim do arquivo (**f**ollow)
 	* find
@@ -187,7 +188,7 @@
 			* modificar o diretório raiz
 			* criar arquivos de dispositivo
 			* configurar o relógio
-			* aumentar limites de uso de recursos e prioridades de processos
+			* aumentar limites de uso de recursos e prioridades de processos (qualquer processo - dono do processo também pode alterar ele)
 			* definir o nome de host
 			* configurar interfaces de rede
 			* abrir portas privilegiadas (< 1024)

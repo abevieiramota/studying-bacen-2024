@@ -14,5 +14,13 @@
       ],
       "key": "M"
     }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageDown"
+    }
   ]
 }

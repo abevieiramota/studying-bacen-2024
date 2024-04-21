@@ -1,0 +1,14 @@
+{
+  "snippets_file": "qc : [Questão](https://www.qconcursos.com/questoes-de-concursos/questoes?q=$end$)",
+  "snippets": [
+    "qc : [Questão](https://www.qconcursos.com/questoes-de-concursos/questoes?q=$end$)"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": false,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

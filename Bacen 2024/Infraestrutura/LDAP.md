@@ -66,6 +66,7 @@
 	* COMPARE - verifica se uma entrada tem determinado atributo
 	* ADD - adiciona nova entrada ao diretório
 	* MODIFY - altera entrada existente
+	* ABADON - aborta uma requisição prévia
 	* DELETE - deleta entrada existente
 	* MODRDN - renomeia uma entrada existente
 	* STARTTLS - inicia criação de túnel seguro TLS/SSL
