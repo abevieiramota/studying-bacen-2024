@@ -13,6 +13,10 @@
 	* poucos dados de treino
 	* dados pouco representativos { amostra pequena, amostra enviesada }
 	* dados com baixa qualidade { outliers, missing values, wrong values }
+		* tipos de missing data
+			* MCAR - Missing Completely At Random -> a causa da missing data não tem relação com os dados coletados (ex: usuário não respondeu à pergunta porque espirrou no momento e esqueceu)
+			* MAR - Missing At Random -> a causa da missing data tem relação com dados coletados, mas não com o fenômeno avaliado (ex: pesquisa sobre depressão, homens respondendo menos que tiveram depressão)
+			* MNAR - Missing Not At Random -> a causa da missing data tem relação com o fenômeno avaliado (ex: pesquisa sobre depressão, pessoas respondendo menos que tiveram depressão por consequência da própria depressão)
 	* irrelevant features
 * **Processo**
 	* [CRISP-DM](https://docs.google.com/presentation/d/18mJD0kUBMCaQDzhhJb-CLZsmjjjCWG5KsQUCFcvGtU0/edit?usp=sharing) #TODO

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infraestrutura/Proxy.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Proxy.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Proxy.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Proxy.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "433192f7a97a9551",
   "lastOpenFiles": [
-    "Infraestrutura/Virtualização.md",
+    "Banco de Dados/Transações e técnicas de recuperação.md",
     "Infraestrutura/Proxy.md",
+    "Infraestrutura/Virtualização.md",
     "Infraestrutura/Windows/Windows.md",
     "Anexos/Pasted image 20240421133911.png",
     "Infraestrutura/Windows/AD.md",
@@ -186,7 +187,6 @@
     "Economia/Microeconomia.md",
     "Não entendi.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Anexos",

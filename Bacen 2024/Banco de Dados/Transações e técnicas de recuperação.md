@@ -1,6 +1,6 @@
 [ProvasDeTI](https://app.nutror.com/curso/6f2348a226567/aula/457072)
 
-* **Escalonamento/scheduling de transações**: a ordem em que as operações das transações são executadas 
+* **Escalonamento/scheduling de transações**: a ordem em que as operações das transações são executadas; ! tem relação com a propriedade ACID de isolamento!
 	* serial: cada transação executa todas suas operações antes de começar a próxima
 	* concorrente/intercalado: alterna operações das transações
 		* concorrente serializável -> se o estado final dele é igual ao de uma execução serial -> se é serializável, é correto
