@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+                "file": "Economia/Contas nacionais.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+                "file": "Economia/Contas nacionais.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+                "file": "Economia/Contas nacionais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md"
+                "file": "Economia/Contas nacionais.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "433192f7a97a9551",
   "lastOpenFiles": [
+    "Anexos/Pasted image 20240424195317.png",
+    "desktop.ini",
+    "Economia/Macroeconomia.md",
+    "Economia/Contas nacionais.md",
+    "Economia/Microeconomia.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Banco de Dados/Transações e técnicas de recuperação.md",
     "Infraestrutura/Proxy.md",
     "Infraestrutura/Virtualização.md",
@@ -182,11 +188,6 @@
     "Ciência de Dados/Big Data/Big Data.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Banco de Dados/Banco de Dados.md",
-    "Economia/Contas nacionais.md",
-    "Economia/Macroeconomia.md",
-    "Economia/Microeconomia.md",
-    "Não entendi.md",
-    "Engenharia de Software/Design Patterns/GRASP.md",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Anexos",
@@ -196,7 +197,6 @@
     "Ciência de Dados/Governança e Ética na IA e dados",
     "Banco de Dados/SGBD SQL",
     "Banco de Dados/Arquitetura de Inteligência de Negócio",
-    "Ciência de Dados/Aprendizado de Máquina",
     "Untitled.canvas"
   ]
 }

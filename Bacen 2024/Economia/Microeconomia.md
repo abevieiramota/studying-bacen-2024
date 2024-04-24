@@ -58,14 +58,14 @@
 			* !fórmulas comuns #anki 
 				* substituto perfeito -> u(q1, q2) = a\*q1 + b\*q2
 				* complementares perfeitos -> u(q1, q2) = min(q1, q2)
-				* cobb-douglas -> u(q1, q2) = q1^a \* q2^b (curva côncava)
+				* cobb-douglas -> u(q1, q2) = (q1^a) \* (q2^b) (curva côncava)
 		* utilidade marginal -> utilidade adicionada quando se incrementa uma unidade de um bem
 			* UMgx = delta U / delta qx
 			* UMgx \* delta qx = - UMgy \* delta qy (considerando que a utilidade final não muda, daí adicionar de um bem, retirando o necessário do outro bem)
 			* ![[Pasted image 20240403092120.png]]
 				* a utilidade marginal de x dividida pela utilidade marginal de y é igual à TMS
 		* **lei da utilidade marginal decrescente**
-			* o incremento de utilidade em função da quantidade de incremento na quantidade decai (ex: ganhar uma coca-cola no almoço é bom, duas coca-colas não traz o dobro do ganho, 1000 coca-colas não traz 1000 * a utilidade de uma coca-cola)
+			* o incremento de utilidade em função do incremento na quantidade decai (ex: ganhar uma coca-cola no almoço é bom, duas coca-colas não traz o dobro do ganho, 1000 coca-colas não traz 1000 * a utilidade de uma coca-cola)
 			* ![[Pasted image 20240403092456.png]]
 			* a curva de utilidade total (a roxa) vai crescendo cada vez menos
 			* mantido fixo o consumo de um bem, o incremento do outro vai decaindo com a quantidade do incremento
@@ -84,7 +84,7 @@
 			* nas curvas côncavas, escolhe o ponto na direita (no exemplo do gráfico) -> não é onde tangencia
 		* no caso de funções de Cobb-Douglas ([questão em 15:30](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639682/videos/82659))
 			* ![[Pasted image 20240409151520.png]]
-			* !não interessa se o x ou o y estão sendo multiplicados por algum escalar
+			* ! não interessa se o x ou o y estão sendo multiplicados por algum escalar
 			* quando a soma dos expoentes é igual a 1, o gasto ótimo com o bem X consiste em gastar um percentual da sua renda com X igual ao percentual do expoente
 				* ![[Pasted image 20240409151722.png]]
 				* gasto ótimo de X = 0.7 \* R / px
