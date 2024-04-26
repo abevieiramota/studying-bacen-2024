@@ -1,5 +1,3 @@
-# LDAP
-
 * Lightweight Directory Access Protocol - protocolo de ==acesso== a serviço de diretório
 	* ! as bancas tendem a considerar LDAP como "serviço de diretórios", que é mais amplo do que a definição precisa
 * características

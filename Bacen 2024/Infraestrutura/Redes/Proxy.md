@@ -15,4 +15,3 @@
 	* pode ser usado como proxy local, mantendo cache etc -> problema que guarda dados do usuário, como URLs acessadas, podendo prejudicar a privacidade
 	* arquivo de configuração -> /etc/squid/squid.conf
 		* para implementar proxy transparente, é preciso configurar o modo intercept
-* 

@@ -16,6 +16,7 @@ Tópicos
 		* Hadoop Yarn (Yeat Another Resource Negotiator) - gerenciamento de cluster e job scheduling
 		* Hadoop MapReduce - map reduce com o Yarn
 		* Processos: NameNode, DataNode, BackupNode, Checkpoint NameNode #TODO
+		* #TODO principais arquivos de configuração
 		* Apache Oozie - scheduler
 		* Apache Ambari - "*Ambari é um framework open source do ecossistema Hadoop, que pode ser usado para a instalação, provisionamento, implantação, gerenciamento e monitoramento de um cluster Hadoop.*"; API RESTful
 	* BigQuery - serverless DW do Google
@@ -25,7 +26,8 @@ Tópicos
 		* DataFrames: API para manipular dados estruturados de forma eficiente.
 		* MLlib: Biblioteca de algoritmos para Machine Learning.
 		* GraphX: Biblioteca para processamento de grafos.
-		* Spark Streaming: Processamento de dados em tempo real.
+		* Spark Streaming: Processamento de dados em tempo real
+		* PySpark - interface entre Python e a API Java do Spark
 	* HBase - distributed database that supports large tables
 	* Hive - DW infrastructure that provides data summarization and ad hoc querying; HiveQL, executa consultas com MapReduce
 	* Mahout - ML 

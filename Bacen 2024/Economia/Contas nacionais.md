@@ -32,9 +32,12 @@
 			* salário do autônomo também é chamado de rendimento misto bruto (é tanto um salário pago a si próprio, quanto lucro do capital utilizado)
 		* *capital* é remunerado com juros **J** (em empréstimos), lucros **L** (produtos), aluguéis **A** (máquinas)
 			* também chamado Excedente Operacional Bruto (EOB) -> remuneração dos agentes, menos salários
+		* [questões muito boas 08:00](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639683/videos/93767)
 	* **Despesa**: total gasto pelos agentes econômicos { famílias, empresas, governo, resto do mundo }
 		* família -> consumo C
 		* empresas -> investimento I
+			* em regra é o gasto da empresa, mas investimento é todo aumento de capital fixo -> uma compra de casa nova são tratados como investimento para fins de PIB
+				* ! casa usada comprada não seria considerada no PIB! porque o PIB considera o valor no momento da produção
 		* governo -> gastos de governo G
 		* resto do mundo -> exportação menos importações X - M
 	* **Poupança** S: parte da renda não destinada ao consumo
@@ -42,7 +45,7 @@
 		* S = Y - C
 	* **! Investimento** I: aumento da capacidade de produzir ~ acréscimo de estoque de capital
 		* I = FBKF + ∆E
-			* FBKF -> Fluxo Bruto de Capital Fixo
+			* FBKF -> Fluxo/Formação Bruto de Capital Fixo
 			* ∆E -> Variação de estoques
 		* I_líquido = I - Depreciação
 	* **! Consumo Total**: consumo das famílias e dos governos
@@ -96,7 +99,7 @@
 					* ex: em 2017 produziu 100 a 20, resultando em 2000; em 2018 produziu 93 a 22, resultando em PIB nominal de 2046; fixando o preço de 2017, o PIB real foi de 1860
 					* só cresce mesmo se a quantidade produzida crescer; noticiário costuma reportar PIB real
 			* cálculo da inflação com base nos PIB nominal e PIB real (no fim das contas, é o preço atual / preço anterior)
-				* $$Deflator = \frac{PIB_N}{PIB_R}$$
+				* $Deflator = \frac{PIB_N}{PIB_R}$
 	* **PIB** = Produto Interno Bruto -> 
 		* medida de todos os { bens, serviços } finais (exclui produtos intermediários) 
 			* exemplo da produção de pão (bens intermediários > bem final):
@@ -111,7 +114,7 @@
 			* não necessariamente as empresas precisam ser brasileiras! a produção da Nestlé, por exemplo, da França, é considerado no PIB!
 			* de forma similar, empresa brasileira com filial em outro país não tem sua produção contabilizada
 		* em determinado período de tempo, 
-			* o bem/serviço é contabilizado no ano em que foi produzido
+			* ! o bem/serviço é contabilizado no ano em que foi produzido #TODO decorar
 			* ex: carro produzido em 2020, mantido em estoque e só vendido em 2022 -> entra no PIB em 2020 -> nos demais anos, é contado como variação de estoque das empresas
 		* e avaliados a preço de mercado (é o padrão no PIB)
 			* preço de mercado -> preço pago pelo consumidor
@@ -124,7 +127,7 @@
 				* não inclui o valor subsidiado, reduzindo o PIB
 				* impostos líquidos = impostos - subsídios
 			* por conta desses inconvenientes, também trabalha-se com o **PIB a custo de fatores** = S + L + J + A (não considera impostos líquidos)
-				* PIBcf = PIBpm - Imposto indireto + Subsídios
+				* PIBcf = PIBpm - Imposto **in**direto + Subsídios #TODO decorar
 	* Produto Interno Líquido (**PIL**) = PIB - depreciação
 * **Economia aberta com governo**
 	* 1) D = C + I + G (Gasto do Governo) + X - M
@@ -154,3 +157,4 @@
 	* Renda Privada Disponível = RDB - RLG = C + S (é o que sobra da renda depois que pagou o que deve pagar)
 * ![[Pasted image 20240424195317.png]]
 	* #TODO decorar
+	* [questão muito boa 26:40](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275496/aulas/2639683/videos/93767)

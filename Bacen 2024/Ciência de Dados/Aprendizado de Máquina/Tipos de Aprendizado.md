@@ -35,6 +35,8 @@
 			* Modelos
 				* Regressão Linear - reta que denota correlação entre variáveis; resíduo = correto - predito; reg linear múltipla (>1 variável independente)
 					* coeficiente de pearson - medida de correlação [-1, 1]
+					* multicolinearidade -> duas ou mais variáveis independentes em um modelo de regressão que se encontram altamente correlacionadas -> afeta a qualidade do modelo e dificulta a interpretação dos resultados
+						* "*Por exemplo, imagine que você queira estimar o efeito da escolaridade e renda na satisfação com a vida. Aqui no Brasil, renda e escolaridade são altamente correlacionadas. Isso pode dificultar a interpretação dos resultados do modelo, uma vez que a contribuição de cada variável para explicar a variável dependente fica menos clara.*" [fonte](https://www.blog.psicometriaonline.com.br/o-que-e-multicolinearidade)
 				* Redes neurais
 				* Árvore de decisão - C4.5 #TODO
 				* SVM
