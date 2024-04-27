@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infraestrutura/Containers/Docker.md",
+                "file": "Infraestrutura/Containers/Boas práticas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Containers/Docker.md",
+                "file": "Infraestrutura/Containers/Boas práticas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Containers/Docker.md",
+                "file": "Infraestrutura/Containers/Boas práticas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Containers/Docker.md"
+                "file": "Infraestrutura/Containers/Boas práticas.md"
               }
             }
           }
@@ -149,9 +149,16 @@
   },
   "active": "ec5b10685e3c89b6",
   "lastOpenFiles": [
+    "Anexos/Pasted image 20240426215513.png",
+    "Infraestrutura/Containers/Kubernetes.md",
+    "Infraestrutura/Containers/Boas práticas.md",
+    "Anexos/Pasted image 20240426212601.png",
+    "Anexos/Pasted image 20240426145742.png",
+    "Infraestrutura/Containers/Docker.md",
+    "Anexos/Pasted image 20240426144954.png",
+    "Anexos/Pasted image 20240426114052.png",
     "Anexos/Pasted image 20240425215828.png",
     "Infraestrutura/Redes/Proxy.md",
-    "Infraestrutura/Containers/Docker.md",
     "Infraestrutura/Containers",
     "Infraestrutura/Redes/LDAP.md",
     "Infraestrutura/Windows/Windows.md",
@@ -177,8 +184,6 @@
     "Infraestrutura/Redes",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "RLM/Estatistica/Básico.md",
-    "RLM/Estatistica/Distribuição binomial.md",
-    "Economia/Contas nacionais.md",
     "RLM/Estatistica",
     "RLM",
     "Anexos/Pasted image 20240424195317.png",
@@ -187,11 +192,6 @@
     "Anexos/Pasted image 20240420211934.png",
     "Infraestrutura/Windows",
     "Anexos/Pasted image 20240419201545.png",
-    "Anexos/Pasted image 20240419201311.png",
-    "Anexos/Pasted image 20240419201305.png",
-    "Anexos/Pasted image 20240419171313.png",
-    "Anexos/Pasted image 20240419160751.png",
-    "Anexos/Pasted image 20240419145911.png",
     "Infraestrutura/Linux",
     "Banco de Dados.canvas",
     "LDAP.canvas",
