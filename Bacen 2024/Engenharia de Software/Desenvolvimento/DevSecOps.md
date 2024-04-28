@@ -1,7 +1,5 @@
-[Provas de TI](https://provasdeti.nutror.com/curso/fdf12e5903ae53d6b83a53632bf346d2a6add378/aula/4178445)
-
+* integração da segurança nas diversas etapas, dev/ops/negócio, desde o início
 * antes de devsecops > segurança adicionada após o ciclo de desenvolvimento
-* integração da segurança nas diversas etapas, dev/ops/negócio
 * segurança como responsabilidade compartilhada entre equipes de dev, ops e seg
 * implantando
 	* integração de equipes de dev, ops e sec
@@ -33,3 +31,7 @@
 	* Dynamic Application Security Testing (DAST) - teste caixa preta, simulação de invasor
 	* Interactive Application Security Testing (IAST) - combinação dos dois
 	* Runtime Application Self-Protection (RASP) - tecnologia que protege uma aplicação de dentro para fora, analisando o comportamento do aplicativo e respondendo em tempo real a atividades potencialmente maliciosas
+
+![[Pasted image 20240427154658.png]]
+
+![[Pasted image 20240427155007.png]]

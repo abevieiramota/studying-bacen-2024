@@ -1,6 +1,6 @@
 [Provas de TI](https://provasdeti.nutror.com/curso/fdf12e5903ae53d6b83a53632bf346d2a6add378/aula/4178727)
 
-* Cultura de engenharia de software que aproxima devs e ops melhorando comunicação/colaboração entre as partes e automatizando/monitorando as fases de construção de um software
+* ! Cultura de engenharia de software que aproxima devs e ops melhorando comunicação/colaboração entre as partes e automatizando/monitorando as fases de construção de um software
 	* Padronização de ciclo de desenvolvimento menores, maior freq de implantação, liberações mais seguras, colaboração, maior visibilidade, alinhamento, aprendizado contínuo
 * DevOps = interseção { dev, ops, garantia de qualidade }
 * **Práticas**
@@ -8,12 +8,23 @@
 	* **CD - Entrega contínua**: o pipeline de criação de artefato de deploy automático e feito frequentemente, deploy fácil em produção
 	* **Microsserviços**: menor acoplamento, maior coesão
 	* **Infraestrutura como código**: versionamento do código de infraestrutura, testes, maior confiabilidade, maior facilidade de criação de ambientes
+		* Tools { chef, ansible, terraform etc }
 	* **Monitoramento e registros em log**: permite monitorar a infraestrutura em uso e atualizar a aplicação de acordo
+		* you can't improve what you don't measure
+	* **Automação** { CI/CD, test, containers, monitoração, infra as code }
+	* **Infraestrutura imutável** -> "uma vez que a infraestrutura é provisionada, quaisquer mudanças necessárias são feitas por meio de um novo provisionamento de infraestrutura, e não alterando a infraestrutura atual. Ou seja, ao invés de modificar o ambiente existente, uma nova versão é construída e substitui a antiga. Isso evita inconsistências e problemas decorrentes de alterações ad hoc, promovendo uma abordagem mais controlada e previsível de gerenciamento de infraestrutura."
+* **Pilares**
+	* reduzir silos organizacionais
+	* aceitar falhas
+	* promover facilidade de mudança
+	* promover automação
+	* meça tudo
 * **Benefícios**
-	* maior integração entre times de dev e de infra
+	* maior integração/colaboração entre times de dev e de infra
 	* maior facilidade de gerenciamento de ambientes de desenvolvimento
 	* maior aderência entre os ambientes { dev, hml, prod } (menos o 'na minha máquina funciona')
-	* pipeline de deploy mais rápido e automatizado > ciclo de dev mais rápido
+	* velocidade na entrega > pipeline de deploy mais rápido e automatizado
+	* maior escalabilidade
 	* Faster Mean Time to Recovery (MTTR): diminuição para reparos no projeto
 	* Higher Mean Time Between Failures (MTBF)
 	* melhor segurança > maior automação da garantia de qualidade do código
@@ -23,6 +34,7 @@
 	* **Deliver**: gerenciamento de implantação, configuração, infra, aumentando confiabilidade
 	* **Operate**: monitoramento, manter disponibilidade, rápida correção, telemetria/alertas
 
+![[Pasted image 20240427153442.png]]
 
 * **Else**
 	* shift left testing - testes feitos desde as fases iniciais do ciclo de vida do produto

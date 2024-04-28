@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ac2499e0ca1e03e6",
+        "id": "5d9d70d50ed232c3",
         "type": "tabs",
         "children": [
           {
-            "id": "ec5b10685e3c89b6",
+            "id": "ba28490a44b99ad7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infraestrutura/Containers/Boas práticas.md",
+                "file": "Infraestrutura/Infraestrutura as code/Infraestrutura as code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4b685c7bb8470e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infraestrutura/Infraestrutura as code/Puppet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "462b41f677b530d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engenharia de Software/Desenvolvimento/DevOps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kappa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Containers/Boas práticas.md",
+                "file": "Engenharia de Software/Desenvolvimento/DevOps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Containers/Boas práticas.md",
+                "file": "Engenharia de Software/Desenvolvimento/DevOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Containers/Boas práticas.md"
+                "file": "Engenharia de Software/Desenvolvimento/DevOps.md"
               }
             }
           }
@@ -147,24 +172,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec5b10685e3c89b6",
+  "active": "462b41f677b530d1",
   "lastOpenFiles": [
+    "Infraestrutura/Infraestrutura as code/Ansible.md",
+    "Anexos/Pasted image 20240427202045.png",
+    "Anexos/Pasted image 20240427201810.png",
+    "Infraestrutura/Infraestrutura as code/Puppet.md",
+    "Infraestrutura/Infraestrutura as code/Infraestrutura as code.md",
+    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
+    "Anexos/Pasted image 20240427155007.png",
+    "Anexos/Pasted image 20240427154658.png",
+    "Engenharia de Software/Desenvolvimento/DevOps.md",
+    "Anexos/Pasted image 20240427153825.png",
+    "Anexos/Pasted image 20240427153442.png",
+    "Ciência de Dados/Big Data/Big Data.md",
+    "Infraestrutura/Infraestrutura as code",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Infraestrutura/SO/SO.md",
+    "Infraestrutura/Containers/Boas práticas.md",
     "Anexos/Pasted image 20240426215513.png",
     "Infraestrutura/Containers/Kubernetes.md",
-    "Infraestrutura/Containers/Boas práticas.md",
     "Anexos/Pasted image 20240426212601.png",
     "Anexos/Pasted image 20240426145742.png",
     "Infraestrutura/Containers/Docker.md",
     "Anexos/Pasted image 20240426144954.png",
-    "Anexos/Pasted image 20240426114052.png",
-    "Anexos/Pasted image 20240425215828.png",
     "Infraestrutura/Redes/Proxy.md",
     "Infraestrutura/Containers",
     "Infraestrutura/Redes/LDAP.md",
     "Infraestrutura/Windows/Windows.md",
     "Infraestrutura/Windows/AD.md",
     "Infraestrutura/SO/Virtualização.md",
-    "Infraestrutura/SO/SO.md",
     "Infraestrutura/Linux/Linux.md",
     "Infraestrutura/Linux/Montagem de volumes.md",
     "Infraestrutura/Linux/Cron.md",
@@ -172,31 +209,18 @@
     "Infraestrutura/Linux/Shell Script.md",
     "Não entendi.md",
     "Infraestrutura/TODO.md",
-    "Anexos/Pasted image 20240425182227.png",
     "Engenharia de Software/Rede/Rede.md",
     "Engenharia de Software/Rede/gRPC.md",
-    "Engenharia de Software/Rede/DNS.md",
-    "Infraestrutura/Redes/DHCP.md",
     "Infraestrutura/SO",
-    "Infraestrutura/Redes/Redes.md",
-    "Infraestrutura/Redes/DNS.md",
-    "Ciência de Dados/Big Data/Big Data.md",
     "Infraestrutura/Redes",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "RLM/Estatistica/Básico.md",
     "RLM/Estatistica",
     "RLM",
-    "Anexos/Pasted image 20240424195317.png",
     "desktop.ini",
-    "Anexos/Pasted image 20240421133911.png",
-    "Anexos/Pasted image 20240420211934.png",
     "Infraestrutura/Windows",
-    "Anexos/Pasted image 20240419201545.png",
     "Infraestrutura/Linux",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Anexos",
-    "Infraestrutura",
     "Untitled.canvas"
   ]
 }
