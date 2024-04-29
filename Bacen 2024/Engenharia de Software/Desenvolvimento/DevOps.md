@@ -40,3 +40,4 @@
 	* shift left testing - testes feitos desde as fases iniciais do ciclo de vida do produto
 	* a equipe de devops que é responsável por criação de scripts automatizados de entrega contínua etc
 	* TOGAF (The Open Group Architecture Framework): framework que provê métodos e práticas para apoiar a criar, manter, usar, gerir e evoluir a arquitetura corporativa de uma empresa
+	* Trust but verify

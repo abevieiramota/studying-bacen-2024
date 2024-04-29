@@ -78,10 +78,11 @@
 		* 3 - com mapeamento de volume (associa um volume do host com um volume do container)
 			* docker run -p 69:80 -v $(pwd):/usr/share/nginx/html nginx -> mapeia o current dir do host para /usr/share/nginx/html do container
 			* dessa forma, basta alterar o arquivo no volume do host que isso será refletido no volume do container
-* **Dockerfile**
+* **Dockerfile** #anki 
 	* FROM alpine:latest -> estende imagem
 	* RUN sudo apt update-> executa comando !**no momento de criação da imagem** -> docker build
-	* CMD \["java", "OlaMundo"\] -> executa o comando !**em tempo de execução do container** -> docker run ! **atentar para a sintaxe, com colchetes**
+	* ENTRYPOINT \["dotnet", "DotNet.Docker.dll"\] -> programa a ser executado quando o container foi executado; só pode haver um (havendo mais de um, apenas o último é considerado)
+	* CMD \["java", "OlaMundo"\] -> o indicado é ser usado para conter os parâmetros a serem passados para o programa declarado no ENTRYPOINT, mas parece que o povo usa para informar logo programa + parâmetros (como no exemplo); executa o comando !**em tempo de execução do container** -> docker run ! **atentar para a sintaxe, com colchetes**
 	* ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-> cria variável de ambiente
 	* COPY \<arquivo no host\> \<path no container\>
 		* COPY . . -> copia tudo do diretório do Dockerfile no host para o diretório padrão no container (que pode ser alterado com WORKDIR) (arquivos podem ser ignorados com o .dockerignore, como um .node_modules)

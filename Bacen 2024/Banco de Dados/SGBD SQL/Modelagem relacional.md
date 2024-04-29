@@ -52,6 +52,7 @@
 			* não tem atributos multivalorados, atributos compostos, tabelas aninhadas
 		* ! cuidado, abaixo fala-se em 'chave', que inclui chave primária e chaves candidatas, e não apenas de PK
 		* **2NF** - 1NF e não tem dependências parciais (atributo não chave depende de parte de chave composta - considerar qualquer chave, não apenas a PK)
+			* ! pode ser definido também como '1NF + todos atributos não chavem dependem totalmente da chave primária'
 		* **3NF** - 2NF e não tem dependência transitiva (X -> Y, Y -> Z, sendo X chave e Y, Z não chave)
 		* **BCNF** - 3NF e para toda dependência funcional X -> A, X é uma superchave (o lado esquerdo de toda dependência funcional é superchave)
 		* **4NF** - BCNF e não contém dependências multivaloradas #TODO ver melhor no Elsmari

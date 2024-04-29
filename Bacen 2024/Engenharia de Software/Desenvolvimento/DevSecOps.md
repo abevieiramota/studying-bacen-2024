@@ -26,10 +26,10 @@
 	* nagios - monitoramento de sistema e infra
 	* OWASP ZAP - teste de aplicativo web
 	* SonarQube - verificação de código
-* testes de segurança
+* Testes de segurança #anki 
 	* Static Application Security Testing (SAST) - teste caixa branca, análise estática de código
 	* Dynamic Application Security Testing (DAST) - teste caixa preta, simulação de invasor
-	* Interactive Application Security Testing (IAST) - combinação dos dois
+	* Interactive Application Security Testing (IAST) - combinação dos dois -> usa agente que monitora a aplicação em tempo real, tendo acesso também às bibliotecas/frameworks usados
 	* Runtime Application Self-Protection (RASP) - tecnologia que protege uma aplicação de dentro para fora, analisando o comportamento do aplicativo e respondendo em tempo real a atividades potencialmente maliciosas
 
 ![[Pasted image 20240427154658.png]]
