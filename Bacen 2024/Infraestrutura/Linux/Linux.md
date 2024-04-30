@@ -6,7 +6,7 @@
 		* usa módulos, carregados apenas sob demanda, para diminuir o consumo padrão de memória do kernel; ficam em /lib/modules/versão_do_kernel/
 	* permite uso de servidores de janelas/ambientes gráficos -> os mais populares { **Gnome**, **KDE**, Cinnamon, **MATE**, **XFCE**, Pantheon, Deepin etc }
 * **Distribuições**
-	* #TODO adicionar Ubunto, Debian, Fedora, Arch etc
+	* #TODO adicionar Ubuntu, Debian, Fedora, Arch etc
 	* RHEL - Red Hat Enterprise Linux: distribuído por modelo de as$inatura, estável/seguro, suporte de longo prazo, empresarial;
 	* CentOS: código aberto baseado no RHEL, gratuita, bastante usada em servidores, suporte de longo prazo, grande comunidade;
 	* Oracle Linux: código aberto baseado no RHEL, KUE - Kernel Unbreakable Enterprise, versão personalizada do kernel Linux com melhorias de desempenho, segurança e suporte a tecnologias Oracle, distribuído por modelo de as$inatura;

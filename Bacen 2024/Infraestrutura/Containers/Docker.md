@@ -113,6 +113,7 @@
 	* aplicativos desktop GUI
 	* dados valiosos aramzenados
 	* quer facilidade de gerenciamento
+* next_step::docker-compose
 
 
 

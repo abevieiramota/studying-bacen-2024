@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infraestrutura/Monitoração/ELK.md",
+                "file": "Infraestrutura/Monitoração/Nagios.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mensager",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infraestrutura/Monitoração/ELK.md",
+                "file": "Infraestrutura/Monitoração/Nagios.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infraestrutura/Monitoração/ELK.md",
+                "file": "Infraestrutura/Monitoração/Nagios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infraestrutura/Monitoração/ELK.md"
+                "file": "Infraestrutura/Monitoração/Nagios.md"
               }
             }
           }
@@ -149,44 +149,44 @@
   },
   "active": "bb1d8069a84aa1e6",
   "lastOpenFiles": [
-    "Anexos/Pasted image 20240428220258.png",
+    "Infraestrutura/Nuvem.md",
+    "Infraestrutura/Monitoração/Nagios.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Infraestrutura/Containers/Boas práticas.md",
+    "Anexos/Pasted image 20240429141909.png",
+    "Infraestrutura/Linux/Gerenciamento de processos.md",
+    "Anexos/Pasted image 20240429125731.png",
+    "Infraestrutura/Monitoração/Elasticsearch.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Não entendi.md",
+    "Infraestrutura/Containers/Docker.md",
+    "Próximo passo.md",
+    "Adicionar ao Anki.md",
+    "Engenharia de Software/Design Patterns/GRASP.md",
+    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+    "Infraestrutura/Linux/Linux.md",
+    "Infraestrutura/SO/SO.md",
+    "Infraestrutura/Monitoração/Logstash.md",
     "Infraestrutura/Monitoração/Básico.md",
     "Infraestrutura/Monitoração/ELK.md",
+    "Infraestrutura/Monitoração/Kibana.md",
+    "Engenharia de Software/Arquitetura/12 Factor App.md",
+    "Anexos/Pasted image 20240429070218.png",
+    "Anexos/Pasted image 20240428220258.png",
     "Infraestrutura/Infraestrutura as code/Infraestrutura as code.md",
     "Engenharia de Software/Desenvolvimento/DevOps.md",
-    "Infraestrutura/Containers/Docker.md",
     "Infraestrutura/Monitoração",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Engenharia de Software/Arquitetura/Web services.md",
     "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-    "Engenharia de Software/Arquitetura/RESTful.md",
-    "Engenharia de Software/Arquitetura/Orientação a eventos.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
-    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
-    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
-    "Engenharia de Software/Arquitetura/Cache.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Desenvolvimento/DevSecOps.md",
-    "Banco de Dados/SGBD SQL/Modelagem relacional.md",
-    "Infraestrutura/Infraestrutura as code/Puppet.md",
     "Anexos/Pasted image 20240428144848.png",
     "Anexos/Pasted image 20240428100806.png",
     "Anexos/Pasted image 20240428095005.png",
-    "Infraestrutura/Infraestrutura as code/Ansible.md",
     "Anexos/Pasted image 20240427202045.png",
     "Anexos/Pasted image 20240427201810.png",
     "Anexos/Pasted image 20240427155007.png",
-    "Anexos/Pasted image 20240427154658.png",
-    "Anexos/Pasted image 20240427153825.png",
-    "Anexos/Pasted image 20240427153442.png",
-    "Ciência de Dados/Big Data/Big Data.md",
     "Infraestrutura/Infraestrutura as code",
-    "Infraestrutura/SO/SO.md",
-    "Infraestrutura/Containers/Boas práticas.md",
-    "Anexos/Pasted image 20240426215513.png",
-    "Infraestrutura/Containers/Kubernetes.md",
-    "Infraestrutura/Redes/Proxy.md",
     "Infraestrutura/Containers",
     "Infraestrutura/SO",
     "Infraestrutura/Redes",
