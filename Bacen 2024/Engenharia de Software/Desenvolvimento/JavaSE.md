@@ -1,4 +1,4 @@
-[JavaSE](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640890/videos/203286)
+3[JavaSE](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640890/videos/203286)
 * fortemente tipada -> a variável só tem um tipo apenas
 * estaticamente tipada -> definição de tipo em tempo de compilação (var é apenas um shortcut para a definição ser inferida em tempo de compilação)
 * multi-thread
@@ -55,6 +55,7 @@
 	* Array -> todo array é um objeto! daí inicializa com new
 		* { tipo deve ser definido, tamanho deve ser definido, não é permitida alteração }
 		* int \[] idade = new int\[10]
+		* int idade\[\] = new int\[10\]; ! sintaxe também válida
 		* int \[\]\[\] coords = new int\[5\]\[4\];
 		* int \[\] cores = { 2, 3 }; 
 		* idades.length
