@@ -17,6 +17,11 @@
 	* **MIIM - Man In The Middle** -> entidade que está monitorando um canal de comunicação
 	* **Ataque de Força Bruta** -> tentativa usando força bruta para acertar algum segredo
 	* **Hardening** -> prática de diminuir vulnerabilidades, como desinstalar serviços não utilizados
+	* **Zero Trust** -> sempre garantir o privilégio mínimo
+	* def::**DMZ (Demilitarized Zone)** -> área de rede separada para fornecimento de serviços para áreas não controladas, como a Internet, que são comuns à rede interna; também conhecida como rede de perímetro ^def-dmz
+		* exemplo de uso -> segmento de rede usado para receber conexões de usuários visitantes da empresa que precisam acessar sistemas
+	* **Honeypot**: servidor criado intencionalmente para tentar capturar tentativas de exploração de vulnerabilidades, deixando vulnerabilidades específicas para atrair; busca-se replicar serviços nele, sem incluir dados sigilosos/que possam causar danos
+	* **NAT** -> é usado para produzir obscuridade, ocultando endereços internos
 * **Tipos de problemas**
 	* **Ameaça** -> causa potencial de um incidente indesejado (ex: funcionário demitido pode tentar acessar e divulgar dados sigilosos)
 	* **Risco** -> probabilidade de uma fonte de ameaça explorar uma vulnerabilidade, resultando em um impacto para a organização
@@ -65,4 +70,3 @@
 			* **Mensurabilidade** -> a característica pode ser mensurada quantitativamente
 * Como compartilhar recursos já existentes e reconhecer usuários de forma mútua e confiável { [[SAML]], [[OAuth]] }
 	* SAML é mais antigo e está sendo substituído pelo OAuth
-* 

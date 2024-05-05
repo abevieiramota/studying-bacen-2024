@@ -1,0 +1,1 @@
+* **One-way salted hash**: ^def-one-way-salted-hash

@@ -1,0 +1,1 @@
+* def::**VPN (Virtual Private Network)**: rede virtual privada, provendo um túnel seguro de comunicação entre dois pontos; pode ser tanto entre dois firewalls, como com sede e filial, quanto entre usuário externo e rede interna

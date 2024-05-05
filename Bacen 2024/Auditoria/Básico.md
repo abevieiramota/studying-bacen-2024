@@ -1,0 +1,4 @@
+* def::**Auditoria de TI**: análise cuidadosa e sistemática dos recursos de TI, pesoas, documentos, sistemas, entre outros, no intuito de se averiguar se estes estão de acordo com aquilo que foraplanejado ou em relação às atividades e comportamentos definidos como padrão ^def-auditoria
+* def:: **Auditoria de TI (TCU)**: avaliação de se a gestão da [[Segurança da Informação/Básico|segurança da informação]], o controle dos ativos e os riscos envolvidos são considerados de forma efetiva pela organização. A auditoria de SI visa avaliar a gestão da organização com relação à segurança. Aborda aspectos de confidencialidade, integridade e disponibilidade, embutidos nos conceitos de segurança lógica e física.
+* def::**Conformidade**: adesão dos sistemas de informação às políticas e às normas organizacionais de segurança da informação.
+* 

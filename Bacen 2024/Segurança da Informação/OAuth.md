@@ -1,4 +1,4 @@
-* Protocolo que permite aos usuários ter acesso limitado a recursos de um website sem precisar expor suas credenciais; descreve uma maneira segura de acessar recursos de terceiros
+* def::**OAuth**: Protocolo que permite aos usuários ter acesso limitado a recursos de um website sem precisar expor suas credenciais; descreve uma maneira segura de acessar recursos de terceiros
 * Trabalha de forma dinâmica com trocas de chaves
 * Necessário uso de HTTPS
 * **Papéis**

@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
   "spellcheck": false,
-  "attachmentFolderPath": "Anexos"
+  "attachmentFolderPath": "Anexos",
+  "newLinkFormat": "shortest"
 }

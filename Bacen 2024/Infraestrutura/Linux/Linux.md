@@ -112,7 +112,7 @@
 		* /etc/syslog.conf -> controla a saída de log do daemon syslogd
 		* /etc/profile -> contém comandos executados para todos usuários no login; só o root pode modificar
 		* /etc/network/interfaces -> usado para ativar/desativar interfaces de rede
-		* anki::/etc/resolv.conf -> configura resoluções de host via [[Infraestrutura/Redes/DNS|DNS]]
+		* anki::/etc/resolv.conf -> configura resoluções de host via [[DNS|DNS]]
 			* ![[Pasted image 20240419145531.png]]
 			* domain -> nome do domínio local
 			* search -> lista de pesquisa para procura de nomes curtos (no exemplo, a busca por um nome como 'gitlab' vai gerar uma busca por 'gitlab.ti.teste.com.br')
