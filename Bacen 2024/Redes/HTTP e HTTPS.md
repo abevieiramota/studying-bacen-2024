@@ -1,5 +1,3 @@
-# **HTTP** (Hypertext Transfer Protocol)
-
 * **Características**
 	* camada de aplicação
 	* arquitetura cliente-servidor -> requisição-resposta
@@ -67,7 +65,7 @@
 		* 503 - SERVICE UNAVAILABLE
 		* 505 - ==VERSION NOT SUPPORTED==
 * **HTTPS**
-	* criptografia por protocolos SSL e TLS
+	* criptografia por protocolos [[TLS e SSL]]
 	* os dados são cifrados para uma comunicação segura
 	* permite verificar a autenticidade do servidor e do cliente, por meio de certificados digitais
 		* tunelamento simples -> autentica apenas o servidor

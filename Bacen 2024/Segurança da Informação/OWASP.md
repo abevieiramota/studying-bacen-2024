@@ -110,7 +110,7 @@
 			* instanciar explicitamente variáveis durante a declaração
 			* não usar dados recebidos de usuário sem antes realizar tratamentos adequados
 			* revisar aplicações de terceiro utilizadas, para avaliar vulnerabilidades/nível de segurança
-	* todo::[guia](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
+	* todo::Ler o guia de referência para código seguro do OWASP [link](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
 * [OWASP Enterprise Security API (ESAPI) Project](https://owasp.org/www-project-enterprise-security-api/)
 * OWASP Legal Project
 * [OWASP Application Security Verification Standard (ASVS) Project](https://owasp.org/www-project-application-security-verification-standard/)
