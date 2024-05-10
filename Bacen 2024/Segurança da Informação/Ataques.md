@@ -77,6 +77,50 @@
 			* uso de CDNs, desonerando servidores do serviço
 			* hardening
 		* **DRDoS ou DDoS Refletor**: semelhante ao SMURF, enviam-se requisições com endereços forjados para usuários legítimos, de forma que eles respondam ao alvo do ataque
+	* **SPIM (SPAM over Instant Message)**: envio em massa para propagar informação com finalidade maliciosa, usando serviços de mensagens instantânea (ex: envio de arquivo malicioso, ato de engenharia social)
+	* **Engenharia Social**: exploração de relações sociais com o objetivo de descobrir informações privadas, de forma direta ou indireta (ex: descobrir informações de um funcionário de empresa para tentar obter mais informações da empresa)
+		* **Vishing**: uso de sistema telefônic/chamada de voz para obter acesso às informações
+		* **Phishing ou Spear Phishing**
+		* **Hoax**: informação falsa divulgada em veículos de comunicação em massa, com isso conseguindo um grau de credibilidade baseada na popularidade da informação
+		* **Whaling**: ataques altamente direcionados para ludibriar altos executivos - whale
+	* **Ransomware**: sequestro de dados, por meio de criptografia dos dados, tornando eles inacessíveis sem a chave
+		* como lidar: ou paga o resgate, ou (se tiver) usa backups que estejam funcionais (daí a necessidade de ter estratégias robustas de backups - ex: salvar em dispositivos offline)
+	* **Malware**: malicous software
+		* objetivos { roubar dados, roubar identidades, traçar perfis, gerar danos a hardwares/sistemas }
+		* formas de infecção: 
+			* exploração de vulnerabilidades de programas
+			* execução automática de mídias removíveis infectadas, como pen-drive
+			* acesso a páginas web maliciosas
+			* ação direta de atacantes, invadindo computadores e inserindo códigos/programas maliciosos
+		* **Tipos**
+			* **Vírus**: código que pode ser um programa ou parte de um programa que tem a capacidade de gerar cópias de si/infectar outros programas
+				* pode executar tarefas como deletar arquivos, instalar programas, reduzir configurações de segurança, esgotar recursos etc
+				* depende de uma ação direta do usuário ou SO para executar/abrir o programa infectado
+				* é possível estar inativo, podendo ser ativado posteriormente
+				* propaga pela internet ou mídias removíveis
+				* mitigável com desabilitação de execução automática
+				* **tipos**
+					* **vírus stealth**: usam-se técnicas para evitar a detecção
+					* **vírus metamórfico/polimórfico**: usam-se técnicas para ocasionar alterações no seu código para dificultar a edição
+					* **vírus de boot**: afeta o processo de boot, a MBR
+					* **vírus de arquivo**: afetam arquivos de programas executáveis
+					* **vírus residente**: carregado automaticamente em memória com o load do SO
+					* **vírus propagado por e-mail**
+					* **vírus de script/macro/telefone celular**
+			* **Worm**: tem capacidade de se propagar pela rede enviando cópias de seu código, buscando explorar vulnerabilidades dos sistemas
+				* pela propagação em rede, pode causar prejuízo nos recursos de redes
+			* **Spyware**: foca na obtenção de informações de um host por meio de monitoramento de suas atividades
+				* pode ser malicioso, daí malware, mas também pode ter finalidade legítima (ex: monitoramento de atividades em computador da empresa)
+				* **keylogger**: monitora teclas digitadas; usa-se teclado virtual para evitar ataque por keylogger
+				* **screenlogger**: armazena atividades da tela
+				* **adware**: coleta de informações para direcionar propagandas
+			* **Trojan Horse**: entra no SO escondido em outros programas (ex: programa divulgado para crackear outros programas, mas que contém código malicioso)
+			* **Backdoor**: busca gerar meios para acesso futuro do atacante, como mantendo abertas portas
+			* **Rootkit**: conjunto de programas e técnicas que permite esconder e assegurar a presença de um invasor ou de outro código malicioso em um computador comprometido, *conseguindo controlar o computador* -> o foco é na manutenção do acesso indevido + limpar rastros, não a invasão em si
+				* operações { remoção de rastros, instalar malwares, mapear potenciais vulnerabilidades etc }
+				* depende de uma invasão e de escalada de privilégios
+				* tipos { kernel, virtual, firmware, library } rootkit (de acordo com que camada afeta)
+				* 
 * **Informações extras**
 	* O Google Search é ferramenta útil para levantar informações sobre os sites, com isso podendo ser utilizado em busca de vulnerabilidades
 		* [Google hacking database](https://www.exploit-db.com/google-hacking-database): base de consultas no Google para descobrir vulnerabilidades
