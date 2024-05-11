@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "654f937413b76486",
+        "id": "4764607492d2d2f6",
         "type": "tabs",
         "children": [
           {
-            "id": "2c9b70f4d17a62e5",
+            "id": "ccbc1774115b3453",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Segurança da Informação/Ataques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a2e80383ac74559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redes/ARP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança da Informação/Ataques.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança da Informação/Ataques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Segurança da Informação/Ataques.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,11 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c9b70f4d17a62e5",
+  "active": "ccbc1774115b3453",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Segurança da Informação/Ataques.md",
     "Redes/ARP.md",
+    "Segurança da Informação/Ataques.md",
+    "Untitled.md",
     "Segurança da Informação/VPN.md",
     "Segurança da Informação/Básico.md",
     "Adicionar ao Anki.md",
