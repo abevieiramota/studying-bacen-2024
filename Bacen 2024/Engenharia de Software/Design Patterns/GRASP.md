@@ -12,5 +12,5 @@ Fonte: https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)
 * **High Cohesion** - objetos devem ser focados
 * **Polymorphism** - a responsabilidade por mudança de comportamento é do tipo em que o comportamento muda
 * n_entendi::**Protected Variations** - cria uma interface estável em torno de pontos de variação previsível/instabilidade
-* **Pure Fabrication** - classe que não representa um conceito do domínio do problema, servindo apenas para conseguir baixo acoplamento, alta coesão e potencial de reuso #n_entendi 
+* study_more::**Pure Fabrication** - classe que não representa um conceito do domínio do problema, servindo apenas para conseguir baixo acoplamento, alta coesão e potencial de reuso
 

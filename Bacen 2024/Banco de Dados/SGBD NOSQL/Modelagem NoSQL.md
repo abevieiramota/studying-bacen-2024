@@ -1,4 +1,4 @@
-* #TODO Pesquisar modelagem em bancos representativos 
+* todo::Pesquisar modelagem em bancos NoSQL
 	* MongoDB - document-oriented
 	* Neo4J - graph-oriented
 	* Cassandra - column-oriented

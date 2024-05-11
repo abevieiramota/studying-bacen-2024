@@ -1,4 +1,4 @@
-3[JavaSE](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640890/videos/203286)
+[JavaSE](https://www.estrategiaconcursos.com.br/app/dashboard/cursos/275777/aulas/2640890/videos/203286)
 * fortemente tipada -> a variável só tem um tipo apenas
 * estaticamente tipada -> definição de tipo em tempo de compilação (var é apenas um shortcut para a definição ser inferida em tempo de compilação)
 * multi-thread
@@ -96,6 +96,7 @@
 		* ! thread.run() executa o código na mesma thread corrente! cuidado, pegadinha com ordem de resultados, com o run ficam serial as execuções
 			* o thread.start() que cria fluxos novos, com execução concorrente
 		* Thread.currentThread() -> identificador da thread corrente
+		* todo::ver exemplo de código com uso de threads
 	* Pegadinhas
 		* código com statement que nunca pode ser alcançado não compila (ex: try { throw new Exception();} catch(Exception e) { throw e} System.out.println("nunca vou ser executado");)
 * Features por versão

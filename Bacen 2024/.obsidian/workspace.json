@@ -8,14 +8,73 @@
         "type": "tabs",
         "children": [
           {
+            "id": "2496d672f1c7c64a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definições.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d785806f1bbcc1d8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "ccbc1774115b3453",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Banco de Dados/Banco de Dados.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3087cd442aae8e91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "614f72153e0c84d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Banco de Dados/Modelagem de dados.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tls",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +179,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md"
+              }
             }
           }
         ],
@@ -139,36 +202,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccbc1774115b3453",
+  "active": "3087cd442aae8e91",
   "lastOpenFiles": [
-    "Redes/ARP.md",
-    "Segurança da Informação/Ataques.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Untitled.md",
-    "Segurança da Informação/VPN.md",
-    "Segurança da Informação/Básico.md",
-    "Adicionar ao Anki.md",
-    "Segurança da Informação/TLS e SSL.md",
+    "Banco de Dados/Modelagem de dados.md",
+    "Banco de Dados/Banco de Dados.md",
     "Tools.md",
+    "Banco de Dados/SGBD NOSQL/Modelagem NoSQL.md",
     "TODO.md",
-    "Próximo passo.md",
-    "Não entendi.md",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Engenharia de Software/Arquitetura/Cache.md",
+    "Banco de Dados/SGBD SQL/SGBD SQL.md",
+    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+    "Banco de Dados/SGBD SQL/SGBD/SQL Server.md",
+    "Banco de Dados/SGBD SQL/SGBD/Oracle.md",
+    "Banco de Dados/SGBD SQL/SGBD/MySQL.md",
+    "Banco de Dados/SGBD SQL/SGBD/Postgres.md",
+    "Banco de Dados/SGBD SQL/Tools.md",
+    "Banco de Dados/SGBD SQL/Procedural SQL.md",
+    "Banco de Dados/SGBD SQL/Modelagem Relacional.md",
     "Definições.md",
-    "Infraestrutura/Linux/Linux.md",
-    "Segurança da Informação/OWASP.md",
+    "Banco de Dados/SGBD SQL/SQL.md",
+    "Banco de Dados/SGBD SQL/SGBD",
+    "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
+    "Auditoria/Básico.md",
+    "Atualidades/Sociedade.md",
+    "Atualidades/Política.md",
     "Anexos/Pasted image 20240505095846.png",
-    "Redes/Portas.md",
     "Anexos/Pasted image 20240505094957.png",
-    "Segurança da Informação/Criptografia.md",
-    "Redes/HTTP e HTTPS.md",
-    "Segurança da Informação/Certificado Digital.md",
-    "Segurança da InformaçãoCertificado Digital.md",
-    "Redes/WebSockets.md",
-    "Engenharia de Software/Rede/Rede.md",
-    "Engenharia de Software/Rede/HTTP e HTTP2.md",
-    "Engenharia de Software/Rede/TLS.md",
-    "Engenharia de Software/Rede/Servidores proxy.md",
-    "Redes/gRPC.md",
-    "Segurança da Informação/IDS, IPS.md",
     "Engenharia de Software/Desenvolvimento/Linguagens de programação",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro",
     "Auditoria",
@@ -186,7 +250,6 @@
     "Infraestrutura/Containers",
     "Infraestrutura/SO",
     "Redes",
-    "RLM/Estatistica",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Untitled.canvas"

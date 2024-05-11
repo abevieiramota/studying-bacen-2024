@@ -1,5 +1,4 @@
-[ProvasDeTI](https://app.nutror.com/curso/6f2348a226567/aula/457072)
-
+study_more::isolamento e escalonamento de transações
 * **Escalonamento/scheduling de transações**: a ordem em que as operações das transações são executadas; ! tem relação com a propriedade ACID de isolamento!
 	* serial: cada transação executa todas suas operações antes de começar a próxima
 	* concorrente/intercalado: alterna operações das transações
@@ -67,3 +66,8 @@
 * Checkpoint -> ponto em que o banco para as transações e escreve as alterações em disco -> se falhar depois, vai percorrer o log apenas a partir do checkpoint
 	* diminui o número de redo na recuperação
 * Rollback em cascata -> se uma transação é desfeita e há uma transação que leu dado alterado por ela, essa deve ser desfeita também
+
+
+# Fontes
+
+* [ProvasDeTI](https://app.nutror.com/curso/6f2348a226567/aula/457072)

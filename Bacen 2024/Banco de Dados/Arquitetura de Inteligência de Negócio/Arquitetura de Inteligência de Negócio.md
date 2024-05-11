@@ -1,3 +1,3 @@
 * [[DW]]
-* **Data Lake**: base contendo diversas fontes de dados, possivelmente não estruturadas, com interface eficaz de descoberta e acesso aos dados
-* **Data Mesh**: forma de gerenciar os dados em que há descentralização de diversos elementos, como a governança dos dados, a infraestrutura etc, criando uma malha entre os grupos de dados de forma a garantir certas propriedades, como a governança, qualidade de dados etc
+* def::**Data Lake**: base contendo diversas fontes de dados, possivelmente não estruturadas, com interface eficaz de descoberta e acesso aos dados
+* def::**Data Mesh**: forma de gerenciar os dados em que há descentralização de diversos elementos, como a governança dos dados, a infraestrutura etc, criando uma malha entre os grupos de dados de forma a garantir certas propriedades, como a governança, qualidade de dados etc

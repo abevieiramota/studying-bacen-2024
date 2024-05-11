@@ -3,5 +3,11 @@
   "readableLineLength": false,
   "spellcheck": false,
   "attachmentFolderPath": "Anexos",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  }
 }
