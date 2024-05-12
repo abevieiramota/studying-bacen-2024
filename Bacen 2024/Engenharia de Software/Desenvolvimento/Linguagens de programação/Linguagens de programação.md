@@ -3,7 +3,8 @@
 	* [[Python]]
 * **Conceitos**:
 	* def::**Linguagem fortemente tipada**: a variável só tem um tipo apenas ^def-lang-fort-tipada
-	* def::**Linguagem estaticamente tipada**: definição de tipo em tempo de compilação ^def-lang-stat-tipada
+	* def::**Linguagem estaticamente tipada**: definição de tipo de variáveis em tempo de compilação ^def-lang-stat-tipada
+	* def::**Linguagem dinâmicamente tipada**: definição de tipo de variáveis em tempo de execução ^def-lang-din-tipada
 	* **Máquina virtual**:
 		* def::**Write One Run Anywhere** (WORA): capacidade de escrever o código apenas uma vez e ele ser utilizado em plataformas diversas
 			* **Compilado**: compilada: em c, compila para uma plataforma

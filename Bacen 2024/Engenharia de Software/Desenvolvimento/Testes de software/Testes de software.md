@@ -3,8 +3,6 @@
 * [[TDD]]
 * [[BDD]]
 
-! Pressman é bastante cobrado! #TODO
-
 * Verificação e Validação: descobrir defeitos E avaliar utilidade
 	* Verificação - implementa corretamente os requisitos; testes, inspeções
 	* Validação - implementa o que o cliente deseja; homologação, teste de aceitação, revisões

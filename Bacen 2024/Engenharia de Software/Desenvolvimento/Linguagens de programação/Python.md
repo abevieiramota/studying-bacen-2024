@@ -1,86 +1,180 @@
-* if \_\_name\_\_ == '\_\_main\_\_':
-* similar ao Java, é compilado e interpretado (mas em Python o executor já compila e executa); bytecode em .pyc (compila com python -m compileall, joga na \_\_pycache\_\_)
-* linguagem dinâmicamente tipada
-* False/True (cuidado, literal bool começa com letra maiúscula)*
-* nomes de variável inválidas: começar com número, ter -, espaço, #
-* operadores 
+```python
+if __name__ == '__main__':
+   n = 115
+   n_i = input("Adivinhe: ")
+   if n_i == n:
+      print("Parabéns")
+   else:
+      print("Sorry")
+```
+
+* Similar ao [[Java]], é compilado (bytecode .pyc) e interpretado (mas em Python o executor já compila e executa)
+* **Literais**:
+	* **boolean**: `False/True` !cuidado, letra maiúscula
+* **Variáveis**:
+	* Nomes de inválidos: começar com \\d, ter -, espaço, #
+	* [[Linguagens de programação#^def-lang-din-tipada|Dinâmicamente tipada]]
+* **Operadores**: 
 	* is (mesmo objeto), == (conteúdo igual)
-	* len
-	* precedência de operadores: parênteses > exponencial > multi/div > resto
-	* !! não existe operador de pré/pós incremento! ++x é igual a x, basicamente colocou o sinal positivo na frente duas vezes
-	* // -> divisão inteira
-* strings
-	* "oi" * 3 = "oioioi"
-	* concatenação, apenas entre strings
-	* string pode ser acessada por índice 0-based
-	* 'r' in my_str
-	* capitalize(), upper(), lower(), split('/'), strip(), lstrip(), rstrip(), find('ab'), startswith('ini'), replace('a', '+') -> ! retorna uma nova string, title(), isupper(), islower(), count('a')
-	* string é objeto imutável -> as funções que processam não alteram inplace, apenas retornam o resultado
+	* **Precedência de operadores**: parênteses > exponencial > multi/div > resto
+	* !não existe operador de pré/pós incremento! ++x é igual a x, basicamente colocou o sinal positivo na frente duas vezes
+	* // -> divisão inteira - ex: `3//2 = 1`
+* **String**:
+	* `"oi" * 3 = "oioioi"`
+	* !concatenação, apenas entre strings
+	* !string é objeto imutável -> as funções que processam não alteram inplace, apenas retornam o resultado
 		* faz uso de pool de strings (daí x = 'oi'; y = 'oi'; print(x is y) imprime True)
-	* multiline """
+	* string pode ser acessada por índice 0-based
+	* `'r' in my_str`
+	  ```python
+	  s.capitalize()
+	  s.upper(), s.lower()
+	  s.split('/')
+	  s.strip(), s.lstrip(), s.rstrip()
+	  s.find('ab')
+	  s.startswith('pre_')
+	  s.replace('a', '+')
+	  s.title()
+	  s.isupper(), s.islower()
+	  s.count('a')
+```
 	* fstring (pode fazer cálculo dentro)
-	* ![[Pasted image 20240316132901.png]]
-* **if** numero == 10: else: elif: (parênteses não obrigatório)
-* range(n) -> gerador de 0 a n - 1; range(0, n, s) -> de 0 a n-1, com step s
-* estruturas de dados
-	* list
-		* list(), \[\]
-		* indexável
-		* heterogênea (armazena dados de quaisquer tipos), mutável
-		* append(), find(), extend(), copy(), index(), insert(), reverse(), sort(), pop() -> último, pop(ix), remove(), sort(reverse=True), count(x)
-		* l\[indice_nao_existente\] -> exception
-		* l\[x:y\] -> x inclusivo, y não inclusivo; l\[-x\]; l\[1: \] (tudo a partir do índice 1), l\[:4\] até o índice 3; l\[-1\] = último elemento
-		* l\[::-1\] -> percurso invertido
-		* del l\[3\] -> remove elemento no índice 3
-		* 
-	* tuplas
-		* tuple(), (,)
+	* multiline `"""`
+* **if**:
+  ```python
+  if n == 10:
+     print('oi')
+  elif n == 15:
+     print('not oi')
+  else:
+     print('rs') 
+
+  'kid' if age < 13 else 'teen' if age < 18 else 'adult'
+```
+* **Estruturas de dados**:
+	* **list**:
+	  ```python
+	  a = list(), a = [] # inicialização
+	  a[3], a[-3], a[:3], a[3:] # indexação
+	  a = [1, 'Oi'] # heterogêna
+	  a.append(x), a.insert()
+	  a.find('a')
+	  a.extend([1, 2, 3]) # concatena com outra lista
+	  a.reverse(), a[::-1] # reverse é inplace
+	  a.sort() # ordena inplace
+	  a.pop(), a.pop(ix) # remove e retorna o último elemento (ou na posição ix, se for passado)
+	  a[1000000] -> Exception # acesso a índice não existente
+	  del a[3] # remove elemento no índice 3
+	  
+	  
+```
+	* **tuplas**:
+	  ```python
+	  a = tuple(), a = ()
+	  a.count(10) # n ocorrências
+	  a.index(10) # ix da 1ª ocorrência
+```
 		* similar a listas, mas são imutáveis
-		* count(x), index(x)
-	* set
-		* set(), \{,\}
-		* a = {,} -> para inicializar! {}, sem a vírgula, é map
+	* **set**:
+	  ```python
+	  a = set()
+	  a.add(x)
+	  a.remove(x)
+	  a.union(x), a.intersection(x), a.difference(x), a.symmetric_difference(x)
+	  a.isdisjoint(x), a.issubset(x), a.issuperset(x)
+```
 		* não garante ordem, não mantém repetições
-		* add(x), remove(x), union(x), intersection(x), difference(x), isdisjoint(x), issubset(x), issuperset(x), symmetric_difference(x)
-	* dictionary - chave-valor
-		* dict(a=1, 'oi'=3), {'a': 'b'}
-		* x\['a'\]
-		* keys(), values(), get(x), get(x, y) -> retorna y, caso não haja x, update(d), pop(x) -> remove item de key = x e retorna seu value, clear() -> remove tudo, x in d -> checa se há chave x
-		* for k, v in x.items():
-		* del d\[x\]
-		* dict_c = {\*\*dict_a, \*\*dict_b} -> merge de dictionários
-* funções
-	* def
-	* pode retornar mais de um elemento -> x, y = f(a)
-	* print(), abs(), min(), max(), sorted(), sum(), len()
-* try/except/finally
-* OO
-	* class Casa: def \_\_init\_\_(self, x, y): self.x = x self.y = y
-	* empty class -> class Oi: pass
-	* construtor e instance methods devem sempre receber self como primeiro argumento
-	* class attributes -> class Oi: x = 1 (sempre deve ser inicializado)
-	* def \_\_str\_\_(self): -> método toString
-	* inheritance -> class X(Y): 
-		* super().\_\_init\_\_()
-		* isinstance(x, Class) -> checa se x é instância de Class
-* walrus operator -> print(x:=10) -> atribui o valor e retorna
-* print(x), print(x, y) -> concatena com espaço, print(x, end='uashd') -> troca o newline por outro valor, após cada print; print(x, y, sep=';') -> troca o separador padrão
-* input() para input, pode receber uma mensagem para apresentar
-* callable(x) -> True, se for callable
-* enumerate(l)
-* hasattr(o, 'att') -> True se objeto o tem atributo att
-* reversed(l) -> retorna um reversed iterator
-* zip(x, y, z)
-* 'kid' if age < 13 else 'teen' if age < 18 else 'adult'
-* não tem switch! é match x: case 10: etc
-	* match com mais de uma opção -> | ou 'or'
-	* match de iterables por tamanho -> match l: case \[a\]: print(a) case \[a, b]: print(a, b)
-	* default value -> case \_
-* while
-* modificar global variable dentro de uma função -> usa 'global variavel'
-* lambda x, y: x + y
-* 
+	* **dictionary**:
+	  ```python
+	  a = dict(a=1, 'oi'=3), a = {'a': 123}
+	  a['oi']
+	  a.keys(), a.values(), a.items()
+	  for k, v in a.items():
+	  a.get(x, y) # retorna y, caso não haja entrada para x
+	  a.update(d) # atualiza a com os items em d
+	  a.pop(x) # remove item com chave x e retorna o seu valor
+	  del a[x]
+	  a.clear() # limpa o dict
+	  x in a # true se houver item com chave x em a
+	  dict_c = {**dict_a, **dict_b} # merge de dicionários -> realizado na ordem, similar a dict_a.update(dict_b), mas gerando novo dict
+```
+* **Funções**:
+  ```python
+  def f(x):
+     return 10, x
+  v, y = f(20)
+  print() # printa e adiciona um newline - string adicionada ao fim pode ser alterada com o parâmetro end
+  print(x, y) # printa separando com espaço - separador pode ser alterado com o parâmetro sep
+  abs(), min(), max()
+  sorted(), sum(), len()
+  range(n) # gerador de 0 a n-1
+  range(0, n, s) # gerador de 0 a n-1, com step s
+  isinstance(x, C) # checa se x é instância da classe C
+  callable(x) # checa se x é callable
+  enumerate(l)
+  hasattr(o, 'att') # verifica se o objeto o tem o atributo att
+  reversed(l) # retorna um iterator reversed de l
+  zip(x, y, z)
+```
+* **Exception**:
+  ```python
+  try:
+	  # meu código
+  except Excecao1 as e:
+	  # meu tratamento
+  except Excecao2:
+	  # tratamento
+  except (Excecao3, Excecao4):
+	  # mais tratamento
+  except:
+	  # resto
+  finally:
+	  # finaliza!
+  else:
+	  # nenhuma exceção foi lançada
+```
+* **OO**:
+  ```python
+  class Casa:
+	 k = 123 # atributo da classe
+     def __init__(self, x, y): # métodos devem receber self
+        self.x = x
+        self.y = y
 
+	 def __str__(self): # método chamado por str(), print()
+	    return self.x
+        
+  class A(Casa): # classe vazia, apenas estende de Casa
+     pass
 
-#TODO most used methods string, os, sys, list, set, map, tuple etc
-#TODO cpython, PEP, 
+  class B(A):
+     def __init__(self, x, y, z):
+        super().__init__(x, y)
+        self.z = z
+```
+* **Walrus operator**: `print(x:=10)` -> atribui o valor e retorna
+* **switch**:
+  ```python
+  match x:
+     case 10:
+        print('foi 10')
+     case 20 | 30: # pode usar o or
+        print('foi 20 ou 30')
+     case _:
+	    print('default')
+
+  match l:
+     case [a]:
+        print('só tem um elemento: ' + str(a))
+     case [a, b]:
+	    print('tem 2 elementos, sendo o último: ' + str(b))
+```
+* **while**:
+  ```python
+  while cond:
+     # do something
+```
+* Para modificar global variable dentro de uma função -> usa 'global variavel'
+* `lambda x, y: x + y`
+* todo::Ver os métodos mais usados das libs os, sys, collections etc
+* todo::Ler sobre cpython, PEP

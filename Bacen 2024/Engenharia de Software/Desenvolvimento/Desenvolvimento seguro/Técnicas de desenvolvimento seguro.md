@@ -1,7 +1,3 @@
----
-relacionado: "[[Segurança da Informação/Básico|Básico]]"
-material: https://provasdeti.nutror.com/curso/93ee181f34dea561421ed10f15614d24d58ce143
----
 * def::**Desenvolvimento seguro**: deve-se zelar pela segurança durante todo o ciclo de desenvolvimento de soluções de TI
 * atributos essenciais de qualidade de um software { manutenibilidade, confiabilidade, eficiência, usabilidade }
 * objetivos principais de explorações de vulnerabilidades { causar indisponibilidade, acesso indevido a dados, causar prejuízo à integridade dos dados }
