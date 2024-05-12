@@ -50,18 +50,29 @@
             }
           },
           {
-            "id": "bd1e1fd89f163c07",
+            "id": "d7548df35ca111f3",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura de Software.md",
+                "file": "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "049286fc5ab5b651",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engenharia de Software/Desenvolvimento/Linguagens de programação/Python.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#n_entendi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura de Software.md",
+                "file": "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura de Software.md",
+                "file": "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura de Software.md"
+                "file": "Engenharia de Software/Desenvolvimento/Desenvolvimento.md"
               }
             }
           }
@@ -193,34 +204,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd1e1fd89f163c07",
+  "active": "d7548df35ca111f3",
   "lastOpenFiles": [
-    "Engenharia de Software/Arquitetura/Arquitetura baseada em Serviços.md",
-    "Engenharia de Software/Arquitetura/12 Factor App.md",
-    "TODO.md",
-    "Engenharia de Software/Arquitetura/Arquitetura de Software.md",
-    "Engenharia de Software/Arquitetura/Cache.md",
-    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
-    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-    "Engenharia de Software/Arquitetura/Escalabilidade em sistemas web.md",
-    "Engenharia de Software/Arquitetura/Distributed Ledger Technology (DLT).md",
-    "Engenharia de Software/Arquitetura/Sistemas Distribuídos.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
-    "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
-    "Tools.md",
-    "Engenharia de Software/Arquitetura/Web services.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Arquitetura/Microsserviços.md",
-    "Engenharia de Software/Arquitetura/RESTful.md",
-    "Redes/HTTP e HTTPS.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Definições.md",
-    "Engenharia de Software/Arquitetura/Balanceamento de carga.md",
-    "Banco de Dados/Banco de Dados.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
-    "Untitled.md",
+    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
+    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Python.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Linguagens de programação.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/JavaEE.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Java.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Orientação a Objetos.md",
+    "Português/Uso de pronomes átonos.md",
+    "Português/Tempos e modos verbais.md",
+    "Português/Subordinação entre orações e termos.md",
+    "Português/Significação de palavras.md",
+    "Português/Sequenciação textual.md",
+    "Português/Reorganização da estrutura de orações e de períodos.md",
+    "Português/Regência verbal e nominal.md",
+    "Português/Pontuação.md",
+    "Português/Português.md",
+    "Português/Ortografia oficial.md",
+    "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
+    "Português/Estrutura morfossintática.md",
+    "Português/Decorar.md",
+    "Português/Crase.md",
+    "Português/Coordenação entre orações e termos.md",
+    "Português/Concordância verbal e nominal.md",
+    "Português/Compreensão e interpretação de texto.md",
+    "Português/Coesão textual.md",
+    "Português/Classes de palavras.md",
+    "Anexos/Pasted image 20240512144621.png",
+    "Anexos/Pasted image 20240512141640.png",
     "Banco de Dados/SGBD SQL/SGBD",
     "Anexos/Pasted image 20240505095846.png",
     "Anexos/Pasted image 20240505094957.png",
@@ -235,8 +248,6 @@
     "Anexos/Pasted image 20240429070218.png",
     "Anexos/Pasted image 20240428220258.png",
     "Infraestrutura/Monitoração",
-    "Anexos/Pasted image 20240428144848.png",
-    "Anexos/Pasted image 20240428100806.png",
     "Infraestrutura/Infraestrutura as code",
     "Infraestrutura/Containers",
     "Infraestrutura/SO",

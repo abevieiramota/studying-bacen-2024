@@ -1,2 +1,0 @@
-O analista Jacó implementou a aplicação TCERestAPI utilizando Java com Spring Boot. A TCERestAPI é apta para o deploy em servidores de aplicação Java preexistentes, mas também suporta a execução standalone do Spring Boot.
--> estender  SpringBootServletInitializer;

@@ -31,4 +31,6 @@
 	* **Grafana**
 		* Web UI para visualização de dados
 		* pode criar um dashboard ou usar dashboards já criados por terceiros
-		* 
+
+
+ you can't improve what you don't measure
