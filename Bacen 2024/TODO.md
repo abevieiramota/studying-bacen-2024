@@ -47,3 +47,15 @@ WHERE anki!=NULL
 FLATTEN anki
 SORT anki
 ```
+
+
+# Não entendi
+
+```dataview
+TABLE WITHOUT ID
+	link(file.path, file.path) as "Nota", 
+	n_entendi as "Não entendi"
+WHERE n_entendi != NULL
+FLATTEN n_entendi
+SORT n_entendi
+```

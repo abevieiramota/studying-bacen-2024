@@ -1,7 +1,4 @@
-Sommervile cap 13
-#TODO 
-* Teoria
-* Tools
+todo::Estudar sobre tolerância a falhas - Sommervile cap. 13
 
 * falta x erro x falha 
 	* falta/causa (fault) (aspecto físico) - causa de uma falha (setor defeituoso num disco -> pode ou não gerar um erro)

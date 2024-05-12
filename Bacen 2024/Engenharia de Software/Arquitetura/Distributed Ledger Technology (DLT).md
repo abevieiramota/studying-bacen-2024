@@ -1,6 +1,1 @@
-#TODO 
-* Teoria
-* Tools
-
-Hyperledger
-? que mais? ver bibliotecas em python/java, exemplos de usos, como é persistido
+todo::Estudar sobre Distributed Ledger Technology (DLT)

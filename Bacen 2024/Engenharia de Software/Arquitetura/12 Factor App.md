@@ -1,0 +1,1 @@
+next_step::Estudar o [12 Factor App](https://12factor.net/pt_br/)

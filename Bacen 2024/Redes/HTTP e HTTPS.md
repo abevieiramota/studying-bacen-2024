@@ -51,7 +51,7 @@
 	* Referer -> endereço da página de onde partiu a requisição
 	* Location -> endereço da página à qual deve ser feito redirecionamento (usado em respostas 3xx ou 201 - CREATED)
 	* #TODO
-* **Códigos de status**
+* **Códigos de status** ^http-status-code
 	* 1xx - Informação
 	* 2xx - Sucesso
 	* 3xx - Redirecionamento
