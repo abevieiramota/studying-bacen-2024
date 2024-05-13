@@ -64,12 +64,12 @@
             }
           },
           {
-            "id": "df0480fd87556b1c",
+            "id": "916d008796a6e086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Desenvolvimento/Programação assíncrona.md"
+                "file": "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md"
               }
             }
           }
@@ -204,17 +204,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df0480fd87556b1c",
+  "active": "916d008796a6e086",
   "lastOpenFiles": [
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Linguagens de programação.md",
+    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Python.md",
+    "RLM/Estatistica/Básico.md",
+    "Anexos/Pasted image 20240512194408.png",
+    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Engenharia de Software/Desenvolvimento/GraphQL.md",
     "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
     "Engenharia de Software/Desenvolvimento/DDD.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/DevSecOps.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/Técnicas de desenvolvimento seguro.md",
-    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Python.md",
-    "Engenharia de Software/Desenvolvimento/Linguagens de programação/Linguagens de programação.md",
     "Engenharia de Software/Desenvolvimento/Linguagens de programação/JavaEE.md",
     "Engenharia de Software/Desenvolvimento/Linguagens de programação/Java.md",
     "Engenharia de Software/Desenvolvimento/Linguagens de programação/Orientação a Objetos.md",
@@ -230,8 +233,6 @@
     "Português/Ortografia oficial.md",
     "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
     "Português/Estrutura morfossintática.md",
-    "Português/Decorar.md",
-    "Português/Crase.md",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
     "Banco de Dados/SGBD SQL/SGBD",
@@ -246,7 +247,6 @@
     "Anexos/Pasted image 20240429141909.png",
     "Anexos/Pasted image 20240429125731.png",
     "Anexos/Pasted image 20240429070218.png",
-    "Anexos/Pasted image 20240428220258.png",
     "Infraestrutura/Monitoração",
     "Infraestrutura/Infraestrutura as code",
     "Infraestrutura/Containers",
