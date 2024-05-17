@@ -2,7 +2,7 @@
 	* [[SDL]] é mais orientado a processo
 * Descreve 24 atividades ligadas a um ou mais papéis
 * Provê um guia para os participantes de um projeto
-* **Visões**
+* **Visões**:
 	* **Visão Conceitual**: visão geral do CLASP, seus componentes e interações, o relacionamento do CLASP com políticas de segurança e conceitos de seginf
 	* **Visão de Papéis**: responsabilidades básicas de cada membro do projeto e requisitos básicos para cada função a ser desempenhada (uma pessoa pode atuar em mais de uma função simultaneamente)
 	* **Visão de Avaliação de Atividade**: descreve as atividades { propósitos, responsáveis, contribuidores, aplicabilidade, impacto relativo, riscos em caso de omissão, frequência }

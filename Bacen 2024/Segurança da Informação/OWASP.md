@@ -1,5 +1,5 @@
 * def::**OWASP (Open Worldwide Application Security Project)**: função sem fins lucrativos com foco em melhoria na segurança de software
-* **Características**
+* **Características**:
 	* visão agnóstica de tecnologias e soluções
 	* apoia o processo de segurança durante todo o seu ciclo
 	* simples, desenhado para fácil absorção pelas equipes
@@ -87,7 +87,7 @@
 			* garantir que servidores, frameworks, componentes etc usem a última versão aprovada (! cuidado, não necessariamente a última lançada, que pode conter bugs etc -> necessário validar primeiro)
 			* restringir para o mínimo o possível os privilégios de servidores Web
 			* remover funcionalidades e arquivos desnecessários
-			* caso use HTTP 1.0 e 1.1, garantir que há compatibilidade #n_entendi 
+			* caso use HTTP 1.0 e 1.1, garantir que há compatibilidade
 			* gerenciar atualização de código
 			* isolar ambientes de dev, hml, prod, para que sistema em cada ambiente não afete outros
 		* **Segurança em banco de dados**

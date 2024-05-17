@@ -26,9 +26,7 @@
 		* **Port Span**: replica todo tráfego do switch para uma porta conectada com o IDS (necessário que a porta tenha capacidade de banda suficiente)
 		* **Splitting Wire/Optical TAP**: usa-se um hub para espelhar o tráfego
 		* **Port Mirror**: replica tráfego apenas de uma porta, o resto é igual ao Port Span
-* def::**IPS (Intrusion Prevention System)**:
-	* atua de forma preventiva, 
-	* é posicionado no meio do tráfego, inline
+* def::**IPS (Intrusion Prevention System)**: atua de forma preventiva, sendo posicionado no meio do tráfego (inline) ^def-ips
 	* ex: blitz que flagra carro sem farol e para ele
 	* **Tipos** { NIPS, HIPS } -> similar aos tipos de IDS
 * def::**IDPS**: IDS + IPS

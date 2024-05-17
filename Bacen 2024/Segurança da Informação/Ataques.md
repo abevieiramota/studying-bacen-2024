@@ -10,6 +10,8 @@
 		* técnica usada antes de ataques, visando obter informações e identificar vulnerabilidades { versão de SO, apps, bibliotecas, portas abertas }
 		* **Tools**: { NMAP }
 	* **Computacionalmente seguro**: diz-se de solução que, considerando o poder computacional disponível, torna inviável um ataque por força bruta 
+	* **Fuzzing**: envio de entradas com múltiplas variações para uma aplicação, com objetivo de identificar vulnerabilidades
+	* **APT** - Ameaça Persistente Avançada: direcionamento de um ataque a determinada vítima de forma coordenada, com a utilização de diversas técnicas/recursos, geralmente organizado por times altamente coordenados
 * **Atividades**
 	* **Identificação de vulnerabilidades** -> com uso de ferramentas (exploits) e bases de conhecimento sobre vulnerabilidades existentes para as características do alvo
 	* **Análise da estratégia** -> com as informações levantadas, criar plano para invasão, normalmente buscando explorar os elos mais fracos
@@ -120,7 +122,34 @@
 				* operações { remoção de rastros, instalar malwares, mapear potenciais vulnerabilidades etc }
 				* depende de uma invasão e de escalada de privilégios
 				* tipos { kernel, virtual, firmware, library } rootkit (de acordo com que camada afeta)
-				* 
+			* **Bots e botnets**: programas que permitem a comunicação e controle do invasor sobre o sistema da vítima por acesso remoto
+				* diferente de um rootkit, normalmente não gera dano ao computador afetado, normalmente sendo meio para outros ataques
+				* pode ser mantido inerte até que o invasor dispare um comando
+				* **botnet**: rede de bots/zumbis que permite realizar ataques em escala
+			* **Bomba lógica**: programas que são disparados a partir de eventos específicos ou predefinidos (ex: contador, data específica etc)
+	* **Ataques da camada de aplicação**:
+		* **LFI/RFI** (Local File Insert, Remote File Insert): inserção de arquivo
+			* **LFI**: burla controle de acesso, uso de passagem de parâmetros em requisições HTTP
+			* **RFI**: usa um servidor comprometido para inserir arquivos em outro servidor alvo
+		* **XSS - Cross-Site Scripting**: inserção de códigos/scripts em servidores Web, de forma que sejam executados pelos usuários do serviço Web
+			* pode-se { sequestrar sessão de usuário, alterar código HTML no lado cliente, redirecionar usuários para sites maliciosos, capturar entradas de usuários }
+		* **CSRF - Cross-Site Request Forgery** (também nomeado XRSF): a partir de uma ==sessão ativa== do usuário, busca-se forjar operações, como se fosse o usuário, nessa sessão
+			* o atacante não precisa quebrar senha do usuário
+			* uma proteção é o uso de CSRF Token
+		* **SSRF - Server-Side Request Forgery**: similar ao CSRF, mas quem é afetado é o servidor, que irá fazer operações forjadas para outros servidores (lembrar de uma arquitetura de microsserviços, por exemplo, em que há diversos serviços se comunicando no back-end)
+			* usuários, por não terem acesso ao back-end, não conseguem enxergar o problema
+			* tendo acesso a serviços internos, que já possuem diversos acessos/autorizações internamente
+		* **Clickjacking**: inclusão de elemento HTML invisível para o usuário, de forma que, ao usuário clicar no elemento visível, o click seja realizado sobre o elemento invisível
+			* cabeçalho X-Frame-Options do HTTP orienta o browser sobre se pode ou não renderizar elementos como \<frame\> e \<embed\>
+			* diferente do CSRF, depende de um click/botão
+		* **SQL Injection**: permite que o atacante execute SQLs injetados no servidor, como drop table
+		* **LDAP Injection**: similar o SQL Injection, mas atacando um servidor LDAP
+		* **XML Injection**: por meio de XML, injeta comandos
+		* **Zero Day Vulnerability**: janela entre a descoberta/exploração até a correção da vulnerabilidade
+			* forma de lidar envolve avaliar comportamentos divergentes, com uso de ferramentas como [[IDS, IPS#^def-ips|IPS]]
+		* **Buffer overflow**: ataque explora o uso de espaço em memória maior que o suportado, podendo gerar indisponibilidade ou expor dados protegidos
+			* exemplo: heart bleed, ataque de buffer overflow no OpenSSL
+		* 
 * **Informações extras**
 	* O Google Search é ferramenta útil para levantar informações sobre os sites, com isso podendo ser utilizado em busca de vulnerabilidades
 		* [Google hacking database](https://www.exploit-db.com/google-hacking-database): base de consultas no Google para descobrir vulnerabilidades

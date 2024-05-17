@@ -1,21 +1,13 @@
-busca tornar as práticas de TDD/ATDD mais acessíveis para novatos/especialistas
-mais próximo do negócio
+* def::**BDD** - **B**ehavior-**D**riven **D**evelopment: busca tornar as práticas de TDD/ATDD mais acessíveis para novatos/especialistas, adotando uma linguagem mais próxima do negócio
+* Envolve partes interessadas no processo (outside-in development), colhendo exemplos de uso da aplicação e automatizando testes para prove feedback rápido, o que ajuda a esclarecer responsabilidades
+* def::**História**: Eu, como \<papel\>, desejo \<necessidade\> para \<motivo\>
+* def::**Cenário**: Dado que \<contexto inicial\>, quando \<evento\>, então \<resultado\>
+* tool::**Ferramentas BDD**: { SpecFlow, JBehave, Cucumber }
 
-envolve partes interessadas no processo (outside-in development)
-usa exemplos
-automatiza os exemplos para prover feedback rápido
-ajuda a esclarecer responsabilidades
-usa simuladores de testes (mocks, stubs, fakes, dummies, spies)
+Com uma **história**, definem-se **cenários**:
 
-com uma história, definem-se cenários
+**História**:
+Eu, como \<papel\>, desejo \<necessidade\> para \<motivo\>
 
-história:
-Eu, como <papel>, desejo <necessidade> para <motivo>
-
-cenário:
-Dado que <contexto inicial>, quando <evento>, então <resultado>
-
-
-ferramentas { SpecFlow, JBehave, Cucumber etc }
-
-associa documentação formal, escrita e mantida pelo negócio, com testes de unidade que checam
+**Cenário**:
+Dado que \<contexto inicial\>, quando \<evento\>, então \<resultado\>
