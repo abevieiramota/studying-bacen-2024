@@ -1,4 +1,4 @@
-# TODO
+# TODO (todo)
 
 ```dataview
 TABLE WITHOUT ID
@@ -37,7 +37,7 @@ SORT next_step
 ```
 
 
-# Adicionar ao Anki
+# Adicionar ao Anki (anki)
 
 ```dataview
 TABLE WITHOUT ID
@@ -49,7 +49,7 @@ SORT anki
 ```
 
 
-# Não entendi
+# Não entendi (n_entendi)
 
 ```dataview
 TABLE WITHOUT ID

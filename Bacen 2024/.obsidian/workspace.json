@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed09ee15fb501a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Segurança da Informação/Criptografia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d52260269b2ed33e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backlog.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança da Informação/Criptografia.md",
+                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança da Informação/Criptografia.md",
+                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança da Informação/Criptografia.md"
+                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md"
               }
             }
           }
@@ -149,8 +173,10 @@
   },
   "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Segurança da Informação/Certificado Digital.md",
     "Segurança da Informação/Criptografia.md",
+    "Segurança da Informação/Assinatura digital e Certificado digital.md",
+    "Untitled.loom",
+    "Backlog.md",
     "Segurança da Informação/Ataques.md",
     "Segurança da Informação/IDS, IPS.md",
     "Segurança da Informação/OpenID Connect.md",
@@ -173,8 +199,6 @@
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
     "Banco de Dados/Banco de Dados.md",
     "Banco de Dados/Modelagem de dados.md",
-    "Backlog.md",
-    "Tools.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
@@ -194,7 +218,6 @@
     "Infraestrutura/Infraestrutura as code",
     "Infraestrutura/Containers",
     "Infraestrutura/SO",
-    "Redes",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Untitled.canvas"

@@ -27,7 +27,7 @@
 			* etapas:
 				* negociação da versão do protocolo a ser utilizada
 				* negociação dos algoritmos -> o cliente requisita comunicação segura, enviando listas de algoritmos suportadas, e o servidor responde com a algoritmos selecionados; busca-se escolher o algoritmo mais robusto suportado pelas duas partes
-				* troca de chaves e autenticação -> troca de chaves para realizarem autenticação (criptografia assimétrica -> ver que há troca de chaves, mais de uma chave); aplica-se o conceito de [[Certificado Digital]]
+				* troca de chaves e autenticação -> troca de chaves para realizarem autenticação (criptografia assimétrica -> ver que há troca de chaves, mais de uma chave); aplica-se o conceito de [[Assinatura digital e Certificado digital]]
 				* encriptação simétrica e autenticação das mensagens -> a partir de agora as mensagens passam a usar funções hash para autenticação
 		* **Alert Protocol** -> responsável pelo controle do protocolo por meio da troca de mensagens vinculadas ao funcionamento e tramissão de dados na conexão
 			* semelhante ao ICMP em relação ao IP
