@@ -149,7 +149,11 @@
 			* forma de lidar envolve avaliar comportamentos divergentes, com uso de ferramentas como [[IDS, IPS#^def-ips|IPS]]
 		* **Buffer overflow**: ataque explora o uso de espaço em memória maior que o suportado, podendo gerar indisponibilidade ou expor dados protegidos
 			* exemplo: heart bleed, ataque de buffer overflow no OpenSSL
-		* 
+	* **Ataques a redes sem fio**:
+		* **Wardriving**: atacante busca, usando um dispositivo móvel com antena de alto alcance, redes sem fio (normalmente de automóvel) que estejam vulneráveis, fazendo um mapa geográfico das redes e vulnerabilidades
+		* **Ataque de engenharia elétrica**: busca gerar indisponibilidade gerando interferência no sinal da rede, gerando alto ruído
+		* **Bluejacking**: similar ao SPAM, no contexto de redes bluetooth
+		* **Bluesnarfing**: possui caráter invasivo, podendo atingir a confiencialidade de determinados aparelhos
 * **Informações extras**
 	* O Google Search é ferramenta útil para levantar informações sobre os sites, com isso podendo ser utilizado em busca de vulnerabilidades
 		* [Google hacking database](https://www.exploit-db.com/google-hacking-database): base de consultas no Google para descobrir vulnerabilidades

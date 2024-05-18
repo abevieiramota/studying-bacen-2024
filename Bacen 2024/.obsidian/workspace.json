@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança da Informação/Ataques.md",
+                "file": "Segurança da Informação/Criptografia.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança da Informação/Ataques.md",
+                "file": "Segurança da Informação/Criptografia.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança da Informação/Ataques.md",
+                "file": "Segurança da Informação/Criptografia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança da Informação/Ataques.md"
+                "file": "Segurança da Informação/Criptografia.md"
               }
             }
           }
@@ -148,10 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c3f3552b4d7bcf9",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Segurança da Informação/IDS, IPS.md",
+    "Segurança da Informação/Certificado Digital.md",
+    "Segurança da Informação/Criptografia.md",
     "Segurança da Informação/Ataques.md",
+    "Segurança da Informação/IDS, IPS.md",
     "Segurança da Informação/OpenID Connect.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
@@ -174,8 +175,6 @@
     "Banco de Dados/Modelagem de dados.md",
     "Backlog.md",
     "Tools.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/BDD.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/TDD.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
