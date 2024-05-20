@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md",
+                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md",
+                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md",
+                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança da Informação/Assinatura digital e Certificado digital.md"
+                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "71270d48e379999f",
   "lastOpenFiles": [
-    "Segurança da Informação/Glossário do Instituto Nacional de Tecnologia da Informação.md",
+    "Anexos/Pasted image 20240520202601.png",
     "Segurança da Informação/Assinatura digital e Certificado digital.md",
+    "Segurança da Informação/Glossário do Instituto Nacional de Tecnologia da Informação.md",
     "Segurança da Informação/Criptografia.md",
     "Definições.md",
     "Untitled.loom",
@@ -199,7 +200,6 @@
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/CLASP.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/SDL.md",
     "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
-    "Banco de Dados/Banco de Dados.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
