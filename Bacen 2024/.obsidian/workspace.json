@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "ed09ee15fb501a0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Segurança da Informação/Criptografia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d52260269b2ed33e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Backlog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4a74a3f7764c5fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definições.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,15 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71270d48e379999f",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
+    "Definições.md",
+    "Segurança da Informação/Glossário do Instituto Nacional de Tecnologia da Informação.md",
+    "Engenharia de Software/Desenvolvimento/DDD.md",
+    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+    "Tools.md",
+    "Backlog.md",
+    "Segurança da Informação/Criptografia.md",
     "Anexos/Pasted image 20240520202601.png",
     "Segurança da Informação/Assinatura digital e Certificado digital.md",
-    "Segurança da Informação/Glossário do Instituto Nacional de Tecnologia da Informação.md",
-    "Segurança da Informação/Criptografia.md",
-    "Definições.md",
     "Untitled.loom",
-    "Backlog.md",
     "Segurança da Informação/Ataques.md",
     "Segurança da Informação/IDS, IPS.md",
     "Segurança da Informação/OpenID Connect.md",
@@ -193,13 +196,11 @@
     "Untitled.md",
     "Engenharia de Software/Desenvolvimento/GraphQL.md",
     "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
-    "Engenharia de Software/Desenvolvimento/DDD.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/DevSecOps.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/Técnicas de desenvolvimento seguro.md",
     "Segurança da Informação/OWASP.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/CLASP.md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/SDL.md",
-    "Engenharia de Software/Desenvolvimento/Testes de software/Testes de software.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
@@ -214,7 +215,6 @@
     "Segurança da Informação",
     "Anexos/Pasted image 20240429141909.png",
     "Anexos/Pasted image 20240429125731.png",
-    "Anexos/Pasted image 20240429070218.png",
     "Infraestrutura/Monitoração",
     "Infraestrutura/Infraestrutura as code",
     "Infraestrutura/Containers",

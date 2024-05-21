@@ -9,7 +9,7 @@
 	* diagramas (DDD não recomenda algum diagrama específico)
 	* documentação -> desafio de manter documentação atualizada
 * É importante que o código expresse os detalhes do domínio de forma clara e objetiva
-	* def::MDD (Model-Driven Design): abordagem de modelagem de forma que ela possa ser melhor expressa em código
+	* def::**MDD** (Model-Driven Design): abordagem de modelagem de forma que ela possa ser melhor expressa em código
 		* fornece estereótipos de objetos/artefatos que ajudam a representar o domínio em código -> objetivo { domínio fique isolado de outras responsabilidades, camadas bem separadas, separação de responsabilidades, arquitetura flexível }
 			* Entities ~ entidade no OO
 			* Value Objects -> ==não tem identidade para o domínio==; são reconhecidos por seus atributos (ex: cores, coordenadas, endereços)

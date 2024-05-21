@@ -6,3 +6,7 @@ WHERE def!=NULL
 FLATTEN def
 SORT def
 ```
+
+
+
+todo::remover da tabela de definições o glossário da ITI
