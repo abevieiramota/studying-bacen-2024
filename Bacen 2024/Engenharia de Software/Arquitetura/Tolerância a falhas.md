@@ -37,10 +37,6 @@ todo::Estudar sobre tolerância a falhas - Sommervile cap. 13
 		* !mínimo de 4 discos
 * def::**JBOD** (Just a Bunch Of Disks): concatenação de discos em um mesmo volume, ganhando em capacidade, sem mudanças em performance ou redundância; distribuição de arquivos, e não de fragmentos
 
-
-* def::**Backup**:
-	* 
-
 | Tipo     | Eficiência                        | Min. Discos | Performance | Tolerância               | Observação                            |
 | :------- | :-------------------------------- | :---------- | :---------- | :----------------------- | :------------------------------------ |
 | RAID 0   | 100%                              | 2           |             | 0                        |                                       |
@@ -50,6 +46,38 @@ todo::Estudar sobre tolerância a falhas - Sommervile cap. 13
 | RAID 4   | 66% = (n-1)/n                     | 3           | 2x          | 1                        |                                       |
 | RAID 5+0 | 33%                               | 6           | 2x          | até 2 (depende do strip) |                                       |
 | RAID 6   | 50% = (n-2)/n                     | 4           | 2x          | 2                        |                                       |
+
+
+* def::**Backup**: ==rotina== para ==cópia== de dados e posterior ==restauração==, caso necessário
+	* objetiva gerar redundância da informação, com foco na disponibilidade para recuperação de falhas
+		* anki::Backup trabalha a ==recuperação de falha==, e não de ==tolerância a falhas==
+	* **Tipos**:
+		* anki::tipos de backup
+		* **Normal** (completo, total, full): copia todos os arquivos selecionados e os marca como backupeados (controle feito pelo SO); normalmente é executado com períodos grandes, usando outros tipos de backups entre os fulls
+			* para restaurar, usa o último full
+			* **V**: recuperação simples e rápida
+			* **DV**: volume para armazenamento
+		* **Incremental**: realiza a cópia dos arquivos novos ou modificados desde o último backup completo ou incremental, marcando como arquivos backupeados
+			* **V**: menor volume de armazenamento
+			* **DV**: complexidade e lentidão na restauração
+		* **Diferencial** (cumulativo): realiza a cópia dos arquivos novos ou modificados desde o último backup completo, não realizando marcação como arquivos backupeados (dessa forma, em toda execução, o diferencial faz backup de tudo novo ou modificado ==desde o último full==)
+			* para restaurar, usa o último full + último diferencial
+			* **V**: simplicidade na restauração /\\
+			* **DV**: volume crescente com informações duplicadas
+	* **Boas práticas**:
+		* armazenar dados e seus backups em locais diferentes
+		* pensar políticas de backup no contexto de planos de continuidade de negócio da organização
+		* **Backup 3-2-1**: ter 3 cópias dos dados (original + 2 backups), cada um deles em mídias diferentes e independentes, com ao menos 1 cópia remota ou offline (para disaster recovery)
+			* backup offline ajuda a resistir a ataques de ransomware
+	* **Políticas de backup**: composição de técnicas e ações que devem ser executadas para garantir a disponibilidade adequada dos dados de uma organização conforme premissas estabelecidas
+		* **Questões importantes**:
+			* Será feito backup de que dados? Com que frequência?
+			* Quais as restrições relacionadas a perdas de dados e respectivos impactos?
+			* Quais os prazos para recuperação?
+			* Quem são os responsáveis por executar e acompanhar os backups/restaurações?
+
+
+
 
 * falta x erro x falha 
 	* falta/causa (fault) (aspecto físico) - causa de uma falha (setor defeituoso num disco -> pode ou não gerar um erro)
