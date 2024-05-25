@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RLM/Combinatória.md",
+                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RLM/Combinatória.md",
+                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RLM/Combinatória.md",
+                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RLM/Combinatória.md"
+                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md"
               }
             }
           }
@@ -149,8 +149,20 @@
   },
   "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
+    "Ciência de Dados/Big Data.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
+    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
+    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
+    "Ciência de Dados/Ciência de Dados.md",
     "RLM/Combinatória.md",
+    "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Administração/Planejamento.md",
     "Untitled.md",
@@ -164,20 +176,8 @@
     "Infraestrutura/Containers/Kubernetes.md",
     "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
     "Definições.md",
-    "Segurança da Informação/Glossário do Instituto Nacional de Tecnologia da Informação.md",
-    "Engenharia de Software/Desenvolvimento/DDD.md",
-    "Tools.md",
-    "Backlog.md",
-    "Segurança da Informação/Criptografia.md",
     "Anexos/Pasted image 20240520202601.png",
-    "Segurança da Informação/Assinatura digital e Certificado digital.md",
     "Untitled.loom",
-    "Segurança da Informação/Ataques.md",
-    "Segurança da Informação/OpenID Connect.md",
-    "Engenharia de Software/Design Patterns/GRASP.md",
-    "Engenharia de Software/Design Patterns/Design Patterns.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",

@@ -1,4 +1,4 @@
-* **nº do divisores de um número** = fatora o número e multiplica os expoentes somados com 1. Ex: 20 = 2^2 \* 5 ^\1 -> (2 + 1) \* (1 + 1) = 6 divisores (1, 2, 4, 5, 10, 20)
+* **Nº de divisores de um número** = fatora o número e multiplica os expoentes somados com 1. Ex: 20 = 2^2 \* 5 ^\1 -> (2 + 1) \* (1 + 1) = 6 divisores (1, 2, 4, 5, 10, 20)
 * **Permutação**:
 	* Simples sem repetição: N!
 	* Com repetição: N!/k!p!... (divide pelo fatorial da quantidade de repetições por grupo)
