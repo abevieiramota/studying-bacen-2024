@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
+                "file": "RLM/Combinatória.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
+                "file": "RLM/Combinatória.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
+                "file": "RLM/Combinatória.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md"
+                "file": "RLM/Combinatória.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "1e23e374af620ba3",
   "lastOpenFiles": [
+    "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
+    "RLM/Combinatória.md",
     "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Administração/Planejamento.md",
     "Untitled.md",
@@ -176,8 +178,6 @@
     "Engenharia de Software/Design Patterns/Design Patterns.md",
     "Engenharia de Software/Engenharia de Software.md",
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
-    "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
