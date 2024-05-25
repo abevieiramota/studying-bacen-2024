@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md"
               }
             }
           }
@@ -147,19 +147,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "1e23e374af620ba3",
   "lastOpenFiles": [
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
+    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
     "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
     "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
     "Ciência de Dados/Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Ciência de Dados/Aprendizado de Máquina/Tools.md",
     "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
     "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
     "Ciência de Dados/Ciência de Dados.md",
     "RLM/Combinatória.md",
     "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
@@ -175,7 +176,6 @@
     "Engenharia de Software/Arquitetura/RESTful.md",
     "Infraestrutura/Containers/Kubernetes.md",
     "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-    "Definições.md",
     "Anexos/Pasted image 20240520202601.png",
     "Untitled.loom",
     "Anexos/Pasted image 20240512194408.png",

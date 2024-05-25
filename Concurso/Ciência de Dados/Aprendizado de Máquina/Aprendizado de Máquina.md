@@ -22,7 +22,7 @@
 		* wrong values
 		* irrelevant features
 * **Processo**:
-	* todo::[[CRISP-DM]]: [CRISP-DM](https://docs.google.com/presentation/d/18mJD0kUBMCaQDzhhJb-CLZsmjjjCWG5KsQUCFcvGtU0/edit?usp=sharing)
+	* [[CRISP-DM]]
 	* **Pré-processamento**:
 		* def::**OneHotEncoding**: codifica uma feature categórica em N features booleanas, uma para cada valor da categoria
 		* def::**OrdinalEncoding**: codifica uma feature categória em uma feature ordinal, associando cada valor do domínio original a um inteiro do range \[0, len(dom)\]
@@ -50,7 +50,10 @@
 			* **StratifiedShuffleSplit**: variação do ShuffleSplit, que busca garantir uma distribuição uniforme dos dados nas partes, de acordo com o target
 			* **TimeSeriesSplit**: variação do KFold para timeseries, particionando os dados de forma a respeitar a ordem temporal e incluindo no validation set dados posteriores ao training set
 * **Conceitos**:
-	* Correlação #TODO métricas de correlação
+	* def::**Covariance**: medida de variação conjunta de variáveis $cov(X, Y) = E[(X - E[X]) (Y - E[Y])]$; covariance positiva, as duas variáveis mudam na mesma direção; negativa, mudam em direções contrárias
+	* def::**Correlação**: statistical summary of the relationship between variables
+		* **Pearson's correlation**: lida com relacionamentos lineares = $cov(X, Y) / (stdv(X) * stdv(Y))$
+		* **Spearman's correlation**: lida com relacionamentos não-lineares = $cov(rank(X), rank(Y)) / (stdv(rank(X)) * stdv(rank(Y)))$
 	* def::**Overfitting**: característica de um modelo que performa bem nos dados de treino, mas não generaliza bem para os dados de teste/uso real
 		* **Causas**: { modelo muito complexo, poucos dados de treino, dados de treino desbalanceados, ruídos, atributos pouco relevantes }
 		* **Soluções**: { usar modelo + simples, reduzir atributos, regularização, coletar + dados, diminuir ruídos, cross-validation, dropout, early stopping }
