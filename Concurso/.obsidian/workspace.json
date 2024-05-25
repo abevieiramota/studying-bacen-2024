@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administração/Planejamento.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administração/Planejamento.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Administração/Planejamento.md",
+                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Administração/Planejamento.md"
+                "file": "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md"
               }
             }
           }
@@ -147,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "1e23e374af620ba3",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
     "Administração/Planejamento.md",
+    "Untitled.md",
     "Administração/Básico.md",
     "Auditoria/Básico.md",
     "Administração",
@@ -177,7 +178,6 @@
     "Engenharia de Software/Design Patterns/Gang of Four (GOF).md",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
-    "Untitled 1.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",

@@ -5,6 +5,7 @@
 	* melhor responsividade (real-time)
 	* escalabilidade
 	* decoupling - adicionar um novo serviço envolve fazer ele subscribe, não impacta outros serviços já existentes
+	* orientada a [reuso de dados](https://www.youtube.com/watch?v=7fkS-18KBlw) (é mais fácil adicionar processamentos a um dado)
 * **DV**: more complex
 * **Bom para aplicações de**:
 	* integration apps
