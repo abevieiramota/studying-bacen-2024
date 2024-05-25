@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd6f7103b06d848",
+        "id": "8ff22db6e88260ec",
         "type": "tabs",
         "children": [
           {
-            "id": "71270d48e379999f",
+            "id": "1e23e374af620ba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d52260269b2ed33e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backlog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4a74a3f7764c5fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Definições.md",
+                "file": "Administração/Planejamento.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fuzz",
+                "query": "ids",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+                "file": "Administração/Planejamento.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
+                "file": "Administração/Planejamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de Software/Arquitetura/Tolerância a falhas.md"
+                "file": "Administração/Planejamento.md"
               }
             }
           }
@@ -173,10 +149,20 @@
   },
   "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Administração/Planejamento.md",
+    "Administração/Básico.md",
+    "Auditoria/Básico.md",
+    "Administração",
+    "Segurança da Informação/IDS, IPS.md",
+    "Infraestrutura/Nuvem.md",
+    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
+    "Engenharia de Software/Arquitetura/RESTful.md",
+    "Infraestrutura/Containers/Kubernetes.md",
+    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
     "Definições.md",
     "Segurança da Informação/Glossário do Instituto Nacional de Tecnologia da Informação.md",
     "Engenharia de Software/Desenvolvimento/DDD.md",
-    "Engenharia de Software/Arquitetura/Tolerância a falhas.md",
     "Tools.md",
     "Backlog.md",
     "Segurança da Informação/Criptografia.md",
@@ -184,7 +170,6 @@
     "Segurança da Informação/Assinatura digital e Certificado digital.md",
     "Untitled.loom",
     "Segurança da Informação/Ataques.md",
-    "Segurança da Informação/IDS, IPS.md",
     "Segurança da Informação/OpenID Connect.md",
     "Engenharia de Software/Design Patterns/GRASP.md",
     "Engenharia de Software/Design Patterns/Design Patterns.md",
@@ -193,14 +178,6 @@
     "Engenharia de Software/Desenvolvimento/Desenvolvimento.md",
     "Engenharia de Software/Desenvolvimento/Programação assíncrona.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "Engenharia de Software/Desenvolvimento/GraphQL.md",
-    "Engenharia de Software/Desenvolvimento/Práticas de UX e UI design.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/DevSecOps.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/Técnicas de desenvolvimento seguro.md",
-    "Segurança da Informação/OWASP.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/CLASP.md",
-    "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro/SDL.md",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
@@ -218,7 +195,6 @@
     "Infraestrutura/Monitoração",
     "Infraestrutura/Infraestrutura as code",
     "Infraestrutura/Containers",
-    "Infraestrutura/SO",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Untitled.canvas"

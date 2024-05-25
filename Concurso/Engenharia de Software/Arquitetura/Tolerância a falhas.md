@@ -60,7 +60,7 @@ todo::Estudar sobre tolerância a falhas - Sommervile cap. 13
 		* **Incremental**: realiza a cópia dos arquivos novos ou modificados desde o último backup completo ou incremental, marcando como arquivos backupeados
 			* **V**: menor volume de armazenamento
 			* **DV**: complexidade e lentidão na restauração
-		* **Diferencial** (cumulativo): realiza a cópia dos arquivos novos ou modificados desde o último backup completo, não realizando marcação como arquivos backupeados (dessa forma, em toda execução, o diferencial faz backup de tudo novo ou modificado ==desde o último full==)
+		* **Diferencial** (cumulativo): realiza a cópia dos arquivos novos ou modificados desde o último backup completo, ==não realizando marcação== como arquivos backupeados (dessa forma, em toda execução, o diferencial faz backup de tudo novo ou modificado ==desde o último full==)
 			* para restaurar, usa o último full + último diferencial
 			* **V**: simplicidade na restauração /\\
 			* **DV**: volume crescente com informações duplicadas
@@ -75,6 +75,23 @@ todo::Estudar sobre tolerância a falhas - Sommervile cap. 13
 			* Quais as restrições relacionadas a perdas de dados e respectivos impactos?
 			* Quais os prazos para recuperação?
 			* Quem são os responsáveis por executar e acompanhar os backups/restaurações?
+	* **Conceitos**:
+		* **Backup cópia**: copia todos os arquivos selecionados, mas não marca que foram backupeados
+		* **Backup diário**: copia todos os arquivos criados ou modificados no dia do backup e não marca que foram backupeados ~ diferencial diário
+		* **Pool de armazenamento**: volume lógico formado por grupo de discos para realizar o armazenamento
+		* **Schedule/agendamento**
+		* **Retenção**: prazo para guarda dos backups
+		* **Snapshot/instantâneo**
+		* **Deduplicação**: remoção de dados armazenados de forma duplicada
+	* **Ferramentas**:
+		* tool::**Robocopy** (Robust File Copy): ferramenta de linha de comando Windows, realiza cópia de diretórios de maneira simples/rápido/funcional, copiando as permissões existentes
+			* /purge -> exclui arquivos na origem que não estão mais no destino
+		* tool::**Rsync** (Remote Sync): realiza sincronização de dados entre duas máquinas
+			* não dispõe de criptografia nativa, mas pode ser usado com SSH
+			* usa o protocolo remote-update, identificando as diferenças entre origem e destino e sincroniuzando apenas elas, reduzindo o volume de troca dos dados
+				* diferença identificada por metadados dos arquivos, como tamanho, data de criação/modificação
+				* pode ser desativado com o parâmetro --ignore-times
+		* tool::**NetBackup**: ferramenta de backup corportativa multiplataforma, com diversas features nativas (cloud, disaster recovery, NAS, segurança, archiving etc)
 
 
 

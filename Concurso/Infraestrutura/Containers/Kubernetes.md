@@ -1,4 +1,4 @@
-* Ferramenta completa para orquestração de containers, atuando na implantação e gestão dos recursos dos containers
+* tool::**Kubernetes**:Ferramenta completa para orquestração de containers, atuando na implantação e gestão dos recursos dos containers
 * **Características**
 	* desenvolvido pelo Google, open-source
 	* wrappers do Kubernetes (rodam ele por baixo): OpenShift e Rancher
@@ -64,6 +64,8 @@
 * **Outros orquestradores** { Docker Swarm + Portainer.io, OpenShift, Nomad, Mesos, CloudFoundry }
 * **Outras ferramentas**
 	* **Helm** -> baseado em YAML, serve para descrever serviços/objetos que vão rodar no k8s
+* **Tips**:
+	* containeres no mesmo pod compartilham IP
 
 
 Aspectos de orquestradores

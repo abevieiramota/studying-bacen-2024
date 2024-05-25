@@ -3,6 +3,7 @@
 * **Quando usar**: quando há banco de dados compartilhado por diversos serviços; quando a carga do sistema é variável;
 * **V**: escalabilidade distribuindo servidores em rede [[Escalabilidade em sistemas web]]
 * **DV**: a rede pode virar gargalo; cada serviço passa a ser um ponto de falha, sujeito a ataques
+* def::**Correlação**: técnica que associa requisições e respectivas respostas, em contexto de web services
 
 * def::**Arquitetura serverless**: "*Serverless architecture is an approach to software design that allows developers to build and run services without having to manage the underlying infrastructure. Developers can write and deploy code, while a cloud provider provisions servers to run their applications, databases, and storage systems at any scale.*" [Datadog](https://www.datadoghq.com/knowledge-center/serverless-architecture/)
 	* terceiriza o trabalho de manutenção/gerenciamento de servidores, deixando o desenvolvimento focado no funcional
