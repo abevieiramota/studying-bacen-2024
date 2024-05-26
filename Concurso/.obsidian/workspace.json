@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e23e374af620ba3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6494486eddb87f7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backlog.md",
+                "file": "Português/Verbo.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+                "file": "Português/Verbo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+                "file": "Português/Verbo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md"
+                "file": "Português/Verbo.md"
               }
             }
           }
@@ -160,36 +147,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e23e374af620ba3",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Português/Sequenciação textual.md",
+    "Português/Reescrita de frases e parágrafos.md",
+    "Português/Subordinação entre orações e termos.md",
+    "Português/Uso de pronomes átonos.md",
+    "Português/Verbo.md",
+    "Português/Reorganização da estrutura de orações e de períodos.md",
+    "Português/Se.md",
+    "Português/Pontuação.md",
+    "Português/Que.md",
+    "Português/Português.md",
+    "Português/Classes de palavras.md",
+    "Português/Como.md",
+    "Português/Crase.md",
+    "Português/Coesão textual.md",
+    "Português/Compreensão e interpretação de texto.md",
+    "Português/Concordância verbal e nominal.md",
+    "Português/Coordenação entre orações e termos.md",
+    "Português/Decorar.md",
+    "Português/Estrutura morfossintática.md",
+    "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
+    "Português/Reconhecimento de tipos e gêneros textuais.md",
+    "Português/Regência verbal e nominal.md",
+    "Português/Significação de palavras.md",
+    "Português/Substituição de palavras e trechos.md",
+    "Português/Tempos e modos verbais.md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
-    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
-    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
-    "Backlog.md",
     "Anexos/Pasted image 20240526082021.png",
-    "Ciência de Dados/Aprendizado de Máquina/Deep Learning.md",
-    "Ciência de Dados/Aprendizado de Máquina/Redes Neurais.md",
-    "Ciência de Dados/Aprendizado de Máquina/CRISP-DM.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Qualidade de Dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/MLOps.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA e dados.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/Governança e Ética na IA.md",
-    "Ciência de Dados/Governança e Ética na IA e dados/DAMA DMBOK.md",
-    "Ciência de Dados/Big Data.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tools.md",
-    "Ciência de Dados/Ciência de Dados.md",
-    "RLM/Combinatória.md",
-    "Engenharia de Software/Arquitetura/Arquitetura orientada a eventos.md",
-    "Engenharia de Software/Arquitetura/Arquitetura em camadas.md",
-    "Administração/Planejamento.md",
-    "Untitled.md",
-    "Administração/Básico.md",
-    "Auditoria/Básico.md",
     "Administração",
-    "Segurança da Informação/IDS, IPS.md",
-    "Infraestrutura/Nuvem.md",
-    "Engenharia de Software/Arquitetura/Arquiteturas cliente-servidor e serverless.md",
     "Anexos/Pasted image 20240520202601.png",
     "Untitled.loom",
     "Anexos/Pasted image 20240512194408.png",

@@ -1,6 +1,0 @@
-* [[Compreensão e interpretação de texto]]
-* [[Reconhecimento de tipos e gêneros textuais]]
-* [[Ortografia oficial]]
-* [[Coesão textual]]
-* [[Estrutura morfossintática]]
-* [[Reescrita de frases e parágrafos]]
