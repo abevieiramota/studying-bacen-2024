@@ -56,7 +56,7 @@
 		* **Spearman's correlation**: lida com relacionamentos não-lineares = $cov(rank(X), rank(Y)) / (stdv(rank(X)) * stdv(rank(Y)))$
 	* def::**Overfitting**: característica de um modelo que performa bem nos dados de treino, mas não generaliza bem para os dados de teste/uso real
 		* **Causas**: { modelo muito complexo, poucos dados de treino, dados de treino desbalanceados, ruídos, atributos pouco relevantes }
-		* **Soluções**: { usar modelo + simples, reduzir atributos, regularização, coletar + dados, diminuir ruídos, cross-validation, dropout, early stopping }
+		* **Soluções**: { usar modelo + simples, reduzir atributos, regularização, coletar + dados, diminuir ruídos, cross-validation, dropout, early stopping (parada no treinamento a partir de critério sobre métrica de avaliação em base de validação) }
 	* def::**Underfitting**: característica de um modelo que performa mal para os dados de treino
 		* **Causas**: { modelo pouco complexo, dados insuficientes, atributos não representativos, regularização excessiva, erros de amostragem }
 		* **Solução**: { usar modelo + complexo, obter melhores features, reduzir restrições do modelo }
