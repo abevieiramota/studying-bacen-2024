@@ -52,24 +52,28 @@
 		* !cuidado com confundir com adjetivo - verbo no particípio indica ação
 			* ex verbo: "O aluno foi **reprovado** no exame."
 			* ex adjetivo: "O aluno foi **resfriado** para a escola."
-* **Voz verbal**:
+* **Voz verbal**: { ativa, passiva, reflexiva }, indica a relação do verbo com o sujeito (!não há o que se falar de voz verbal em oração sem sujeito)
 	* **Voz Ativa**: verbo indica ação praticada pelo sujeito
 	* **Voz Passiva**: verbo indica ação sofrida/desfrutada pelo sujeito
 		* **Analítica**: ser/estar/ficar + particípio
-		* **Sintética**: uso do pronome apassivador *se*
+		* **Sintética**: uso do pronome apassivador *se* com VTD ou VTDI
 			* Para verificar se o *se* é pronome apassivador, tentar passar para a Voz Passiva Analítica -> se conseguir, é. Ex: Recompensam-se os esforçados -> Os esforçados são recompensados
-			* Sujeito sempre explícito - ex: "Apresentaram-se os resultados" -> fica errado o verbo no singular, dado o sujeito, "os resultados", no plural
+			* !Sujeito sempre explícito - ex: "Apresentaram-se os resultados" -> fica errado o verbo no singular, dado o sujeito, "os resultados", no plural
+		* **Agente da passiva**: normalmente introduzido pela preposição 'por', indica quem pratica a ação
+			* "Foi morto pelos policiais."
+			* "Estava acompanhado dos amigos."
+		* **Sujeito paciente**: sujeito em oração na voz passiva
 	* **Voz Reflexiva**: verbo indica ação praticada E sofrida pelo próprio sujeito. Ex: Eu me barbeei
 		* Para identificar, basta verificar se cabe adicionar um *a mim mesmo/a ti mesmo/a si mesmo/a nós mesmos/a vós mesmos*
 		* Verbo prefixado com *auto* é sempre reflexivo - ex: Ele se automutilou
 		* **Voz Reflexiva Recíproca**: envolve um grupo de sujeitos - ex: Nós nos beijamos
 	* **Transposição**
-		* VA -> VPA: objeto direto vira sujeito > sujeito vira agente da passiva; verbo vira locução ser/estar/ficar + particípio
+		* VA -> VPA: objeto direto vira sujeito paciente > sujeito vira agente da passiva; verbo vira locução ser/estar/ficar + particípio
 			* Ex: O homem acompanhou ela -> Ela foi acompanhada pelo homem
 		* VA -> VPS: adicionar pronome apassivador *se* e flexionar o verbo de acordo com o sujeito (objeto antes da transposição)
-			* ! só ocorre com sujeito indeterminado na VA
+			* !só ocorre com sujeito indeterminado na VA
 			* Ex: Quebraram o carro -> Quebrou-se o carro
 		* VPA -> VPS: eliminar o verbo ser, passando o verbo principal para o mesmo modo, tempo e pessoa dele; adicionar pronome apassivador *se*; colocar o sujeito posposto ao verbo
 			* Ex: Todas as pendências foram resolvidas -> Resolveram-se todas as pendências
 	* **Pontos importantes**
-		* Não há passagem de VA -> VP com verbo intransitivo ou de ligação
+		* Não há passagem de VA -> VP com verbo intransitivo ou de ligação (!lembrar que o objeto na voz ativa vira sujeito na voz passiva, daí só se falar em voz passiva com VTD ou VTDI)

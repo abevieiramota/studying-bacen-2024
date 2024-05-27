@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8ff22db6e88260ec",
+        "id": "d9e7c719e747c890",
         "type": "tabs",
         "children": [
           {
-            "id": "6494486eddb87f7c",
+            "id": "eff35ea79d6fe14a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/Verbo.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Português/Verbo.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Português/Verbo.md",
+                "file": "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Português/Verbo.md"
+                "file": "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md"
               }
             }
           }
@@ -147,13 +147,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "eff35ea79d6fe14a",
   "lastOpenFiles": [
+    "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
+    "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
+    "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
+    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
+    "Ciência de Dados/Aprendizado de Máquina/Referências",
+    "RLM/Combinatória.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Português/Verbo.md",
     "Português/Sequenciação textual.md",
     "Português/Reescrita de frases e parágrafos.md",
     "Português/Subordinação entre orações e termos.md",
     "Português/Uso de pronomes átonos.md",
-    "Português/Verbo.md",
     "Português/Reorganização da estrutura de orações e de períodos.md",
     "Português/Se.md",
     "Português/Pontuação.md",
@@ -169,12 +176,6 @@
     "Português/Decorar.md",
     "Português/Estrutura morfossintática.md",
     "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
-    "Português/Reconhecimento de tipos e gêneros textuais.md",
-    "Português/Regência verbal e nominal.md",
-    "Português/Significação de palavras.md",
-    "Português/Substituição de palavras e trechos.md",
-    "Português/Tempos e modos verbais.md",
-    "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
@@ -194,7 +195,6 @@
     "Anexos/Pasted image 20240429141909.png",
     "Infraestrutura/Monitoração",
     "Infraestrutura/Infraestrutura as code",
-    "Infraestrutura/Containers",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Untitled.canvas"

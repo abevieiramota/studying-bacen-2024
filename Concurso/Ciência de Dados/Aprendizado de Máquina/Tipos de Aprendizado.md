@@ -69,14 +69,18 @@
 			* def::**Multiclass**: problema de classificação em que o target tem domínio com mais de 2 valores possíves; ex: classificação de imagens de números
 			* def::**Multilabel**: problema de classificação em que o target envolve mais de um valor; ex: identificação de pessoas em foto
 		* **Regressão**: algoritmo de aprendizado supervisionado cujo target é numérico ordinal
-			* Modelos
-				* Regressão Linear - reta que denota correlação entre variáveis; resíduo = correto - predito; reg linear múltipla (>1 variável independente)
-					* coeficiente de pearson - medida de correlação [-1, 1]
-					* multicolinearidade -> duas ou mais variáveis independentes em um modelo de regressão que se encontram altamente correlacionadas -> afeta a qualidade do modelo e dificulta a interpretação dos resultados
+			* **Modelos**:
+				* **Regressão Linear**: reta que denota correlação entre variáveis; minimiza o resíduo quadrático (resíduo = correto - predito); reg linear múltipla (>1 variável independente)
+					* def::**Multicolinearidade**: característica de duas features que se encontram altamente correlacionadas -> afeta a qualidade do modelo e dificulta a interpretação dos resultados
 						* "*Por exemplo, imagine que você queira estimar o efeito da escolaridade e renda na satisfação com a vida. Aqui no Brasil, renda e escolaridade são altamente correlacionadas. Isso pode dificultar a interpretação dos resultados do modelo, uma vez que a contribuição de cada variável para explicar a variável dependente fica menos clara.*" [fonte](https://www.blog.psicometriaonline.com.br/o-que-e-multicolinearidade)
+					* **Complexidade de treinamento**: $O(n_{samples} n_{features}^2)$, assumindo n_samples >= n_features; complexidade de um SVD na matriz (samples, features)
+					* **Variações**:
+						* **Ridge**: regressão linear com imposição de penalidade (norma L2) sobre os coeficientes; "*The ridge coefficients minimize a penalized residual sum of squares*", com parâmetro $\alpha$ controlando o "encolhimento" dos pesos (quanto maior $\alpha$, menor liberdade para os pesos); tem mesma complexidade da regressão linear ordinária
+						* **Lasso**: regressão linear com imposição de penalidade (norma L1) sobre os coeficientes; tende a estimar pesos esparsos, útil em contextos em que faça sentido reduzir o número de features das quais o modelo é dependente -> ex: compressão, seleção de features
+						* **Elastic-Net**: combina a regularização com normas L1 (Lasso) e L2 (Ridge), com hiperparâmetro para determinar o peso de cada regularização (no scikit-learn, parâmetro `l1_ratio`)
 				* Redes neurais
 				* Árvore de decisão - CART
-				* SVM
+				* **SVR** (Support Vector Regression): SVM adaptado para regressão
 			* Métricas de performance { Root Mean Square Error (RMSE) } #TODO há mais?
 	* **Não Supervisionado** { dados de treino não contêm a solução, unlabeled }
 		* **Clustering** - tarefa descritiva!

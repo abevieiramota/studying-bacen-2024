@@ -14,9 +14,9 @@
 		* C(n, k) = C(n, n - k)
 		* $C(n, 0) + C(n, 1) + ... + C(n, n-1) + C(n, n) = 2^n$
 	* Combinação completa de p objetos e n marcas: $\frac{(n - 1 + p)!}{(n - 1)! p!}$ = C(n - 1 + p, p)
-		* entender como o problema de permutar os p objetos e os separadores das marcas (n - 1), com repetição dos objetos e dos separadores de marcas
+		* !entender como o problema de permutar os p objetos e os separadores das marcas (n - 1), com repetição dos objetos e dos separadores de marcas
 		* pensando como combinação simples, é como se houvesse (n - 1 + p) slots para colocar um objeto ou marca, sendo preciso selecionar os slots das (n - 1) marcas
-		* ! cuidado com o que é parte e o que é objeto
+		* !cuidado com o que é parte e o que é objeto
 		* quantidade de soluções inteiras de equações se resolve com esse tipo de combinação
 			* ex: x1 + x2 + x3 + x4 + x5 = 6 -> C(5 - 1 + 6, 6)
 		* anki::praticar!
