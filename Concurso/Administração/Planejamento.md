@@ -53,6 +53,60 @@
 		* **Perspectiva**: como a organização se posiciona em relação ao mundo
 	* **Elementos básicos**: **objetivos**, que ditam o que se busca alcançar; **políticas**, que ditam as restrições; **projetos**, que ditam a alocação de recursos
 	* Deliberada x emergente
+* **Ferramentas de planejamento estratégico**:
+	* **Análise SWOT**: ferramenta de diagnóstico da posição atual da organização, considerando ambiente interno { forças, fraquezas } e ambiente externo { ameaças, oportunidades }
+		* Ambiente interno: microambiente, +controlável
+		* Ambiente externo: macroambiente, -controlável
+		* Da combinação entre as características é possível traçar estratégias:
+			* Força + Oportunidade -> alavancagem > desenvolvimento (potencializar forças para aproveitar oportunidades)
+			* Fraqueza + Oportunidade -> limitação > crescimento (há oportunidade, mas há limitação para aproveitá-la)
+			* Força + Ameaça -> vulnerabilidade > manutenção (é possível mitigar)
+			* Fraqueza + Ameaça -> problema > sobrevivência (não tem meios para mitigar)
+	* **Análise de portfólio** ferramentas que auxiliam na criação de estratégias de alocação de recursos, por meio da análise dos produtos/serviços disponibilizados
+		* **Matriz BCG** (Matriz de Crescimento e Participação): classifica os produtos em dois eixos: Participação no mercado x Crescimento do mercado; visa identificar quais produtos tem maior potencial de gerar lucros, e quais devem ser descartados (os nomes são cobrados):
+			* Alta participação + crescimento (Estrela) = tendem a manter equilíbrio no fluxo de caixa
+			* Baixa participação + crescimento (Interrogação) = ainda não dá bom retorno, há expectativa de retorno sobre investimentos, mas risco associado
+			* Alta participação + baixo crescimento (Vaca-leiteira) = mercado estabilizado, necessário pouco investimento, retorno seguro
+			* Baixa participação + baixo crescimento (Vira-lata) = requer muito recurso de investimento, para muita incerteza de retorno
+		* **Matriz GE/McKinsey** (Matriz de atratividade do mercado e força competitiva): tem mesma função e estrutura da Matriz BCG, mas com uma escala de 3 valores (baixo, médio, alto) para cada dimensão
+		* **Matriz Ansoff**: trata da relação entre produtos e mercados, mas, diferente das anteriores, considera também a possibilidade de desenvolver novos produtos, gerando as estratégias { penetração de mercado, desenvolvimento de mercado, desenvolvimento de produto, diversificação }
+	* **Análise de vantagem competitiva**:
+		* **5 forças competitivas de Porter**: focado no cenário de competição, detalha melhor os componentes da competição (forças de competitivas)
+			* !não confundir com "força" da SWOT, aqui é no sentido de forças que influenciam a competição
+			* **Ameaça de novos entrantes**: risco de novos competidores entrarem no mercado -> associado a barreiras que dificultam a entrada de novos competidores
+				* **Economias de escala**: quanto maior a produção, menor o custo unitário do produto final -> em economias de escala, os entrantes precisam decidir entre { investimento inicial alto + baixo custo + alto risco de reação dos demais, investimento inicial baixo + alto custo }
+				* **Diferenciação do produto**: quanto o consumir está disposto a trocar de fornecedor por diferenciações no produto -> quanto mais baixo, maiores os investimentos para 'quebrar a lealdade do consumidor'
+				* **Necessidade de capital**: volume de capital inicial necessário para iniciar a operação -> quanto maior, maior o risco
+				* **Custos de troca** (também chamado 'custo único'): custo que consumidores têm ao trocarem de fornecedor (a conquista de consumidores de fornecedores existentes envolve troca de fornecedor -> custo de troca) -> quão mais elevado, maior o risco de não conseguir conquistar consumidores
+				* **Acesso a canais de distribuição**: no caso de produtos, acesso a varejistas para vender o produto -> quanto mais restrito, maior a barreira
+				* **Demais desvantagens de custo**: custos associados com a entrada { registro de patente, estabelecimento de localização geográfica privilegiada, acesso a matéria-prima, subsídios governamentais, curva de aprendizado/experiência }
+				* **Ação governamental**: proibições ou imposições do governo sobre o setor que dificultem a entrada
+			* **Ameaça de produtos substitutos**: risco de novos produtos similares substituírem o produto em análise
+				* Substituição **direta**: ex: margarina substituindo manteiga, couro sintético substituindo couro animal
+				* Substituição **indireta**: ex: smartphones substituindo câmeras fotográficas (o smartphone não tem uma função similar à da câmera, mas desempenha sua função também)
+			* **Poder de barganha dos fornecedores**: capacidade de os fornecedores ditarem preços e condições de negócio. Afetado por:
+				* **Competição entre fornecedores**: quanto maior o monopólio, maior o poder de barganha
+				* **Existência de insumos substitutos**: quanto menos houver, maior o poder de barganha
+				* **Setor da organização não é o principal cliente do fornecedor**: tem menor prioridade, não depende do setor, maior poder de barganha
+				* **Essencialidade do insumo**: quanto mais essencial, maior o poder de barganha
+				* **Alta diferenciação do insumo ou alto custo de troca**: dificuldade de trocar de fornecedor, maior poder de barganha
+				* **Capacidade de "integrar para frente"**: fornecedores conseguem atuar no setor em questão (ex: fabricante de automóvel que consegue criar suas concessionárias), maior poder de barganha
+			* **Poder de barganha dos clientes**: poder de negociação dos clientes
+				* **Cliente é o principal consumidor**
+				* **O produto fornecido tem alto peso nos custos dos clientes**: maior critério na escolha de fornecedor
+				* **Produto não é diferenciado ou tem baixo custo de troca**
+				* **Lucros dos clientes são baixos: maior relevância de redução de custos**
+				* **Cliente tem possibilidade de "integrar para trás"**: cliente pode ele mesmo produzir o produto
+				* **Cliente conhece bastante o mercado**, tendo alta capacidade de negociação
+			* **Rivalidade entre concorrentes do setor**
+				* **Número de concorrentes**: quanto maior, maior a rivalidade
+				* **Equilíbrio entre concorrentes**
+				* **Velocidade de crescimento do setor**: mercado estabilizado gera maior competitividade para conquistar fatias
+				* **Diferenciação e custo de troca**: quanto menores, maior a competitividade
+				* **Economia de escala**
+				* **Diversidade dos concorrentes**: quanto mais variáveis os concorrentes, mais difícil é modelá-los para traçar estratégias
+				* **Risco assumido pelos concorrentes**: quanto mais riscos tendem a assumir, mais complexa a competição
+				* **Barreiras de saída do setor**: quanto mais difícil sair do setor, maior a resistência dos competidores, mesmo em cenários negativos
 * **Conceitos**:
 	* **Gestão estratégica**: não confundir com planejamento estratégico, já que gestão envolve demais funções administrativas, como o processo de adoção de um modelo organizacional adequado para a implementação do planejamento estratégico
 	* **Missão**: representa a identidade da organização
@@ -73,3 +127,4 @@
 	* **Administração por objetivos** (APO): ou administração por resultados, parte da teoria neoclássica de administração, tem como foco os resultados (eficácia), com planejamento 'de baixo para cima', com objetivos/metas definidas pelos gerentes e subordinados
 		* com o envolvimento dos subordinados no planejamento, espera-se maior comprometimento/motivação
 		* n_entendi::a eficácia ganha relevância em detrimento da eficiência
+	* **Estratégia competitiva**: "*estratégia competitiva é a posição que uma empresa, uma UEN ou uma corporação adota, conscientemente ou não, dentro do setor ou indústria em que atua, e com base na qual ela se defende contra as forças competitivas ou procura influenciá-las a seu favor*"
