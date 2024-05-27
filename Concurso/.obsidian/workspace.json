@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administração/Planejamento.md",
+                "file": "Administração/Organização.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administração/Planejamento.md",
+                "file": "Administração/Organização.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Administração/Planejamento.md",
+                "file": "Administração/Organização.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Administração/Planejamento.md"
+                "file": "Administração/Organização.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "eff35ea79d6fe14a",
   "lastOpenFiles": [
+    "Administração/Planejamento.md",
+    "Administração/Organização.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
@@ -174,8 +176,6 @@
     "Português/Concordância verbal e nominal.md",
     "Português/Coordenação entre orações e termos.md",
     "Português/Decorar.md",
-    "Português/Estrutura morfossintática.md",
-    "Português/Funções sintáticas de pronomes pessoais oblíquos átonos.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",

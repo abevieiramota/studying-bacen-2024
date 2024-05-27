@@ -107,6 +107,23 @@
 				* **Diversidade dos concorrentes**: quanto mais variáveis os concorrentes, mais difícil é modelá-los para traçar estratégias
 				* **Risco assumido pelos concorrentes**: quanto mais riscos tendem a assumir, mais complexa a competição
 				* **Barreiras de saída do setor**: quanto mais difícil sair do setor, maior a resistência dos competidores, mesmo em cenários negativos
+		* **Estratégias competitivas genéricas de Porter**: Porter fala que, genericamente, a estratégia competitiva envolve relacionar a organização a seu meio ambiente, definindo três estratégias genéricas
+			* **Liderança de custo total**: competitividade por meio de produtos mais baratos
+			* **Diferenciação**: competetividade por meio de produtos diferenciados
+			* **Enfoque**: competitividade pela capacidade de atender de forma ampla as necessidades dos consumidores do produto
+		* **Cadeia de valor**: conjunto de atividades desempenhadas pela organização para elaborar, produzir e comercializar os seus produtos/serviços
+			* Permite compreender que atividades de sua operação geram mais valor, onde pode intervir para melhor implementar sua estratégia
+			* **Atividades principais/primárias**: fazem parte do caminho pelo qual os insumos passam até virar o produto; { logística interna, operações, logística externa, marketing/vendas, serviços }
+			* **Atividades de apoio/secundárias**: dão suporte às atividades primárias; { aquisição/compras, desenvolvimento de tecnologia, RH, infraestrutura }
+	* **Elaboração de plano de ação**:
+		* **5W2H**: checklist que auxilia o gestor a traçar planos de ação { **W**hat, **W**hy, **W**ho, **W**here, **W**hen, **H**ow, **H**ow much }
+	* **Controle, acompanhamento e análise de desempenho**:
+		* **BSC - Balanced Scorecard**: objetiva a implementação e acompanhamento de uma estratégia organizacional, por meio de indicadores, objetivos e metas; desenvolvido por Kaplan e Norton
+			* Envolve um processo de tradução de objetivos definidos de forma qualitativa em definições quantitativas, desdobranco missão, visão e planos em { objetivos, desafios, metas, indicadores }, permitindo acompanhamento, monitoramento, mensuração do alcance dos objetivos
+			* **Considera 4 perspectivas**: { Financeira, Cliente, Processos Internos, Aprendizado e Crescimento }
+			* **Elementos**: { Mapa estratégico, Objetivos estratégicos, Indicadores, Metas, Plano de ação }
+			* **Papéis**: { arquiteto (alto executivo responsável pela construçãoe incorporação do BSC), agente de mudanças, comunicador }
+		* **Matriz GUT** - **G**ravidade, **U**rgência e **T**endência: utilizada para priorização de problemas
 * **Conceitos**:
 	* **Gestão estratégica**: não confundir com planejamento estratégico, já que gestão envolve demais funções administrativas, como o processo de adoção de um modelo organizacional adequado para a implementação do planejamento estratégico
 	* **Missão**: representa a identidade da organização
