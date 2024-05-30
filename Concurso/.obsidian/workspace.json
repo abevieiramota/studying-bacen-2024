@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administração/Organização.md",
+                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administração/Organização.md",
+                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Administração/Organização.md",
+                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Administração/Organização.md"
+                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md"
               }
             }
           }
@@ -149,8 +149,12 @@
   },
   "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Administração/Planejamento.md",
+    "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
+    "Banco de Dados/SGBD SQL/Modelagem Relacional.md",
+    "Banco de Dados/SGBD SQL/Álgebra relacional.md",
+    "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
     "Administração/Organização.md",
+    "Administração/Planejamento.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
@@ -172,10 +176,6 @@
     "Português/Como.md",
     "Português/Crase.md",
     "Português/Coesão textual.md",
-    "Português/Compreensão e interpretação de texto.md",
-    "Português/Concordância verbal e nominal.md",
-    "Português/Coordenação entre orações e termos.md",
-    "Português/Decorar.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
