@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
+                "file": "Judiciário/TPU.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
+                "file": "Judiciário/TPU.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
+                "file": "Judiciário/TPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md"
+                "file": "Judiciário/TPU.md"
               }
             }
           }
@@ -147,12 +147,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "eff35ea79d6fe14a",
   "lastOpenFiles": [
+    "Comunicação/Teams-outlook.md",
+    "Judiciário/TPU.md",
+    "Judiciário",
+    "Administração/Gestão do conhecimento/Gestão do Conhecimento no Setor Público.md",
+    "Comunicação",
+    "Ciência de Dados/Big Data.md",
+    "Administração/Gestão do conhecimento",
+    "Untitled.md",
+    "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD SQL/Modelagem Relacional.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
-    "Banco de Dados/SGBD SQL/Transações e técnicas de recuperação.md",
     "Administração/Organização.md",
     "Administração/Planejamento.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
@@ -171,11 +179,6 @@
     "Português/Se.md",
     "Português/Pontuação.md",
     "Português/Que.md",
-    "Português/Português.md",
-    "Português/Classes de palavras.md",
-    "Português/Como.md",
-    "Português/Crase.md",
-    "Português/Coesão textual.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
@@ -191,10 +194,7 @@
     "Auditoria",
     "Anexos/Pasted image 20240501175112.png",
     "Anexos/Pasted image 20240501174214.png",
-    "Segurança da Informação",
     "Anexos/Pasted image 20240429141909.png",
-    "Infraestrutura/Monitoração",
-    "Infraestrutura/Infraestrutura as code",
     "Banco de Dados.canvas",
     "LDAP.canvas",
     "Untitled.canvas"
