@@ -1,4 +1,4 @@
-# Como fazer pesquisas - TPU - Histórico e panorama geral
+# Como fazer pesquisas - TPU - Histórico e panorama geral - 02/05/24
 
 https://www.youtube.com/watch?v=q5x4ehYG__4
 
@@ -90,5 +90,62 @@ todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome
 	* ~2:01:00: temporalidade surgiu com o proname, depois da criação das TPUs
 
 
-# Tabelas Processuais Unificadas e o impacto nas estatísticas do Poder Judiciário
+# Tabelas Processuais Unificadas e o impacto nas estatísticas do Poder Judiciário - 17/05/24
 
+https://www.youtube.com/watch?v=n9KMzlzMpYg
+
+todo::ver manual de uso da parametrização [link](https://www.cnj.jus.br/wp-content/uploads/2023/07/como-utilizar-parametrizacao-painel-de-estatisticas-do-poder-judiciario-versao-3-1.pdf)
+todo:: ver página de parametrização de forma ampla [link](https://www.cnj.jus.br/sistemas/datajud/parametrizacao/)
+todo::explorar [justiça em números - painel](https://paineis.cnj.jus.br/QvAJAXZfc/opendoc.htm?document=qvw_l%2FPainelCNJ.qvw&host=QVS%40neodimio03&anonymous=true&sheet=shResumoDespFT)
+todo::o arquivo que pode ser baixado em [https://consulta-datajud.cnj.jus.br/](https://consulta-datajud.cnj.jus.br/) pode ser usado para validar dados enviados, não?
+todo::estudar planilhas de regras
+
+* ~15:00: alerta da Ana sobre a situação dos processos, que é calculada com base nos dados de TPUs dos processos fornecidos pelos tribunais - o tribunal não informa situação
+* 16:55: início da apresentação da Isabely - situações processuais
+	* 17:20: histórico do desenvolvimento de regras de situação
+	* 20:00: começaram a trabalhar a classificação de processos com base nas TPUs pelas classes -> classificação em relação à fase processual -> grupos de procedimento
+	* [Página sobre parametrização](https://www.cnj.jus.br/sistemas/datajud/parametrizacao/)
+		* [planilha com parametrização (09/05/2024)](https://www.cnj.jus.br/wp-content/uploads/2024/05/parametrizacao-classes-todos-ramos-2024-04-2.xlsx)
+	* parametrização é utilizada para classificações do Justiça em números
+	* ~23:30: ! há flag indicando se a classe representa caso novo
+	* ~25:00: recursos internos e tratamento como caso novo, tribunais que tratam de formas diferentes -> regras de recursos internos x caso novo tem peculiaridades
+	* ~27:30: peculiaridades, como a de apelação cível 1035, que existe, não mais em uso etc
+	* ~30:00: começaram a analisar regras com base em assuntos -> assuntos não são muito utilizados em parametrização (exceção em parametrizações da justiça eleitoral, que tem regras baseadas em assuntos)
+	* ~31:30: situações
+		* processo começa com distribuição, vem petições, agendamento/realização de audiências etc
+		* há milhares de movimentos na TPU, mas nem todos eram relevantes para as estatísticas que estavam sendo analisadas
+		* 35:27: foi criada parametrização de situações [link](https://www.cnj.jus.br/wp-content/uploads/2024/05/situacoes-datamart-validacao-2024-04.xlsx)
+			* regras que associam movimentações a situações do processo (ex: situação Distribuído gerada pelo movimento de distribuição)
+			* há situações que se iniciam e concluem com as movimentações associadas (apenas ocorrem, ex: distribuído), outras iniciam com certas movimentações/situações e concluem com outras (ex: pendente/tramitando)
+			* as situações com 'início condicional' = Sim funcionam da seguinte forma (exemplo com pendente)
+				* ao receber movimentação de Reativado, para verificar se a situação Pendente será iniciada, é preciso verificar se o processo já estava Pendente - em caso positivo, uma nova situação não é gerada
+				* ou seja, o Reativado só inicia um Pendente caso não esteja Pendente (ex: reativação de processo baixado -> se baixado, não estava pendente, logo gera situação de pendente)
+			* a coluna hierarquia agrupa situações em conjuntos maiores (ex: decisão proferida -> { denúnica/queixa recebida, rejeitada etc })
+		* há aba 'Demais campos tabela situação' com regras mais específicas
+	* 48:00: [painel de situações](https://justica-em-numeros.cnj.jus.br/painel-situacoes/)
+* 1:00:10: início da apresentação do Igor - indicadores
+	* 1:00:50: apresentação do arquivo que pode ser baixado na página de consulta do datajud ([https://consulta-datajud.cnj.jus.br/](https://consulta-datajud.cnj.jus.br/))
+		* [planilha de indicadores](https://www.cnj.jus.br/wp-content/uploads/2024/05/indicadores-e-dicionario-dos-donwloads-painel-estatisticas-2014-04.xlsx)
+			* contém variáveis do Datajud, mapeamento para variáveis do JN, nome, descrição e que situações representam a variável (ex: Caso Novo -> situação Pendente iniciada por Denúncia/queixa recebida, Distribuído etc)
+			* tem variáveis sobre tempo, que geram muitas dúvidas
+			* a aba 'Demais campos tabela fato' tem a descrição do domínio dos campos, como id_fase_processual
+* ~1:22:00: início das dúvidas
+* ~1:39:00: chave da tabela do datajud { tribunal, grau, procedimento, nº processo, recurso, órgão julgador }
+* ~2:05:00: ~questão sobre baixa, júri etc
+
+
+# Importância das TPUs no STJ e no STF - 06/06/24
+
+https://www.youtube.com/watch?v=bgz0eOIzKJo
+
+
+
+# Aplicação prática: o uso das Tabelas Processuais Unificadas - 13/06/24
+
+https://www.youtube.com/watch?v=4Q43GnZdTcg
+
+
+
+# O uso das Tabelas Processuais Unificadas
+
+https://www.youtube.com/watch?v=C_W2CNKlvfg

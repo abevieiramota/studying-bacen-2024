@@ -47,7 +47,7 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 
 ## Scalability
 
-* def::**Scalability**: capacidade de lidar com carga crescente
+* def::**Scalability**: capacidade de lidar com carga crescente, dentro de parâmetros de performance aceitáveis
 * a carga de um sistema pode ser definida por parâmetros de carga, que devem ser selecionados de acordo com a arquitetura do sistema (ex: requests per second, ratio of reads to writes on a cache, número de usuários simultaneamente ativos em chat room etc)
 * definidos parâmetros de carga, a avaliação de performance pode seguir dois caminhos
 	* aumentada a carga e mantidos os recursos, qual o impacto na performance?
@@ -72,6 +72,36 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 
 ## Maintainability
 
+* maior parte do custo de sistemas está na operação (e consequente manutenções), e não no desenvolvimento
+* mesmo assim, ocorre muito de haver resistência a manter soluções 'legadas', por motivos diversos como { ter que corrigir erros de outros, trabalhar com ferramentas antigas, com gambiarras etc }
+* def::**Maintainability**: capacidade de, de forma aceitável, { operar, entender, evoluir (extensibility/modifiability/plasticity) } o sistema
+* operação -> inclui responsabilidades como
+	* monitorar a saúde do sistema e restaurar o funcionamento em caso de mal funcionamento
+	* diagnosticar causas de mal funcionamento
+	* manter o sistema/plataforma atualizados
+	* conhecer o relacionamento entre o sistema e suas dependências, de forma a previnir alterações nelas que causem problemas nele
+	* antecipar problemas futuros e atuar de forma proativa (ex: aumento de demanda -> aumentar capacidade)
+	* estabelecer boas práticas e criar ferramentas para operação, como deploy, gerenciamento de configuração etc
+	* executar operações de manutenção (ex: mover aplicação para outro servidor)
+	* manter a segurança do sistema, diante de alterações em configurações
+	* definir processos de operação
+	* preservar o conhecimento da organização sobre o sistema, diminuindo a dependência de pessoas específicas
+* simplicidade
+	* sintomas de alta complexidade
+		* espaço de estados da aplicação grande
+		* alto acoplamento entre módulos
+		* dependências 'entrelaçadas'
+		* nomenclaturas inconsistentes
+		* gambiarras('hacks') para lidar com problemas de performance
+		* lógicas de exceção para tratar situações pontuais apenas
+	* def::**Complexidade acidental**: complexidade que não é inerente à solução do problema, mas que surge com uma implementação da solução
+	* aumento de complexidade implica em (considerar que parte da complexidade é não essencial, é acidental)
+		* diminuição de produtividade 
+		* maior risco de introdução de bugs quando realizadas mudanças
+		* maior risco de a solução ser entendida errada por mantenedores (ex: ter lógicas que dependem de premissas não explícitas, aumentando o risco de serem alteradas indevidamente, por desconhecimento dessas premissas por parte do mantenedor)
+	* abstração (ex: criar interface que abstrai a implementação) é uma forma de reduzir complexidade (ex: SQL abstrai a implementação da execução); abstração com soluções distribuídas é desafiador
+* extensibilidade -> capacidade de evoluir a solução de forma aceitável -> requisitos mudam com o tempo (ex: mudanças de prioridade, normas legais, mudança de plataforma etc), o que implica em necessidade de evolução da solução
+* 
 
 
 

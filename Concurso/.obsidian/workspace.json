@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "file": "Judiciário/Documentos principais do Datajud, Justiça em Números etc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "710d3bb086a4bdbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md"
+                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md"
               }
             }
           }
@@ -147,9 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eff35ea79d6fe14a",
+  "active": "4f9fcc1629a61e99",
   "lastOpenFiles": [
-    "Judiciário/TPU.md",
+    "Judiciário/Documentos principais do Datajud, Justiça em Números etc.md",
+    "Judiciário/Seminários de pesquisa empírica do CNJ.md",
     "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
     "Banco de Dados/Engenharia de dados",
     "Backlog.md",
@@ -179,7 +193,6 @@
     "Português/Subordinação entre orações e termos.md",
     "Português/Uso de pronomes átonos.md",
     "Português/Reorganização da estrutura de orações e de períodos.md",
-    "Português/Se.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
