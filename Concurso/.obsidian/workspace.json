@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Judiciário/TPU.md",
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Judiciário/TPU.md",
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Judiciário/TPU.md",
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Judiciário/TPU.md"
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md"
               }
             }
           }
@@ -149,8 +149,13 @@
   },
   "active": "eff35ea79d6fe14a",
   "lastOpenFiles": [
-    "Comunicação/Teams-outlook.md",
     "Judiciário/TPU.md",
+    "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+    "Banco de Dados/Engenharia de dados",
+    "Backlog.md",
+    "Administração/Planejamento.md",
+    "Administração/Organização.md",
+    "Comunicação/Teams-outlook.md",
     "Judiciário",
     "Administração/Gestão do conhecimento/Gestão do Conhecimento no Setor Público.md",
     "Comunicação",
@@ -161,8 +166,6 @@
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD SQL/Modelagem Relacional.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
-    "Administração/Organização.md",
-    "Administração/Planejamento.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
@@ -177,8 +180,6 @@
     "Português/Uso de pronomes átonos.md",
     "Português/Reorganização da estrutura de orações e de períodos.md",
     "Português/Se.md",
-    "Português/Pontuação.md",
-    "Português/Que.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
@@ -191,7 +192,6 @@
     "Anexos/Pasted image 20240505094957.png",
     "Engenharia de Software/Desenvolvimento/Linguagens de programação",
     "Engenharia de Software/Desenvolvimento/Desenvolvimento seguro",
-    "Auditoria",
     "Anexos/Pasted image 20240501175112.png",
     "Anexos/Pasted image 20240501174214.png",
     "Anexos/Pasted image 20240429141909.png",
