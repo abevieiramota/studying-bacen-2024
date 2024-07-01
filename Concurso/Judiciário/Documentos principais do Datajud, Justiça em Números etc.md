@@ -7,3 +7,4 @@
 	* contém atributos de classes, bem como regras específicas (aba Demais campos tabela classe), como sobre recurso interno não ser considerado caso novo
 	* associa classes a variáveis do Justiça em Números
 	* ver [palestra a partir de 20:00](https://www.youtube.com/watch?v=n9KMzlzMpYg)
+* [Resolução 46 do CNJ - TPUs](https://atos.cnj.jus.br/atos/detalhar/167)

@@ -24,7 +24,7 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 	* **scalability**: as the system grows { data volume, traffic volume, complexity }, there should be reasonable ways of dealing with that growth
 	* **maintainability**: over time, many different people will work on the system (maintaining + upgrading) and they should all be able to work on it *productively*
 
-## Reliability
+### Reliability
 
 * def::**Reliability**: continuing to work correctly, even when things go wrong
 * def::**Fault**: things that can go wrong -> **fault-tolerant**, system that anticipante and can cope with faults
@@ -45,7 +45,7 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 		* boas práticas de gestão e treinamentos
 * reliability é importante em sistemas, mesmo os não críticos; há situações em que é sacrificada em benefício de outras características, como facilidade de desenvolvimento (ex: em prototipação), mas é preciso estar consciente desse sacrifício e o custo-benefício
 
-## Scalability
+### Scalability
 
 * def::**Scalability**: capacidade de lidar com carga crescente, dentro de parâmetros de performance aceitáveis
 * a carga de um sistema pode ser definida por parâmetros de carga, que devem ser selecionados de acordo com a arquitetura do sistema (ex: requests per second, ratio of reads to writes on a cache, número de usuários simultaneamente ativos em chat room etc)
@@ -70,7 +70,7 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 	* arquiteturas para large scale normalmente são bem específicas -> processar 100k requests de 1kB cada X processar 3 requests de 2GB cada -> mesmo throughput, mas padrões diferentes de carga
 	* "*An architecture that scales well for a particular application is built around assumptions of which operations will be common and which will be rare - the load parameters.*"
 
-## Maintainability
+### Maintainability
 
 * maior parte do custo de sistemas está na operação (e consequente manutenções), e não no desenvolvimento
 * mesmo assim, ocorre muito de haver resistência a manter soluções 'legadas', por motivos diversos como { ter que corrigir erros de outros, trabalhar com ferramentas antigas, com gambiarras etc }
@@ -101,6 +101,36 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 		* maior risco de a solução ser entendida errada por mantenedores (ex: ter lógicas que dependem de premissas não explícitas, aumentando o risco de serem alteradas indevidamente, por desconhecimento dessas premissas por parte do mantenedor)
 	* abstração (ex: criar interface que abstrai a implementação) é uma forma de reduzir complexidade (ex: SQL abstrai a implementação da execução); abstração com soluções distribuídas é desafiador
 * extensibilidade -> capacidade de evoluir a solução de forma aceitável -> requisitos mudam com o tempo (ex: mudanças de prioridade, normas legais, mudança de plataforma etc), o que implica em necessidade de evolução da solução
+
+
+## Chapter 2 - Data models and query languages
+
+* data models são muito importantes em sistemas por moldarem como o sistema vai ser desenvolvido, mas também como pensamos sobre o problema a ser resolvido
+* sistemas são construídos empilhando camadas de data models - ex: modelo conceitual > modelo lógico > modelo físico > modelo elétrico etc; cada camada abstrai complexidade da camada inferior, permitindo que grupos diversos de pessoas trabalhem juntos com a "mesma" informação (ex: engenheiros na camada física, analistas de negócio na camada conceitual etc)
+* data models carregam premissas sobre os dados representados -> como devem ser usados - ex: que operações podem ser realizadas, quais são rápidas etc
+* dominar um data model pode ser difícil (ex: relational modeling), mas é importante conhecer diversos para decidir melhor qual aplicar a uma necessidade específica
+
+### Relational model versus Documento model
+
+* o modelo relacional envolve organizar os dados em relations (tables no SQL), que são coleções não ordenadas de tuplas (rows no SQL)
+* o modelo relacional é dominante e à época se sobressaiu, dentre outros motivos, por abstrair detalhes da representação interna dos dados, não exigindo que desenvolvedores pensassem sobre esses detalhes, simplificando o desenvolvimento
+
+#### The birth of NoSQL
+
+* já houve outras tentativas com modelos diferentes (ex: network/hierarchical) de superarem o relacional; a última é do movimento NoSQL, que surgiu como uma tag a ser usada para indicar uma conferência ocorrida em 2009, sobre bases não relacionais; atualmente é interpretado como Not Only SQL
+* motivos que têm levado à adoção de modelos NoSQL
+	* necessidade de escalabilidade, como com grandes volumes/throughput
+	* priorização de open-source
+	* necessidade de consultas especializadas não suportadas bem pelo modelo relacional
+	* frustração com restrições do modelo relacional (ex: esquema rígido) e necessidade de modelos mais dinâmicos/expressivos
+
+#### The object-relational mismatch
+
+* muitas aplicações atualmente são desenvolvidas usando um modelo orientado a objetos -> surge a necessidade de traduzir os dados da aplicação, em modelo orientado a objeto, para o modelo relacional (impedance mismatch) -> foram criadas ferramentas ORM (Object-Relational Mapping), como ActiveRecord e Hibernate, para simplificar esse mapeamento
+* p30: exemplo de modelagem de dados de cv do Linkedin, usando SQL, XML/JSON etc; comenta uma das vantagens de modelar dados como documento, ter melhor 'localidade' -> todos os dados do documento estão localizados juntos, podem ser recuperados numa chamada, enquanto em modelos SQLs pode ser necessário acessar diversas estruturas/tabelas
+
+#### Many-to-One and Many-to-Many relationships
+
 * 
 
 

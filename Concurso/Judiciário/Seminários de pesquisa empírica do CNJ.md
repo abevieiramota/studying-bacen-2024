@@ -2,17 +2,14 @@
 
 https://www.youtube.com/watch?v=q5x4ehYG__4
 
-todo::ver nome completo dos palestrantes
-todo::ver resolução das TPUs (res 12 e 46) e de divulgação de dados na internet (res 121), nivelamento de ti (res 90), requisitos (res 91)
-todo::ver manual de utilização das tabelas processuais do poder judiciário -> ver no SGT
-todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome no CNJ
+todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome no CNJ ??olhei por cima, não entendi bem o sentido... há [palestra](https://www.youtube.com/watch?v=hDvn4aLxMmI)
 
 !toda resolução mencionada, salvo se especificado, é do CNJ
 
 * ~00:15: importância das TPUs
 * ~17:30: apresentação dos participantes
 * ~20:00: início da apresentação do Rubens
-* ~23:00: início mesmo da apresentação do Rubens
+* ~23:00: início mesmo da apresentação do Rubens Curado
 	* 2024, 20 anos de criação do CNJ
 	* ~25:20: história das TPUs
 		* essenciais para duas políticas importantes do CNJ -> { ==gestão estratégica e estatística==, implantação do PJe }
@@ -21,15 +18,15 @@ todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome
 				* padronização da linguagem dos sistemas processuais -> permitindo extração de dados padronizados, confiáveis e detalhados -> essencial para a gestão - não há gestão sem conhecimento
 				* TPUs habilitam -> cultura de gestão por resultados, justiça em números etc
 			* implantação do PJe
-				* iniciativas para fomentar o processo eletrônico -> padronização de domínios web jus.br (res 41 e 45), TPUs (res 46), numeração única (res 63), doação de equipamentos de TI, divulgação de dados processuais na internet (res 121), nivelamento de TI (res 90), modelo de requisitos para sistemas informatizados (res 91), planejamento estratégico de ti (res 99), diretrizes para contratações de ti (res 182)
+				* iniciativas para fomentar o processo eletrônico -> padronização de domínios web jus.br (res 41 e 45), TPUs (res 46), numeração única (res 63), doação de equipamentos de TI, divulgação de dados processuais na internet ([res 121](https://atos.cnj.jus.br/atos/detalhar/92)), nivelamento de TI (res 90 -> atualizado na [res 370](https://atos.cnj.jus.br/atos/detalhar/3706)), modelo de requisitos para sistemas informatizados (res 91), planejamento estratégico de ti (res 99), diretrizes para contratações de ti (res 182)
 				* lei 11.419/2006 -> dispõe sobre a informatização do processo judicial
-		* origem na resolução 12, de 14/02/2006 -> define padrões de interoperabilidade, TPUs eram chamadas "tabelas básicas"
+		* origem na [resolução 12, de 14/02/2006](https://atos.cnj.jus.br/atos/detalhar/206) -> define padrões de interoperabilidade, TPUs eram chamadas "tabelas básicas"
 			* depois termo de cooperação técnica para desenvolvimento de uniformização taxonômica e terminológica { CNJ, CJF, TST, TJSP/MG/RS/ES/SE }
 			* criado comitê técnico { jurídico, TI }
 			* projeto -> TPUs, glossário, manual básico, padronização de cadastro de partes, projetos pilotos, acompanhamento e suporte à implantação, sistema de gestão compartilhada (atual SGT)
 			* finalidade -> possibilitar extração de dados confiáveis para orientar gestão
 			* objetivos alcançados -> { melhor reúso, pelos tribunais superiores, de informações dos sistemas de 1º e 2º graus; identificar estatísticas de duração das fases processuais; estatísticas de assuntos mais frequentes, para orientar atuação preventiva; melhor gestão de pautas temáticas; automatização de fluxos processuais; melhor controle de prevenção e distribuição processual }
-		* resolução 46, de 18/12/2007
+		* [resolução 46, de 18/12/2007](https://atos.cnj.jus.br/atos/detalhar/167)
 			* publicou o conteúdo das tabelas
 			* definiu os órgãos destinatários e prazo de implantação
 			* estipulou critérios de utilização e aperfeiçoamento
@@ -44,7 +41,7 @@ todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome
 		* { 2009 -> apenas 10% dos processos em tramitação eram eletrônicos, 2022 -> +98% }
 		* { outros projetos -> Justiça 4.0, juízo 100% digital }
 		* capacidade atual de coleta de dados padronizados -> Datajud
-* 43:00: início da apresentação do Marivaldo
+* 43:00: início da apresentação do Marivaldo Dantas
 	* ~TPUs permitem ver mais precisamente o acervo do judiciário (mas há limitações por conta da estrutura adotada -> não detalhou)
 	* fala do problema de complementos não tabelados -> sem padronização, tribunais enviavam diversos conteúdos, alguns de baixa qualidade (em ~57:00 discute um pouco, quão mais detalhado -> mais custoso coletar/gerar a informação; em ~59:30 comenta sobre varas únicas, normalmente tem poucos servidores, menos capacitados -> quanto mais complexas as tabelas, mais difícil se tornam para serem usadas, gerando problemas de qualidade de dados especialmente para unidades com essas características -> quanto mais complexa a estrutura, maior a variabilidade dos 'modelos' -> menor a conformidade a um padrão geral, menor a capacidade de tirar conclusões gerais)
 	* ~há o dilema entre tabela mais ou menas detalhada (principalmente assuntos e movimentos); ex: categoria de partes, no datajud usa só 4 categorias, apesar de na RFB ter muitas outras
@@ -58,7 +55,7 @@ todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome
 	* fez pesquisa em tribunais de outros países e não achou trabalho tão avançado de taxonomia em produção
 * 1:16:40: início da apresentação do Pedro -> servidor que trabalha com as TPUs no CNJ
 	* início mesmo 1:18:50
-	* objetivos -> { diferenciar { classe, assunto, movimento, documento }, conhecer as tabelas dessas entidades, como aplicar, conhecer a gestão das tabelas, o SGT e o manual de utilização das TPUs }
+	* objetivos -> { diferenciar { classe, assunto, movimento, documento }, conhecer as tabelas dessas entidades, como aplicar, conhecer a gestão das tabelas, o SGT e o manual de utilização das TPUs [[Manual_de_utilizacao_das_Tabelas_Processuais_Unificadas.pdf]] }
 	* entidades
 		* **classe**: se refere a como o pedido será processado no judiciário -> foco em direito processual
 		* **assunto**: se refere ao objeto, o que é pedido
