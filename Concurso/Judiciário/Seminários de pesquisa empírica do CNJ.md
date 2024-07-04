@@ -91,8 +91,6 @@ todo::ver guia de aplicação de tabelas de temporalidade, na página do pronome
 
 https://www.youtube.com/watch?v=n9KMzlzMpYg
 
-todo::ver manual de uso da parametrização [link](https://www.cnj.jus.br/wp-content/uploads/2023/07/como-utilizar-parametrizacao-painel-de-estatisticas-do-poder-judiciario-versao-3-1.pdf)
-todo:: ver página de parametrização de forma ampla [link](https://www.cnj.jus.br/sistemas/datajud/parametrizacao/)
 todo::explorar [justiça em números - painel](https://paineis.cnj.jus.br/QvAJAXZfc/opendoc.htm?document=qvw_l%2FPainelCNJ.qvw&host=QVS%40neodimio03&anonymous=true&sheet=shResumoDespFT)
 todo::o arquivo que pode ser baixado em [https://consulta-datajud.cnj.jus.br/](https://consulta-datajud.cnj.jus.br/) pode ser usado para validar dados enviados, não?
 todo::estudar planilhas de regras

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md",
+                "file": "Documentos/Excel.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md",
+                "file": "Documentos/Excel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md",
+                "file": "Documentos/Excel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Judiciário/Seminários de pesquisa empírica do CNJ.md"
+                "file": "Documentos/Excel.md"
               }
             }
           }
@@ -146,11 +146,17 @@
   },
   "active": "5ab52fcccdd1ebdb",
   "lastOpenFiles": [
-    "Judiciário/Manual de utilização das TPUs.md",
-    "Judiciário/Seminários de pesquisa empírica do CNJ.md",
-    "Judiciário/Documentos principais do Datajud, Justiça em Números etc.md",
-    "Judiciário/Manual_de_utilizacao_das_Tabelas_Processuais_Unificadas.pdf",
     "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+    "Documentos/Excel.md",
+    "Documentos",
+    "Judiciário/Seminários de pesquisa empírica do CNJ.md",
+    "Judiciário/Prêmio CNJ de qualidade.md",
+    "Judiciário/tabela-de-requisitos-do-premio-cnj-de-qualidade-2024-pos-impugnacao.xlsx",
+    "Judiciário/Manual de parametrização.md",
+    "Judiciário/Documentos principais do Datajud, Justiça em Números etc.md",
+    "Judiciário/Anexo_Justica_Estadual.pdf",
+    "Judiciário/Manual de utilização das TPUs.md",
+    "Judiciário/Manual_de_utilizacao_das_Tabelas_Processuais_Unificadas.pdf",
     "Banco de Dados/Engenharia de dados",
     "Backlog.md",
     "Administração/Planejamento.md",
@@ -175,20 +181,14 @@
     "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
     "Português/Verbo.md",
     "Português/Sequenciação textual.md",
-    "Português/Reescrita de frases e parágrafos.md",
-    "Português/Subordinação entre orações e termos.md",
-    "Português/Uso de pronomes átonos.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
-    "Untitled.loom",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",
-    "Banco de Dados/SGBD SQL/SGBD",
     "Anexos/Pasted image 20240505095846.png",
     "Anexos/Pasted image 20240505094957.png",
-    "Engenharia de Software/Desenvolvimento/Linguagens de programação",
     "Anexos/Pasted image 20240501175112.png",
     "Anexos/Pasted image 20240501174214.png",
     "Anexos/Pasted image 20240429141909.png",

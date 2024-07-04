@@ -127,12 +127,62 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 #### The object-relational mismatch
 
 * muitas aplicações atualmente são desenvolvidas usando um modelo orientado a objetos -> surge a necessidade de traduzir os dados da aplicação, em modelo orientado a objeto, para o modelo relacional (impedance mismatch) -> foram criadas ferramentas ORM (Object-Relational Mapping), como ActiveRecord e Hibernate, para simplificar esse mapeamento
-* p30: exemplo de modelagem de dados de cv do Linkedin, usando SQL, XML/JSON etc; comenta uma das vantagens de modelar dados como documento, ter melhor 'localidade' -> todos os dados do documento estão localizados juntos, podem ser recuperados numa chamada, enquanto em modelos SQLs pode ser necessário acessar diversas estruturas/tabelas
+* p. 30: exemplo de modelagem de dados de cv do Linkedin, usando SQL, XML/JSON etc; comenta uma das vantagens de modelar dados como documento, ter melhor 'localidade' -> todos os dados do documento estão localizados juntos, podem ser recuperados numa chamada, enquanto em modelos SQLs pode ser necessário acessar diversas estruturas/tabelas
 
 #### Many-to-One and Many-to-Many relationships
 
+* vantagens de normalizar campo, ter ele em tabela de tipos, e não como free field { valor consistente, evitar ambiguidade, facilidade de atualização, suporte a localização, melhor search } + usar ID para identificar informação, ID não precisa mudar, pode ficar fixo, enquanto a informação/sua representação muda -> se a informação estiver duplicada, é preciso atualizar em todos locais, havendo risco de gerar inconsistências + carga de múltiplos updates
+* dificuldade com modelo de documento -> se a representação for mantida no documento, atualizações na representação implicarão atualização nos diversos documentos etc + bancos document-based tendem a não ter boas funcionalidades para join
+
+#### Are document databases repeating history?
+
+* debate sobre como representar relacionamentos N x M é antigo -> comenta o caso do banco IMS, de ~1960, com modelagem hierárquica (registros dentro de registros) e que também modela mal relacionamentos N x M, assim como bancos orientados a documentos atualmente
+* ~p. 36-37 discussão sobre soluções para N x M com modelo hierárquico/network e relacional -> vantagem do relacional é que o otimizador quem fica responsável por definir os 'access paths' para recuperar os dados
+
+#### Relational versus document databases today
+
+* há diferenças como tolerância a falhas e tratamento de concorrência (será tratado em capítulos posteriores) -> nesse, tratará apenas da modelagem dos dados
+* document { schema flexibility, melhor performance por conta de localidade, menor impedance mismatch }
+* relational { joins, N x 1, N x M }
+* em relação a complexidade de código de aplicação -> se modela dados como documento, document-based db tende a exigir código mais simples
+	* necessidade de join pode não ser problema -> ex: aplicação de analytics, não exige relacionamentos; se for necessário, é problema para doc based db
+	* quão mais interconectado os dados, melhor seguir na escala \[ doc based, relational, graph based \]
+* em relação a flexibilidade de esquema
+	* sem esquema, não há garantias de que campos um registro irá conter
+	* no lugar de schemaless (há um esquema), schema-on-read (esquema é conhecido apenas na leitura) x schema-on-write (esquema é enforced na escrita)
+	* schema-on-read é vantajoso quando { há diversas estruturas possíveis e é difícil de montar um esquema só, a estrutura é determinada por fontes externas e o mantenedor da base não tem controle sobre ela e precisará se adaptar a mudanças }
+* em relação a data locality
+	* se o documento tende a ser acessado frequentemente em sua totalidade, essa modelagem é mais vantajosa que a relacional, porque evita ter que fazer lookups em tabelas para montar os dados 
+	* updates em documentos pode ser pouco performático, por exigir reescrita de todo o documento
+
+#### Query languages for data
+
+* linguagem declarativa tem vantagem sobre imperativa por delegar responsabilidades de recuperação dos dados para o banco, que pode seguir estratégias diversas, de forma dinâmica, de acordo com o caso
+
+#### MapReduce querying
+
+* modelo de computação para processar em lote grandes volumes de dados usando diversas máquinas
+
+### Graph-like data models
+
+* dados estruturados em árvore -> documento model é adequado; alguns N x M -> relational é adequado; muito N x M -> graph based é adequado
+* apresenta dois modelos { property model, triple-based }
+	* property model: (A) -> (Property) -> (B)
+	* triple based: (X, Y, Z) -> diferente do property, elementos não têm atributos
+* exemplo de property model com postgresql p. 51
+* mostra linguagem cypher, sparql, datalog p.52 a 62
 * 
 
 
 
 
+
+
+
+
+
+
+
+# Links interessantes
+
+* [Como analisar latência](https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)
