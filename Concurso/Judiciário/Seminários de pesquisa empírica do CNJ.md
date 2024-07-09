@@ -133,6 +133,40 @@ todo::estudar planilhas de regras
 
 https://www.youtube.com/watch?v=bgz0eOIzKJo
 
+* ~18:15: apresentação dos participantes
+* ~20:00: início da apresentação do Efinéias Stroppa dos Santos, Coordenador de Governança de Dados e Informações Estatísticas do STJ
+	* ~21:00: sobre a coordenadoria, responsabilidade de implantação de Governança de Dados no STJ
+	* ~21:50: relação forte entre Governança de dados e TPUs
+		* ~ dados como recursos valiosos > mas é preciso serem colocados a serviço do negócio > Judiciário { fomentar prestação jurisdicional mais efetiva/eficiente, fornecer dados à sociedade }
+		* 24:00: descrição de **Governança de Dados**: conjunto de competências institucionais que { desenvolve, executa } { planos, políticas, práticas, projetos } para { aquisição, controle, proteção, entrega, melhoria } do valor dos dados
+			* objetivos
+				* manter a qualidade dos dados
+				* estimular cultura de decisões orientadas por dados
+				* promover eficiência operacional e transparência de dados
+				* fomentar o uso ético dos dados e cumprimento de regulamentos
+			* 24:30: DAMA-DMBOK
+				* a área de dados mestres tem bastante relação com TPUs
+				* ~25:50: tendência a serem desenvolvidos sistemas de forma independente, mas lidando com informações similares; a inconsistência de estrutura/valores dos dados possivelmente gerada impacta negativamente em custos e riscos -> daí a área de dados mestres/dados de referência
+				* ~26:30: dados de referência -> dados usados para caracterizar ou classificar outros dados, ou para relacionar dados a informações externas à organização ~ tabelas de códigos e descrições que padronizam e categorizam informações, permitindo uma interpretação consistente dos dados
+					* ex: Classificação Internacional de Doenças (CID) -> se cada médico criasse seu código único, seria difícil lidar com doenças de forma unificada
+			* ~28:00: TPUs como dados de referência no Poder Judiciário Brasileiro
+				* benefícios: { uniformidade de categorização, aumento na produção de dados úteis, redução de ambiguidades/erros }
+	* ~29:30: desafios com padronização 
+		* resistência a padronização { há redução de liberdade de agir, exige esforço/conhecimento, benefícios nem sempre são claros/imediatos/para a pessoa }
+		* ~30:30: exemplo de alteração realizada no STJ e que gerou resistência
+		* ! é importante analisar qual o potencial de informação que pode ser gerada e usada com um determinado registro (ex: registrar nome da parte na decisão de recurso provido permitiu automações)
+	* ~32:00: automatizações de procedimentos cartorários
+	* ~33:00: benefício de maior transparência e acessibilidade -> + transparência na tramitação processual, + facilidade de abertura e compreensão de dados, + fomento à pesquisa empírica
+	* ~34:20: abertura dos dados do STJ, classificados com a TPU -> pouca necessidade de produzir documentos explicativos, já que as TPUs já têm
+	* 35:30: benefício de qualidade/integridade de dados -> +dados confiáveis, +eliminação de duplicidades/erros de classificação, +confiabilidade das informações processuais
+	* 37:00: +precisão de estatísticas -> problema que havia lá
+	* 38:00: decisões estratégias baseadas em dados
+	* 39:30: interoperabilidade e integração -> facilitar comunicação entre tribunais, melhorar cooperação -> aproveitamento de dados das instâncias inferiores (o STJ recebe processos de instâncias inferiores)
+	* 44:50: desafios atuais para interoperabilidade -> { identificação de peças processuais, }
+	* 49:20: dados estruturados como necessários para uso de IA
+	* 52:40: considerações da dra. Ana
+* 57:00: início da apresentação do Adriano dos Santos Leal #TODO: continuar
+
 
 
 # Aplicação prática: o uso das Tabelas Processuais Unificadas - 13/06/24

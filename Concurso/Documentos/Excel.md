@@ -26,7 +26,7 @@
 	* tempo
 		* data(ano; mes; dia)
 		* datadif(data_inicial; data_final) -> datadif(C3; HOJE(); "y") -> anos
-	* ==procv==
+	* ==procv== -> vlookup
 		* procv(chave da pesquisa; tabela a pesquisar; índice da coluna a retornar; se deve ter correspondência exata)
 	* seerro(expressão; valor a ser retornado)
 		* ! usada para quando a expressão retorna erro quando falta algum valor etc, daí mostrar alguma mensagem, no lugar do \#N/D etc
@@ -41,6 +41,8 @@
 * **shortcuts**
 	* crtl + seta -> vai até o fim da planilha
 	* ==auto soma==: seleciona tabela de valores e uma linha e coluna extra vazia + alt + =
+* **gráficos**
+	* formatação { axis, labels etc }
 * **bizus**
 	* ver valores únicos -> seleciona células > filtro avançado -> copiar para outro local > marcar somente registros exclusivos
 	* criar células com valores selecionáveis baseados em lista separada -> seleciona as células > validação de dados > lista -> seleciona as células com os valores
