@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ec3ed19b1078647",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eff35ea79d6fe14a",
+  "active": "3ec3ed19b1078647",
   "lastOpenFiles": [
     "Comunicação/Teams-outlook.md",
     "Judiciário/TPU.md",
