@@ -11,8 +11,12 @@
             "id": "eff35ea79d6fe14a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Judiciário/TPU.md"
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md"
               }
             }
           }
@@ -141,10 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f9fcc1629a61e99",
+  "active": "eff35ea79d6fe14a",
   "lastOpenFiles": [
-    "Judiciário/tabela-de-requisitos-do-premio-cnj-de-qualidade-2024-pos-impugnacao.xlsx",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
+    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
     "Judiciário/Seminários de pesquisa empírica do CNJ.md",
+    "Judiciário/TPU.md",
+    "Judiciário/tabela-de-requisitos-do-premio-cnj-de-qualidade-2024-pos-impugnacao.xlsx",
     "Judiciário/Prêmio CNJ de qualidade.md",
     "Judiciário/Manual_de_utilizacao_das_Tabelas_Processuais_Unificadas.pdf",
     "Judiciário/Manual de utilização das TPUs.md",
@@ -156,7 +166,6 @@
     "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
     "Banco de Dados/Engenharia de dados",
     "Comunicação/Teams-outlook.md",
-    "Judiciário/TPU.md",
     "Judiciário",
     "Administração/Gestão do conhecimento/Gestão do Conhecimento no Setor Público.md",
     "Comunicação",
@@ -175,12 +184,9 @@
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências",
     "RLM/Combinatória.md",
-    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
-    "Português/Verbo.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",
-    "Untitled.loom",
     "Anexos/Pasted image 20240512194408.png",
     "Anexos/Pasted image 20240512144621.png",
     "Anexos/Pasted image 20240512141640.png",

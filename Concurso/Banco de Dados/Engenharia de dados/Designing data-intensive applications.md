@@ -1,6 +1,6 @@
 # Part 1 - Foundations of data systems
 
-Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, independente de rodarem em uma máquina apenas ou em clusters
+Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, independente de executarem em uma máquina apenas ou em clusters
 ## Chapter 1 - Reliable, Scalable and Maintainable applications
 
 * **data-intensive x compute-intensive**:  de acordo com o parâmetro que determina majoritariamente o custo computacional -> data-intensive = volume de dados; compute-intensive = complexidade da computação
@@ -54,8 +54,8 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 	* qual ajuste em recursos é necessário para manter a performance do sistema estável, dado um aumento na carga?
 * latency x response time
 	* response time = response moment - request moment (tempo entre a requisição e a resposta)
-	* latency = response time - handling time (tempo que a requisição ficou 'latente', como o tempo de network etc)
-* dado que um sistema normalmente lida com volumes grandes de requisições, é melhor tratar de distribuição de valores de performance, do que performances individuais
+	* latency = response time - handling time (tempo que a requisição ficou 'latente', como o tempo de network etc, esperando ser trabalhada)
+* dado que um sistema normalmente lida com volumes grandes de requisições, é melhor tratar de distribuição de valores de performance, do que de performances individuais
 	* variações de performance podem decorrer de fatores diversos, como maior volume processado, perdas de pacotes de rede, garbage collector, hardware faults etc
 	* tipicamente se reporta a média do tempo de resposta -> não informa quantos usuários/requests observaram esse valor de response time
 	* mais interessante usar percentis { mediana (50th), p95, p99, p999 } (interessante relato de que na Amazon tendem a usar p999 e consideram que o usuário com requests mais lentas tende a ser aquele com maior volume de dados -> usuário com mais compras -> mais valioso)
@@ -73,7 +73,7 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 ### Maintainability
 
 * maior parte do custo de sistemas está na operação (e consequente manutenções), e não no desenvolvimento
-* mesmo assim, ocorre muito de haver resistência a manter soluções 'legadas', por motivos diversos como { ter que corrigir erros de outros, trabalhar com ferramentas antigas, com gambiarras etc }
+* mesmo assim, ocorre muito de haver resistência a trabalhar com soluções 'legadas', por motivos diversos como { ter que corrigir erros de outros, trabalhar com ferramentas antigas, com gambiarras etc }
 * def::**Maintainability**: capacidade de, de forma aceitável, { operar, entender, evoluir (extensibility/modifiability/plasticity) } o sistema
 * operação -> inclui responsabilidades como
 	* monitorar a saúde do sistema e restaurar o funcionamento em caso de mal funcionamento
@@ -110,7 +110,7 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 * data models carregam premissas sobre os dados representados -> como devem ser usados - ex: que operações podem ser realizadas, quais são rápidas etc
 * dominar um data model pode ser difícil (ex: relational modeling), mas é importante conhecer diversos para decidir melhor qual aplicar a uma necessidade específica
 
-### Relational model versus Documento model
+### Relational model versus Document model
 
 * o modelo relacional envolve organizar os dados em relations (tables no SQL), que são coleções não ordenadas de tuplas (rows no SQL)
 * o modelo relacional é dominante e à época se sobressaiu, dentre outros motivos, por abstrair detalhes da representação interna dos dados, não exigindo que desenvolvedores pensassem sobre esses detalhes, simplificando o desenvolvimento
@@ -171,7 +171,21 @@ Trata de aspectos de sistemas de dados que se aplicam a todos esses sistemas, in
 	* triple based: (X, Y, Z) -> diferente do property, elementos não têm atributos
 * exemplo de property model com postgresql p. 51
 * mostra linguagem cypher, sparql, datalog p.52 a 62
-* 
+
+## Chapter 3 - Storage and Retrieval
+
+O capítulo trata de como os sistemas de dados armazenam e recuperam os dados -> é importante conhecer storage engines porque impactam no funcionamento de aplicações que usam sistemas de dados (ex: OLTP x OLAP)
+
+### Data structures that power your database
+
+* p. 70 -> apresenta um exemplo de sistema de dados mínimo, em bash, armazenando os dados em forma de KV em arquivo, append only, retornando sempre o último valor da chave
+	* ignora diversas responsabilidades de sistemas robustos -> ex: { concorrência, recuperar disco não mais usado, recuperar de faltas etc }
+	* performance ótima de insert, péssima de retrieve
+* esse exemplo é log-based (log = append-only record)
+* para melhorar retrieve -> index -> metadados que auxiliam encontrar dados armazenados -> implicam em overhead na escrita
+	* tradeoff -> index melhora read, mas piora writes
+	* por esse motivo, não se indexa tudo por padrão, deixando para o desenvolvedor escolher o que indexar, com base no seu conhecimento sobre o negócio/uso dos dados
+
 
 
 
