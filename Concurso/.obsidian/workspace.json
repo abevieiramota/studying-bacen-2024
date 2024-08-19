@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "d9e7c719e747c890",
+        "id": "b0f17a0eaa9d8eca",
         "type": "tabs",
         "children": [
           {
-            "id": "eff35ea79d6fe14a",
+            "id": "5ab52fcccdd1ebdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "file": "Judiciário/Prêmio CNJ de qualidade.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb91e394328c9ade",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 200
   },
   "right": {
     "id": "f51f086d3440f7f9",
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "file": "Judiciário/Prêmio CNJ de qualidade.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+                "file": "Judiciário/Prêmio CNJ de qualidade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md"
+                "file": "Judiciário/Prêmio CNJ de qualidade.md"
               }
             }
           }
@@ -140,31 +151,28 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "eff35ea79d6fe14a",
+  "active": "eb91e394328c9ade",
   "lastOpenFiles": [
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Modelagem multidimensional.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/DW.md",
-    "Banco de Dados/Arquitetura de Inteligência de Negócio/Arquitetura de Inteligência de Negócio.md",
+    "Judiciário/TIC no Judiciário.md",
     "Judiciário/Seminários de pesquisa empírica do CNJ.md",
-    "Judiciário/TPU.md",
-    "Judiciário/tabela-de-requisitos-do-premio-cnj-de-qualidade-2024-pos-impugnacao.xlsx",
+    "Documentos/Excel.md",
+    "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+    "Documentos",
     "Judiciário/Prêmio CNJ de qualidade.md",
-    "Judiciário/Manual_de_utilizacao_das_Tabelas_Processuais_Unificadas.pdf",
-    "Judiciário/Manual de utilização das TPUs.md",
+    "Judiciário/tabela-de-requisitos-do-premio-cnj-de-qualidade-2024-pos-impugnacao.xlsx",
     "Judiciário/Manual de parametrização.md",
     "Judiciário/Documentos principais do Datajud, Justiça em Números etc.md",
     "Judiciário/Anexo_Justica_Estadual.pdf",
-    "Documentos/Excel.md",
-    "Documentos",
-    "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
+    "Judiciário/Manual de utilização das TPUs.md",
+    "Judiciário/Manual_de_utilizacao_das_Tabelas_Processuais_Unificadas.pdf",
     "Banco de Dados/Engenharia de dados",
+    "Backlog.md",
+    "Administração/Planejamento.md",
+    "Administração/Organização.md",
     "Comunicação/Teams-outlook.md",
     "Judiciário",
     "Administração/Gestão do conhecimento/Gestão do Conhecimento no Setor Público.md",
@@ -176,14 +184,14 @@
     "Banco de Dados/SGBD NOSQL/SGBD NOSQL.md",
     "Banco de Dados/SGBD SQL/Modelagem Relacional.md",
     "Banco de Dados/SGBD SQL/Álgebra relacional.md",
-    "Administração/Organização.md",
-    "Administração/Planejamento.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências/Attention is all you need.md",
     "Ciência de Dados/Aprendizado de Máquina/IA Generativa.md",
     "Ciência de Dados/Aprendizado de Máquina/Grandes Modelos de Linguagem (LLM).md",
     "Ciência de Dados/Aprendizado de Máquina/Tipos de Aprendizado.md",
     "Ciência de Dados/Aprendizado de Máquina/Referências",
     "RLM/Combinatória.md",
+    "Ciência de Dados/Aprendizado de Máquina/Aprendizado de Máquina.md",
+    "Português/Verbo.md",
     "Anexos/Pasted image 20240526082021.png",
     "Administração",
     "Anexos/Pasted image 20240520202601.png",

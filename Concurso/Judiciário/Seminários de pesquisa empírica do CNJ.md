@@ -165,7 +165,20 @@ https://www.youtube.com/watch?v=bgz0eOIzKJo
 	* 44:50: desafios atuais para interoperabilidade -> { identificação de peças processuais, }
 	* 49:20: dados estruturados como necessários para uso de IA
 	* 52:40: considerações da dra. Ana
-* 57:00: início da apresentação do Adriano dos Santos Leal #TODO: continuar
+* 57:00: início da apresentação do Adriano dos Santos Leal
+	* 58:30: STF e TPUs
+		* tpu = { classe, movimentação, assunto, documento }
+		* importância de assuntos para o STF
+		* STF não usa tabela de movimentação da TPU, usa tabela própria
+		* STF usa tabela de documentos própria -> mas os processos que chegam ao STF são processados com os tipos da TPU
+	* TPU de documentos processuais no STF
+		* ~1:08:00: integração dos demais tribunais com STF -> MNI, STF processos (exige mapeamento dos documentos em tipos da TPU) interoperabilidade etc
+		* ~1:14:30: vantagens de indexação padronizada
+	* 1:15:00; IA e indexação de peças
+		* ~1:18:00: sistema VitorIA
+		* ~1:20:00: dúvidas etc
+	* ~1:32:16: dúvida #TODO continuar
+* 
 
 
 
