@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Judiciário/Prêmio CNJ de qualidade.md",
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "eb91e394328c9ade",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Judiciário/Prêmio CNJ de qualidade.md",
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Judiciário/Prêmio CNJ de qualidade.md",
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Judiciário/Prêmio CNJ de qualidade.md"
+                "file": "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md"
               }
             }
           }
@@ -155,14 +144,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb91e394328c9ade",
+  "active": "5ab52fcccdd1ebdb",
   "lastOpenFiles": [
+    "Judiciário/Prêmio CNJ de qualidade.md",
     "Judiciário/TIC no Judiciário.md",
     "Judiciário/Seminários de pesquisa empírica do CNJ.md",
     "Documentos/Excel.md",
     "Banco de Dados/Engenharia de dados/Designing data-intensive applications.md",
     "Documentos",
-    "Judiciário/Prêmio CNJ de qualidade.md",
     "Judiciário/tabela-de-requisitos-do-premio-cnj-de-qualidade-2024-pos-impugnacao.xlsx",
     "Judiciário/Manual de parametrização.md",
     "Judiciário/Documentos principais do Datajud, Justiça em Números etc.md",

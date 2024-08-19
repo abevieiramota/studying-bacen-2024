@@ -186,8 +186,45 @@ O capítulo trata de como os sistemas de dados armazenam e recuperam os dados ->
 	* tradeoff -> index melhora read, mas piora writes
 	* por esse motivo, não se indexa tudo por padrão, deixando para o desenvolvedor escolher o que indexar, com base no seu conhecimento sobre o negócio/uso dos dados
 
+#### Hash indexes
+
+* Exemplo de hash index para storage em arquivo append-only -> manter em memória um hash map de valores em byte offset no arquivo para acessar o valor
+	* apesar de simples, é estratégia adotada em alguns storage engine, como Bitcask, do Riak
+	* estratégia adequada para quando há muitos writes (updates de valores), mas poucos valores distintos de chaves
+* Como lidar com limite de tamanho de arquivo? Quebrar em segmentos, fechando o segmento quando chega no limite e iniciando um novo
+	* no exemplo do append only file, ao fechar o segmento, pode-se aplicar uma 'compactação', eliminando K-V desatualizados
+	* compactação pode tornar segmentos menores -> menor que o tamanho limite -> permite unir segmentos pequenos em segmento maior
+	* esse esquema de compatação/união de segmentos pode ser feito em background, enquanto os segmentos antigos são utilizados para read/write -> switch depois de concluir a compactação/união
+* Como estamos usando vários segmentos, no lugar de um arquivo apenas, cada segmento tem seu hash map de K -> offset
+* Detalhes relevantes para essa abordagem append-only + hash map de K
+	* file format -> CSV não é o melhor formato, melhor formato binário
+	* deleting records -> sinalizar que a chave foi deletada com uma tag ("tombstone"), de forma que, na compactação/união, os demais registros dela sejam removidos
+	* crash recovery -> restart do banco -> perde o in-memory hash
+		* pode recuperar lendo todos os segmentos e reconstruindo o hash -> pode ser lento
+		* Bitcask lida com isso salvando snapshots dos hashmaps em disco
+	* partially written records -> um crash no meio de uma operação pode deixar escrita parcialmente realizada
+		* Bitcask usa checksums para detectar partes corrompidas (?como?)
+	* concurrency control -> uma solução é ter apenas uma thread para escrita e múltiplas para leitura
+* Vantagens de append-only (por que não simplesmente ficar abrindo o arquivo e atualizando valores)
+	* append/união são operações sequenciais, geralmente mais rápidas que operações com acesso randômico
+	* recuperação de crash mais simples -> as operações alteram apenas valores novos, antigos são mantidos intactos, sendo sempre possível recuperar o valor antigo
+	* merge/união de segmentos reduz segmentação
+* Limitações
+	* hashtables precisam caber em memória -> muitas keys pode ser problema; hash table on-disk é lento
+	* não adequado para buscas em range -> a busca acaba envolvendo pesquisar cada chave pertencente ao range
 
 
+#### SSTables and LSM-Trees
+
+* O formato anterior, append-only, mantém registros ordenados de acordo com o momento de escrita -> mas essa ordem só é relevante para recuperar o mais recente de cada chave, à parte disso é irrelevante
+* Uma alteração a essa estrutura -> manter registros ordenados por K -> Sorted String Table = SSTable
+* Vantagens sobre append-only
+	* merge de segmentos é simples e eficiente -> similar ao merge do mergesort, dado que estão ordenados
+	* não é necessário manter hash de todas as chaves, mas apenas de parte delas -> se preciso achar uma chave, busco no hash chaves anteriores e posteriores a ela e busco nesse range
+	* ?não entendi bem o ponto 3, de compactação dos segmentos de um range, economizando em espaço de disco/bandwidth -> não é necessário descomprimir a cada leitura/escrita?
+* Como manter as chaves ordenadas? Há diversos algoritmos, como red-black trees, AVL trees etc
+* p. 78 apresenta as operações para funcionar essa estrutura -> não captei todos os detalhes, como isso de manter a memtable e escrever em disco periodicamente, daí ter uma versão atual, uma antiga, compactar etc
+	* mas entendi que mantém uma estrutura em memória ordenada e periodicamente escreve em disco + append only log para recuperar de crash
 
 
 
