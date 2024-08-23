@@ -225,6 +225,28 @@ O capítulo trata de como os sistemas de dados armazenam e recuperam os dados ->
 * Como manter as chaves ordenadas? Há diversos algoritmos, como red-black trees, AVL trees etc
 * p. 78 apresenta as operações para funcionar essa estrutura -> não captei todos os detalhes, como isso de manter a memtable e escrever em disco periodicamente, daí ter uma versão atual, uma antiga, compactar etc
 	* mas entendi que mantém uma estrutura em memória ordenada e periodicamente escreve em disco + append only log para recuperar de crash
+* LSM-Tree -> Log-Structured Merge-Tree; storage engines que usam esse princípio de merge/compacting sorted files -> LSM storage engines (ex: term dictionary no Lucene/elasticsearch)
+	* essa estrutura é lenta em buscas por valores não presentes na base (vai na memória, depois em disco etc) -> usa-se bloom filter para verificar existência
+	* há diferentes estratégias para determinar a ordem e momento de merge/compacting -> p.79 par. 4 tem detalhe
+	* range queries (armazenamento sequencial) e escrita em disco são rápidos
+
+#### B-Trees
+
+* index mais usado, padrão em diversos bancos relacionais
+* similar a SSTables, B-Trees mantêm K-V ordenados por K, mas divide a base em blocks/pages, geralmente de ~4KB, e lê/escreve uma página por vez -> a árvore é de blocos, cada bloco potencialmente referenciando outros blocos, com um bloco raiz
+	* n_entendi::não entendi a diferença entre a abordagem com segmentos e com blocos...
+	* branching factor -> número de referências a nós filhos por bloco
+	* a inclusão de novos valores envolve achar o bloco/página em que ele deve ficar e lidar com o caso de estar lotado, dividindo em dois e atualizando referências
+	* o algoritmo busca manter a árvore balanceada, com profundidade O(log n)
+		* árvore com página de 4KB, branching factor 500 e altura 4 consegue armazenar 256 TB :O
+	* escrita em disco altera arquivos -> LSM-Trees apenas appendam
+* segurança das operações
+	* escrita de novo valor pode exigir diversas operações, como dividir uma página em duas e atualizar referências -> o que é perigoso em caso de crash durante essas operações, risco de deixar páginas órfãos
+	* para lidar com isso, usa-se um WAL, Write-Ahead Log/redo log, em que cada operação na B-Tree é registrada antes de ser aplicada na árvore
+	* é preciso ter controle de concorrência para duas threads não enxergarem estados parciais, no meio de uma operação -> tipicamente usam-se lightweight locks
+		* Log-structured approaches tendem a ser mais simples, porque fazem a alteração em background -> não entendi, por que não fazer assim com B-Tree?
+* otimizações -> ver p. 80
+* 
 
 
 
