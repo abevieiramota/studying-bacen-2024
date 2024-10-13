@@ -1,3 +1,9 @@
+# Como fazer pesquisas - Pesquisa Empírica - o que é? - 09/03/24
+
+https://www.youtube.com/watch?v=r9tnU46b7HQ&list=PLlJgviu9EmVI1bSLa36hrcd8_Pznt_kOJ
+
+* #TODO
+
 # Como fazer pesquisas - TPU - Histórico e panorama geral - 02/05/24
 
 https://www.youtube.com/watch?v=q5x4ehYG__4
@@ -177,14 +183,137 @@ https://www.youtube.com/watch?v=bgz0eOIzKJo
 	* 1:15:00; IA e indexação de peças
 		* ~1:18:00: sistema VitorIA
 		* ~1:20:00: dúvidas etc
-	* ~1:32:16: dúvida #TODO continuar
-* 
+	* ~1:32:16: dúvida
+		* ! interessante, no STJ é gerado assunto com base na classe -> https://youtu.be/bgz0eOIzKJo?t=5625
 
 
 
 # Aplicação prática: o uso das Tabelas Processuais Unificadas - 13/06/24
 
 https://www.youtube.com/watch?v=4Q43GnZdTcg
+
+* ~19:40: currículo das apresentadoras
+* ~23:00: início da apresentação da Josilene (TJDFT)
+	* importância das TPUs
+	* ~27:30: classe -> procedimento judicial
+		* hierarquia com base em ramos do direito
+		* processo está associado a 1 classe
+		* deve ser utilizada a classe mais específica
+		* classe genérica em procedimento específico pode acarretar em tempos de tramitação/julgamento/baixa/guarda inapropriados
+			* ex: classe = 283 - crimes ambientais, tempo de preservação dos dados = permanente! -> classificar de forma diferente pode fazer com que seja permitido, indevidamente, a eliminação dos dados
+	* ~28:20: assunto -> pedido/causa de pedir
+		* hierarquia com base em ramos do direito
+		* recomenda que seja informado com base na 'causa do pedido', e não no 'pedido'
+			* ex: há assunto 'Ameaça' nas árvores do Código Penal e do Código Penal Militar
+		* utilizar assuntos folhas ou a partir do 3º nível -> utilizar o mais específico
+			* assuntos no <=2º nível não são enviados para o Datajud e não sensibilizam as estatísticas
+			* pode ser utilizado mais de um assunto
+			* em caso de recursos, é preciso que se utilize, além dos assuntos de direito material, também direito processual
+	* ~31:40: movimentação -> andamento do processo
+		* hierarquia com base no perfil do agente (magistrado x serventuário)
+		* deve expressar o que de fato ocorreu, e não expectativa de algo que irá ocorrer (ex: aguardando algo)
+		* alguns movimentos possuem complementos; alguns complementos podem ter mais de um valor (ex: nome_da_parte)
+	* ~33:20: documentação -> criados ou juntados no processo
+		* podem ser internos ou externos
+		* quando não houver tipo de documento na TPU, pode usar o tipo genérico da árvore (ex: Acordo (Outros)) ou o código pai (ex: Certidão de consulta)
+		* a juntada de documento deve ensejar uma movimentação processual (expedição, juntada)
+	* ~35:30: boas práticas
+		* no PJE é obrigatório informar a Matéria no momento da distribuição do processo -> ocorre de selecionarem de forma equivocado -> matéria = ramo do direito ao qual o assunto pertence
+		* o TJDFT disponibiliza na internet um glossário de movimentações em linguagem simples
+		* associar movimentações a modelos de documentos, para lançamento automático
+		* 48:30: sobrestamento (decisão do magistrado), levantamento (movimento de secretaria!)
+			* demais sobrestamentos são levantados por movimentação fixa(?)
+	* ~50:30: impacto do uso das TPUs
+		* certidão de distribuição -> processo classificado equivocadamente pode fazer com que a certidão de distribuição apresente indevidamente nome das partes
+		* tempo médio -> reflete (?) na tramitação do processo, podendo afetar o tempo
+		* custas processuais -> guia de custas muda de acordo com a classe processual
+		* consulta processual -> exibição de dados em consulta processual, apresentando dados, como nome da parte, indevidamente
+		* preservação/eliminação de dados indevida -> ex: ação civil pública tem guarda indeterminada
+		* estatísticas e metas
+		* gestão dos dados e saneamento -> diagnóstico + saneamento
+		* premiações
+		* políticas públicas/judiciárias
+* 1:01:20: início da apresentação da Kellen (TJTO) -> kellen.cleya@tjto.jus.br
+	* no TJTO há um núcleo focado em parametrização -> estudo de normativos e automatização com base nela
+	* 1:03:40 - Meta 1 - julgar mais do que os distribuídos (movimento) processos de conhecimento (classe)
+		* como identificar classes de metas 1 e 2 -> ver planilha de parametrização de classes -> Grupo de Procedimento = Conhecimento
+		* julgar -> movimentos
+			* magistrado
+				* hierarquia 193 > 385 (com resolução do mérito), exceto 198, 200, 871
+				* hierarquia 193 > 218 (sem resolução de mérito), exceto 10953
+				* 14702 - Incidente ou Cautelar - Procedimento Resolvido
+			* serventuário -> ! APENAS SE NÃO TIVER SIDO JULGADO POR MOVIMENTOS DE MAGISTRADO
+				* arquivamento definitivo 246
+				* baixa definitiva 22
+				* cancelamento de distribuição 488, 12186
+				* remessa 123, 982 com motivos
+					* 194 - por julgamento definitivo do recurso
+					* 38 - em grau de recurso
+					* 90 - declaração de competência para órgão vinculado a Tribunal diferente
+		* suspensão da meta 
+			* magistrado -> hierarquias 25 e 11025
+			* serventuário -> arquivamento provisório 245
+		* levantamento de sobrestamento
+			* serventuário -> hierarquia 14974 ou desarquivamento 893
+		* saída da meta
+			* serventuário
+				* evolução da classe 14739
+				* liquidação iniciada 11384
+				* execução/cumprimento iniciado 11385
+				* remessa 123 ou remessa 982 + motivo = 267 - declínio de competência entre instâncias do mesmo tribunal
+		* !cuidado
+			* ~1:13:00: reativação 849 -> na versão de 2023 esse movimento faz o processo retornar para a Meta e passa a ser contabilizado novamente!!!!!
+	* 1:14:05 - Meta 2 - julgar os processos antigos - mesmas classes e movimentos da Meta 1
+		* períodos de referência - todos anos o período de referência é alterado!
+			* 1G - 80% distribuídos até 31/12/2020
+			* 2G - 90% distribuídos aaté 31/12/2021
+			* JE - 90% dos distribuídos até 31/12/2021
+			* TR - 90% dos distribuídos até 31/12/2021
+			* super antigos - 100% dos processos de conhecimento pendentes de julgamento há 14 anos (2010) ou mais
+	* 1:15:05 - Meta 3 - estimular a conciliação
+		* IC = CONC / SENTNC
+		* CONC = 29 - julgamento homologatório proferido - conhecimento e pré-processual
+		* devem ser lançados movimentos de julgamentos específicos -> da árvore 385 (tem 4 movimentos de julgamento)
+		* ! cuidado se estiverem homologando acordo com movimento de decisão -> é julgamento da árvore 385
+	* 1:16:40 - Meta 4 - crimes contra a admin pública, improbidades admin e crimes eleitorais
+		* período de referência - 65% dos distribuídos até 31/12/2020
+		* regras de classe/assunto
+		* ! cuidado com atribuição de assuntos/classes -> corregedoria deve acompanhar, fazer diagnósticos sobre cadastramentos corretos entre assuntos e classes
+	* 1:18:10 - Meta 5 - reduzir a taxa de congestionamento líquida na fase de conhecimento
+		* baixa para a taxa de congestionamento
+			* arquivamento definitivo 246
+			* baixa definitiva 22
+			* cancelamento de distribuição 488
+			* evolução da classe processual 14739
+			* remessa para outro foro 123
+			* remessa em grau de recurso 123
+		* desconsidera suspensos (é taxa líquida!)
+			* magistrado -> hierarquia 25 e 11025
+			* serventuário
+				* arquivamento provisório 245, ag. captura de réu condenado 14997, menor em conflito com a lei ag. apreensão 14998
+	* 1:20:50 - Meta 8 - julgar os processo de violência doméstica e feminicídio
+		* período de referência
+			* 75% de feminicídio distribuído até 31/12/2022 julgados
+			* 90% de violência doméstica e familiar contra a mulher distribuído até 31/12/2022 julgados
+		* ! cuidado -> importante a identificação correta de assuntos
+	* 1:22:10 - Meta 10 - julgar processos de ações ambientais, direitos das comunidades indígenas e quilombolas -> classes e assuntos
+		* período de referência - 35% de processos enquadrados e distribuídos até 31/12/2023 julgados
+	* 1:23:00 - Meta 11 - julgar processos de infância e juventude distribuídos até 31/12/2022 -> classes e assuntos
+	* 1:23:50 - Prêmio Art. 10 VII - julgamento de violência doméstiva e familiar etc
+		* período 01/08/2023 a 31/07/2024
+		* tempo médio
+			* até 300 dias = 20 pontos
+			* de 300 a 600 dias = 10 pontos
+		* critério de assunto, classe e movimentação de julgamento com resolução de mérito
+			* violência doméstica contra a mulher, feminicídio e medidas protetivas de urgência
+		* ! cuidado -> há casos de julgamentos sendo lançados como despacho mero expediente ou só com a audiência em que houve julgamento
+		* ! cuidado -> medida protetiva de urgência -> tem classes específicas e o julgamento deve ser lançado com movimentações específicas
+			* ! #TODO: levantar inconsistências? classes in (1268, 12423) and julgamento not in (11423, 11424, 11425, 12476, 12479)
+			* ! #TODO mindset de 'o que pode estar sendo feito desviante? o que pode estar inconsistente?'
+	* 1:26:20 - Prêmio Art. 10 VIII - saúde
+		* assuntos específicos, saúde suplementar separado
+	* 1:26:40 - Prêmio Art. 10 XIV - ações ambientais -> similar, cuidado com classes e assuntos
+	* 1:27:00 - Datajud -> é validado o saneamento dos dados (classe, assuntos, movimentos)
 
 
 
